@@ -1,0 +1,23 @@
+{
+    "tasks": {
+        "init": "deno run --allow-read --allow-write main.ts",
+        "gi-birthday": "deno run --allow-read --allow-write --allow-net ./src/gi-birthday/main.ts",
+        "gi-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/gi-event/main.ts",
+        "sr-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/sr-event/main.ts",
+        "zzz-birthday": "deno run --allow-read --allow-write --allow-net --allow-env ./src/zzz-birthday/main.ts",
+        "zzz-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/zzz-event/main.ts",
+        "ark-birthday": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ark-birthday/main.ts",
+        "ark-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ark-event/main.ts",
+        "ba-birthday": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ba-birthday/main.ts",
+        "ba-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ba-event/main.ts"
+    },
+    "imports": {
+        "@std/fs": "jsr:@std/fs@^1.0.9",
+        "@std/path": "jsr:@std/path@^1.0.8",
+        "cheerio": "npm:cheerio@^1.0.0",
+        "@deno-library/crc32": "jsr:@deno-library/crc32@^1.0.2"
+    },
+    "fmt": {
+        "singleQuote": true
+    }
+}

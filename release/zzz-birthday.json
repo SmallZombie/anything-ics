@@ -1,0 +1,272 @@
+[
+    {
+        "id": "c251ee61",
+        "name": "零号·安比",
+        "birthday": {
+            "month": 2,
+            "day": 20
+        },
+        "release": "2025-03-11T16:00:00.000Z"
+    },
+    {
+        "id": "626183e6",
+        "name": "伊芙琳",
+        "birthday": {
+            "month": 10,
+            "day": 7
+        },
+        "release": "2025-02-11T16:00:00.000Z"
+    },
+    {
+        "id": "89e6d8e8",
+        "name": "耀嘉音",
+        "birthday": {
+            "month": 1,
+            "day": 31
+        },
+        "release": "2025-01-21T16:00:00.000Z"
+    },
+    {
+        "id": "56151643",
+        "name": "雅",
+        "birthday": {
+            "month": 6,
+            "day": 19
+        },
+        "release": "2024-12-17T16:00:00.000Z"
+    },
+    {
+        "id": "e67b2e2d",
+        "name": "悠真",
+        "birthday": {
+            "month": 7,
+            "day": 19
+        },
+        "release": "2024-12-17T16:00:00.000Z"
+    },
+    {
+        "id": "149cf14f",
+        "name": "莱特",
+        "birthday": {
+            "month": 12,
+            "day": 27
+        },
+        "release": "2024-11-26T16:00:00.000Z"
+    },
+    {
+        "id": "f69f01e3",
+        "name": "柳",
+        "birthday": {
+            "month": 9,
+            "day": 21
+        },
+        "release": "2024-11-05T16:00:00.000Z"
+    },
+    {
+        "id": "2bd38518",
+        "name": "柏妮思",
+        "birthday": {
+            "month": 5,
+            "day": 23
+        },
+        "release": "2024-10-15T16:00:00.000Z"
+    },
+    {
+        "id": "119cf8a1",
+        "name": "凯撒",
+        "birthday": {
+            "month": 3,
+            "day": 16
+        },
+        "release": "2024-09-24T16:00:00.000Z"
+    },
+    {
+        "id": "8ed00d70",
+        "name": "简",
+        "birthday": {
+            "month": 2,
+            "day": 16
+        },
+        "release": "2024-09-03T16:00:00.000Z"
+    },
+    {
+        "id": "e164df85",
+        "name": "青衣",
+        "birthday": {
+            "month": 1,
+            "day": 1
+        },
+        "release": "2024-08-13T16:00:00.000Z"
+    },
+    {
+        "id": "7210b789",
+        "name": "朱鸢",
+        "birthday": {
+            "month": 9,
+            "day": 1
+        },
+        "release": "2024-07-23T16:00:00.000Z"
+    },
+    {
+        "id": "02f3a16b",
+        "name": "「11号」",
+        "birthday": {
+            "month": 3,
+            "day": 21
+        },
+        "release": "2024-07-03T16:00:00.000Z"
+    },
+    {
+        "id": "2d10357b",
+        "name": "艾莲",
+        "birthday": {
+            "month": 1,
+            "day": 4
+        },
+        "release": "2024-07-03T16:00:00.000Z"
+    },
+    {
+        "id": "7d817a87",
+        "name": "莱卡恩",
+        "birthday": {
+            "month": 10,
+            "day": 4
+        },
+        "release": "2024-07-03T16:00:00.000Z"
+    },
+    {
+        "id": "c3f6d660",
+        "name": "丽娜",
+        "birthday": {
+            "month": 9,
+            "day": 23
+        },
+        "release": "2024-07-03T16:00:00.000Z"
+    },
+    {
+        "id": "418b4783",
+        "name": "珂蕾妲",
+        "birthday": {
+            "month": 8,
+            "day": 10
+        },
+        "release": "2024-07-03T16:00:00.000Z"
+    },
+    {
+        "id": "8a64f30f",
+        "name": "格莉丝",
+        "birthday": {
+            "month": 4,
+            "day": 14
+        },
+        "release": "2024-07-03T16:00:00.000Z"
+    },
+    {
+        "id": "a4aed4d3",
+        "name": "猫又",
+        "birthday": {
+            "month": 7,
+            "day": 30
+        },
+        "release": "2024-07-03T16:00:00.000Z"
+    },
+    {
+        "id": "7711a028",
+        "name": "波可娜",
+        "birthday": {
+            "month": 6,
+            "day": 19
+        },
+        "release": "2025-03-11T16:00:00.000Z"
+    },
+    {
+        "id": "35aee67a",
+        "name": "赛斯",
+        "birthday": {
+            "month": 4,
+            "day": 8
+        },
+        "release": "2024-09-03T16:00:00.000Z"
+    },
+    {
+        "id": "5e71ab8b",
+        "name": "可琳",
+        "birthday": {
+            "month": 6,
+            "day": 2
+        },
+        "release": "2024-07-03T16:00:00.000Z"
+    },
+    {
+        "id": "50ba5fd5",
+        "name": "本",
+        "birthday": {
+            "month": 12,
+            "day": 23
+        },
+        "release": "2024-07-03T16:00:00.000Z"
+    },
+    {
+        "id": "d3437077",
+        "name": "安东",
+        "birthday": {
+            "month": 5,
+            "day": 2
+        },
+        "release": "2024-07-03T16:00:00.000Z"
+    },
+    {
+        "id": "f0c30724",
+        "name": "妮可",
+        "birthday": {
+            "month": 11,
+            "day": 11
+        },
+        "release": "2024-07-03T16:00:00.000Z"
+    },
+    {
+        "id": "42f33ccc",
+        "name": "比利",
+        "birthday": {
+            "month": 11,
+            "day": 25
+        },
+        "release": "2024-07-03T16:00:00.000Z"
+    },
+    {
+        "id": "db9fa8bd",
+        "name": "安比",
+        "birthday": {
+            "month": 2,
+            "day": 20
+        },
+        "release": "2024-07-03T16:00:00.000Z"
+    },
+    {
+        "id": "ca668e77",
+        "name": "苍角",
+        "birthday": {
+            "month": 1,
+            "day": 23
+        },
+        "release": "2024-07-03T16:00:00.000Z"
+    },
+    {
+        "id": "682a9764",
+        "name": "派派",
+        "birthday": {
+            "month": 10,
+            "day": 21
+        },
+        "release": "2024-07-03T16:00:00.000Z"
+    },
+    {
+        "id": "0c5bc040",
+        "name": "露西",
+        "birthday": {
+            "month": 8,
+            "day": 14
+        },
+        "release": "2024-07-03T16:00:00.000Z"
+    }
+]
