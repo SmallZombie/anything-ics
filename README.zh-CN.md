@@ -24,9 +24,26 @@
 - 蔚蓝档案国际服活动 (ba-event-gl)
 - 蔚蓝档案国服活动 (ba-event-cn)
 
+<br/>
+
+如果你想要的内容不在支持列表里，你可以：
+- 提一个 Issues 来告诉我
+- 提交一个 PR (请先查阅下方的 "提交PR的大致步骤")
+
 ## 如何使用
 1. 首先需要确定你的订阅地址，在上方目前支持中选择要订阅的内容并复制后面括号里的名字。
 2. 将名字拼接到 `https://avgt.ink/ics/<name>.ics` 中，拼接好后就像这样：`https://avgt.ink/ics/gi-birthday.ics`。
 3. 根据不同的软件填入不同的位置，详见 [本仓库Wiki](https://github.com/SmallZombie/anything-ics/wiki)。
 
 如果短链接无法使用，请尝试将订阅地址拼接为 `https://smallzombie.github.io/anything-ics/release/<name>.ics`，并使用 Issues 提醒我。
+
+## 提交 PR 的大致步骤
+1. Fork 本仓库
+2. 为你的模块起一个名字，并为其在 `src` 下建立一个目录
+3. 编写数据获取和更新逻辑
+    - 对于文件的保存路径，使用 `BaseUtil.PathHelper`
+    - 检查 `BaseUtil` 里的所有类和方法，或参考其他模块的写法
+4. 在 `deno.json` 中为其添加任务，任务名需要与模块名相同
+5. 测试你的任务
+6. 在 `.github/workflows/daily-update.yml` 中为其编写自动化任务
+7. 创建 Pull request

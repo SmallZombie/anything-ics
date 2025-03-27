@@ -24,9 +24,27 @@ JSON version of the data is also provided, just replace `.ics` with `.json` in t
 - Blue Archive Global Events (ba-event-gl)
 - Blue Archive CN Events (ba-event-cn)
 
+<br/>
+
+If the content you want is not in the supported list, you can:
+- Submit an Issue to let me know
+- Submit a PR (please refer to "Steps for Submitting PR" below)
+
+
 ## How to Use
 1. First, determine your subscription URL by selecting the content you want to subscribe to from the "Currently Supported" list above and copying the name in parentheses.
 2. Append the name to `https://avgt.ink/ics/<name>.ics`, for example: `https://avgt.ink/ics/gi-birthday.ics`.
 3. Enter it in different positions according to different software, see [Wiki](https://github.com/SmallZombie/anything-ics/wiki) for details.
 
 If the short link doesn't work, please try using the subscription URL as `https://smallzombie.github.io/anything-ics/release/<name>.ics` and notify me via Issues.
+
+## Steps for Submitting PR
+1. Fork this repository
+2. Choose a name for your module and create a directory for it under `src`
+3. Write data fetching and updating logic
+    - For file save paths, use `BaseUtil.PathHelper`
+    - Check all classes and methods in `BaseUtil`, or refer to other modules' implementations
+4. Add a task for it in `deno.json`, the task name should match the module name
+5. Test your task
+6. Write automation task for it in `.github/workflows/daily-update.yml`
+7. Create Pull request
