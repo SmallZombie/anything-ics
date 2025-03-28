@@ -25,39 +25,30 @@ jobs:
 
       - name: Run Genshin Impact Birthday task
         run: deno task gi-birthday
-        retries: 3
 
       - name: Run Genshin Impact Event task
         run: deno task gi-event
-        retries: 3
 
       - name: Run Star Rail Event task
         run: deno task sr-event
-        retries: 3
 
       - name: Run ZZZ Birthday task
         run: deno task zzz-birthday
-        retries: 3
 
       - name: Run ZZZ Event task
         run: deno task zzz-event
-        retries: 3
 
       - name: Run Arknights Birthday task
         run: deno task ark-birthday
-        retries: 3
 
       - name: Run Arknights Event task
         run: deno task ark-event
-        retries: 3
 
       - name: Run Blue Archive Birthday task
         run: deno task ba-birthday
-        retries: 3
 
       - name: Run Blue Archive Event task
         run: deno task ba-event
-        retries: 3
 
       - name: Commit and push if changes exist
         run: |
