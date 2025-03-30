@@ -363,7 +363,7 @@
         "id": 5865,
         "name": "艾尔海森",
         "birthday": {
-            "month": 2,
+            "month": 3,
             "day": 12
         },
         "release": "2022-12-09T00:00:00.000Z"
@@ -372,7 +372,7 @@
         "id": 6937,
         "name": "林尼",
         "birthday": {
-            "month": 2,
+            "month": 3,
             "day": 3
         },
         "release": "2023-07-03T00:00:00.000Z"
@@ -470,7 +470,7 @@
         "id": 2403,
         "name": "珊瑚宫心海",
         "birthday": {
-            "month": 2,
+            "month": 3,
             "day": 23
         },
         "release": "2021-07-22T00:00:00.000Z"
@@ -560,7 +560,7 @@
         "id": 6938,
         "name": "琳妮特",
         "birthday": {
-            "month": 2,
+            "month": 3,
             "day": 3
         },
         "release": "2023-07-03T00:00:00.000Z"
@@ -732,7 +732,7 @@
         "name": "班尼特",
         "birthday": {
             "month": 3,
-            "day": 2
+            "day": 30
         },
         "release": "2020-03-13T00:00:00.000Z"
     },
@@ -821,7 +821,7 @@
         "id": 79,
         "name": "北斗",
         "birthday": {
-            "month": 2,
+            "month": 3,
             "day": 15
         },
         "release": "2020-02-28T00:00:00.000Z"
