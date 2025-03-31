@@ -25,30 +25,39 @@ jobs:
 
       - name: Run Genshin Impact Birthday task
         run: deno task gi-birthday
+        continue-on-error: true
 
       - name: Run Genshin Impact Event task
         run: deno task gi-event
+        continue-on-error: true
 
       - name: Run Star Rail Event task
         run: deno task sr-event
+        continue-on-error: true
 
       - name: Run ZZZ Birthday task
         run: deno task zzz-birthday
+        continue-on-error: true
 
       - name: Run ZZZ Event task
         run: deno task zzz-event
+        continue-on-error: true
 
       - name: Run Arknights Birthday task
         run: deno task ark-birthday
+        continue-on-error: true
 
       - name: Run Arknights Event task
         run: deno task ark-event
+        continue-on-error: true
 
       - name: Run Blue Archive Birthday task
         run: deno task ba-birthday
+        continue-on-error: true
 
       - name: Run Blue Archive Event task
         run: deno task ba-event
+        continue-on-error: true
 
       - name: Commit and push if changes exist
         run: |
