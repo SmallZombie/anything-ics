@@ -3,7 +3,7 @@
         "id": 504570,
         "name": "瓦雷莎",
         "birthday": {
-            "month": 12,
+            "month": 11,
             "day": 16
         },
         "release": "2025-02-17T00:00:00.000Z"
@@ -21,7 +21,7 @@
         "id": 500673,
         "name": "闲云",
         "birthday": {
-            "month": 5,
+            "month": 4,
             "day": 12
         },
         "release": "2023-12-18T00:00:00.000Z"
@@ -57,7 +57,7 @@
         "id": 500286,
         "name": "莱欧斯利",
         "birthday": {
-            "month": 12,
+            "month": 11,
             "day": 24
         },
         "release": "2023-08-14T00:00:00.000Z"
@@ -102,7 +102,7 @@
         "id": 501213,
         "name": "克洛琳德",
         "birthday": {
-            "month": 10,
+            "month": 9,
             "day": 21
         },
         "release": "2024-04-22T00:00:00.000Z"
@@ -111,7 +111,7 @@
         "id": 6489,
         "name": "白术",
         "birthday": {
-            "month": 5,
+            "month": 4,
             "day": 26
         },
         "release": "2023-02-24T00:00:00.000Z"
@@ -129,7 +129,7 @@
         "id": 1058,
         "name": "刻晴",
         "birthday": {
-            "month": 12,
+            "month": 11,
             "day": 21
         },
         "release": "2020-09-13T00:00:00.000Z"
@@ -165,7 +165,7 @@
         "id": 1498,
         "name": "魈",
         "birthday": {
-            "month": 5,
+            "month": 4,
             "day": 18
         },
         "release": "2021-01-27T00:00:00.000Z"
@@ -264,7 +264,7 @@
         "id": 501624,
         "name": "基尼奇",
         "birthday": {
-            "month": 12,
+            "month": 11,
             "day": 12
         },
         "release": "2024-07-15T00:00:00.000Z"
@@ -273,7 +273,7 @@
         "id": 2404,
         "name": "雷电将军",
         "birthday": {
-            "month": 7,
+            "month": 6,
             "day": 27
         },
         "release": "2021-07-22T00:00:00.000Z"
@@ -291,7 +291,7 @@
         "id": 501626,
         "name": "卡齐娜",
         "birthday": {
-            "month": 5,
+            "month": 4,
             "day": 23
         },
         "release": "2024-07-15T00:00:00.000Z"
@@ -318,7 +318,7 @@
         "id": 6180,
         "name": "迪希雅",
         "birthday": {
-            "month": 5,
+            "month": 4,
             "day": 8
         },
         "release": "2023-01-16T00:00:00.000Z"
@@ -337,7 +337,7 @@
         "name": "迪卢克",
         "birthday": {
             "month": 5,
-            "day": 31
+            "day": 1
         },
         "release": "2019-09-20T00:00:00.000Z"
     },
@@ -354,7 +354,7 @@
         "id": 501441,
         "name": "艾梅莉埃",
         "birthday": {
-            "month": 10,
+            "month": 9,
             "day": 23
         },
         "release": "2024-06-06T00:00:00.000Z"
@@ -363,7 +363,7 @@
         "id": 4081,
         "name": "夜兰",
         "birthday": {
-            "month": 5,
+            "month": 4,
             "day": 21
         },
         "release": "2022-03-28T00:00:00.000Z"
@@ -390,7 +390,7 @@
         "id": 5865,
         "name": "艾尔海森",
         "birthday": {
-            "month": 3,
+            "month": 2,
             "day": 12
         },
         "release": "2022-12-09T00:00:00.000Z"
@@ -399,7 +399,7 @@
         "id": 6937,
         "name": "林尼",
         "birthday": {
-            "month": 3,
+            "month": 2,
             "day": 3
         },
         "release": "2023-07-03T00:00:00.000Z"
@@ -408,7 +408,7 @@
         "id": 4780,
         "name": "赛诺",
         "birthday": {
-            "month": 7,
+            "month": 6,
             "day": 24
         },
         "release": "2022-08-22T00:00:00.000Z"
@@ -435,7 +435,7 @@
         "id": 3564,
         "name": "八重神子",
         "birthday": {
-            "month": 7,
+            "month": 6,
             "day": 28
         },
         "release": "2021-12-31T00:00:00.000Z"
@@ -444,7 +444,7 @@
         "id": 3276,
         "name": "荒泷一斗",
         "birthday": {
-            "month": 7,
+            "month": 6,
             "day": 2
         },
         "release": "2021-10-11T00:00:00.000Z"
@@ -453,7 +453,7 @@
         "id": 1360,
         "name": "阿贝多",
         "birthday": {
-            "month": 10,
+            "month": 9,
             "day": 14
         },
         "release": "2020-12-17T00:00:00.000Z"
@@ -471,7 +471,7 @@
         "id": 57,
         "name": "温迪",
         "birthday": {
-            "month": 7,
+            "month": 6,
             "day": 17
         },
         "release": "2019-11-22T00:00:00.000Z"
@@ -480,7 +480,7 @@
         "id": 2123,
         "name": "神里绫华",
         "birthday": {
-            "month": 10,
+            "month": 9,
             "day": 29
         }
     },
@@ -488,7 +488,7 @@
         "id": 2403,
         "name": "珊瑚宫心海",
         "birthday": {
-            "month": 3,
+            "month": 2,
             "day": 23
         },
         "release": "2021-07-22T00:00:00.000Z"
@@ -497,7 +497,7 @@
         "id": 2124,
         "name": "宵宫",
         "birthday": {
-            "month": 7,
+            "month": 6,
             "day": 22
         },
         "release": "2021-06-07T00:00:00.000Z"
@@ -542,7 +542,7 @@
         "id": 500292,
         "name": "夏洛蒂",
         "birthday": {
-            "month": 5,
+            "month": 4,
             "day": 11
         },
         "release": "2023-09-25T00:00:00.000Z"
@@ -551,7 +551,7 @@
         "id": 7257,
         "name": "菲米尼",
         "birthday": {
-            "month": 10,
+            "month": 9,
             "day": 25
         },
         "release": "2023-07-03T00:00:00.000Z"
@@ -560,7 +560,7 @@
         "id": 6938,
         "name": "琳妮特",
         "birthday": {
-            "month": 3,
+            "month": 2,
             "day": 3
         },
         "release": "2023-07-03T00:00:00.000Z"
@@ -732,7 +732,7 @@
         "name": "班尼特",
         "birthday": {
             "month": 3,
-            "day": 30
+            "day": 2
         },
         "release": "2020-03-13T00:00:00.000Z"
     },
@@ -740,7 +740,7 @@
         "id": 92,
         "name": "丽莎",
         "birthday": {
-            "month": 7,
+            "month": 6,
             "day": 10
         },
         "release": "2019-07-19T00:00:00.000Z"
@@ -776,7 +776,7 @@
         "id": 644,
         "name": "重云",
         "birthday": {
-            "month": 10,
+            "month": 9,
             "day": 8
         },
         "release": "2020-06-03T00:00:00.000Z"
@@ -785,7 +785,7 @@
         "id": 56,
         "name": "雷泽",
         "birthday": {
-            "month": 10,
+            "month": 9,
             "day": 10
         },
         "release": "2019-10-18T00:00:00.000Z"
@@ -803,7 +803,7 @@
         "id": 112,
         "name": "香菱",
         "birthday": {
-            "month": 12,
+            "month": 11,
             "day": 3
         },
         "release": "2020-03-17T00:00:00.000Z"
@@ -813,7 +813,7 @@
         "name": "凯亚",
         "birthday": {
             "month": 12,
-            "day": 31
+            "day": 1
         },
         "release": "2019-06-19T00:00:00.000Z"
     },
@@ -821,7 +821,7 @@
         "id": 79,
         "name": "北斗",
         "birthday": {
-            "month": 3,
+            "month": 2,
             "day": 15
         },
         "release": "2020-02-28T00:00:00.000Z"
@@ -830,7 +830,7 @@
         "id": 1055,
         "name": "砂糖",
         "birthday": {
-            "month": 12,
+            "month": 11,
             "day": 27
         },
         "release": "2020-07-24T00:00:00.000Z"
@@ -857,7 +857,7 @@
         "id": 2415,
         "name": "埃洛伊",
         "birthday": {
-            "month": 5,
+            "month": 4,
             "day": 5
         },
         "release": "2021-07-22T00:00:00.000Z"
