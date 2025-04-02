@@ -429,5 +429,12 @@
         "name": "Serenade Promenade",
         "start": "2025-04-15T02:00:00.000Z",
         "end": "2025-04-29T01:59:00.000Z"
+    },
+    {
+        "id": "f528de6e",
+        "name": "Basking in the Brilliance of Their Serenade",
+        "start": "2025-05-13T02:00:00.000Z",
+        "end": "2025-05-27T01:59:00.000Z",
+        "description": "Rerun"
     }
 ]
