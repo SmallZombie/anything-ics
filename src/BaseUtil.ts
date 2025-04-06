@@ -10,6 +10,7 @@ class Vcalendar {
     tzid: string;
     tzoffset: string;
     items: Vevent[];
+    #hasChanged: boolean = false;
 
     constructor(version: string, prodId: string, name: string, refreshInterval: string, calScale: string, tzid: string, tzoffset: string, items: Vevent[]) {
         this.version = version;
@@ -81,6 +82,15 @@ class Vcalendar {
 
     dateToDateTime(date: Date) {
         return dateToDateTime(date, this.tzid);
+    }
+
+    get hasChanged(): boolean {
+        if (this.#hasChanged) return true;
+        return this.items.some(v => v.hasChanged);
+    }
+
+    set hasChanged(hasChanged: boolean) {
+        this.#hasChanged = hasChanged;
     }
 
 

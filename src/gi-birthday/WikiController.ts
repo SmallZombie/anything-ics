@@ -30,6 +30,7 @@ async function getAllCharacters(): Promise<CharacterType[]> {
 
 /** 获取角色生日和角色上线时间 */
 async function getCharacterDetail(charactersID: number): Promise<CharacterDetailType> {
+    console.log('debug getCharacterDetail', charactersID);
     const res = await fetch('https://api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page?entry_page_id=' + charactersID).then(res => res.json()) as {
         data: {
             page: {
@@ -45,10 +46,12 @@ async function getCharacterDetail(charactersID: number): Promise<CharacterDetail
     // "11月11日"
     const birthdayText = JSON.parse(res.data.page.modules.find(v => v.name === '基础信息')!.components[0].data).attr.find((v: { key: string }) => v.key === '生日')!.value[0];
     const [, birthdayMonth, birthdayDay] = birthdayText.match(/(\d+)月(\d+)日/);
+    console.log('    birthdayText', birthdayText, birthdayMonth, birthdayDay);
 
     const birthday = new Date();
     birthday.setMonth(parseInt(birthdayMonth) - 1);
     birthday.setDate(parseInt(birthdayDay));
+    console.log('    birthday', parseInt(birthdayMonth) - 1, birthdayDay, birthday.toISOString());
 
     // 有些角色没有宣发时间
     const haveRelease = res.data.page.modules.find(v => v.name === '角色宣发时间轴');
@@ -58,7 +61,7 @@ async function getCharacterDetail(charactersID: number): Promise<CharacterDetail
     const haveRelease2 = JSON.parse(haveRelease.components[0].data).list.find((v: { tab_name: string }) => v.tab_name.includes('角色登场'));
     if (!haveRelease2) return { birthday }; // 神里绫华(2123)
 
-    // "「2024.07.15」角色登场"
+    // "「2024.07.15」角色登场" -> 2024.07.15
     const releaseText = haveRelease2.tab_name.match(/「(.+)」/)[1];
 
     // 250120 这里 "蓝砚" 的是 "「20xx.xx.xx」角色登场"

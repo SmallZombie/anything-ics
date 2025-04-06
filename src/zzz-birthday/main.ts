@@ -33,6 +33,7 @@ async function main() {
     ics.items = ics.items.filter(v => {
         if (!characters.some(vv => `${ModuleName}-${vv.id}` === v.uid)) {
             console.log(`[!] Remove "${v.summary}"(${v.uid}) in ICS`);
+            ics.hasChanged = true;
             return false;
         }
         return true;
@@ -74,8 +75,7 @@ async function main() {
         await timeout(200);
     }
 
-    const needSaveICS = ics.items.some(v => v.hasChanged);
-    if (needSaveICS) {
+    if (ics.hasChanged) {
         Deno.writeTextFileSync(pathHelper.icsPath, ics.toString());
         console.log(`[√] ICS Has Save To "${pathHelper.icsPath}"`);
     } else {
