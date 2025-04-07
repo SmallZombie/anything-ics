@@ -30,7 +30,6 @@ async function getAllCharacters(): Promise<CharacterType[]> {
 
 /** 获取角色生日和角色上线时间 */
 async function getCharacterDetail(charactersID: number): Promise<CharacterDetailType> {
-    console.log('debug getCharacterDetail', charactersID);
     const res = await fetch('https://api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page?entry_page_id=' + charactersID).then(res => res.json()) as {
         data: {
             page: {
@@ -45,11 +44,11 @@ async function getCharacterDetail(charactersID: number): Promise<CharacterDetail
     };
     // "11月11日"
     const birthdayText = JSON.parse(res.data.page.modules.find(v => v.name === '基础信息')!.components[0].data).attr.find((v: { key: string }) => v.key === '生日')!.value[0];
-    const [, birthdayMonth, birthdayDay] = birthdayText.match(/(\d+)月(\d+)日/);
+    const birthdayText2 = birthdayText.replace('月', '/').replace('日', '/');
 
-    const birthday = new Date();
-    birthday.setMonth(parseInt(birthdayMonth) - 1);
-    birthday.setDate(parseInt(birthdayDay));
+    // 这里要么加 'UTC+0800' 指定时区
+    // 要么 `setHours(0, 0, 0, 0)` 与运行环境时间对其，要不然就会出问题
+    const birthday = new Date(birthdayText2 + ' UTC+0800');
 
     // 有些角色没有宣发时间
     const haveRelease = res.data.page.modules.find(v => v.name === '角色宣发时间轴');
