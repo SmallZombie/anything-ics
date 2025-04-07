@@ -23,9 +23,9 @@ jobs:
       - name: Init workspace
         run: deno task init
 
-      - name: Run Genshin Impact Birthday task
-        run: deno task gi-birthday
-        continue-on-error: true
+      # - name: Run Genshin Impact Birthday task
+      #   run: deno task gi-birthday
+      #   continue-on-error: true
 
       - name: Run Genshin Impact Event task
         run: deno task gi-event

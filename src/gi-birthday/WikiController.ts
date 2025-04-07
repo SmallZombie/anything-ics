@@ -46,12 +46,10 @@ async function getCharacterDetail(charactersID: number): Promise<CharacterDetail
     // "11月11日"
     const birthdayText = JSON.parse(res.data.page.modules.find(v => v.name === '基础信息')!.components[0].data).attr.find((v: { key: string }) => v.key === '生日')!.value[0];
     const [, birthdayMonth, birthdayDay] = birthdayText.match(/(\d+)月(\d+)日/);
-    console.log('    birthdayText', birthdayText, birthdayMonth, birthdayDay);
 
     const birthday = new Date();
     birthday.setMonth(parseInt(birthdayMonth) - 1);
     birthday.setDate(parseInt(birthdayDay));
-    console.log('    birthday', parseInt(birthdayMonth) - 1, birthdayDay, birthday.toISOString());
 
     // 有些角色没有宣发时间
     const haveRelease = res.data.page.modules.find(v => v.name === '角色宣发时间轴');
