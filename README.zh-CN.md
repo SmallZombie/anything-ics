@@ -35,13 +35,14 @@
 2. 将名字拼接到 `https://avgt.ink/ics/<name>.ics` 中，拼接好后就像这样：`https://avgt.ink/ics/gi-birthday.ics`。
 3. 根据不同的软件填入不同的位置，详见 [本仓库Wiki](https://github.com/SmallZombie/anything-ics/wiki)。
 
-如果短链接无法使用，请尝试将订阅地址拼接为 `https://smallzombie.github.io/anything-ics/release/<name>.ics`，并使用 Issues 提醒我。
+⚠️ 如果你的网络环境无法访问 `github.io` 那么请使用 `proxy.avgt.ink`，完整链接像这样：`https://proxy.avgt.ink/ics/gi-birthday.ics`。\
+⚠️ 如果链接无法使用，请使用 issues 提醒我。
 
 ## 提交 PR 的大致步骤
 1. Fork 本仓库
 2. 为你的模块起一个名字，并为其在 `src` 下建立一个目录
-3. 编写数据获取和更新逻辑
-    - 对于文件的保存路径，使用 `BaseUtil.PathHelper`
+3. 参考已存在的模块编写你的数据获取和更新逻辑
+    - 对于文件的保存路径，请使用 `BaseUtil.PathHelper`
     - 检查 `BaseUtil` 里的所有类和方法，或参考其他模块的写法
 4. 在 `deno.json` 中为其添加任务，任务名需要与模块名相同
 5. 测试你的任务

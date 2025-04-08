@@ -36,13 +36,14 @@ If the content you want is not in the supported list, you can:
 2. Append the name to `https://avgt.ink/ics/<name>.ics`, for example: `https://avgt.ink/ics/gi-birthday.ics`.
 3. Enter it in different positions according to different software, see [Wiki](https://github.com/SmallZombie/anything-ics/wiki) for details.
 
-If the short link doesn't work, please try using the subscription URL as `https://smallzombie.github.io/anything-ics/release/<name>.ics` and notify me via Issues.
+⚠️ If your network environment cannot access `github.io`, please use `proxy.avgt.ink`. The complete link would look like this: `https://proxy.avgt.ink/ics/gi-birthday.ics`.\
+⚠️ If the link is not working, please use issues to remind me.
 
 ## Steps for Submitting PR
 1. Fork this repository
 2. Choose a name for your module and create a directory for it under `src`
-3. Write data fetching and updating logic
-    - For file save paths, use `BaseUtil.PathHelper`
+3. Write your data fetching and updating logic by referring to existing modules
+    - For file save paths, please use `BaseUtil.PathHelper`
     - Check all classes and methods in `BaseUtil`, or refer to other modules' implementations
 4. Add a task for it in `deno.json`, the task name should match the module name
 5. Test your task

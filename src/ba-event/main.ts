@@ -1,4 +1,4 @@
-import { PathHelper, timeout, Vcalendar, VcalendarBuilder, Vevent } from '../BaseUtil.ts';
+import { PathHelper, retry, timeout, Vcalendar, VcalendarBuilder, Vevent } from '../BaseUtil.ts';
 import { getCNAllEvents, getEventDetail, getGLAllEvents, getJPAllEvents } from './WikiController.ts';
 import { ReleaseJsonType } from './type/ReleaseJsonType.ts';
 import { existsSync } from '@std/fs/exists';
@@ -52,10 +52,13 @@ async function main(server: ServerEnum) {
     for (let i = 0; i < events.length; i++) {
         const item = events[i];
 
+        const retryCallback = (error: unknown, retryCount: number) => {
+            console.log(`${item.name} retrying because of ${error}, remaining ${retryCount} times.`);
+        }
         const { start, end } = await (() => {
             switch (server) {
-                case ServerEnum.GL: return getEventDetail(ServerEnum.GL, item.slug, item.feature);
-                case ServerEnum.JP: return getEventDetail(ServerEnum.JP, item.slug, item.feature);
+                case ServerEnum.GL: return retry(() => getEventDetail(ServerEnum.GL, item.slug, item.feature), 3, retryCallback);
+                case ServerEnum.JP: return retry(() => getEventDetail(ServerEnum.JP, item.slug, item.feature), 3, retryCallback);
                 case ServerEnum.CN: return {
                     start: (item as CNEventType).start,
                     end: (item as CNEventType).end
