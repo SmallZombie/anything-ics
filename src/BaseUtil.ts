@@ -361,6 +361,17 @@ class PathHelper {
     }
 }
 
+/** 重试，当函数执行失败时，重试指定次数，依然失败则抛出最后一次的错误 */
+function retry<T>(fn: () => Promise<T>, times: number = 3, retryCallback?: (error: unknown, retryCount: number) => void): Promise<T> {
+    return fn().catch(e => {
+        if (times > 0) {
+            retryCallback?.(e, times);
+            return retry(fn, times - 1, retryCallback);
+        }
+        throw e;
+    });
+}
+
 
 export {
     Vcalendar,
@@ -370,5 +381,6 @@ export {
     getFullYearByTimezone,
     getDateByTimezone,
     getMonthByTimezone,
-    PathHelper
+    PathHelper,
+    retry
 }
