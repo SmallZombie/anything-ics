@@ -1,5 +1,23 @@
 [
     {
+        "id": "159418eb",
+        "name": "雨果",
+        "birthday": {
+            "month": 8,
+            "day": 20
+        },
+        "release": "2025-05-13T16:00:00.000Z"
+    },
+    {
+        "id": "1caf2322",
+        "name": "薇薇安",
+        "birthday": {
+            "month": 4,
+            "day": 10
+        },
+        "release": "2025-04-22T16:00:00.000Z"
+    },
+    {
         "id": "7ec96d95",
         "name": "「扳机」",
         "birthday": {
