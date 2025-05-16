@@ -36,6 +36,13 @@
         "end": "2022-05-17T03:00:00.000Z"
     },
     {
+        "id": "3f668217",
+        "name": "Hatsune Miku’s SPECIAL LIVE in Kivotos ~Rehearsal~",
+        "start": "2022-06-14T03:30:00.000Z",
+        "end": "2022-06-28T03:00:00.000Z",
+        "description": "Collaboration Event"
+    },
+    {
         "id": "71fcbd3f",
         "name": "Special Operation: Decagrammaton",
         "start": "2022-06-21T03:00:00.000Z",
@@ -471,16 +478,16 @@
         "end": "2025-07-22T01:59:00.000Z"
     },
     {
+        "id": "a4628888",
+        "name": "Valentine's Day Promise",
+        "start": "2025-07-22T02:00:00.000Z",
+        "end": "2025-08-05T01:59:00.000Z"
+    },
+    {
         "id": "5d0ec137",
         "name": "Cyber New Year March",
         "start": "2025-07-22T02:00:00.000Z",
         "end": "2025-08-05T01:59:00.000Z",
         "description": "Rerun"
-    },
-    {
-        "id": "a4628888",
-        "name": "Valentine's Day Promise",
-        "start": "2025-07-22T02:00:00.000Z",
-        "end": "2025-08-05T01:59:00.000Z"
     }
 ]

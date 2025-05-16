@@ -42,6 +42,13 @@
         "description": "2021-10-12"
     },
     {
+        "id": "29462d61",
+        "name": "Hatsune Miku’s SPECIAL LIVE in Kivotos ~Rehearsal~",
+        "start": "2021-11-03T03:30:00.000Z",
+        "end": "2021-11-17T03:00:00.000Z",
+        "description": "2021-11-17"
+    },
+    {
         "id": "dc4e5c1b",
         "name": "Special Operation: Decagrammaton",
         "start": "2021-11-09T03:00:00.000Z",
@@ -334,6 +341,13 @@
         "start": "2023-09-27T02:00:00.000Z",
         "end": "2023-10-11T01:59:00.000Z",
         "description": "2023-10-11"
+    },
+    {
+        "id": "d43c393d",
+        "name": "A Certain Scientific Blue Archive",
+        "start": "2023-10-24T02:00:00.000Z",
+        "end": "2023-11-08T01:59:00.000Z",
+        "description": "2023-11-08"
     },
     {
         "id": "c9dbff4d",
