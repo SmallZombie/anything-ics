@@ -9,6 +9,11 @@
         "release": "2019-04-30T02:00:00.000Z"
     },
     {
+        "id": "a08cef97",
+        "name": "Miss.Christine",
+        "release": "2025-06-05T08:00:00.000Z"
+    },
+    {
         "id": "11ea2f96",
         "name": "Mon3tr",
         "birthday": {
@@ -2494,6 +2499,15 @@
         "release": "2024-11-01T08:00:00.000Z"
     },
     {
+        "id": "d4d169e5",
+        "name": "蒂比",
+        "birthday": {
+            "month": 3,
+            "day": 17
+        },
+        "release": "2025-06-05T08:00:00.000Z"
+    },
+    {
         "id": "08a8a2a9",
         "name": "蓝毒",
         "birthday": {
@@ -2794,6 +2808,15 @@
             "day": 5
         },
         "release": "2024-05-01T08:00:00.000Z"
+    },
+    {
+        "id": "86accdee",
+        "name": "酒神",
+        "birthday": {
+            "month": 1,
+            "day": 19
+        },
+        "release": "2025-06-05T08:00:00.000Z"
     },
     {
         "id": "5b60bf51",
