@@ -291,6 +291,8 @@ class Vevent {
     }
 
     set description(description: string | undefined) {
+        if (description === '' && this.#description === undefined) return;
+
         if (this.#description !== description) {
             this.#description = description;
             this.hasChanged = true;

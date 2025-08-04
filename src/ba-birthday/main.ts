@@ -29,6 +29,7 @@ async function main() {
     const ics = getICS();
     const json: ReleaseJsonType = [];
     const characters = await getAllCharacters();
+    characters.sort((a, b) => a.id - b.id);
 
     ics.items = ics.items.filter(v => {
         if (!characters.some(vv => `${ModuleName}-${vv.id}` === v.uid)) {

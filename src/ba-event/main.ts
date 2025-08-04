@@ -38,6 +38,7 @@ async function main(server: ServerEnum) {
             default: throw new Error(`Invalid server: "${server}"`);
         }
     })();
+    events.sort((a, b) => a.id.localeCompare(b.id));
 
     ics.items = ics.items.filter(v => {
         if (!events.some(vv => `${ModuleName}-${vv.id}` === v.uid)) {
