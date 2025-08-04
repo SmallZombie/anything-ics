@@ -30,7 +30,7 @@ async function main() {
     const ics = getICS();
     const json: ReleaseJsonType = [];
     const events = await getAllEvents();
-    events.sort((a, b) => a.start.getTime() - b.start.getTime());
+    events.sort((a, b) => a.id.localeCompare(b.id));
 
     ics.items = ics.items.filter(v => {
         if (!events.some(vv => `${ModuleName}-${vv.id}` === v.uid)) {
