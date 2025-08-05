@@ -34,7 +34,7 @@ async function getGLAllEvents(): Promise<EventType[]> {
     }
 
     const result: EventType[] = [];
-    $('#tabber-tabpanel-Global_version-0 table tbody tr').slice(1).each((_i, el) => {
+    $('#tabber-Global_version table tbody tr').slice(1).each((_i, el) => {
         const name = $(el).find('td').eq(0).text().trim();
         // 如果是返场的话后面会被加上 "/Rerun"
         const slug = $(el).find('td a').first().attr('title')!.replaceAll(' ', '_');
@@ -70,7 +70,7 @@ async function getJPAllEvents(): Promise<EventType[]> {
     }
 
     const result: EventType[] = [];
-    $('#tabber-tabpanel-Japanese_version-0 table tbody tr').slice(1).each((_i, el) => {
+    $('#tabber-Japanese_version table tbody tr').slice(1).each((_i, el) => {
         const name = $(el).find('td').eq(0).text().trim();
         const slug = $(el).find('td a').first().attr('title')!.replaceAll(' ', '_');
         const desc = $(el).find('td').eq(3).text().trim();
@@ -99,13 +99,13 @@ async function getEventDetail(server: ServerEnum, slug: string, feature: string)
     }
 
     // 先判断该页面下是否存在多 Session or Part
-    const hasTabber = $('h2:has(#Schedule) + div#tabber-0').length > 0;
+    const hasTabber = $('#mw-content-text h2:has(#Schedule) + div').length > 0;
     let timeStr = null;
     const idSelector = server === ServerEnum.GL ? '#Global_Version' : '#Japanese_Version';
     if (hasTabber) {
         const [year, month, day] = feature.split('-');
         const processedFeature = `${month}/${day}/${year}`;
-        $(`#tabber-0 section article h3:has(${idSelector}) + table tr`).each((_i, el) => {
+        $(`h3:has(${idSelector}) + table tr`).each((_i, el) => {
             const temp = $(el).find('td').text().trim();
             if ($(el).find('th').text().trim() === 'Event period' && temp.startsWith(processedFeature)) {
                 timeStr = temp;
