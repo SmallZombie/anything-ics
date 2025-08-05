@@ -91,13 +91,6 @@
         "end": "2022-09-20T01:59:00.000Z"
     },
     {
-        "id": "2ea25dce",
-        "name": "This is your record from Balancing Schale's Books with the General Student Council.",
-        "start": "2025-06-24T02:00:00.000Z",
-        "end": "2025-07-08T01:59:00.000Z",
-        "description": "Season 11"
-    },
-    {
         "id": "31e38768",
         "name": "Playing Tag at Neverland",
         "start": "2022-04-19T03:30:00.000Z",
@@ -325,13 +318,6 @@
         "end": "2022-05-17T03:00:00.000Z"
     },
     {
-        "id": "a51ea39a",
-        "name": "This is your record from Balancing Schale's Books with the General Student Council.",
-        "start": "2025-05-27T02:00:00.000Z",
-        "end": "2025-06-10T01:59:00.000Z",
-        "description": "Season 10"
-    },
-    {
         "id": "a765f836",
         "name": "Academy Club Story: A Finale for Two",
         "start": "2024-02-27T02:00:00.000Z",
@@ -477,6 +463,12 @@
         "name": "Secret Midnight Party: The Chimes of Tag",
         "start": "2025-06-10T02:00:00.000Z",
         "end": "2025-06-24T01:59:00.000Z"
+    },
+    {
+        "id": "f82095fb",
+        "name": "Pandemic Hazard: Miraculous Pancake",
+        "start": "2025-08-05T02:00:00.000Z",
+        "end": "2025-08-19T01:59:00.000Z"
     },
     {
         "id": "f9941e2d",

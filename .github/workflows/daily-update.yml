@@ -59,6 +59,10 @@ jobs:
         run: deno task ba-event
         continue-on-error: true
 
+      - name: Run Wuthering Waves Event task
+        run: deno task ww-event
+        continue-on-error: true
+
       - name: Commit and push if changes exist
         run: |
           git config --global user.name 'GitHub Actions'

@@ -23,6 +23,7 @@ JSON version of the data is also provided, just replace `.ics` with `.json` in t
 - Blue Archive JP Events (ba-event-jp)
 - Blue Archive Global Events (ba-event-gl)
 - Blue Archive CN Events (ba-event-cn)
+- Wuthering Waves Events (ww-event)
 
 <br/>
 

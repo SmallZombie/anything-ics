@@ -77,7 +77,7 @@ class Vcalendar {
         }
 
         lines.push('END:VCALENDAR');
-        return lines.join('\n');
+        return lines.join('\r\n');
     }
 
     dateToDateTime(date: Date) {
