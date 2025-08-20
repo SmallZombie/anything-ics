@@ -322,6 +322,13 @@
         "description": "2023-05-10"
     },
     {
+        "id": "8ec11f12",
+        "name": "Sheside outside",
+        "start": "2025-09-03T02:00:00.000Z",
+        "end": "2025-09-17T01:59:00.000Z",
+        "description": "2025-09-17"
+    },
+    {
         "id": "8efc3ca2",
         "name": "New Years' Rhapsody No. 68",
         "start": "2021-12-29T03:30:00.000Z",
@@ -432,6 +439,13 @@
         "start": "2024-05-15T02:00:00.000Z",
         "end": "2024-05-22T01:59:00.000Z",
         "description": "2024-05-22"
+    },
+    {
+        "id": "a9fc795c",
+        "name": "We are the Occult Research Society! ～Academy Mysteries and Ancient Spells～",
+        "start": "2025-08-20T02:00:00.000Z",
+        "end": "2025-09-03T01:59:00.000Z",
+        "description": "2025-09-03"
     },
     {
         "id": "ac6c01b5",
