@@ -1,9 +1,8 @@
-import { PathHelper, retry, timeout, Vcalendar, VcalendarBuilder, Vevent } from '../BaseUtil.ts';
-import { getCNAllEvents, getEventDetail, getGLAllEvents, getJPAllEvents } from './WikiController.ts';
+import { PathHelper, Vcalendar, VcalendarBuilder, Vevent } from '../BaseUtil.ts';
 import { ReleaseJsonType } from './type/ReleaseJsonType.ts';
 import { existsSync } from '@std/fs/exists';
 import { ServerEnum } from './enum/ServerEnum.ts';
-import { CNEventType } from './type/CNEventType.ts';
+import { getAllEvents } from './WikiController.ts';
 
 
 function getICS(path: string): Vcalendar {
@@ -30,14 +29,7 @@ async function main(server: ServerEnum) {
     const pathHelper = new PathHelper(ModuleName);
     const ics = getICS(pathHelper.icsPath);
     const json: ReleaseJsonType = [];
-    const events = await (() => {
-        switch (server) {
-            case ServerEnum.GL: return getGLAllEvents();
-            case ServerEnum.JP: return getJPAllEvents();
-            case ServerEnum.CN: return getCNAllEvents();
-            default: throw new Error(`Invalid server: "${server}"`);
-        }
-    })();
+    const events = await getAllEvents(server);
     events.sort((a, b) => a.id.localeCompare(b.id));
 
     ics.items = ics.items.filter(v => {
@@ -52,22 +44,8 @@ async function main(server: ServerEnum) {
     console.log('[!] Total Events:', events.length);
     for (let i = 0; i < events.length; i++) {
         const item = events[i];
-
-        const retryCallback = (error: unknown, retryCount: number) => {
-            console.log(`${item.name} retrying because of ${error}, remaining ${retryCount} times.`);
-        }
-        const { start, end } = await (() => {
-            switch (server) {
-                case ServerEnum.GL: return retry(() => getEventDetail(ServerEnum.GL, item.slug, item.feature), 3, retryCallback);
-                case ServerEnum.JP: return retry(() => getEventDetail(ServerEnum.JP, item.slug, item.feature), 3, retryCallback);
-                case ServerEnum.CN: return {
-                    start: (item as CNEventType).start,
-                    end: (item as CNEventType).end
-                };
-            }
-        })();
-        const dtstart = ics.dateToDateTime(start);
-        const dtend = ics.dateToDateTime(end);
+        const dtstart = ics.dateToDateTime(item.start);
+        const dtend = ics.dateToDateTime(item.end);
 
         const itemID = `${ModuleName}-${item.id}`;
         let icsItem = ics.items.find(v => v.uid === itemID);
@@ -77,7 +55,6 @@ async function main(server: ServerEnum) {
         }
         icsItem.dtend = dtend;
         icsItem.summary = item.name;
-        icsItem.description = item.description;
         if (icsItem.hasChanged) {
             console.log(`${i + 1}/${events.length} Update "${item.name}"(${item.id}) in ICS`);
         }
@@ -85,14 +62,9 @@ async function main(server: ServerEnum) {
         json.push({
             id: item.id,
             name: item.name,
-            start: start.toISOString(),
-            end: end.toISOString(),
-            description: item.description ? item.description : void 0
+            start: item.start.toISOString(),
+            end: item.end.toISOString()
         });
-
-        if (server !== ServerEnum.CN) {
-            await timeout(200);
-        }
     }
 
     if (ics.hasChanged) {
@@ -107,6 +79,8 @@ async function main(server: ServerEnum) {
 
     console.log('[***] Done\n');
 }
+
+
 main(ServerEnum.GL)
     .then(() => main(ServerEnum.JP))
     .then(() => main(ServerEnum.CN));
