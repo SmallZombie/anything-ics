@@ -44,7 +44,6 @@ async function main() {
     for (let i = 0; i < characters.length; i++) {
         const item = characters[i];
         const { birthday, release } = await getCharacterDetail(item.name);
-
         const birthdayMonth = getMonthByTimezone(birthday, ics.tzid);
         const birthdayDate = getDateByTimezone(birthday, ics.tzid);
         const releaseStr = `${getFullYearByTimezone(release, ics.tzid)}${String(getMonthByTimezone(release, ics.tzid)).padStart(2, '0')}${String(getDateByTimezone(release, ics.tzid)).padStart(2, '0')}`;
@@ -53,12 +52,14 @@ async function main() {
         const itemID = `${ModuleName}-${item.id}`;
         let icsItem = ics.items.find(v => v.uid === itemID);
         if (!icsItem) {
-            icsItem = new Vevent(itemID, '', releaseStr);
+            icsItem = new Vevent(itemID);
             ics.items.push(icsItem);
         }
+
         icsItem.dtstart = releaseStr;
         icsItem.rrule = rrule;
-        icsItem.summary = item.name + ' 生日';
+        icsItem.summary = item.name + '的生日';
+
         if (icsItem.hasChanged) {
             console.log(`${i + 1}/${characters.length} Update "${item.name}"(${item.id}) in ICS`);
         }

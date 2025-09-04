@@ -39,13 +39,40 @@ type LocalizationData = {
     }
 }
 
+type SeasonData = {
+    Raid: {
+        // RaidId
+        Id: number,
+        Name: string
+    }[]
+    RaidSeasons: [
+        // 0: JP
+        SeasonDataRaidSeasonsItem,
+        // 1: GL(EN)
+        SeasonDataRaidSeasonsItem,
+        // 2: CN
+        SeasonDataRaidSeasonsItem
+    ]
+}
+
+type SeasonDataRaidSeasonsItem = {
+    Seasons: {
+        SeasonId: number,
+        SeasonDisplay: string,
+        RaidId: number,
+        // 以秒为单位的时间戳
+        Start: number,
+        End: number
+    }[]
+}
+
 
 async function getAllEvents(server: ServerEnum): Promise<EventType[]> {
     const _server = server === ServerEnum.GL ? 'en' : server;
 
     // 感谢伟大的 SchaleDB!
-    const eventData = await fetch(`https://schaledb.brightsu.cn/data/${_server}/events.min.json`).then(res => res.json()) as EventData;
-    const localizationData = await fetch(`https://schaledb.brightsu.cn/data/${_server}/localization.min.json`).then(res => res.json()) as LocalizationData;
+    const eventData = await fetch(`https://schaledb.com/data/${_server}/events.min.json`).then(res => res.json()) as EventData;
+    const localizationData = await fetch(`https://schaledb.com/data/${_server}/localization.min.json`).then(res => res.json()) as LocalizationData;
 
 
     const processor = _getProcessor(server);
@@ -125,6 +152,47 @@ function _CNResultProcessor(eventData: EventData, localizationData: Localization
 }
 
 
+async function getAllRaidSeasons(server: ServerEnum): Promise<EventType[]> {
+    const _server = server === ServerEnum.GL ? 'en' : server;
+    const seasonIndex = _getSeasonIndexByServer(server);
+
+    const seasonData = await fetch(`https://schaledb.com/data/${_server}/raids.min.json`).then(res => res.json()) as SeasonData;
+
+    const result: EventType[] = [];
+    for (const i of seasonData.RaidSeasons[seasonIndex].Seasons) {
+        const raid = seasonData.Raid.find(v => v.Id === i.RaidId);
+        if (!raid) throw new Error(`Unable to retrieve Raid information based on RaidId ${i.RaidId}`);
+
+        result.push({
+            id: 's' + i.SeasonId,
+            name: _buildSeasonNameByServer(server, i.SeasonDisplay, raid.Name),
+            start: new Date(i.Start * 1000),
+            end: new Date(i.End * 1000)
+        });
+    }
+    return result;
+}
+
+function _getSeasonIndexByServer(server: ServerEnum): 0 | 1 | 2 {
+    switch (server) {
+        case ServerEnum.JP: return 0;
+        case ServerEnum.GL: return 1;
+        case ServerEnum.CN: return 2;
+        default: throw new Error('Invaild server');
+    }
+}
+
+function _buildSeasonNameByServer(server: ServerEnum, season: string, raidName: string): string {
+    switch (server) {
+        case ServerEnum.JP: return `総力戦シーズン ${season}: ${raidName}`;
+        case ServerEnum.GL: return `Total Assault Season ${season}: ${raidName}`;
+        case ServerEnum.CN: return `总力战赛季 ${season}: ${raidName}`;
+        default: throw new Error('Invaild server');
+    }
+}
+
+
 export {
-    getAllEvents
+    getAllEvents,
+    getAllRaidSeasons
 }

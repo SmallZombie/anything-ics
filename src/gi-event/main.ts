@@ -44,16 +44,15 @@ async function main() {
     console.log('[!] Total Events: ', events.length);
     for (let i = 0; i < events.length; i++) {
         const item = events[i];
-        const dtstart = ics.dateToDateTime(item.start);
-        const dtend = ics.dateToDateTime(item.end);
-
         const itemID = `${ModuleName}-${item.id}`;
         let icsItem = ics.items.find(v => v.uid === itemID);
         if (!icsItem) {
-            icsItem = new Vevent(itemID, '', dtstart);
+            icsItem = new Vevent(itemID);
             ics.items.push(icsItem);
         }
-        icsItem.dtend = dtend;
+
+        icsItem.dtstart = ics.dateToDateTime(item.start);
+        icsItem.dtend = ics.dateToDateTime(item.end);
         icsItem.summary = item.name;
         icsItem.description = item.description;
 

@@ -2,7 +2,7 @@ import { PathHelper, Vcalendar, VcalendarBuilder, Vevent } from '../BaseUtil.ts'
 import { ReleaseJsonType } from './type/ReleaseJsonType.ts';
 import { existsSync } from '@std/fs/exists';
 import { ServerEnum } from './enum/ServerEnum.ts';
-import { getAllEvents } from './WikiController.ts';
+import { getAllEvents, getAllRaidSeasons } from './BaseController.ts';
 
 
 function getICS(path: string): Vcalendar {
@@ -29,7 +29,10 @@ async function main(server: ServerEnum) {
     const pathHelper = new PathHelper(ModuleName);
     const ics = getICS(pathHelper.icsPath);
     const json: ReleaseJsonType = [];
-    const events = await getAllEvents(server);
+    const events = [
+        ...await getAllEvents(server),
+        ...await getAllRaidSeasons(server)
+    ];
     events.sort((a, b) => a.id.localeCompare(b.id));
 
     ics.items = ics.items.filter(v => {
@@ -44,17 +47,17 @@ async function main(server: ServerEnum) {
     console.log('[!] Total Events:', events.length);
     for (let i = 0; i < events.length; i++) {
         const item = events[i];
-        const dtstart = ics.dateToDateTime(item.start);
-        const dtend = ics.dateToDateTime(item.end);
-
         const itemID = `${ModuleName}-${item.id}`;
         let icsItem = ics.items.find(v => v.uid === itemID);
         if (!icsItem) {
-            icsItem = new Vevent(itemID, '', dtstart);
+            icsItem = new Vevent(itemID);
             ics.items.push(icsItem);
         }
-        icsItem.dtend = dtend;
+
+        icsItem.dtstart = ics.dateToDateTime(item.start);
+        icsItem.dtend = ics.dateToDateTime(item.end);
         icsItem.summary = item.name;
+
         if (icsItem.hasChanged) {
             console.log(`${i + 1}/${events.length} Update "${item.name}"(${item.id}) in ICS`);
         }

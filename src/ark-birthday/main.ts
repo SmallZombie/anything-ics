@@ -1,4 +1,4 @@
-import { getDateByTimezone, getFullYearByTimezone, getMonthByTimezone, PathHelper, timeout, Vcalendar, VcalendarBuilder, Vevent } from '../BaseUtil.ts';
+import { getDateByTimezone, getFullYearByTimezone, getMonthByTimezone, PathHelper, Vcalendar, VcalendarBuilder, Vevent } from '../BaseUtil.ts';
 import { getAllCharacters, getCharacterDetail } from './WikiController.ts';
 import { ReleaseJsonType } from './type/ReleaseJsonType.ts';
 import { existsSync } from '@std/fs/exists';
@@ -49,13 +49,17 @@ async function main() {
         let icsItem = ics.items.find(v => v.uid === itemID);
         if (birthday) {
             const rrule = birthday ? `FREQ=YEARLY;BYMONTH=${String(getMonthByTimezone(birthday, ics.tzid)).padStart(2, '0')};BYMONTHDAY=${String(getDateByTimezone(birthday, ics.tzid)).padStart(2, '0')}` : '';
+            const dtstart = `${getFullYearByTimezone(release, ics.tzid)}${String(getMonthByTimezone(release, ics.tzid)).padStart(2, '0')}${String(getDateByTimezone(release, ics.tzid)).padStart(2, '0')}`;
+
             if (!icsItem) {
-                const dtstart = `${getFullYearByTimezone(release, ics.tzid)}${String(getMonthByTimezone(release, ics.tzid)).padStart(2, '0')}${String(getDateByTimezone(release, ics.tzid)).padStart(2, '0')}`;
-                icsItem = new Vevent(itemID, '', dtstart);
+                icsItem = new Vevent(itemID);
                 ics.items.push(icsItem);
             }
+
+            icsItem.dtstart = dtstart;
             icsItem.rrule = rrule;
             icsItem.summary = item.name + ' 生日';
+
             if (icsItem.hasChanged) {
                 console.log(`${i + 1}/${characters.length} Update "${item.name}"(${item.id}) in ICS`);
             }
@@ -70,8 +74,6 @@ async function main() {
             } : void 0,
             release: release.toISOString()
         });
-
-        await timeout(200);
     }
 
     if (ics.hasChanged) {

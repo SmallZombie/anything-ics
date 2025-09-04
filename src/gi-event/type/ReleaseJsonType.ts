@@ -4,5 +4,5 @@ export type ReleaseJsonType = {
     // ISO 8601
     start: string;
     end: string;
-    description: string;
+    description?: string;
 }[];

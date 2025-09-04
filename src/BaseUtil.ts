@@ -156,7 +156,7 @@ class Vcalendar {
                     builder.setTzoffset(i.slice('TZOFFSETTO:'.length));
                 } else if (i === 'BEGIN:VEVENT') {
                     inEvent = true;
-                    items.push(new Vevent('', '', ''));
+                    items.push(new Vevent(''));
                 }
             }
         }
@@ -225,22 +225,21 @@ class VcalendarBuilder {
 
 class Vevent {
     uid: string;
-    dtstamp: string;
-    #dtstart: string;
+    dtstamp?: string;
+    #dtstart?: string;
     #dtend?: string;
     #rrule?: string;
     #summary?: string;
     #description?: string;
     hasChanged: boolean = false;
 
-    constructor(uid: string, dtstamp: string, dtstart: string) {
+    constructor(uid: string) {
         this.uid = uid;
-        this.dtstamp = dtstamp;
-        this.#dtstart = dtstart;
     }
 
 
     get dtstart(): string {
+        if (!this.#dtstart) throw new Error('Invaild dtstart');
         return this.#dtstart;
     }
 
@@ -291,7 +290,7 @@ class Vevent {
     }
 
     set description(description: string | undefined) {
-        if (description === '' && this.#description === undefined) return;
+        if (description === '') description = void 0;
 
         if (this.#description !== description) {
             this.#description = description;

@@ -43,9 +43,7 @@ async function main() {
     console.log('[!] Total Characters: ', characters.length);
     for (let i = 0; i < characters.length; i++) {
         const item = characters[i];
-
         const { birthday, release } = await getCharacterDetail(item.id);
-
         const birthdayMonth = getMonthByTimezone(birthday, ics.tzid);
         const birthdayDay = getDateByTimezone(birthday, ics.tzid);
         // 20200928 是原神公测时间，没有发布时间的按公测时间算
@@ -55,13 +53,15 @@ async function main() {
         const itemID = `${ModuleName}-${item.id}`;
         let icsItem = ics.items.find(v => v.uid === itemID);
         if (!icsItem) {
-            icsItem = new Vevent(itemID, '', releaseStr);
+            icsItem = new Vevent(itemID);
             ics.items.push(icsItem);
 
         }
+
         icsItem.dtstart = releaseStr;
         icsItem.rrule = rrule;
-        icsItem.summary = item.name + ' 生日';
+        icsItem.summary = item.name + '的生日';
+
         if (icsItem.hasChanged) {
             console.log(`${i + 1}/${characters.length} Update "${item.name}"(${item.id}) in ICS`);
         }

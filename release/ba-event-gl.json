@@ -436,5 +436,449 @@
         "name": "Basking in the Brilliance of Their Serenade",
         "start": "2025-05-13T02:00:00.000Z",
         "end": "2025-05-27T02:00:00.000Z"
+    },
+    {
+        "id": "s10",
+        "name": "Total Assault Season 8: Chesed",
+        "start": "2022-03-08T03:30:00.000Z",
+        "end": "2022-03-14T15:00:00.000Z"
+    },
+    {
+        "id": "s11",
+        "name": "Total Assault Season 9: KAITEN FX Mk.0",
+        "start": "2022-03-22T03:30:00.000Z",
+        "end": "2022-03-28T15:00:00.000Z"
+    },
+    {
+        "id": "s12",
+        "name": "Total Assault Season 10: Shiro & Kuro",
+        "start": "2022-04-05T03:30:00.000Z",
+        "end": "2022-04-11T15:00:00.000Z"
+    },
+    {
+        "id": "s13",
+        "name": "Total Assault Season 11: Hieronymus",
+        "start": "2022-04-19T03:30:00.000Z",
+        "end": "2022-04-25T15:00:00.000Z"
+    },
+    {
+        "id": "s14",
+        "name": "Total Assault Season 12: KAITEN FX Mk.0",
+        "start": "2022-05-03T03:30:00.000Z",
+        "end": "2022-05-09T15:00:00.000Z"
+    },
+    {
+        "id": "s15",
+        "name": "Total Assault Season 13: Binah",
+        "start": "2022-05-17T03:30:00.000Z",
+        "end": "2022-05-23T15:00:00.000Z"
+    },
+    {
+        "id": "s16",
+        "name": "Total Assault Season 14: Perorodzilla",
+        "start": "2022-05-31T03:30:00.000Z",
+        "end": "2022-06-06T15:00:00.000Z"
+    },
+    {
+        "id": "s17",
+        "name": "Total Assault Season 15: KAITEN FX Mk.0",
+        "start": "2022-06-14T03:30:00.000Z",
+        "end": "2022-06-20T15:00:00.000Z"
+    },
+    {
+        "id": "s18",
+        "name": "Total Assault Season 16: Binah",
+        "start": "2022-06-28T03:30:00.000Z",
+        "end": "2022-07-04T15:00:00.000Z"
+    },
+    {
+        "id": "s19",
+        "name": "Total Assault Season 17: Perorodzilla",
+        "start": "2022-07-12T03:30:00.000Z",
+        "end": "2022-07-18T15:00:00.000Z"
+    },
+    {
+        "id": "s2",
+        "name": "Total Assault Season BETA: Binah",
+        "start": "2021-11-16T03:30:00.000Z",
+        "end": "2021-11-22T15:00:00.000Z"
+    },
+    {
+        "id": "s20",
+        "name": "Total Assault Season 18: Hieronymus",
+        "start": "2022-07-26T03:30:00.000Z",
+        "end": "2022-08-01T15:00:00.000Z"
+    },
+    {
+        "id": "s21",
+        "name": "Total Assault Season 19: Chesed",
+        "start": "2022-08-09T03:30:00.000Z",
+        "end": "2022-08-15T15:00:00.000Z"
+    },
+    {
+        "id": "s22",
+        "name": "Total Assault Season 20: Perorodzilla",
+        "start": "2022-08-23T03:30:00.000Z",
+        "end": "2022-08-29T15:00:00.000Z"
+    },
+    {
+        "id": "s23",
+        "name": "Total Assault Season 21: Hod",
+        "start": "2022-09-13T02:00:00.000Z",
+        "end": "2022-09-19T19:00:00.000Z"
+    },
+    {
+        "id": "s24",
+        "name": "Total Assault Season 22: Shiro & Kuro",
+        "start": "2022-09-27T02:00:00.000Z",
+        "end": "2022-10-03T19:00:00.000Z"
+    },
+    {
+        "id": "s25",
+        "name": "Total Assault Season 23: KAITEN FX Mk.0",
+        "start": "2022-10-11T02:00:00.000Z",
+        "end": "2022-10-17T19:00:00.000Z"
+    },
+    {
+        "id": "s26",
+        "name": "Total Assault Season 24: Binah",
+        "start": "2022-10-25T02:00:00.000Z",
+        "end": "2022-10-31T19:00:00.000Z"
+    },
+    {
+        "id": "s27",
+        "name": "Total Assault Season 25: Hod",
+        "start": "2022-11-08T02:00:00.000Z",
+        "end": "2022-11-14T19:00:00.000Z"
+    },
+    {
+        "id": "s28",
+        "name": "Total Assault Season 26: Chesed",
+        "start": "2022-11-22T02:00:00.000Z",
+        "end": "2022-11-28T19:00:00.000Z"
+    },
+    {
+        "id": "s29",
+        "name": "Total Assault Season 27: Perorodzilla",
+        "start": "2022-12-06T02:00:00.000Z",
+        "end": "2022-12-12T19:00:00.000Z"
+    },
+    {
+        "id": "s3",
+        "name": "Total Assault Season 1: Shiro & Kuro",
+        "start": "2021-11-29T03:30:00.000Z",
+        "end": "2021-12-06T15:00:00.000Z"
+    },
+    {
+        "id": "s30",
+        "name": "Total Assault Season 28: KAITEN FX Mk.0",
+        "start": "2022-12-20T02:00:00.000Z",
+        "end": "2022-12-26T19:00:00.000Z"
+    },
+    {
+        "id": "s31",
+        "name": "Total Assault Season 29: Hieronymus",
+        "start": "2023-01-03T02:00:00.000Z",
+        "end": "2023-01-09T19:00:00.000Z"
+    },
+    {
+        "id": "s32",
+        "name": "Total Assault Season 30: Binah",
+        "start": "2023-01-17T02:00:00.000Z",
+        "end": "2023-01-23T19:00:00.000Z"
+    },
+    {
+        "id": "s33",
+        "name": "Total Assault Season 31: Chesed",
+        "start": "2023-01-31T02:00:00.000Z",
+        "end": "2023-02-06T19:00:00.000Z"
+    },
+    {
+        "id": "s34",
+        "name": "Total Assault Season 32: Shiro & Kuro",
+        "start": "2023-02-14T02:00:00.000Z",
+        "end": "2023-02-20T19:00:00.000Z"
+    },
+    {
+        "id": "s35",
+        "name": "Total Assault Season 33: Hod",
+        "start": "2023-02-28T02:00:00.000Z",
+        "end": "2023-03-06T19:00:00.000Z"
+    },
+    {
+        "id": "s36",
+        "name": "Total Assault Season 34: Hieronymus",
+        "start": "2023-03-14T02:00:00.000Z",
+        "end": "2023-03-20T19:00:00.000Z"
+    },
+    {
+        "id": "s37",
+        "name": "Total Assault Season 35: KAITEN FX Mk.0",
+        "start": "2023-03-28T02:00:00.000Z",
+        "end": "2023-04-03T19:00:00.000Z"
+    },
+    {
+        "id": "s38",
+        "name": "Total Assault Season 36: Perorodzilla",
+        "start": "2023-04-11T02:00:00.000Z",
+        "end": "2023-04-17T19:00:00.000Z"
+    },
+    {
+        "id": "s39",
+        "name": "Total Assault Season 37: Goz",
+        "start": "2023-04-25T02:00:00.000Z",
+        "end": "2023-05-01T19:00:00.000Z"
+    },
+    {
+        "id": "s4",
+        "name": "Total Assault Season 2: Chesed",
+        "start": "2021-12-14T03:30:00.000Z",
+        "end": "2021-12-20T15:00:00.000Z"
+    },
+    {
+        "id": "s40",
+        "name": "Total Assault Season 38: Shiro & Kuro",
+        "start": "2023-05-09T02:00:00.000Z",
+        "end": "2023-05-15T19:00:00.000Z"
+    },
+    {
+        "id": "s41",
+        "name": "Total Assault Season 39: Binah",
+        "start": "2023-05-23T02:00:00.000Z",
+        "end": "2023-05-29T19:00:00.000Z"
+    },
+    {
+        "id": "s42",
+        "name": "Total Assault Season 40: Chesed",
+        "start": "2023-06-06T02:00:00.000Z",
+        "end": "2023-06-12T19:00:00.000Z"
+    },
+    {
+        "id": "s43",
+        "name": "Total Assault Season 41: Perorodzilla",
+        "start": "2023-06-20T02:00:00.000Z",
+        "end": "2023-06-26T19:00:00.000Z"
+    },
+    {
+        "id": "s44",
+        "name": "Total Assault Season 42: Hieronymus",
+        "start": "2023-07-04T02:00:00.000Z",
+        "end": "2023-07-10T19:00:00.000Z"
+    },
+    {
+        "id": "s45",
+        "name": "Total Assault Season 43: Shiro & Kuro",
+        "start": "2023-07-18T02:00:00.000Z",
+        "end": "2023-07-24T19:00:00.000Z"
+    },
+    {
+        "id": "s46",
+        "name": "Total Assault Season 44: Hieronymus",
+        "start": "2023-08-29T02:00:00.000Z",
+        "end": "2023-09-04T19:00:00.000Z"
+    },
+    {
+        "id": "s47",
+        "name": "Total Assault Season 45: Binah",
+        "start": "2023-09-19T02:00:00.000Z",
+        "end": "2023-09-25T19:00:00.000Z"
+    },
+    {
+        "id": "s48",
+        "name": "Total Assault Season 46: Goz",
+        "start": "2023-10-03T02:00:00.000Z",
+        "end": "2023-10-09T19:00:00.000Z"
+    },
+    {
+        "id": "s49",
+        "name": "Total Assault Season 47: Chesed",
+        "start": "2023-10-17T02:00:00.000Z",
+        "end": "2023-10-23T19:00:00.000Z"
+    },
+    {
+        "id": "s5",
+        "name": "Total Assault Season 3: Shiro & Kuro",
+        "start": "2021-12-28T03:30:00.000Z",
+        "end": "2022-01-03T15:00:00.000Z"
+    },
+    {
+        "id": "s50",
+        "name": "Total Assault Season 48: Shiro & Kuro",
+        "start": "2023-10-31T02:00:00.000Z",
+        "end": "2023-11-06T19:00:00.000Z"
+    },
+    {
+        "id": "s51",
+        "name": "Total Assault Season 49: KAITEN FX Mk.0",
+        "start": "2023-11-14T02:00:00.000Z",
+        "end": "2023-11-20T19:00:00.000Z"
+    },
+    {
+        "id": "s52",
+        "name": "Total Assault Season 50: Perorodzilla",
+        "start": "2023-11-28T02:00:00.000Z",
+        "end": "2023-12-04T19:00:00.000Z"
+    },
+    {
+        "id": "s53",
+        "name": "Total Assault Season 51: Hod",
+        "start": "2023-12-12T02:00:00.000Z",
+        "end": "2023-12-18T19:00:00.000Z"
+    },
+    {
+        "id": "s54",
+        "name": "Total Assault Season 52: Gregorius",
+        "start": "2024-01-02T02:00:00.000Z",
+        "end": "2024-01-08T19:00:00.000Z"
+    },
+    {
+        "id": "s55",
+        "name": "Total Assault Season 53: Goz",
+        "start": "2024-02-06T02:00:00.000Z",
+        "end": "2024-02-12T19:00:00.000Z"
+    },
+    {
+        "id": "s56",
+        "name": "Total Assault Season 54: Hovercraft",
+        "start": "2024-03-05T02:00:00.000Z",
+        "end": "2024-03-11T19:00:00.000Z"
+    },
+    {
+        "id": "s57",
+        "name": "Total Assault Season 55: Binah",
+        "start": "2024-04-09T02:00:00.000Z",
+        "end": "2024-04-15T19:00:00.000Z"
+    },
+    {
+        "id": "s58",
+        "name": "Total Assault Season 56: Chesed",
+        "start": "2024-05-07T02:00:00.000Z",
+        "end": "2024-05-13T19:00:00.000Z"
+    },
+    {
+        "id": "s59",
+        "name": "Total Assault Season 57: Kurokage",
+        "start": "2024-06-04T02:00:00.000Z",
+        "end": "2024-06-10T19:00:00.000Z"
+    },
+    {
+        "id": "s6",
+        "name": "Total Assault Season 4: Chesed",
+        "start": "2022-01-11T03:30:00.000Z",
+        "end": "2022-01-17T15:00:00.000Z"
+    },
+    {
+        "id": "s60",
+        "name": "Total Assault Season 58: Hovercraft",
+        "start": "2024-07-02T02:00:00.000Z",
+        "end": "2024-07-08T19:00:00.000Z"
+    },
+    {
+        "id": "s61",
+        "name": "Total Assault Season 59: Hieronymus",
+        "start": "2024-07-30T02:00:00.000Z",
+        "end": "2024-08-05T19:00:00.000Z"
+    },
+    {
+        "id": "s62",
+        "name": "Total Assault Season 60: Chesed",
+        "start": "2024-08-27T02:00:00.000Z",
+        "end": "2024-09-02T19:00:00.000Z"
+    },
+    {
+        "id": "s63",
+        "name": "Total Assault Season 61: Perorodzilla",
+        "start": "2024-10-01T02:00:00.000Z",
+        "end": "2024-10-07T19:00:00.000Z"
+    },
+    {
+        "id": "s64",
+        "name": "Total Assault Season 62: Hod",
+        "start": "2024-10-29T02:00:00.000Z",
+        "end": "2024-11-04T19:00:00.000Z"
+    },
+    {
+        "id": "s65",
+        "name": "Total Assault Season 63: Goz",
+        "start": "2024-11-26T02:00:00.000Z",
+        "end": "2024-12-02T19:00:00.000Z"
+    },
+    {
+        "id": "s66",
+        "name": "Total Assault Season 64: Binah",
+        "start": "2024-12-31T02:00:00.000Z",
+        "end": "2025-01-06T19:00:00.000Z"
+    },
+    {
+        "id": "s67",
+        "name": "Total Assault Season 65: Perorodzilla",
+        "start": "2025-01-28T02:00:00.000Z",
+        "end": "2025-02-03T19:00:00.000Z"
+    },
+    {
+        "id": "s68",
+        "name": "Total Assault Season 66: Shiro & Kuro",
+        "start": "2025-02-25T02:00:00.000Z",
+        "end": "2025-03-03T19:00:00.000Z"
+    },
+    {
+        "id": "s69",
+        "name": "Total Assault Season 67: KAITEN FX Mk.0",
+        "start": "2025-03-25T02:00:00.000Z",
+        "end": "2025-03-31T19:00:00.000Z"
+    },
+    {
+        "id": "s7",
+        "name": "Total Assault Season 5: Hieronymus",
+        "start": "2022-01-25T03:30:00.000Z",
+        "end": "2022-01-31T15:00:00.000Z"
+    },
+    {
+        "id": "s70",
+        "name": "Total Assault Season 68: Gregorius",
+        "start": "2025-04-22T02:00:00.000Z",
+        "end": "2025-04-28T19:00:00.000Z"
+    },
+    {
+        "id": "s71",
+        "name": "Total Assault Season 69: Hieronymus",
+        "start": "2025-05-20T02:00:00.000Z",
+        "end": "2025-05-26T19:00:00.000Z"
+    },
+    {
+        "id": "s72",
+        "name": "Total Assault Season 70: Hovercraft",
+        "start": "2025-06-17T02:00:00.000Z",
+        "end": "2025-06-23T19:00:00.000Z"
+    },
+    {
+        "id": "s73",
+        "name": "Total Assault Season 71: Geburah",
+        "start": "2025-07-15T02:00:00.000Z",
+        "end": "2025-07-21T19:00:00.000Z"
+    },
+    {
+        "id": "s74",
+        "name": "Total Assault Season 72: Kurokage",
+        "start": "2025-08-05T02:00:00.000Z",
+        "end": "2025-08-11T19:00:00.000Z"
+    },
+    {
+        "id": "s75",
+        "name": "Total Assault Season 73: Hovercraft",
+        "start": "2025-09-02T02:00:00.000Z",
+        "end": "2025-09-08T19:00:00.000Z"
+    },
+    {
+        "id": "s8",
+        "name": "Total Assault Season 6: Binah",
+        "start": "2022-02-08T03:30:00.000Z",
+        "end": "2022-02-14T15:00:00.000Z"
+    },
+    {
+        "id": "s9",
+        "name": "Total Assault Season 7: Shiro & Kuro",
+        "start": "2022-02-22T03:30:00.000Z",
+        "end": "2022-02-28T15:00:00.000Z"
     }
 ]

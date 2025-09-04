@@ -1,72 +1,72 @@
-import { EventType } from './type/EventType.ts';
-import { load } from 'cheerio';
 import { crc32 } from '@deno-library/crc32';
+import { EventType } from './type/EventType.ts';
 
 
 async function getAllEvents(): Promise<EventType[]> {
-    // 因为米游社wiki活动详情页的数据参差不齐，所以这里用b站的
-    const eventsRes = await fetch('https://wiki.biligame.com/ys/api.php?format=json&action=parse&text=%7B%7Cid%3D%22CardSelectTr%22%20class%3D%22CardSelect%20wikitable%20sortable%20col-fold%22%20style%3D%22width%3A100%25%3Btext-align%3Acenter%22%0A%7C-id%3D%22CardSelectTabHeader%22%0A!%20style%3D%22width%3A20%25%22%20%7C%20%E6%B4%BB%E5%8A%A8%E6%97%B6%E9%97%B4%0A!%20%20%7C%20%E5%9B%BE%0A!%20style%3D%22width%3A20%25%22%20class%3D%22hidden-xs%22%20%7C%20%E5%90%8D%E7%A7%B0%0A!%20style%3D%22width%3A10%25%22%20class%3D%22hidden-xs%22%20%7C%20%E7%B1%BB%E5%9E%8B%0A!%20class%3D%22hidden-xs%22%20%7C%20%E6%89%80%E5%B1%9E%E7%89%88%E6%9C%AC%0A!%20class%3D%22hidden-xs%22%20%7C%20%E6%B4%BB%E5%8A%A8%E5%A5%96%E5%8A%B1%0A%7C-%7B%7B%23ask%3A%5B%5B%E5%88%86%E7%B1%BB%3A%E6%B4%BB%E5%8A%A8%5D%5D%7C%3F%E5%90%8D%E7%A7%B0%7C%3F%E5%BC%80%E5%A7%8B%E6%8F%8F%E8%BF%B0%7C%3F%E7%BB%93%E6%9D%9F%E6%8F%8F%E8%BF%B0%7C%3F%E7%B1%BB%E5%9E%8B%7C%3F%E6%89%80%E5%B1%9E%E7%89%88%E6%9C%AC%7C%3F%E6%B4%BB%E5%8A%A8%E5%A5%96%E5%8A%B1%7Csort%3D%E5%BC%80%E5%A7%8B%E6%97%B6%E9%97%B4%7Ctemplate%3D%E6%B4%BB%E5%8A%A8%E4%B8%80%E8%A7%88%2F%E8%A1%8C%7Cheaders%3Dhide%7Cformat%3Dtemplate%7Corder%3Ddesc%7Clink%3Dnone%7Cnamed%20args%3D1%7Climit%3D0721%7Coffset%3D0%7D%7D%0A%7C%7D&contentmodel=wikitext').then(res => res.json()) as {
-        parse: {
-            text: {
-                '*': string
+    // 411
+    const eventsData = await fetch(encodeURI('https://wiki.biligame.com/ys/api.php?action=ask&query=[[分类:活动]]|?开始时间|?结束时间|?类型|?活动描述|?官方公告链接|limit=500&format=json')).then(res => res.json()) as {
+        query: {
+            results: {
+                [key: string]: {
+                    // fulltext = key
+                    fulltext: string,
+                    printouts: {
+                        '开始时间': [{
+                            // 单位秒
+                            timestamp: number
+                        }?],
+                        '结束时间': [{
+                            // 单位秒
+                            timestamp: number
+                        }?],
+                        '类型': string[],
+                        // 这里返回的数据使用 '<br/>' 换行，使用时记得替换
+                        '活动描述': [string?],
+                        '官方公告链接': [string?]
+                    }
+                }
             }
         }
-    }
+    };
+    console.log('deb', Object.values(eventsData.query.results).length);
 
-    // 因为时间区间经常有 "x.x版本结束" 和 "x.x版本更新后" 这种写法，所以这里要获取各个版本的更新时间
-    const versionRes = await fetch('https://wiki.biligame.com/ys/版本历史').then(res => res.text());
-
-    // 先把版本数据处理了
-    const version$ = load(versionRes);
-    const version: Record<string, { start: Date, end: Date }> = {};
-    // 去掉表头
-    version$('tbody tr').slice(1).each((_i, v) => {
-        const key = version$(v).find('th').eq(0).text().replace('\n', '');
-        const start = new Date(version$(v).find('td').eq(0).text().replace('\n', '') + ' UTC+0800');
-        const end = new Date(start);
-        end.setDate(end.getDate() + 42); // 6周
-
-        version[key] = { start, end }
-    });
-    const handleDateStr = (dateStr: string) => {
-        // "x.x版本结束"
-        const match1 = /(\d+\.\d+)版本结束/.exec(dateStr);
-        if (match1) {
-            const key = match1[1];
-            if (!(key in version)) throw new Error('Cannot find version: ' + key);
-            return version[key].end;
-        }
-
-        // "x.x版本更新后"
-        const match2 = /(\d+\.\d+)版本更新后/.exec(dateStr);
-        if (match2) {
-            const key = match2[1];
-            if (!(key in version)) throw new Error('Cannot find version: ' + key);
-            return version[key].start;
-        }
-
-        return new Date(dateStr + ' UTC+0800');
-    }
-
-    const events$ = load(eventsRes.parse.text['*']);
     const result: EventType[] = [];
-    events$('#CardSelectTr tbody tr').slice(1).each((_i, v) => {
-        const typeStr = events$(v).attr('data-param1')!;
-        const types = typeStr.split(', ');
-        if (types.some(v => ['特殊活动', '额外活动', '永久活动', '剧情活动', '探索活动', '七圣召唤', '回归活动'].includes(v))) {
-            return;
+    const filterdEvents = Object.values(eventsData.query.results).filter(v => {
+        if (v.printouts['开始时间'].length === 0 || v.printouts['结束时间'].length === 0) {
+            return false;
+        }
+        if (v.printouts['类型'].includes('永久活动')) {
+            return false;
+        }
+        if (v.printouts['类型'].includes('千音雅集')) {
+            return false;
         }
 
-        const timeStr = events$(v).find('td').eq(0).text().replace('\n', '');
-        const [startStr, endStr] = timeStr.split('~');
-        result.push({
-            id: crc32(events$(v).find('td').eq(1).text().replace('\n', '')),
-            name: events$(v).find('td').eq(2).text().replace('\n', ''),
-            description: typeStr,
-            start: handleDateStr(startStr),
-            end: handleDateStr(endStr)
-        });
+        return true;
     });
+    for (const i of filterdEvents) {
+        const types = i.printouts['类型'].length > 0 ? i.printouts['类型'].join(', ') : '';
+        let desc = i.printouts['活动描述'].at(0) ?? '';
+        desc = desc.replaceAll('\n', '\\n').replaceAll('<br>', '');
+
+        if (types) {
+            // 如果是网页活动，则尝试提供快捷入口
+            if (types.includes('网页活动') && i.printouts['官方公告链接'].length > 0) {
+                desc += '\\n\\n' + i.printouts['官方公告链接'][0];
+            }
+            // 显示类型
+            desc += '\\n\\n' + i.printouts['类型'][0];
+        }
+
+
+        result.push({
+            id: crc32(i.fulltext),
+            name: i.fulltext,
+            description: desc.trim(),
+            start: new Date(i.printouts['开始时间'][0]!.timestamp * 1000),
+            end: new Date(i.printouts['结束时间'][0]!.timestamp * 1000)
+        });
+    }
     return result;
 }
 
