@@ -14,7 +14,7 @@ async function getAllCharacters(): Promise<CharacterType[]> {
             componentName: string;
             componentData: string;
         }[];
-    };
+    }
     const tempData2 = JSON.parse(tempData.ssrComponentData.find(v => v.componentName === 'wikiHome')!.componentData) as {
         entryList: {
             id: number;
@@ -26,7 +26,7 @@ async function getAllCharacters(): Promise<CharacterType[]> {
                 }[];
             }[];
         }[];
-    };
+    }
 
     const characters = tempData2.entryList.find(v => v.id === 23941)!.child.find(v => v.id === 49443)!.child;
     return characters.filter(v => !v.name.endsWith('）')).map(v => ({

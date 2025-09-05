@@ -1,86 +1,53 @@
 import { EventType } from './type/EventType.ts';
-import { load } from 'cheerio';
 import { crc32 } from '@deno-library/crc32';
 
 
-type VersionType = {
-    start: Date;
-    end: Date;
-}
-
 async function getAllEvents(): Promise<EventType[]> {
-    const eventsRes = await fetch('https://wiki.biligame.com/zzz/活动一览').then(res => res.text());
-    const versions = await getAllVersions();
-    const handleDateStr = (dateStr: string) => {
-        // "x.x版本更新后"
-        const match1 = /(\d+\.\d+)版本更新后/.exec(dateStr);
-        if (match1) {
-            const key = match1[1];
-            if (!(key in versions)) throw new Error('Cannot find version: ' + key);
-            return versions[key].start;
+    const eventsData = await fetch('https://wiki.biligame.com/zzz/api.php?action=ask&query=[[分类:活动]][[类型::!永久活动]]|?开始时间|?结束时间|?活动描述|?官方公告链接|?类型|?TAG|limit=1000&format=json').then(res => res.json()) as {
+        query: {
+            results: {
+                [key: string]: {
+                    fulltext: string,
+                    fullurl: string,
+                    printouts: {
+                        // 2024/12/06 20:30
+                        '开始时间': [string],
+                        // 2024/12/17 23:59
+                        '结束时间': [string],
+                        '活动描述': [string?],
+                        '官方公告链接': [string?],
+                        '类型': string[],
+                        'TAG': string[]
+                    }
+                }
+            }
         }
-
-        // "公测开启后"
-        const match4 = /公测开启后/.exec(dateStr);
-        if (match4) {
-            return new Date('2024-07-04T02:00:00.000Z');
-        }
-
-        return new Date(dateStr + ' UTC+0800');
     }
 
-    const events$ = load(eventsRes);
     const result: EventType[] = [];
-    events$('#CardSelectTr tbody tr').slice(1).each((_i, v) => {
-        const typeStr = events$(v).attr('data-param1')!;
-        const types = typeStr.split(', ');
-        if (types.some(v => ['特殊活动', '专题放映', '永久活动'].includes(v))) {
-            return;
+    for (const i of Object.values(eventsData.query.results)) {
+        const desc: string[] = [];
+        if (i.printouts['活动描述'].length > 0) {
+            desc.push(i.printouts['活动描述'][0]!.replaceAll('<br>', '').replaceAll('\n', ''));
+        }
+        if (i.printouts['官方公告链接'].length > 0) {
+            desc.push(i.printouts['官方公告链接'][0]!);
+        } else {
+            desc.push(i.fullurl);
+        }
+        const tags = [...i.printouts['类型'], ...i.printouts['TAG']];
+        if (tags.length > 0) {
+            desc.push(tags.join(','));
         }
 
-        const timeStr = events$(v).find('td').eq(0).text().replace('\n', '');
-        const [startStr, endStr] = timeStr.split('~');
         result.push({
-            id: crc32(events$(v).find('td').eq(1).text().replace('\n', '')),
-            name: events$(v).find('td').eq(2).text().replace('\n', ''),
-            description: typeStr,
-            start: handleDateStr(startStr),
-            end: handleDateStr(endStr)
-        });
-    });
-    return result;
-}
-
-async function getAllVersions(): Promise<{ [key: string]: VersionType }> {
-    const result: { [key: string]: VersionType } = {};
-    let pn = 1;
-
-    while (true) {
-        const res = await fetch(`https://api-takumi-static.mihoyo.com/content_v2_user/app/706fd13a87294881/getContentList?iChanId=279&iPage=${pn}&iPageSize=100&sLangKey=zh-cn`).then(res => res.json()) as {
-            data: {
-                list: {
-                    sTitle: string;
-                    dtStartTime: string;
-                }[];
-            };
-        };
-        pn++;
-
-        if (!res.data.list.length) break;
-        for (const i of res.data.list) {
-            // "x.x版本「xxxx」更新"
-            const match = /(\d+\.\d+)版本「(.*)」更新/.exec(i.sTitle);
-            if (!match) continue;
-
-            const key = match[1];
-            const start = new Date(i.dtStartTime + ' UTC+0800');
-            const end = new Date(start);
-            end.setDate(end.getDate() + 42); // 6周
-
-            result[key] = { start, end };
-        }
+            id: crc32(i.fulltext),
+            name: i.fulltext,
+            description: desc.join('\\n\\n'),
+            start: new Date(i.printouts['开始时间'][0] + ' UTC+0800'),
+            end: new Date(i.printouts['结束时间'][0] + ' UTC+0800')
+        })
     }
-
     return result;
 }
 

@@ -18,8 +18,8 @@ async function getAllCharacters(): Promise<CharacterType[]> {
                     }[];
                 }[];
             }[];
-        };
-    };
+        }
+    }
     const characters = result.data.list.find(v => v.name === '图鉴')!.children.find(v => v.name === '角色')!.list;
     return [{
         id: PAIMON_ID,
@@ -53,9 +53,9 @@ async function getCharacterDetail(charactersID: number): Promise<CharacterDetail
                         data: string;
                     }[];
                 }[];
-            };
-        };
-    };
+            }
+        }
+    }
     // "11月11日"
     const birthdayText = JSON.parse(res.data.page.modules.find(v => v.name === '基础信息')!.components[0].data).attr.find((v: { key: string }) => v.key === '生日')!.value[0];
     const birthdayText2 = birthdayText.replace('月', '/').replace('日', '/');

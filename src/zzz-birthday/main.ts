@@ -1,5 +1,5 @@
-import { getDateByTimezone, getMonthByTimezone, timeout, Vcalendar, VcalendarBuilder, Vevent, getFullYearByTimezone, PathHelper } from '../BaseUtil.ts';
-import { getAllCharacters, getCharacterDetail } from './WikiController.ts';
+import { getDateByTimezone, getMonthByTimezone, Vcalendar, VcalendarBuilder, Vevent, getFullYearByTimezone, PathHelper } from '../BaseUtil.ts';
+import { getAllCharacters } from './WikiController.ts';
 import { ReleaseJsonType } from './type/ReleaseJsonType.ts';
 import { existsSync } from '@std/fs/exists';
 
@@ -43,10 +43,9 @@ async function main() {
     console.log('[!] Total Characters: ', characters.length);
     for (let i = 0; i < characters.length; i++) {
         const item = characters[i];
-        const { birthday, release } = await getCharacterDetail(item.name);
-        const birthdayMonth = getMonthByTimezone(birthday, ics.tzid);
-        const birthdayDate = getDateByTimezone(birthday, ics.tzid);
-        const releaseStr = `${getFullYearByTimezone(release, ics.tzid)}${String(getMonthByTimezone(release, ics.tzid)).padStart(2, '0')}${String(getDateByTimezone(release, ics.tzid)).padStart(2, '0')}`;
+        const birthdayMonth = getMonthByTimezone(item.birthday, ics.tzid);
+        const birthdayDate = getDateByTimezone(item.birthday, ics.tzid);
+        const releaseStr = `${getFullYearByTimezone(item.release, ics.tzid)}${String(getMonthByTimezone(item.release, ics.tzid)).padStart(2, '0')}${String(getDateByTimezone(item.release, ics.tzid)).padStart(2, '0')}`;
         const rrule = `FREQ=YEARLY;BYMONTH=${String(birthdayMonth).padStart(2, '0')};BYMONTHDAY=${String(birthdayDate).padStart(2, '0')}`;
 
         const itemID = `${ModuleName}-${item.id}`;
@@ -71,10 +70,8 @@ async function main() {
                 month: birthdayMonth,
                 day: birthdayDate
             },
-            release: release.toISOString()
+            release: item.release.toISOString()
         });
-
-        await timeout(200);
     }
 
     if (ics.hasChanged) {

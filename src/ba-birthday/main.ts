@@ -62,9 +62,11 @@ async function main() {
         const itemID = `${ModuleName}-${item.id}`;
         let icsItem = ics.items.find(v => v.uid === itemID);
         if (!icsItem) {
-            icsItem = new Vevent(itemID, '', releaseStr);
+            icsItem = new Vevent(itemID);
             ics.items.push(icsItem);
         }
+
+        icsItem.dtstart = releaseStr;
         icsItem.rrule = rrule;
         icsItem.summary = item.name + ' 生日';
         if (icsItem.hasChanged) {
