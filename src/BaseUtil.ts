@@ -373,6 +373,11 @@ function retry<T>(fn: () => Promise<T>, times: number = 3, retryCallback?: (erro
     });
 }
 
+/** 清理换行符 */
+function cleanString(str: string) {
+    return str.replaceAll('<br>', '').replaceAll('\n', '');
+}
+
 
 export {
     Vcalendar,
@@ -383,5 +388,6 @@ export {
     getDateByTimezone,
     getMonthByTimezone,
     PathHelper,
-    retry
+    retry,
+    cleanString
 }

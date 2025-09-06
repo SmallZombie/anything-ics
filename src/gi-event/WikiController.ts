@@ -1,5 +1,6 @@
 import { crc32 } from '@deno-library/crc32';
 import { EventType } from './type/EventType.ts';
+import { cleanString } from '../BaseUtil.ts';
 
 
 async function getAllEvents(): Promise<EventType[]> {
@@ -45,10 +46,10 @@ async function getAllEvents(): Promise<EventType[]> {
     for (const i of filterdEvents) {
         const desc: string[] = [];
         if (i.printouts['活动描述'].length > 0) {
-            desc.push(i.printouts['活动描述'][0]!.replaceAll('<br>', '').replaceAll('\n', ''));
+            desc.push(cleanString(i.printouts['活动描述'][0]!));
         }
         if (i.printouts['官方公告链接'].length > 0) {
-            desc.push(i.printouts['官方公告链接'][0]!);
+            desc.push(cleanString(i.printouts['官方公告链接'][0]!));
         } else {
             desc.push(i.fullurl);
         }
