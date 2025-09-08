@@ -11,7 +11,7 @@
         "name": "「小邦布勇任防卫军」",
         "start": "2025-09-05T02:00:00.000Z",
         "end": "2025-10-12T19:59:00.000Z",
-        "description": "https://www.bilibili.com/opus/1107967561537945601\\n\\n常规活动,邦布,策略"
+        "description": "https://www.bilibili.com/opus/1107967561537945601\\n\\n常规活动,邦布获取,策略,邦布"
     },
     {
         "id": "0b9c48d5",
@@ -67,7 +67,7 @@
         "name": "「乔乔的太空探秘」",
         "start": "2025-08-13T02:00:00.000Z",
         "end": "2025-08-24T19:59:00.000Z",
-        "description": "https://www.bilibili.com/opus/1099710916456349719\\n\\n常规活动,邦布"
+        "description": "https://www.bilibili.com/opus/1099710916456349719\\n\\n常规活动,邦布,探索"
     },
     {
         "id": "28186072",
@@ -151,7 +151,7 @@
         "name": "「『嗯呢』棋闻录」",
         "start": "2025-07-28T02:00:00.000Z",
         "end": "2025-09-02T19:59:00.000Z",
-        "description": "https://www.bilibili.com/opus/1093495239777189911\\n\\n常规活动,邦布,联机挑战,策略"
+        "description": "https://www.bilibili.com/opus/1093495239777189911\\n\\n常规活动,邦布,联机挑战,策略,剧情"
     },
     {
         "id": "40578054",
@@ -658,6 +658,13 @@
         "description": "https://www.bilibili.com/opus/1074940981049032724\\n\\n周年活动,网页活动,无"
     },
     {
+        "id": "cb42f2f5",
+        "name": "「寻梦瓶游记」",
+        "start": "2025-09-09T02:00:00.000Z",
+        "end": "2025-09-28T19:59:00.000Z",
+        "description": "https://www.bilibili.com/opus/1110101301341978641\\n\\n常规活动,材料"
+    },
+    {
         "id": "cd2c2cf3",
         "name": "「决战『金手指』之巅」",
         "start": "2025-01-28T02:00:00.000Z",
@@ -760,7 +767,7 @@
         "name": "「澄辉观览指南」",
         "start": "2025-06-06T03:00:00.000Z",
         "end": "2025-07-15T21:59:00.000Z",
-        "description": "https://wiki.biligame.com/zzz/%E3%80%8C%E6%BE%84%E8%BE%89%E8%A7%82%E8%A7%88%E6%8C%87%E5%8D%97%E3%80%8D\\n\\n特殊活动,任务"
+        "description": "https://wiki.biligame.com/zzz/%E3%80%8C%E6%BE%84%E8%BE%89%E8%A7%82%E8%A7%88%E6%8C%87%E5%8D%97%E3%80%8D\\n\\n特殊活动,探索"
     },
     {
         "id": "ea5c8c8f",
