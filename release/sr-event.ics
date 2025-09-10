@@ -1156,4 +1156,12 @@ DTEND;TZID=Asia/Shanghai:20240205T035900
 SUMMARY:「虚境味探」
 DESCRIPTION:界种科的「未知生命体嗅觉诱导的感知与幻觉」专项测试现已开启，你已获得特邀测试资格……\n\nhttps://www.bilibili.com/opus/887063647490146323\n\n常规活动,战斗
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-b2abba52
+DTSTAMP:20250911T002804Z
+DTSTART;TZID=Asia/Shanghai:20250409T100000
+DTEND;TZID=Asia/Shanghai:20250520T145900
+SUMMARY:「拾梦韶华」
+DESCRIPTION:https://www.miyoushe.com/sr/article/62989356\n\n额外活动,周年,累充
+END:VEVENT
 END:VCALENDAR

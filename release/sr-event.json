@@ -700,6 +700,13 @@
         "description": "活动期间，成功挑战「模拟宇宙」，可获得位面饰品双倍奖励。\\n\\nhttps://wiki.biligame.com/sr/%E3%80%8C%E4%BD%8D%E9%9D%A2%E5%88%86%E8%A3%82%E3%80%8D%E7%AC%AC%E5%8D%81%E5%9B%9B%E6%9C%9F\\n\\n特殊活动,模拟宇宙,遗器"
     },
     {
+        "id": "b2abba52",
+        "name": "「拾梦韶华」",
+        "start": "2025-04-09T02:00:00.000Z",
+        "end": "2025-05-20T06:59:00.000Z",
+        "description": "https://www.miyoushe.com/sr/article/62989356\\n\\n额外活动,周年,累充"
+    },
+    {
         "id": "b4313487",
         "name": "「异器盈界」第六期",
         "start": "2024-12-31T20:00:00.000Z",
