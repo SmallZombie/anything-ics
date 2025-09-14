@@ -446,11 +446,11 @@ DESCRIPTION:某日，你与一位老朋友再次相会在露泽咖啡厅…\n\nh
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-2642a5f5
-DTSTAMP:20250905T201015Z
+DTSTAMP:20250915T002249Z
 DTSTART;TZID=Asia/Shanghai:20240205T180000
 DTEND;TZID=Asia/Shanghai:20240226T115900
 SUMMARY:「彩鹞栉春风」
-DESCRIPTION:岁末将至，一年一度的海灯节即将拉开帷幕。遵循惯例，你与派蒙重返璃月港，果然在港口遇见了熟悉的面孔…\n\nhttps://www.bilibili.com/opus/891907597479706625\n\n版本活动,剧情,联机挑战,角色获取,衣装获取,竞速,解谜
+DESCRIPTION:岁末将至，一年一度的海灯节即将拉开帷幕。遵循惯例，你与派蒙重返璃月港，果然在港口遇见了熟悉的面孔…\n\nhttps://www.bilibili.com/opus/891907597479706625\n\n版本活动,剧情,竞速,解谜,联机挑战,角色获取,衣装获取
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-26497fa1
