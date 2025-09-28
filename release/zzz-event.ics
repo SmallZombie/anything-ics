@@ -1054,11 +1054,11 @@ DESCRIPTION:https://www.bilibili.com/opus/1115308090168705043\n\n额外活动,�
 END:VEVENT
 BEGIN:VEVENT
 UID:zzz-event-c263441b
-DTSTAMP:20250923T002850Z
+DTSTAMP:20250929T002324Z
 DTSTART;TZID=Asia/Shanghai:20250924T100000
 DTEND;TZID=Asia/Shanghai:20251019T035900
 SUMMARY:「问题士兵补习班」
-DESCRIPTION:https://www.bilibili.com/opus/1115311955614105601\n\n常规活动,战斗
+DESCRIPTION:https://www.bilibili.com/opus/1115311955614105601\n\n常规活动,战斗,剧情
 END:VEVENT
 BEGIN:VEVENT
 UID:zzz-event-aa6dd9d1
@@ -1067,5 +1067,13 @@ DTSTART;TZID=Asia/Shanghai:20250929T100000
 DTEND;TZID=Asia/Shanghai:20251013T035900
 SUMMARY:「音跃狂潮」
 DESCRIPTION:https://www.bilibili.com/opus/1116780834446114832\n\n常规活动,音游
+END:VEVENT
+BEGIN:VEVENT
+UID:zzz-event-cf561a77
+DTSTAMP:20250929T002324Z
+DTSTART;TZID=Asia/Shanghai:20250929T100000
+DTEND;TZID=Asia/Shanghai:20251014T035900
+SUMMARY:「惊喜派送中」第二期
+DESCRIPTION:https://www.bilibili.com/opus/1117523004796960786\n\n额外活动,签到
 END:VEVENT
 END:VCALENDAR
