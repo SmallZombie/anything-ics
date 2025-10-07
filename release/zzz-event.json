@@ -312,7 +312,7 @@
         "name": "「『嗯呢』大寻宝」",
         "start": "2025-10-04T02:00:00.000Z",
         "end": "2025-10-12T19:59:00.000Z",
-        "description": "https://www.bilibili.com/opus/1119007345535352833\\n\\n常规活动,邦布,剧情"
+        "description": "https://www.bilibili.com/opus/1119007345535352833\\n\\n常规活动,邦布,剧情,收藏品"
     },
     {
         "id": "67edc696",
@@ -333,7 +333,7 @@
         "name": "「幽灵船大冒险」",
         "start": "2025-08-06T02:00:00.000Z",
         "end": "2025-08-24T19:59:00.000Z",
-        "description": "https://www.bilibili.com/opus/1097488270850261030\\n\\n常规活动,战斗"
+        "description": "https://www.bilibili.com/opus/1097488270850261030\\n\\n常规活动,战斗,剧情"
     },
     {
         "id": "6c4868a5",
@@ -438,7 +438,7 @@
         "name": "「奇花异旅」",
         "start": "2025-09-04T03:00:00.000Z",
         "end": "2025-10-12T19:59:00.000Z",
-        "description": "「席德」看上去有些不对劲，她开始思考更多的事，关于花儿，关于「老席德」，关于生命。\\n\\nhttps://www.bilibili.com/opus/1107879944261730354\\n\\n专题放映,剧情"
+        "description": "「席德」看上去有些不对劲，她开始思考更多的事，关于花儿，关于「老席德」，关于生命。\\n\\nhttps://www.bilibili.com/opus/1107879944261730354\\n\\n专题放映,剧情,战斗"
     },
     {
         "id": "889b764f",
@@ -564,7 +564,7 @@
         "name": "「音跃狂潮」",
         "start": "2025-09-29T02:00:00.000Z",
         "end": "2025-10-12T19:59:00.000Z",
-        "description": "https://www.bilibili.com/opus/1116780834446114832\\n\\n常规活动,音游"
+        "description": "https://www.bilibili.com/opus/1116780834446114832\\n\\n常规活动,音游,名片"
     },
     {
         "id": "abb656bb",
@@ -607,6 +607,13 @@
         "start": "2025-06-08T02:00:00.000Z",
         "end": "2025-07-13T19:59:00.000Z",
         "description": "https://www.bilibili.com/opus/1075598111029592069\\n\\n版本活动,常驻活动,音擎获取,剧情"
+    },
+    {
+        "id": "b73ca817",
+        "name": "「数据悬赏-实战模拟」第八期",
+        "start": "2025-10-08T20:00:00.000Z",
+        "end": "2025-10-13T19:59:00.000Z",
+        "description": "https://www.bilibili.com/opus/1120866636881985544\\n\\n特殊活动,战斗,材料"
     },
     {
         "id": "b7f7bcbe",
@@ -697,7 +704,7 @@
         "name": "「寻梦瓶游记」",
         "start": "2025-09-09T02:00:00.000Z",
         "end": "2025-09-28T19:59:00.000Z",
-        "description": "https://www.bilibili.com/opus/1110101301341978641\\n\\n常规活动,邦布"
+        "description": "https://www.bilibili.com/opus/1110101301341978641\\n\\n常规活动,邦布,剧情"
     },
     {
         "id": "cd2c2cf3",
