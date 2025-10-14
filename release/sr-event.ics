@@ -1262,11 +1262,11 @@ DESCRIPTION:https://wiki.biligame.com/sr/%E3%80%8C%E5%B7%A1%E6%98%9F%E4%B9%8B%E7
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-a36dc66b
-DTSTAMP:20251001T002845Z
+DTSTAMP:20251015T002853Z
 DTSTART;TZID=Asia/Shanghai:20250930T120000
 DTEND;TZID=Asia/Shanghai:20251103T035900
 SUMMARY:「缤纷大乱斗」
-DESCRIPTION:什么，折纸小鸟和豹豹碰碰联动复刻了，还有全新模式?\n\nhttps://wiki.biligame.com/sr/%E3%80%8C%E7%BC%A4%E7%BA%B7%E5%A4%A7%E4%B9%B1%E6%96%97%E3%80%8D\n\n版本活动,常驻活动,剧情,联机,动作,随宠获取
+DESCRIPTION:什么，折纸小鸟和豹豹碰碰联动复刻了，还有全新模式?\n\nhttps://wiki.biligame.com/sr/%E3%80%8C%E7%BC%A4%E7%BA%B7%E5%A4%A7%E4%B9%B1%E6%96%97%E3%80%8D\n\n常规活动,联机
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-bb0dd215
