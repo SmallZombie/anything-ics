@@ -3230,11 +3230,11 @@ DESCRIPTION:路过蒙德的花园时，你与派蒙遇见了一位热情的冒�
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-f2d0e1fe
-DTSTAMP:20251012T002350Z
+DTSTAMP:20251018T003219Z
 DTSTART;TZID=Asia/Shanghai:20251010T180000
 DTEND;TZID=Asia/Shanghai:20251021T115900
 SUMMARY:「旅途拾光集」
-DESCRIPTION:在全新的国度，派蒙为你准备了一份特别的礼物。它将成为你最忠实的「眼睛」，去捕捉那些转瞬即逝的风景，去定格那些触动心弦的相遇。\n\nhttps://www.bilibili.com/opus/1121235293215653895\n\n常规活动,摄影,创意,探索
+DESCRIPTION:在全新的国度，派蒙为你准备了一份特别的礼物。它将成为你最忠实的「眼睛」，去捕捉那些转瞬即逝的风景，去定格那些触动心弦的相遇。\n\nhttps://www.bilibili.com/opus/1121235293215653895\n\n常规活动,摄影,创意,探索,剧情
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-03a598b7
