@@ -1276,4 +1276,12 @@ DTEND;TZID=Asia/Shanghai:20250813T035900
 SUMMARY:「巡星之礼」第十七期
 DESCRIPTION:https://wiki.biligame.com/sr/%E3%80%8C%E5%B7%A1%E6%98%9F%E4%B9%8B%E7%A4%BC%E3%80%8D%E7%AC%AC%E5%8D%81%E4%B8%83%E6%9C%9F\n\n额外活动,签到
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-d734ed58
+DTSTAMP:20251019T002520Z
+DTSTART;TZID=Asia/Shanghai:20251015T120000
+DTEND;TZID=Asia/Shanghai:20251103T035900
+SUMMARY:「不要笑挑战」
+DESCRIPTION:猎犬家系的凯特捡到一个奇怪的梦泡，邀请你参加一场名为「不要笑挑战」的试炼。不用多说，这事儿肯定和「假面愚者」脱不了干系……\n\nhttps://t.bilibili.com/1123460367571222537\n\n常规活动,战斗
+END:VEVENT
 END:VCALENDAR
