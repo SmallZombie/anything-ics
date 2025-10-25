@@ -3326,11 +3326,11 @@ DESCRIPTION:https://t.bilibili.com/1117525845959770112\n\n网页活动,OST
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-41c9f7f2
-DTSTAMP:20251012T002350Z
+DTSTAMP:20251026T002605Z
 DTSTART;TZID=Asia/Shanghai:20251024T180000
 DTEND;TZID=Asia/Shanghai:20251103T115900
 SUMMARY:「龙龙同游」
-DESCRIPTION:https://wiki.biligame.com/ys/%E3%80%8C%E9%BE%99%E9%BE%99%E5%90%8C%E6%B8%B8%E3%80%8D\n\n常规活动,趣味挑战
+DESCRIPTION:出于对过往伙伴的思念，克维库决定在各个部族宣传一些能够让人和小龙愉快互动的技巧。此时，他正在「回声之子」附近徘徊…\n\nhttps://www.bilibili.com/opus/1126429048992432129\n\n常规活动,趣味挑战
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-653430e6
