@@ -3350,11 +3350,11 @@ DESCRIPTION:https://www.bilibili.com/opus/1122112606880923664\n\n网页活动,�
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-cee1f6cf
-DTSTAMP:20251012T002350Z
+DTSTAMP:20251118T003228Z
 DTSTART;TZID=Asia/Shanghai:20251117T180000
 DTEND;TZID=Asia/Shanghai:20251126T115900
 SUMMARY:「跃跃律动舞力聚会」
-DESCRIPTION:https://wiki.biligame.com/ys/%E3%80%8C%E8%B7%83%E8%B7%83%E5%BE%8B%E5%8A%A8%E8%88%9E%E5%8A%9B%E8%81%9A%E4%BC%9A%E3%80%8D\n\n趣味挑战,联机挑战
+DESCRIPTION:应「流泉之众」、「花羽会」及「回声之子」的联合邀请，一群须弥朋友来到了纳塔，共同举办活力满满的「舞术交流」聚会…\n\nhttps://www.bilibili.com/opus/1135336381699063816\n\n趣味挑战,联机挑战
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-2cb2e125
