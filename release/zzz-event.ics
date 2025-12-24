@@ -1230,11 +1230,11 @@ DESCRIPTION:https://www.bilibili.com/opus/1141276321449508896\n\n常规活动,�
 END:VEVENT
 BEGIN:VEVENT
 UID:zzz-event-c292788f
-DTSTAMP:20251224T003300Z
+DTSTAMP:20251225T003102Z
 DTSTART;TZID=Asia/Shanghai:20251219T203000
 DTEND;TZID=Asia/Shanghai:20251230T055900
 SUMMARY:2.5版本「虚狩加冕之时」预约活动
-DESCRIPTION:虚狩加冕之时，预约享好礼亲爱的绳匠，《绝区零》2.5版本「虚狩加冕之时」预约活动现已开启。游戏内签到活动「虚狩加冕之时」期间，累计登录7日即可获赠480菲林！网页内，预约新版本可得320菲林、游戏内纪念道具「小光来信」及称号「与光同行者」！参与网页内抽奖活动，更有机会得iPhone、游戏机、手办、菲林等奖励！\n\nhttps://t.bilibili.com/1070157858525413377\n\n网页活动,无
+DESCRIPTION:虚狩加冕之时，预约享好礼亲爱的绳匠，《绝区零》2.5版本「虚狩加冕之时」预约活动现已开启。游戏内签到活动「虚狩加冕之时」期间，累计登录7日即可获赠480菲林！网页内，预约新版本可得320菲林、游戏内纪念道具「小光来信」及称号「与光同行者」！参与网页内抽奖活动，更有机会得iPhone、游戏机、手办、菲林等奖励！\n\nhttps://t.bilibili.com/1070157858525413377\n\n网页活动,特殊活动,签到
 END:VEVENT
 BEGIN:VEVENT
 UID:zzz-event-dd51d04a
@@ -1251,5 +1251,13 @@ DTSTART;TZID=Asia/Shanghai:20251211T040000
 DTEND;TZID=Asia/Shanghai:20251216T035900
 SUMMARY:「先遣赏金-定期清剿」第十期
 DESCRIPTION:https://t.bilibili.com/1144612222556700673\n\n特殊活动,战斗,材料,驱动盘
+END:VEVENT
+BEGIN:VEVENT
+UID:zzz-event-794c5db8
+DTSTAMP:20251225T003102Z
+DTSTART;TZID=Asia/Shanghai:20251015T110000
+DTEND;TZID=Asia/Shanghai:20251230T055900
+SUMMARY:「调频回馈」
+DESCRIPTION:https://t.bilibili.com/1123205246519083026\n\n额外活动,时装获取,累消
 END:VEVENT
 END:VCALENDAR
