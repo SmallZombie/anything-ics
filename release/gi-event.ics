@@ -3428,4 +3428,12 @@ DTEND;TZID=Asia/Shanghai:20260113T225900
 SUMMARY:「赤龙之章」
 DESCRIPTION:童话故事的结局大多十分美好…热心地送上祝福，就能破除诅咒。诚挚地许下愿望，就能美梦成真。勇敢地挥舞宝剑，就能战胜强敌。最后，「永远幸福地生活下去」。再然后呢？有些读者会如此追问。作为从故事中诞生的角色，杜林偶尔会面对这样的追问。他的故事似乎已经在希穆兰卡迎来了一个美好的结局，而要向他人讲清楚那之后发生的一切，他总是不知道该从何说起。如果他继承了母亲那优美的笔触，或许就能将这段经历写成另一个引人入胜的故事了…\n\nhttps://www.bilibili.com/opus/1141275548331278359\n\n剧情活动
 END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-fc08792f
+DTSTAMP:20251229T003003Z
+DTSTART;TZID=Asia/Shanghai:20251221T120000
+DTEND;TZID=Asia/Shanghai:20251230T115900
+SUMMARY:「千“雪”度假村，派对聚奇域！」
+DESCRIPTION:https://www.bilibili.com/opus/1148696970537205830\n\n网页活动,千星奇域
+END:VEVENT
 END:VCALENDAR
