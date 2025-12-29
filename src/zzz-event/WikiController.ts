@@ -14,7 +14,8 @@ async function getAllEvents(): Promise<EventType[]> {
                         // 2024/12/06 20:30
                         '开始时间': [string],
                         // 2024/12/17 23:59
-                        '结束时间': [string],
+                        '结束时间': [string?],
+                        // 有些时候这里是空的，兜底就设定为开始时间+7天
                         '活动描述': [string?],
                         '官方公告链接': [string?],
                         '类型': string[],
@@ -46,7 +47,15 @@ async function getAllEvents(): Promise<EventType[]> {
             name: i.fulltext,
             description: desc.join('\\n\\n'),
             start: new Date(i.printouts['开始时间'][0] + ' UTC+0800'),
-            end: new Date(i.printouts['结束时间'][0] + ' UTC+0800')
+            end: (() => {
+                if (i.printouts['结束时间'].length > 0) {
+                    return new Date(i.printouts['结束时间'][0]! + ' UTC+0800')
+                } else {
+                    const temp = new Date(i.printouts['开始时间'][0] + ' UTC+0800');
+                    temp.setDate(temp.getDate() + 7);
+                    return temp;
+                }
+            })()
         })
     }
     return result;
