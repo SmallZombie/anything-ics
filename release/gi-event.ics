@@ -3436,4 +3436,12 @@ DTEND;TZID=Asia/Shanghai:20251230T115900
 SUMMARY:「千“雪”度假村，派对聚奇域！」
 DESCRIPTION:https://www.bilibili.com/opus/1148696970537205830\n\n网页活动,千星奇域
 END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-a6502365
+DTSTAMP:20251231T003238Z
+DTSTART;TZID=Asia/Shanghai:20251229T180000
+DTEND;TZID=Asia/Shanghai:20260107T115900
+SUMMARY:「飒勇争锋，龙之劲斗」
+DESCRIPTION:每个部族的战士与龙伙伴都向往着飒勇的身姿，以及激越的争锋。为此，他们做好了充分的准备，随时迎接不休的劲斗…\n\nhttps://www.bilibili.com/opus/1150920670480171013\n\n趣味挑战,联机挑战
+END:VEVENT
 END:VCALENDAR
