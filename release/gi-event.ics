@@ -3444,4 +3444,12 @@ DTEND;TZID=Asia/Shanghai:20260107T115900
 SUMMARY:「飒勇争锋，龙之劲斗」
 DESCRIPTION:每个部族的战士与龙伙伴都向往着飒勇的身姿，以及激越的争锋。为此，他们做好了充分的准备，随时迎接不休的劲斗…\n\nhttps://www.bilibili.com/opus/1150920670480171013\n\n趣味挑战,联机挑战
 END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-c7f53612
+DTSTAMP:20260101T003124Z
+DTSTART;TZID=Asia/Shanghai:20251231T200000
+DTEND;TZID=Asia/Shanghai:20260114T075900
+SUMMARY:「月之拾忆」
+DESCRIPTION:https://www.bilibili.com/opus/1152412688452681731\n\n网页活动,角色
+END:VEVENT
 END:VCALENDAR
