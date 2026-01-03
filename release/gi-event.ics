@@ -3452,4 +3452,12 @@ DTEND;TZID=Asia/Shanghai:20260114T075900
 SUMMARY:「月之拾忆」
 DESCRIPTION:https://www.bilibili.com/opus/1152412688452681731\n\n网页活动,角色
 END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-8bb313a0
+DTSTAMP:20260104T002953Z
+DTSTART;TZID=Asia/Shanghai:20260105T180000
+DTEND;TZID=Asia/Shanghai:20260112T115900
+SUMMARY:「百货奇货」第九期
+DESCRIPTION:听说蒙德出现了一个很抢眼的家伙。他说着自己有些「新生意」，可以和大家合作。\n\nhttps://www.bilibili.com/opus/1153520843672780835\n\n特殊活动,签到
+END:VEVENT
 END:VCALENDAR
