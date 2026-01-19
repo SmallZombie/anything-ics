@@ -84,6 +84,13 @@
         "description": "https://www.bilibili.com/opus/980592575491604481\\n\\n额外活动,签到"
     },
     {
+        "id": "1dcb57a7",
+        "name": "「『嗯呢』从天降」第十三期",
+        "start": "2026-01-21T02:00:00.000Z",
+        "end": "2026-02-04T19:59:00.000Z",
+        "description": "https://www.bilibili.com/opus/1159459495008534531\\n\\n额外活动,签到"
+    },
+    {
         "id": "1e3cafbd",
         "name": "「注意脚下安全」",
         "start": "2024-07-24T02:00:00.000Z",
@@ -1034,6 +1041,13 @@
         "start": "2024-12-18T03:00:00.000Z",
         "end": "2025-01-20T19:59:00.000Z",
         "description": "https://www.bilibili.com/opus/1011841033084862489\\n\\n额外活动,签到"
+    },
+    {
+        "id": "e7550e37",
+        "name": "「天使与缪斯妄想」",
+        "start": "2026-01-21T02:00:00.000Z",
+        "end": "2026-02-04T19:59:00.000Z",
+        "description": "https://www.bilibili.com/opus/1159463360442400790\\n\\n常规活动,剧情"
     },
     {
         "id": "e9a9af6e",
