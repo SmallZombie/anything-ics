@@ -1364,4 +1364,12 @@ DTEND;TZID=Asia/Shanghai:20260209T035900
 SUMMARY:「余晖残卷」
 DESCRIPTION:黎明机器熄灭后，一封样式奇特的卷轴出现在生命花园。余晖将尽，阅读最后的艾格勒启目集，挑战镌写在史诗里的强大敌人吧。\n\nhttps://www.bilibili.com/opus/1154631522256420868\n\n常规活动,常驻活动,战斗
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-e23d0cbb
+DTSTAMP:20260122T005653Z
+DTSTART;TZID=Asia/Shanghai:20260116T040000
+DTEND;TZID=Asia/Shanghai:20260212T035900
+SUMMARY:「异界盈器」第九期
+DESCRIPTION:https://wiki.biligame.com/sr/%E3%80%8C%E5%BC%82%E7%95%8C%E7%9B%88%E5%99%A8%E3%80%8D%E7%AC%AC%E4%B9%9D%E6%9C%9F\n\n特殊活动,侵蚀隧洞,遗器
+END:VEVENT
 END:VCALENDAR
