@@ -84,6 +84,13 @@
         "description": "https://wiki.biligame.com/sr/%E3%80%8C%E5%B7%A1%E6%98%9F%E4%B9%8B%E7%A4%BC%E3%80%8D%E7%AC%AC%E5%8D%81%E4%BA%94%E6%9C%9F\\n\\n额外活动,签到"
     },
     {
+        "id": "0d18e447",
+        "name": "「花藏繁生」第十二期",
+        "start": "2026-01-27T20:00:00.000Z",
+        "end": "2026-02-11T19:59:00.000Z",
+        "description": "活动期间，成功挑战「拟造花萼（金）」「拟造花萼（赤）」可获得双倍奖励。\\n\\nhttps://wiki.biligame.com/sr/%E3%80%8C%E8%8A%B1%E8%97%8F%E7%B9%81%E7%94%9F%E3%80%8D%E7%AC%AC%E5%8D%81%E4%BA%8C%E6%9C%9F\\n\\n特殊活动,拟造花萼,材料"
+    },
+    {
         "id": "10ea0331",
         "name": "「巡星之礼」第四期",
         "start": "2023-10-11T02:00:00.000Z",
@@ -901,6 +908,13 @@
         "start": "2024-07-18T20:00:00.000Z",
         "end": "2024-07-25T19:59:00.000Z",
         "description": "https://wiki.biligame.com/sr/%E3%80%8C%E5%BC%82%E5%99%A8%E7%9B%88%E7%95%8C%E3%80%8D%E7%AC%AC%E5%9B%9B%E6%9C%9F\\n\\n特殊活动,侵蚀隧洞,遗器"
+    },
+    {
+        "id": "befef8e8",
+        "name": "「循迹觅宝」",
+        "start": "2026-01-27T20:00:00.000Z",
+        "end": "2026-02-11T19:59:00.000Z",
+        "description": "开拓航迹上隐藏着诸多宝藏，使用开拓力寻觅，让每次出发皆有回响。\\n\\nhttps://sr.mihoyo.com/news/162376?nav=news\\n\\n特殊活动,材料"
     },
     {
         "id": "c04dec26",
