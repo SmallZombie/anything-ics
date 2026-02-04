@@ -3470,11 +3470,11 @@ DESCRIPTION:https://wiki.biligame.com/ys/%E3%80%8C%E6%9C%88%E5%BC%95%E5%91%A8%E5
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-2bda55dd
-DTSTAMP:20260131T004818Z
+DTSTAMP:20260205T005546Z
 DTSTART;TZID=Asia/Shanghai:20260130T180000
 DTEND;TZID=Asia/Shanghai:20260223T115900
 SUMMARY:「奔霄颂玉轮」
-DESCRIPTION:又逢一年海灯佳节，你与派蒙回到了热闹的璃月港……\n\nhttps://www.bilibili.com/opus/1162797199987310610\n\n版本活动,剧情,角色获取
+DESCRIPTION:又逢一年海灯佳节，你与派蒙回到了热闹的璃月港……\n\nhttps://www.bilibili.com/opus/1162797199987310610\n\n版本活动,剧情,角色获取,衣装获取,小道具获取
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-34b04df8
