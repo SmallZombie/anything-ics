@@ -1166,9 +1166,9 @@ DESCRIPTION:https://www.miyoushe.com/sr/article/62989356\n\n额外活动,周年,
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-f72716f2
-DTSTAMP:20250924T002814Z
+DTSTAMP:20260210T011444Z
 DTSTART;TZID=Asia/Shanghai:20251015T120000
-DTEND;TZID=Asia/Shanghai:20260128T055900
+DTEND;TZID=Asia/Shanghai:20260325T055900
 SUMMARY:「腾荒之契」
 DESCRIPTION:「经翁法罗斯一遭，『伙伴』一词的份量，于我而言又重了几分。」「此为『不朽』留下的又一处痕迹，过往种种，皆会化作守护『开拓』的力量。今后定将因敌制胜、活变施用，不负『护卫』之责。」\n\nhttps://www.bilibili.com/opus/1111711972027531286\n\n额外活动,角色获取
 END:VEVENT

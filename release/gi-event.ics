@@ -3446,11 +3446,11 @@ DESCRIPTION:听说蒙德出现了一个很抢眼的家伙。他说着自己有�
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-098ad834
-DTSTAMP:20260105T002927Z
+DTSTAMP:20260210T011443Z
 DTSTART;TZID=Asia/Shanghai:20260209T180000
 DTEND;TZID=Asia/Shanghai:20260223T115900
 SUMMARY:「月引周巡之述演」
-DESCRIPTION:https://wiki.biligame.com/ys/%E3%80%8C%E6%9C%88%E5%BC%95%E5%91%A8%E5%B7%A1%E4%B9%8B%E8%BF%B0%E6%BC%94%E3%80%8D\n\n常规活动
+DESCRIPTION:出于汲取不同地区特色以改良兵棋推演的考量，执律庭的埃德勒来到了挪德卡莱，不料，在郊外竟被一位不速之客拦下…\n\nhttps://www.bilibili.com/opus/1166506247842693120\n\n常规活动
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-2bda55dd
@@ -3566,11 +3566,11 @@ DESCRIPTION:https://t.bilibili.com/1157290965973598225\n\n特殊活动,千星奇
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-6153e63b
-DTSTAMP:20260117T003523Z
+DTSTAMP:20260210T011443Z
 DTSTART;TZID=Asia/Shanghai:20260209T180000
 DTEND;TZID=Asia/Shanghai:20260223T115900
 SUMMARY:「游赏耀星·启程」
-DESCRIPTION:参与获得缤纷惊喜礼盒代币「奇丽凝晶」\n\nhttps://www.miyoushe.com/ys/article/72285708\n\n特殊活动,千星奇域
+DESCRIPTION:参与获得缤纷惊喜礼盒代币「奇丽凝晶」\n\nhttps://www.bilibili.com/opus/1157291481411616790\n\n特殊活动,千星奇域
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-cf1e0147
