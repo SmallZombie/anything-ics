@@ -441,13 +441,6 @@
         "description": "https://wiki.biligame.com/sr/%E3%80%8C%E5%B7%A1%E6%98%9F%E4%B9%8B%E7%A4%BC%E3%80%8D%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%8C%E6%9C%9F\\n\\n额外活动,签到"
     },
     {
-        "id": "5c6d4439",
-        "name": "「砺烁新辉」",
-        "start": "2025-07-02T02:00:00.000Z",
-        "end": "2025-09-23T22:00:00.000Z",
-        "description": "https://www.miyoushe.com/sr/article/65541225\\n\\n特殊活动,角色加强"
-    },
-    {
         "id": "5e628ee3",
         "name": "「神奇扑满在哪里」",
         "start": "2023-07-28T04:00:00.000Z",
@@ -872,7 +865,7 @@
         "name": "「翻翻好符运」",
         "start": "2026-02-13T02:00:00.000Z",
         "end": "2026-03-24T22:00:00.000Z",
-        "description": "时逢玉阙仙舟佳节，爻老板备好红包，拿出「符签」，期待着你翻来看看——沾点喜气，图个乐呵，讨个彩头。\\n\\nhttps://sr.mihoyo.com/news/162582?nav=news\\n\\n额外活动,签到,抽奖"
+        "description": "时逢玉阙仙舟佳节，爻老板备好红包，拿出「符签」，期待着你翻来看看——沾点喜气，图个乐呵，讨个彩头。\\n\\nhttps://sr.mihoyo.com/news/162582?nav=news\\n\\n额外活动,抽奖,装饰获取"
     },
     {
         "id": "b4313487",
