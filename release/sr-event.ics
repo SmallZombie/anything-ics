@@ -1436,4 +1436,12 @@ DTEND;TZID=Asia/Shanghai:20260323T035900
 SUMMARY:「滴！乐园打卡必玩榜」
 DESCRIPTION:喜欢探索的同好集合啦！狸狸通信为你精心整理了「二相乐园必玩榜」，开启你的城市玩乐指南！\n\nhttps://www.bilibili.com/opus/1168392597444493330\n\n常规活动,探索
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-b1cc0545
+DTSTAMP:20260217T005203Z
+DTSTART;TZID=Asia/Shanghai:20260213T000000
+DTEND;TZID=Asia/Shanghai:8000101T080543
+SUMMARY:「狸狸通信」
+DESCRIPTION:https://wiki.biligame.com/sr/%E3%80%8C%E7%8B%B8%E7%8B%B8%E9%80%9A%E4%BF%A1%E3%80%8D\n\n常规活动,光锥获取,装饰获取
+END:VEVENT
 END:VCALENDAR
