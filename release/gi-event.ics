@@ -3526,9 +3526,9 @@ DESCRIPTION:https://wiki.biligame.com/ys/%E3%80%8C%E4%B8%83%E5%9C%A3%E5%8F%AC%E5
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-352d9260
-DTSTAMP:20260115T003637Z
+DTSTAMP:20260224T010317Z
 DTSTART;TZID=Asia/Shanghai:20260114T140000
-DTEND;TZID=Asia/Shanghai:20260223T115900
+DTEND;TZID=Asia/Shanghai:20260225T135900
 SUMMARY:「海精灵们的礼物」
 DESCRIPTION:会有那样一个夜晚：恶行消散，公平降临到善良的人们身上。繁花于那夜盛放，而坚守者也能稍事休息，接受可爱生灵们送来的小小表彰。\n\nhttps://www.bilibili.com/opus/1156859837163765766\n\n剧情活动
 END:VEVENT
