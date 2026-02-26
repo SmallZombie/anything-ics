@@ -3596,4 +3596,12 @@ DTEND;TZID=Asia/Shanghai:20260318T015900
 SUMMARY:「天狼之章」
 DESCRIPTION:https://www.bilibili.com/opus/1172443610640023552\n\n剧情活动
 END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-87790e36
+DTSTAMP:20260227T010344Z
+DTSTART;TZID=Asia/Shanghai:20260227T180000
+DTEND;TZID=Asia/Shanghai:20260316T115900
+SUMMARY:「捕风的归客」
+DESCRIPTION:自由的风里，一场为迎接回归而准备的特别活动，正悄悄拉开序幕...\n\nhttps://www.bilibili.com/opus/1173556866167341057\n\n版本活动,剧情,摄影,趣味挑战,射击,料理,怪物挑战,武器外观
+END:VEVENT
 END:VCALENDAR
