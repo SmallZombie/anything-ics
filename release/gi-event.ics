@@ -3620,4 +3620,12 @@ DTEND;TZID=Asia/Shanghai:20260326T115900
 SUMMARY:「灵蕈旅记」
 DESCRIPTION:在须弥的拜达港，你们遇见了几位熟悉的朋友，并因此开启了一段特别的游览历程…\n\nhttps://www.bilibili.com/opus/1179496339933757449\n\n常规活动
 END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-ce640dbe
+DTSTAMP:20260324T005917Z
+DTSTART;TZID=Asia/Shanghai:20260323T180000
+DTEND;TZID=Asia/Shanghai:20260402T115900
+SUMMARY:「据点防卫总动员」
+DESCRIPTION:在挪德卡莱，你们遇见了一位名为「青霆」的信使，她似乎正在测试某种防御性的机关军团…\n\nhttps://www.bilibili.com/opus/1182093145867812885\n\n常规活动
+END:VEVENT
 END:VCALENDAR
