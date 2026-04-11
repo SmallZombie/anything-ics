@@ -142,11 +142,11 @@ DESCRIPTION:活动期间，成功挑战「拟造花萼（金）」「拟造花�
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-183e9d5b
-DTSTAMP:20250905T183010Z
+DTSTAMP:20260412T004221Z
 DTSTART;TZID=Asia/Shanghai:20250409T100000
 DTEND;TZID=Asia/Shanghai:20250813T055900
 SUMMARY:「千星旅伴」
-DESCRIPTION:登录领取旅伴金灵*1\n\nhttps://www.miyoushe.com/sr/article/62988331\n\n周年活动,登录
+DESCRIPTION:登录领取旅伴金灵*1\n\nhttps://www.miyoushe.com/sr/article/62988331\n\n额外活动,登录
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-1a4af583
@@ -1483,5 +1483,21 @@ DTSTART;TZID=Asia/Shanghai:20260325T000000
 DTEND;TZID=Asia/Shanghai:20260420T035900
 SUMMARY:「尘灵乱世录」
 DESCRIPTION:绘世学院中烽烟四起，暗藏危机。集结你的尘灵大军，挑战乱世英豪，夺回昔日的和平吧！\n\nhttps://www.miyoushe.com/sr/article/74134564\n\n版本活动,常驻活动,剧情,休闲,装饰获取
+END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-bbf49706
+DTSTAMP:20260412T004221Z
+DTSTART;TZID=Asia/Shanghai:20260422T100000
+DTEND;TZID=Asia/Shanghai:20260826T060000
+SUMMARY:「千星旅伴」第三期
+DESCRIPTION:https://sr.mihoyo.com/news/163497\n\n额外活动,登录
+END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-f6ea3454
+DTSTAMP:20260412T004221Z
+DTSTART;TZID=Asia/Shanghai:20251105T100000
+DTEND;TZID=Asia/Shanghai:20251108T100000
+SUMMARY:「千星旅伴」第二期
+DESCRIPTION:https://www.miyoushe.com/sr/article/69921402\n\n额外活动,签到
 END:VEVENT
 END:VCALENDAR
