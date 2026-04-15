@@ -1510,11 +1510,11 @@ DESCRIPTION:活动期间，成功挑战「侵蚀隧洞」，可获得三倍奖�
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-94889a99
-DTSTAMP:20260413T004458Z
+DTSTAMP:20260416T010942Z
 DTSTART;TZID=Asia/Shanghai:20260513T040000
 DTEND;TZID=Asia/Shanghai:20260525T035900
 SUMMARY:「花藏繁生300%」
-DESCRIPTION:活动期间，成功挑战「拟造花萼」，可获得三倍奖励。\n\nhttps://wiki.biligame.com/sr/%E3%80%8C%E8%8A%B1%E8%97%8F%E7%B9%81%E7%94%9F300%25%E3%80%8D\n\n周年活动,拟造花萼,材料
+DESCRIPTION:活动期间，成功挑战「拟造花萼」，可获得三倍奖励。\n\nhttps://wiki.biligame.com/sr/%E3%80%8C%E8%8A%B1%E8%97%8F%E7%B9%81%E7%94%9F300%25%E3%80%8D\n\n周年活动,特殊活动,拟造花萼,材料
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-bbd41ad0
