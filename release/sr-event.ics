@@ -1286,11 +1286,11 @@ DESCRIPTION:https://wiki.biligame.com/sr/%E3%80%8C%E5%B7%A1%E6%98%9F%E4%B9%8B%E7
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-55b95070
-DTSTAMP:20251106T003115Z
+DTSTAMP:20260421T010848Z
 DTSTART;TZID=Asia/Shanghai:20251105T100000
 DTEND;TZID=Asia/Shanghai:20251216T145900
 SUMMARY:「奇库寻遗」
-DESCRIPTION:https://sr.mihoyo.com/news/160691\n\n特殊活动,仪器
+DESCRIPTION:https://sr.mihoyo.com/news/160691\n\n特殊活动,遗器
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-803f255f
@@ -1571,5 +1571,13 @@ DTSTART;TZID=Asia/Shanghai:20260422T100000
 DTEND;TZID=Asia/Shanghai:20260601T035900
 SUMMARY:「银河信号漫游」
 DESCRIPTION:适逢抵达二相乐园，姬子提出举办一场极具本地特色的庆典。成为代表星穹列车的游戏主播，向全银河放送你的开拓之旅吧。\n\nhttps://www.bilibili.com/opus/待替换\n\n周年活动,光锥获取,装饰获取
+END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-e99ab702
+DTSTAMP:20260421T010848Z
+DTSTART;TZID=Asia/Shanghai:20260422T100000
+DTEND;TZID=Asia/Shanghai:20260601T035900
+SUMMARY:「奇库寻遗」第二期
+DESCRIPTION:黑塔空间站的一间神秘收藏库向你敞开了大门，里面有无数装满奇妙物件的宝箱，只要搞到专用的权限卡，就可以……\n\nhttps://www.bilibili.com/opus/待替换\n\n特殊活动,遗器
 END:VEVENT
 END:VCALENDAR
