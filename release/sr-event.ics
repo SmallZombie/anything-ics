@@ -1580,4 +1580,12 @@ DTEND;TZID=Asia/Shanghai:20260601T035900
 SUMMARY:「奇库寻遗」第二期
 DESCRIPTION:黑塔空间站的一间神秘收藏库向你敞开了大门，里面有无数装满奇妙物件的宝箱，只要搞到专用的权限卡，就可以……\n\nhttps://www.bilibili.com/opus/待替换\n\n特殊活动,遗器
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-6cc7eb00
+DTSTAMP:20260428T012609Z
+DTSTART;TZID=Asia/Shanghai:20260426T120000
+DTEND;TZID=Asia/Shanghai:20260507T235900
+SUMMARY:「《星穹列车年度开拓报告》」第三期
+DESCRIPTION:没错！又到了一年一度提交「开拓报告」的时间了帕！\n\nhttps://www.miyoushe.com/sr/article/74928605\n\n网页活动,周年活动
+END:VEVENT
 END:VCALENDAR
