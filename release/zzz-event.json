@@ -18,7 +18,7 @@
         "name": "「老朋友，新委托！」",
         "start": "2026-04-15T02:00:00.000Z",
         "end": "2026-05-04T19:59:00.000Z",
-        "description": "https://www.bilibili.com/opus/1191013331227377670\\n\\n常规活动,模拟"
+        "description": "https://www.bilibili.com/opus/1191013331227377670\\n\\n常规活动,剧情,战斗"
     },
     {
         "id": "091ab62a",
@@ -292,6 +292,13 @@
         "start": "2026-03-04T02:00:00.000Z",
         "end": "2026-03-22T19:59:00.000Z",
         "description": "https://www.bilibili.com/opus/1175045072285073411\\n\\n常规活动,剧情"
+    },
+    {
+        "id": "467f3f5e",
+        "name": "「数据悬赏-实战模拟」第十二期",
+        "start": "2026-04-28T20:00:00.000Z",
+        "end": "2026-05-03T19:59:00.000Z",
+        "description": "https://www.bilibili.com/opus/1195829707541577734\\n\\n特殊活动,战斗,材料"
     },
     {
         "id": "48c3ac8c",
@@ -705,6 +712,13 @@
         "start": "2024-12-01T20:00:00.000Z",
         "end": "2024-12-15T19:59:00.000Z",
         "description": "https://www.bilibili.com/opus/1005455279984214021\\n\\n常规活动,任务"
+    },
+    {
+        "id": "8c0045c8",
+        "name": "「出击！差评大作战」",
+        "start": "2026-04-29T02:00:00.000Z",
+        "end": "2026-05-12T19:59:00.000Z",
+        "description": "https://www.bilibili.com/opus/1195825842054234115\\n\\n常规活动,模拟"
     },
     {
         "id": "8d84a195",
