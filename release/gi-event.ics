@@ -3676,4 +3676,12 @@ DTEND;TZID=Asia/Shanghai:20260514T115900
 SUMMARY:「礁与浪的相逢」
 DESCRIPTION:你与派蒙收到了一封来自秘闻馆的信，奈芙尔似乎准备了一份只有你们才能处理的委托…\n\nhttps://wiki.biligame.com/ys/%E3%80%8C%E7%A4%81%E4%B8%8E%E6%B5%AA%E7%9A%84%E7%9B%B8%E9%80%A2%E3%80%8D\n\n版本活动
 END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-f9dac1c2
+DTSTAMP:20260508T015114Z
+DTSTART;TZID=Asia/Shanghai:20260506T180000
+DTEND;TZID=Asia/Shanghai:20260518T115900
+SUMMARY:「速摄快镜」
+DESCRIPTION:某日，在露景泉附近，你与派蒙隐约听到了一阵激烈的争吵声…\n\nhttps://www.bilibili.com/opus/1198419572823162887\n\n常规活动
+END:VEVENT
 END:VCALENDAR
