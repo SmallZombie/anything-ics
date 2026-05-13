@@ -38,14 +38,12 @@ async function getAllCharacters(): Promise<CharacterType[]> {
 async function getCharacterDetail(id: number): Promise<CharacterDetailType> {
     const res = await fetch(`https://api.kivo.wiki/api/v1/data/students/${id}`,).then(res => res.json()) as {
         data: {
-            family_name: string,
-            given_name: string,
+            // family_name: string,
+            // given_name: string,
             birthday: string, // 05-16
             release_date: string, // 2021-02-04
         }
     }
-
-    console.log(res.data.family_name, res.data.given_name);
 
     const birthdayText = res.data.birthday.replace('-', '/');
     return {

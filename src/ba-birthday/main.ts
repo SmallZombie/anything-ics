@@ -1,4 +1,4 @@
-import { getDateByTimezone, getMonthByTimezone, PathHelper, timeout, Vcalendar, VcalendarBuilder, Vevent } from '../BaseUtil.ts';
+import { getDateByTimezone, getFullYearByTimezone, getMonthByTimezone, PathHelper, timeout, Vcalendar, VcalendarBuilder, Vevent } from '../BaseUtil.ts';
 import { getAllCharacters, getCharacterDetail } from './WikiController.ts';
 import { ReleaseJsonType } from './type/ReleaseJsonType.ts';
 import { existsSync } from "@std/fs/exists";
@@ -56,7 +56,7 @@ async function main() {
 
         const birthdayMonth = getMonthByTimezone(birthday, ics.tzid);
         const birthdayDate = getDateByTimezone(birthday, ics.tzid);
-        const releaseStr = `${release.getFullYear()}${String(release.getMonth() + 1).padStart(2, '0')}${String(release.getDate()).padStart(2, '0')}`;
+        const releaseStr = `${String(getFullYearByTimezone(release, ics.tzid))}${String(getMonthByTimezone(release, ics.tzid)).padStart(2, '0')}${String(getDateByTimezone(release, ics.tzid)).padStart(2, '0')}`;
         const rrule = `FREQ=YEARLY;BYMONTH=${String(birthdayMonth).padStart(2, '0')};BYMONTHDAY=${String(birthdayDate).padStart(2, '0')}`;
 
         const itemID = `${ModuleName}-${item.id}`;
