@@ -1,7 +1,6 @@
 export interface EventType {
-    id: number
+    id: string
     name: string
-    description: string
     start: Date
     end: Date
 }

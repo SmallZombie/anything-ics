@@ -30,7 +30,7 @@ async function main() {
     const ics = getICS();
     const json: ReleaseJsonType = [];
     const events = await getAllEvents();
-    events.sort((a, b) => a.id - b.id);
+    events.sort((a, b) => a.id.localeCompare(b.id));
 
     ics.items = ics.items.filter(v => {
         if (!events.some(vv => `${ModuleName}-${vv.id}` === v.uid)) {
@@ -54,7 +54,6 @@ async function main() {
         icsItem.dtstart = ics.dateToDateTime(item.start);
         icsItem.dtend = ics.dateToDateTime(item.end);
         icsItem.summary = item.name;
-        icsItem.description = item.description;
 
         if (icsItem.hasChanged) {
             console.log(`${i + 1}/${events.length} Update "${item.name}"(${item.id}) in ICS`);
@@ -65,7 +64,6 @@ async function main() {
             name: item.name,
             start: item.start.toISOString(),
             end: item.end.toISOString(),
-            description: item.description,
         });
     }
 

@@ -1,36 +1,31 @@
+import { crc32 } from '@deno-library/crc32';
 import { EventType } from './type/EventType.ts';
 
 
 export async function getAllEvents(): Promise<EventType[]> {
-    const verResp = await fetch('https://static-cloudflare-ww.kuro.wiki/wiki.config.json').then(res => res.json()) as {
-        resVer: string
-    }
-    const eventResp = await fetch(`https://static-cloudflare-ww.kuro.wiki/data/${verResp.resVer}/zh-Hans/activities.json`).then(res => res.json()) as {
-        data: {
-            schedule: {
-                id: number
-                title: string
-                desc: string
-                // [0]=start_at, [1]=end_at
-                // 单位毫秒
-                time?: [number, number]
-            }[]
-        }
-    }
+    // 鸣潮官网的公告不更新了
+    // 鸣潮官方wiki的活动持续时间全是 "x.x版本更新后~xxxx年xx月xx日"，用不了
+    // gamekee 虽然数据很漂亮，但他东西不全
+    // b站wiki的活动日历居然是手动更新的，这就意味着每次更新都可能移除过时的活动
+    // 没办法了先用b站吧，直到有更好的替代，我还是希望能保留旧的活动即便已经结束了
+    const resp = await fetch('https://wiki.biligame.com/wutheringwaves/index.php?title=首页/活动日历&action=raw').then(res => res.text());
 
+    const lines = resp.split('\n');
     const result: EventType[] = [];
-    for (const i of eventResp.data.schedule) {
-        // 跳过常驻活动
-        if (!i.time) continue;
-        // 持续时间超过一年也视为常驻
-        if (i.time[1] - i.time[0] > 31536000000) continue;
+    for (let line of lines) {
+        if (!line.startsWith('{{')) continue;
+        line = line.substring(0, line.length - 2);
+
+        const [, name, startTime, endTime] = line.split('|');
+
+        // 跳过常驻
+        if (!endTime) continue;
 
         result.push({
-            id: i.id,
-            name: i.title,
-            description: i.desc,
-            start: new Date(i.time[0]),
-            end: new Date(i.time[1])
+            id: crc32(name),
+            name,
+            start: new Date(startTime + ' UTC+0800'),
+            end: new Date(endTime + ' UTC+0800'),
         });
     }
 
