@@ -3294,11 +3294,11 @@ DESCRIPTION:变强之路永无止休，任何战斗方式都要纳入思考。\n
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-a07e5e9b
-DTSTAMP:20260520T020917Z
+DTSTAMP:20260607T011903Z
 DTSTART;TZID=Asia/Shanghai:20250910T180000
 DTEND;TZID=Asia/Shanghai:20260810T115900
 SUMMARY:「砺行修远」
-DESCRIPTION:通向巅峰的道路，往往由汗水与坚持铺就。若能历经日复一日的磨砺，想必能够收获丰厚的奖励吧。\n\n'"`UNIQ--tabber-00000009-QINU`"'\n\n特殊活动,日常
+DESCRIPTION:通向巅峰的道路，往往由汗水与坚持铺就。若能历经日复一日的磨砺，想必能够收获丰厚的奖励吧。\n\n'"`UNIQ--tabber-00000000-QINU`"'\n\n特殊活动,日常
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-e4eaf3a5
