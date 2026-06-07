@@ -3756,4 +3756,12 @@ DTEND;TZID=Asia/Shanghai:20260608T115900
 SUMMARY:「幻友绮旅」
 DESCRIPTION:前往秋沙钱汤放松的途中，你们在镇守之森遇见了某个奇怪的孩子，因此开启了又一段奇妙的旅程…\n\nhttps://www.miyoushe.com/ys/article/75446625\n\n版本活动
 END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-dce504da
+DTSTAMP:20260608T012300Z
+DTSTART;TZID=Asia/Shanghai:20260608T180000
+DTEND;TZID=Asia/Shanghai:20260618T115900
+SUMMARY:「勇锐魁杰试炼战记」
+DESCRIPTION:多位战斗专家聚集在挪德卡莱的那夏镇，激烈争夺一场「有限制冷静格斗赛」的冠军宝座，而你与派蒙的到来成了打破僵局的关键…\n\nhttps://www.bilibili.com/opus/1210665383593246724\n\n常规活动
+END:VEVENT
 END:VCALENDAR
