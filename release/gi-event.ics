@@ -3772,4 +3772,12 @@ DTEND;TZID=Asia/Shanghai:20260624T115900
 SUMMARY:「星境彩馈」
 DESCRIPTION:https://t.bilibili.com/1204070890810114071\n\n特殊活动,千星奇域
 END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-685ee342
+DTSTAMP:20260610T020954Z
+DTSTART;TZID=Asia/Shanghai:20260610T020000
+DTEND;TZID=Asia/Shanghai:20260630T225900
+SUMMARY:「狡兔之章」
+DESCRIPTION:一些人相信骑士的名号承载着荣光与功绩，骑士的锋刃寄托着力量与信念。也有人认为荣光不过是虚名，信念不过是空谈，唯有力量，能守住一切。当凡人窥见足以改写命运的力量，是该俯身接受，还是执意抗拒？旧日阴影再度于此浮现，无人可以逃离这场审判。\n\nhttps://www.miyoushe.com/ys/article/75781478\n\n剧情活动
+END:VEVENT
 END:VCALENDAR
