@@ -3804,4 +3804,12 @@ DTEND;TZID=Asia/Shanghai:20260406T115900
 SUMMARY:「游赏耀星·朗迈」
 DESCRIPTION:参与获得缤纷惊喜礼盒代币「奇丽凝晶」\n\nhttps://www.bilibili.com/opus/1172892005186928644\n\n特殊活动,千星奇域
 END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-c25615be
+DTSTAMP:20260618T022352Z
+DTSTART;TZID=Asia/Shanghai:20260618T180000
+DTEND;TZID=Asia/Shanghai:20260629T115900
+SUMMARY:「斑斓色彩追逐战」
+DESCRIPTION:重返悠悠度假村时，你们遇见了一位老朋友，还有一群特别的「阿夏」…\n\nhttps://www.bilibili.com/opus/1214377599004835844\n\n常规活动
+END:VEVENT
 END:VCALENDAR
