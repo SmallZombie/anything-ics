@@ -1644,4 +1644,12 @@ DTEND;TZID=Asia/Shanghai:20260714T035900
 SUMMARY:「巡星之礼」第二十四期
 DESCRIPTION:https://wiki.biligame.com/sr/%E3%80%8C%E5%B7%A1%E6%98%9F%E4%B9%8B%E7%A4%BC%E3%80%8D%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%9B%9B%E6%9C%9F\n\n额外活动,签到
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-6ca65beb
+DTSTAMP:20260628T011509Z
+DTSTART;TZID=Asia/Shanghai:20260624T120000
+DTEND;TZID=Asia/Shanghai:20260715T035900
+SUMMARY:「尘灵游乐园」
+DESCRIPTION:流行风尚瞬息万变，星铁FES也迎来焕新契机。合理规划动线，巧妙布置设施，在画中世界为尘灵们建造专属游乐园吧！你的创想将成为展区优化的绝佳灵感。\n\nhttps://www.miyoushe.com/sr/article/76189676\n\n版本活动,常驻活动
+END:VEVENT
 END:VCALENDAR
