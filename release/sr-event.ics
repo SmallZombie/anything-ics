@@ -1668,4 +1668,12 @@ DTEND;TZID=Asia/Shanghai:20260629T035900
 SUMMARY:「位面分裂」第二十三期
 DESCRIPTION:活动期间，成功挑战「模拟宇宙」或「差分宇宙」，可获得位面饰品双倍奖励。\n\nhttps://wiki.biligame.com/sr/%E3%80%8C%E4%BD%8D%E9%9D%A2%E5%88%86%E8%A3%82%E3%80%8D%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%89%E6%9C%9F\n\n特殊活动,模拟宇宙,遗器
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-e16515b2
+DTSTAMP:20260715T011810Z
+DTSTART;TZID=Asia/Shanghai:20260715T110000
+DTEND;TZID=Asia/Shanghai:20260826T035900
+SUMMARY:「反贪『砖』家」
+DESCRIPTION:世界上没有不落灰的角落。在砂金的委托下，你发起了一场针对公司的反贪调查——通过骇入数据库的方式。\n\nhttps://www.bilibili.com/opus/1224758889256321043\n\n版本活动,常驻活动
+END:VEVENT
 END:VCALENDAR
