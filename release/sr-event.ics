@@ -1676,4 +1676,12 @@ DTEND;TZID=Asia/Shanghai:20260826T035900
 SUMMARY:「反贪『砖』家」
 DESCRIPTION:世界上没有不落灰的角落。在砂金的委托下，你发起了一场针对公司的反贪调查——通过骇入数据库的方式。\n\nhttps://www.bilibili.com/opus/1224758889256321043\n\n版本活动,常驻活动
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-38c13e9e
+DTSTAMP:20260718T011623Z
+DTSTART;TZID=Asia/Shanghai:20260715T100000
+DTEND;TZID=Asia/Shanghai:20260825T150000
+SUMMARY:「重返群星之旅」第十二期
+DESCRIPTION:「重返群星之旅」回归网页活动上线，参与最高可得480星琼等好礼！\n\nhttps://www.miyoushe.com/sr/article/76688381\n\n网页活动,回归
+END:VEVENT
 END:VCALENDAR
