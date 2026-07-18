@@ -1684,4 +1684,12 @@ DTEND;TZID=Asia/Shanghai:20260825T150000
 SUMMARY:「重返群星之旅」第十二期
 DESCRIPTION:「重返群星之旅」回归网页活动上线，参与最高可得480星琼等好礼！\n\nhttps://www.miyoushe.com/sr/article/76688381\n\n网页活动,回归
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-ceb3b95e
+DTSTAMP:20260719T010111Z
+DTSTART;TZID=Asia/Shanghai:20260715T100000
+DTEND;TZID=Asia/Shanghai:20260825T035900
+SUMMARY:「巡星之礼」第二十五期
+DESCRIPTION:https://wiki.biligame.com/sr/%E3%80%8C%E5%B7%A1%E6%98%9F%E4%B9%8B%E7%A4%BC%E3%80%8D%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%94%E6%9C%9F\n\n额外活动,签到
+END:VEVENT
 END:VCALENDAR
