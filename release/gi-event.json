@@ -1,5 +1,12 @@
 [
     {
+        "id": "0032da73",
+        "name": "「来奇域，快乐一夏！」",
+        "start": "2026-07-15T12:00:00.000Z",
+        "end": "2026-07-28T03:59:00.000Z",
+        "description": "https://www.bilibili.com/opus/1225138993857822754\\n\\n网页活动,千星奇域"
+    },
+    {
         "id": "006ebcdc",
         "name": "「绎思振笔集」",
         "start": "2024-06-18T10:00:00.000Z",
@@ -718,7 +725,7 @@
         "name": "「魔女尼可的茶会」",
         "start": "2026-05-20T00:00:00.000Z",
         "end": "2026-06-02T23:59:00.000Z",
-        "description": "https://www.bilibili.com/opus/1204356935616299046\\n\\n网页活动"
+        "description": "https://www.bilibili.com/opus/1204356935616299046\\n\\n网页活动,回归活动"
     },
     {
         "id": "38861853",
@@ -1556,9 +1563,9 @@
     {
         "id": "7de3aa72",
         "name": "「运动时间到！」",
-        "start": "2026-06-10T00:00:00.000Z",
+        "start": "2026-06-10T12:00:00.000Z",
         "end": "2026-06-25T23:59:00.000Z",
-        "description": "https://www.bilibili.com/opus/1212149724260335654\\n\\n网页活动"
+        "description": "https://www.bilibili.com/opus/1212149724260335654\\n\\n网页活动,千星奇域"
     },
     {
         "id": "7e0447fc",
