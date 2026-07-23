@@ -1692,4 +1692,12 @@ DTEND;TZID=Asia/Shanghai:20260825T035900
 SUMMARY:「巡星之礼」第二十五期
 DESCRIPTION:https://wiki.biligame.com/sr/%E3%80%8C%E5%B7%A1%E6%98%9F%E4%B9%8B%E7%A4%BC%E3%80%8D%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%94%E6%9C%9F\n\n额外活动,签到
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-388e66b0
+DTSTAMP:20260724T014224Z
+DTSTART;TZID=Asia/Shanghai:20260724T120000
+DTEND;TZID=Asia/Shanghai:20260826T035900
+SUMMARY:「幻造：圣杯战争」
+DESCRIPTION:一场黄金雨，一尊失窃的圣杯——在另一片幻月遍照不到的阴影中，某位王者的宝库竟意外分崩离析。为了避免引发骚乱，你将不得不和异界的魔术师远坂凛一起，前去维持治安…还有，收获属于你们的那份财宝。\n\nhttps://www.miyoushe.com/sr/article/76891951\n\n常驻活动,联动活动,登录,角色获取,装饰获取
+END:VEVENT
 END:VCALENDAR
