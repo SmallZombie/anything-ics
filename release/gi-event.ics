@@ -3852,4 +3852,12 @@ DTEND;TZID=Asia/Shanghai:20260728T115900
 SUMMARY:「来奇域，快乐一夏！」
 DESCRIPTION:https://www.bilibili.com/opus/1225138993857822754\n\n网页活动,千星奇域
 END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-95708ece
+DTSTAMP:20260725T014048Z
+DTSTART;TZID=Asia/Shanghai:20260717T180000
+DTEND;TZID=Asia/Shanghai:20260727T115900
+SUMMARY:「最终远射瞄准线」
+DESCRIPTION:提瓦特各国战士们正不断深入交流技术与战法。这段时间，西风骑士团、枫丹执律庭与纳塔「花羽会」的优秀射手们便在柔灯港开展了一场独特的演习…\n\nhttps://www.bilibili.com/opus/1225138220797263876\n\n常规活动,射击
+END:VEVENT
 END:VCALENDAR
