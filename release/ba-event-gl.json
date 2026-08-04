@@ -330,6 +330,18 @@
         "end": "2099-12-31T15:00:00.000Z"
     },
     {
+        "id": "o855",
+        "name": "Game Development Department's Cleanup Operation!",
+        "start": "2026-06-30T02:00:00.000Z",
+        "end": "2026-07-14T02:00:00.000Z"
+    },
+    {
+        "id": "o856",
+        "name": "Kivotos' Unsolved Mystery: In Search of Tsuchinoko, the Unknown Creature",
+        "start": "2026-07-21T02:00:00.000Z",
+        "end": "2026-08-04T02:00:00.000Z"
+    },
+    {
         "id": "r801",
         "name": "Cherry Blossom Festival Commotion!",
         "start": "2022-09-20T02:00:00.000Z",
@@ -538,6 +550,12 @@
         "name": "Serenade Promenade",
         "start": "2026-04-21T02:00:00.000Z",
         "end": "2026-04-28T02:00:00.000Z"
+    },
+    {
+        "id": "r842",
+        "name": "Secret Midnight Party: The Chimes of Tag",
+        "start": "2026-07-14T02:00:00.000Z",
+        "end": "2026-07-21T02:00:00.000Z"
     },
     {
         "id": "s10",
@@ -1036,6 +1054,12 @@
         "name": "Total Assault Season 83: Binah",
         "start": "2026-06-30T02:00:00.000Z",
         "end": "2026-07-06T19:00:00.000Z"
+    },
+    {
+        "id": "s86",
+        "name": "Total Assault Season 84: Goz",
+        "start": "2026-07-28T02:00:00.000Z",
+        "end": "2026-08-03T19:00:00.000Z"
     },
     {
         "id": "s9",
