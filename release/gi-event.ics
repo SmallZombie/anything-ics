@@ -3846,11 +3846,11 @@ DESCRIPTION:参与获得缤纷惊喜礼盒代币「奇丽凝晶」\n\nhttps://ww
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-31e536e6
-DTSTAMP:20260811T005657Z
+DTSTAMP:20260812T010031Z
 DTSTART;TZID=Asia/Shanghai:20260812T180000
 DTEND;TZID=Asia/Shanghai:20260824T115900
 SUMMARY:「新芽相助·初探雪原」
-DESCRIPTION:探访海屑镇的途中，你们遇见了一位「疑似强者」，在她的盛情邀请下，你们临时加入了「强化互助会」，开始探索至冬野外的特定区域，与青涩但满含热诚的成员们分享各种诀窍…\n\nhttps://www.bilibili.com/opus/1234787981523419160\n\n常规活动
+DESCRIPTION:https://wiki.biligame.com/ys/%E3%80%8C%E6%96%B0%E8%8A%BD%E7%9B%B8%E5%8A%A9%C2%B7%E5%88%9D%E6%8E%A2%E9%9B%AA%E5%8E%9F%E3%80%8D\n\n常规活动
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-be951197
