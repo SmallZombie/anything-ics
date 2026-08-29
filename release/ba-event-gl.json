@@ -229,7 +229,7 @@
     },
     {
         "id": "o838",
-        "name": "Sheside Outside",
+        "name": "Sheside outside",
         "start": "2025-01-23T02:00:00.000Z",
         "end": "2025-02-08T02:00:00.000Z"
     },
@@ -325,7 +325,7 @@
     },
     {
         "id": "o854",
-        "name": "Steel Continent Conquest",
+        "name": "Operational Plan: Steel Continent",
         "start": "2026-05-26T02:00:00.000Z",
         "end": "2099-12-31T15:00:00.000Z"
     },
@@ -535,7 +535,7 @@
     },
     {
         "id": "r838",
-        "name": "Sheside Outside",
+        "name": "Sheside outside",
         "start": "2026-01-27T02:00:00.000Z",
         "end": "2026-02-10T02:00:00.000Z"
     },
@@ -1072,6 +1072,12 @@
         "name": "Total Assault Season 84: Goz",
         "start": "2026-07-28T02:00:00.000Z",
         "end": "2026-08-03T19:00:00.000Z"
+    },
+    {
+        "id": "s87",
+        "name": "Total Assault Season 85: KAITEN FX Mk.0",
+        "start": "2026-08-25T02:00:00.000Z",
+        "end": "2026-08-31T19:00:00.000Z"
     },
     {
         "id": "s9",
