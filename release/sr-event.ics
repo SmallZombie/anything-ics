@@ -1756,4 +1756,12 @@ DTEND;TZID=Asia/Shanghai:20260928T035900
 SUMMARY:「异器盈界」第十二期
 DESCRIPTION:https://wiki.biligame.com/sr/%E3%80%8C%E5%BC%82%E5%99%A8%E7%9B%88%E7%95%8C%E3%80%8D%E7%AC%AC%E5%8D%81%E4%BA%8C%E6%9C%9F\n\n特殊活动,侵蚀隧洞,遗器
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-71bcaa2a
+DTSTAMP:20260924T033428Z
+DTSTART;TZID=Asia/Shanghai:20260928T100000
+DTEND;TZID=Asia/Shanghai:20261110T150000
+SUMMARY:「镇伏『贪饕』，汇聚愿力」
+DESCRIPTION:旧日星神「贪饕」渐趋苏醒，其力量正向外弥散……不过，听说阿哈来帮忙了？！帮阿哈收集愿力，获取增益对抗「贪饕」侵蚀吧！\n\nhttps://www.miyoushe.com/sr/article/78286470\n\n额外活动
+END:VEVENT
 END:VCALENDAR
