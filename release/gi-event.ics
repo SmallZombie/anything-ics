@@ -3854,11 +3854,11 @@ DESCRIPTION:https://t.bilibili.com/1250835353726615554\n\n特殊活动,千星奇
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-60583f0d
-DTSTAMP:20260924T033426Z
+DTSTAMP:20260925T035415Z
 DTSTART;TZID=Asia/Shanghai:20260924T180000
 DTEND;TZID=Asia/Shanghai:20261012T115900
 SUMMARY:「银翎溯月，玄鸟结璘」
-DESCRIPTION:https://www.bilibili.com/opus/1250743097791348737\n\n版本活动,武器获取
+DESCRIPTION:应友人信件的邀请，你和派蒙回到了沉玉谷。在遗珑埠，盛大的节庆已然拉开帷幕…\n\nhttps://www.bilibili.com/opus/1250743097791348737\n\n版本活动,武器获取
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-b376ac98

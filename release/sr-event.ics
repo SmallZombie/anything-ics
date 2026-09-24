@@ -1764,4 +1764,12 @@ DTEND;TZID=Asia/Shanghai:20261110T150000
 SUMMARY:「镇伏『贪饕』，汇聚愿力」
 DESCRIPTION:旧日星神「贪饕」渐趋苏醒，其力量正向外弥散……不过，听说阿哈来帮忙了？！帮阿哈收集愿力，获取增益对抗「贪饕」侵蚀吧！\n\nhttps://www.miyoushe.com/sr/article/78286470\n\n额外活动
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-cd960492
+DTSTAMP:20260925T035417Z
+DTSTART;TZID=Asia/Shanghai:20260928T100000
+DTEND;TZID=Asia/Shanghai:20261110T150000
+SUMMARY:「星际幻宠」乐园
+DESCRIPTION:亲爱的开拓者：公司推出最新潮玩产品「星际幻宠」，并倾力打造了小家伙们的温馨乐园。它们不仅能在小窝里静静陪伴，更能作为银河漫游的好伙伴！活动期间，开拓者可使用「潮玩礼券」在「星际潮玩」中抽取多款类幻宠。\n\nhttps://www.miyoushe.com/sr/article/78286288\n\n版本活动
+END:VEVENT
 END:VCALENDAR
