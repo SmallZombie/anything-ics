@@ -63,6 +63,9 @@ jobs:
         run: deno task ww-event
         continue-on-error: true
 
+      - name: Generate arc calendars
+        run: deno task generate-arc
+
       - name: Commit and push if changes exist
         run: |
           git config --global user.name 'GitHub Actions'

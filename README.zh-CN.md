@@ -19,11 +19,21 @@
 - 绝区零活动 (zzz-event)
 - 明日方舟生日 (ark-birthday)
 - 明日方舟活动 (ark-event)
+- 明日方舟活动·关键日 (ark-event-arc)
 - 蔚蓝档案生日 (ba-birthday)
 - 蔚蓝档案日服活动 (ba-event-jp)
+- 蔚蓝档案日服活动·关键日 (ba-event-jp-arc)
 - 蔚蓝档案国际服活动 (ba-event-gl)
+- 蔚蓝档案国际服活动·关键日 (ba-event-gl-arc)
 - 蔚蓝档案国服活动 (ba-event-cn)
+- 蔚蓝档案国服活动·关键日 (ba-event-cn-arc)
 - 鸣潮活动 (ww-event)
+- 鸣潮活动·关键日 (ww-event-arc)
+- 原神活动·关键日 (gi-event-arc)
+- 崩坏星穹铁道活动·关键日 (sr-event-arc)
+- 绝区零活动·关键日 (zzz-event-arc)
+
+带 `-arc` 后缀的日历是活动日历的精简版，只标记每场活动的开始日和结束日（单日全天事件），不标注整个活动持续期间。
 
 <br/>
 
