@@ -9,7 +9,7 @@
 本项目由其他小仓库合并而来，未来也将支持生成更多的 ics 文件，欢迎按照项目现有结构扩充自己的内容。\
 产物将由 Actions 定期更新。\
 什么是 [ICS](https://en.wikipedia.org/wiki/ICalendar)？\
-也提供 json 版的数据，只需将订阅地址的 `.ics` 换成 `.json` 即可，定义见 `src` 内对应模块的 `type/ReleaseJsonType.ts`。
+所有日历都提供 ics 文件；不带 `-arc` 后缀的日历还提供 json 版数据，只需将订阅地址中的 `.ics` 换成 `.json`。数据定义见 `src` 内对应模块的 `type/ReleaseJsonType.ts`。
 
 ## 目前支持
 - 原神生日 (gi-birthday)

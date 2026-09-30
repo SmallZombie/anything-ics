@@ -9,7 +9,7 @@
 This project is merged from other small repositories and will support generating more ICS files in the future. You are welcome to expand your own content following the project's existing structure.\
 The outputs will be regularly updated by Actions.\
 What is [ICS](https://en.wikipedia.org/wiki/ICalendar)?\
-JSON version of the data is also provided, just replace `.ics` with `.json` in the subscription URL. The definition can be found in `type/ReleaseJsonType.ts` of the corresponding module in `src`.
+All calendars provide ICS files. Calendars without the `-arc` suffix also provide JSON data; just replace `.ics` with `.json` in the subscription URL. The data definition can be found in `type/ReleaseJsonType.ts` of the corresponding module in `src`.
 
 ## Currently Supported
 - Genshin Impact Birthday (gi-birthday)
