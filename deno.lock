@@ -1,10 +1,11 @@
 {
-  "version": "4",
+  "version": "5",
   "specifiers": {
     "jsr:@deno-library/crc32@^1.0.2": "1.0.2",
     "jsr:@std/fs@^1.0.9": "1.0.9",
     "jsr:@std/path@^1.0.8": "1.0.8",
-    "npm:cheerio@1": "1.0.0"
+    "npm:cheerio@1": "1.0.0",
+    "npm:lossless-json@^4.3.1": "4.3.1"
   },
   "jsr": {
     "@deno-library/crc32@1.0.2": {
@@ -114,6 +115,9 @@
         "safer-buffer"
       ]
     },
+    "lossless-json@4.3.1": {
+      "integrity": "sha512-SqD/Bg3ZfltBJ2Z14hJ/BihnvtV553WO4g9/ePtlp4lrnl9jF3AdIJt53A/Wkg/0Li+LMfxaBqgx1MiFZdQlpQ=="
+    },
     "nth-check@2.1.1": {
       "integrity": "sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==",
       "dependencies": [
@@ -149,7 +153,8 @@
       "integrity": "sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==",
       "dependencies": [
         "iconv-lite"
-      ]
+      ],
+      "deprecated": true
     },
     "whatwg-mimetype@4.0.0": {
       "integrity": "sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg=="
@@ -160,7 +165,8 @@
       "jsr:@deno-library/crc32@^1.0.2",
       "jsr:@std/fs@^1.0.9",
       "jsr:@std/path@^1.0.8",
-      "npm:cheerio@1"
+      "npm:cheerio@1",
+      "npm:lossless-json@^4.3.1"
     ]
   }
 }

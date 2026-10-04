@@ -11,13 +11,16 @@
         "ba-birthday": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ba-birthday/main.ts",
         "ba-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ba-event/main.ts",
         "ww-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ww-event/main.ts",
+        "end-birthday": "deno run --allow-read --allow-write --allow-net --allow-env ./src/end-birthday/main.ts",
+        "end-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/end-event/main.ts",
         "generate-arc": "deno run --allow-read --allow-write ./src/arc/main.ts"
     },
     "imports": {
         "@std/fs": "jsr:@std/fs@^1.0.9",
         "@std/path": "jsr:@std/path@^1.0.8",
         "cheerio": "npm:cheerio@^1.0.0",
-        "@deno-library/crc32": "jsr:@deno-library/crc32@^1.0.2"
+        "@deno-library/crc32": "jsr:@deno-library/crc32@^1.0.2",
+        "lossless-json": "npm:lossless-json@^4.3.1"
     },
     "fmt": {
         "singleQuote": true

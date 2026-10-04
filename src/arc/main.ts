@@ -69,6 +69,7 @@ const CALENDAR_META: Record<string, string> = {
     'ba-event-gl': '蔚蓝档案国际服活动·关键日',
     'ba-event-cn': '蔚蓝档案国服活动·关键日',
     'ww-event': '鸣潮活动·关键日',
+    'end-event': '明日方舟终末地活动·关键日'
 };
 
 function getICS(moduleName: string): Vcalendar {

@@ -63,6 +63,14 @@ jobs:
         run: deno task ww-event
         continue-on-error: true
 
+      - name: Run Endfield Birthday task
+        run: deno task end-birthday
+        continue-on-error: true
+
+      - name: Run Endfield Event task
+        run: deno task end-event
+        continue-on-error: true
+
       - name: Generate arc calendars
         run: deno task generate-arc
 

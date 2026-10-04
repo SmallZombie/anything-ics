@@ -1,5 +1,5 @@
 # anything-ics
-[English](README.md) | [简体中文](README.zh-CN.md)
+English | [简体中文](README.zh-CN.md)
 
 <div align="center">
     <img src="./assets/header.png" />
@@ -14,9 +14,12 @@ All calendars provide ICS files. Calendars without the `-arc` suffix also provid
 ## Currently Supported
 - Genshin Impact Birthday (gi-birthday)
 - Genshin Impact Events (gi-event)
+- Genshin Impact Events Key Dates (gi-event-arc)
 - Honkai: Star Rail Events (sr-event)
+- Honkai: Star Rail Events Key Dates (sr-event-arc)
 - Zenless Zone Zero Birthday (zzz-birthday)
 - Zenless Zone Zero Events (zzz-event)
+- Zenless Zone Zero Events Key Dates (zzz-event-arc)
 - Arknights Birthday (ark-birthday)
 - Arknights Events (ark-event)
 - Arknights Events Key Dates (ark-event-arc)
@@ -29,9 +32,9 @@ All calendars provide ICS files. Calendars without the `-arc` suffix also provid
 - Blue Archive CN Events Key Dates (ba-event-cn-arc)
 - Wuthering Waves Events (ww-event)
 - Wuthering Waves Events Key Dates (ww-event-arc)
-- Genshin Impact Events Key Dates (gi-event-arc)
-- Honkai: Star Rail Events Key Dates (sr-event-arc)
-- Zenless Zone Zero Events Key Dates (zzz-event-arc)
+- Arknights: Endfield Birthday (end-birthday)
+- Arknights: Endfield Event (end-event)
+- Arknights: Endfield Event Key Dates (end-event-arc)
 
 Calendars with the `-arc` suffix are a condensed version of the event calendars, marking only the start day and end day of each event (as single all-day events) instead of the entire event duration.
 

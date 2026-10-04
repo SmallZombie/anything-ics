@@ -728,17 +728,17 @@ DESCRIPTION:「…于是，你们推门进入了这家灯火通明的酒馆。�
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-202636d1-start
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20260923
+DTSTAMP:20261004T174148Z
+DTSTART;VALUE=DATE:20261001
 SUMMARY:[开始] 「绮星盛会」
-DESCRIPTION:https://t.bilibili.com/1250835353726615554\n\n特殊活动,千星奇域
+DESCRIPTION:https://www.bilibili.com/opus/1254422510362951701\n\n网页活动
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-202636d1-end
-DTSTAMP:20260930T163657Z
+DTSTAMP:20261004T174148Z
 DTSTART;VALUE=DATE:20261103
 SUMMARY:[结束] 「绮星盛会」
-DESCRIPTION:https://t.bilibili.com/1250835353726615554\n\n特殊活动,千星奇域
+DESCRIPTION:https://www.bilibili.com/opus/1254422510362951701\n\n网页活动
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-20f47e73-start
@@ -3205,20 +3205,6 @@ SUMMARY:[结束] 「无相交响诗」
 DESCRIPTION:首通挑战领原石！\n\nhttps://www.bilibili.com/read/cv9282568\n\n常规活动,高难挑战,怪物挑战
 END:VEVENT
 BEGIN:VEVENT
-UID:gi-event-arc-7efc577a-start
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20230303
-SUMMARY:[开始] 「风物之歌」交流平台
-DESCRIPTION:旅行者，欢迎来到风花节，蒙德城内正在举办一项叫做「风物之歌」的小游戏。在这项小游戏里，你能够像蒙德城里的吟游诗人一样，弹奏和编写出动听的曲谱~同时，「风物之歌」交流平台限时开启，旅行者们可以在平台内自定义编辑和分享属于你的游戏内编曲信息、查看其他旅行者制作的曲谱，以及上传你的演奏挑战！一起在蒙德的风中，弹奏属于你的乐曲吧~\n\nhttps://www.bilibili.com/opus/768757167182315529\n\n网页活动
-END:VEVENT
-BEGIN:VEVENT
-UID:gi-event-arc-7efc577a-end
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20230320
-SUMMARY:[结束] 「风物之歌」交流平台
-DESCRIPTION:旅行者，欢迎来到风花节，蒙德城内正在举办一项叫做「风物之歌」的小游戏。在这项小游戏里，你能够像蒙德城里的吟游诗人一样，弹奏和编写出动听的曲谱~同时，「风物之歌」交流平台限时开启，旅行者们可以在平台内自定义编辑和分享属于你的游戏内编曲信息、查看其他旅行者制作的曲谱，以及上传你的演奏挑战！一起在蒙德的风中，弹奏属于你的乐曲吧~\n\nhttps://www.bilibili.com/opus/768757167182315529\n\n网页活动
-END:VEVENT
-BEGIN:VEVENT
 UID:gi-event-arc-7efe71f8-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20241128
@@ -4421,20 +4407,6 @@ DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20220209
 SUMMARY:[结束] 「富贵登门」第二期
 DESCRIPTION:活动期间，累计登录七天即可获得纠缠之缘*10等奖励！\n\nhttps://bbs.mihoyo.com/ys/article/13891708\n\n额外活动,签到
-END:VEVENT
-BEGIN:VEVENT
-UID:gi-event-arc-abca2b4c-start
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20230421
-SUMMARY:[开始] 「风沙轰鸣」
-DESCRIPTION:莫名的危险在沙海中潜伏，教令院正试图以机械的力量与之对抗。而在阿如村附近，你遇到了一位神色焦急的学者…\n\nhttps://www.bilibili.com/opus/786495334855475268\n\n常规活动,怪物挑战
-END:VEVENT
-BEGIN:VEVENT
-UID:gi-event-arc-abca2b4c-end
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20230501
-SUMMARY:[结束] 「风沙轰鸣」
-DESCRIPTION:莫名的危险在沙海中潜伏，教令院正试图以机械的力量与之对抗。而在阿如村附近，你遇到了一位神色焦急的学者…\n\nhttps://www.bilibili.com/opus/786495334855475268\n\n常规活动,怪物挑战
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-ac3186ad-start
@@ -5922,17 +5894,17 @@ DESCRIPTION:一位名为朝雾的稻妻少女，似乎正为某事而烦恼…\n
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-e4eaf3a5-start
-DTSTAMP:20260930T163657Z
+DTSTAMP:20261004T174148Z
 DTSTART;VALUE=DATE:20250820
 SUMMARY:[开始] 「芳信聆音时」
-DESCRIPTION:未诉尽的信笺正等待你的启封，回应这份邀约吧，将它系上花束，盼望它在不久的将来捎来新的回音。\n\nhttps://b23.tv/ucoQJdV\n\n网页活动
+DESCRIPTION:未诉尽的信笺正等待你的启封，回应这份邀约吧，将它系上花束，盼望它在不久的将来捎来新的回音。\n\nhttps://www.bilibili.com/opus/1110809970904924160\n\n网页活动
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-e4eaf3a5-end
-DTSTAMP:20260930T163657Z
+DTSTAMP:20261004T174148Z
 DTSTART;VALUE=DATE:20250825
 SUMMARY:[结束] 「芳信聆音时」
-DESCRIPTION:未诉尽的信笺正等待你的启封，回应这份邀约吧，将它系上花束，盼望它在不久的将来捎来新的回音。\n\nhttps://b23.tv/ucoQJdV\n\n网页活动
+DESCRIPTION:未诉尽的信笺正等待你的启封，回应这份邀约吧，将它系上花束，盼望它在不久的将来捎来新的回音。\n\nhttps://www.bilibili.com/opus/1110809970904924160\n\n网页活动
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-e575d5eb-start
@@ -6759,5 +6731,33 @@ DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20210312
 SUMMARY:[结束] 「客至万民堂」
 DESCRIPTION:璃月港口，万民堂内。——整条街都飘散着菜肴的香气，万民堂迎来了又一波客流量的高峰。大厨香菱已经忙得不可开交，旅行者，快来一起帮忙吧！\n\nhttps://www.miyoushe.com/ys/article/4732534\n\n网页活动
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-83218644-start
+DTSTAMP:20261004T174148Z
+DTSTART;VALUE=DATE:20261001
+SUMMARY:[开始] 「绮星盛会·奇域佳选」
+DESCRIPTION:https://www.bilibili.com/opus/1254422510362951701\n\n网页活动
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-83218644-end
+DTSTAMP:20261004T174148Z
+DTSTART;VALUE=DATE:20261103
+SUMMARY:[结束] 「绮星盛会·奇域佳选」
+DESCRIPTION:https://www.bilibili.com/opus/1254422510362951701\n\n网页活动
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-d2139879-start
+DTSTAMP:20261004T174148Z
+DTSTART;VALUE=DATE:20260928
+SUMMARY:[开始] 「周年拾光册」
+DESCRIPTION:https://www.bilibili.com/opus/1252958229365784581\n\n网页活动
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-d2139879-end
+DTSTAMP:20261004T174148Z
+DTSTART;VALUE=DATE:20261019
+SUMMARY:[结束] 「周年拾光册」
+DESCRIPTION:https://www.bilibili.com/opus/1252958229365784581\n\n网页活动
 END:VEVENT
 END:VCALENDAR
