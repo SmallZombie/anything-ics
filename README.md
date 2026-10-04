@@ -9,7 +9,7 @@
 This project is merged from other small repositories and will support generating more ICS files in the future. You are welcome to expand your own content following the project's existing structure.\
 The outputs will be regularly updated by Actions.\
 What is [ICS](https://en.wikipedia.org/wiki/ICalendar)?\
-JSON version of the data is also provided, just replace `.ics` with `.json` in the subscription URL. The definition can be found in `type/ReleaseJsonType.ts` of the corresponding module in `src`.
+All calendars provide ICS files. Calendars without the `-arc` suffix also provide JSON data; just replace `.ics` with `.json` in the subscription URL. The data definition can be found in `type/ReleaseJsonType.ts` of the corresponding module in `src`.
 
 ## Currently Supported
 - Genshin Impact Birthday (gi-birthday)
@@ -19,11 +19,21 @@ JSON version of the data is also provided, just replace `.ics` with `.json` in t
 - Zenless Zone Zero Events (zzz-event)
 - Arknights Birthday (ark-birthday)
 - Arknights Events (ark-event)
+- Arknights Events Key Dates (ark-event-arc)
 - Blue Archive Birthday (ba-birthday)
 - Blue Archive JP Events (ba-event-jp)
+- Blue Archive JP Events Key Dates (ba-event-jp-arc)
 - Blue Archive Global Events (ba-event-gl)
+- Blue Archive Global Events Key Dates (ba-event-gl-arc)
 - Blue Archive CN Events (ba-event-cn)
+- Blue Archive CN Events Key Dates (ba-event-cn-arc)
 - Wuthering Waves Events (ww-event)
+- Wuthering Waves Events Key Dates (ww-event-arc)
+- Genshin Impact Events Key Dates (gi-event-arc)
+- Honkai: Star Rail Events Key Dates (sr-event-arc)
+- Zenless Zone Zero Events Key Dates (zzz-event-arc)
+
+Calendars with the `-arc` suffix are a condensed version of the event calendars, marking only the start day and end day of each event (as single all-day events) instead of the entire event duration.
 
 <br/>
 

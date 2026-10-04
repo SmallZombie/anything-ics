@@ -10,7 +10,8 @@
         "ark-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ark-event/main.ts",
         "ba-birthday": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ba-birthday/main.ts",
         "ba-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ba-event/main.ts",
-        "ww-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ww-event/main.ts"
+        "ww-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ww-event/main.ts",
+        "generate-arc": "deno run --allow-read --allow-write ./src/arc/main.ts"
     },
     "imports": {
         "@std/fs": "jsr:@std/fs@^1.0.9",

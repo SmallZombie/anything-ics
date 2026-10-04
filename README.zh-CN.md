@@ -9,7 +9,7 @@
 本项目由其他小仓库合并而来，未来也将支持生成更多的 ics 文件，欢迎按照项目现有结构扩充自己的内容。\
 产物将由 Actions 定期更新。\
 什么是 [ICS](https://en.wikipedia.org/wiki/ICalendar)？\
-也提供 json 版的数据，只需将订阅地址的 `.ics` 换成 `.json` 即可，定义见 `src` 内对应模块的 `type/ReleaseJsonType.ts`。
+所有日历都提供 ics 文件；不带 `-arc` 后缀的日历还提供 json 版数据，只需将订阅地址中的 `.ics` 换成 `.json`。数据定义见 `src` 内对应模块的 `type/ReleaseJsonType.ts`。
 
 ## 目前支持
 - 原神生日 (gi-birthday)
@@ -19,11 +19,21 @@
 - 绝区零活动 (zzz-event)
 - 明日方舟生日 (ark-birthday)
 - 明日方舟活动 (ark-event)
+- 明日方舟活动·关键日 (ark-event-arc)
 - 蔚蓝档案生日 (ba-birthday)
 - 蔚蓝档案日服活动 (ba-event-jp)
+- 蔚蓝档案日服活动·关键日 (ba-event-jp-arc)
 - 蔚蓝档案国际服活动 (ba-event-gl)
+- 蔚蓝档案国际服活动·关键日 (ba-event-gl-arc)
 - 蔚蓝档案国服活动 (ba-event-cn)
+- 蔚蓝档案国服活动·关键日 (ba-event-cn-arc)
 - 鸣潮活动 (ww-event)
+- 鸣潮活动·关键日 (ww-event-arc)
+- 原神活动·关键日 (gi-event-arc)
+- 崩坏星穹铁道活动·关键日 (sr-event-arc)
+- 绝区零活动·关键日 (zzz-event-arc)
+
+带 `-arc` 后缀的日历是活动日历的精简版，只标记每场活动的开始日和结束日（单日全天事件），不标注整个活动持续期间。
 
 <br/>
 
