@@ -4,47 +4,47 @@ import { ServerEnum } from './enum/ServerEnum.ts';
 
 type EventData = {
     Events: {
-        Id: number,
+        Id: number;
         // 时间戳单位都是秒
         // 初版
-        Original: {
-            EventOpenJp: number,
-            EventCloseJp: number,
-            EventOpenGlobal?: number,
-            EventCloseGlobal?: number,
-            EventOpenCn?: number,
+        Original?: {
+            EventOpenJp: number;
+            EventCloseJp: number;
+            EventOpenGlobal?: number;
+            EventCloseGlobal?: number;
+            EventOpenCn?: number;
             EventCloseCn?: number
-        }
+        };
         // 复刻
         Rerun?: {
-            EventOpenJp: number,
-            EventCloseJp: number,
-            EventOpenGlobal?: number,
-            EventCloseGlobal?: number,
-            EventOpenCn?: number,
+            EventOpenJp: number;
+            EventCloseJp: number;
+            EventOpenGlobal?: number;
+            EventCloseGlobal?: number;
+            EventOpenCn?: number;
             EventCloseCn?: number
-        }
+        };
         // 常驻
         Permanent?: {
-            EventOpenJp: number,
-            EventOpenGlobal: number,
-            EventOpenCn: number
-        }
-    }[]
+            EventOpenJp: number;
+            EventOpenGlobal: number;
+            EventOpenCn: number;
+        };
+    }[];
 }
 
 type LocalizationData = {
     EventName: {
-        [key: number]: string
+        [key: number]: string;
     }
 }
 
 type SeasonData = {
     Raid: {
         // RaidId
-        Id: number,
-        Name: string
-    }[]
+        Id: number;
+        Name: string;
+    }[];
     RaidSeasons: [
         // 0: JP
         SeasonDataRaidSeasonsItem,
@@ -52,18 +52,18 @@ type SeasonData = {
         SeasonDataRaidSeasonsItem,
         // 2: CN
         SeasonDataRaidSeasonsItem
-    ]
+    ];
 }
 
 type SeasonDataRaidSeasonsItem = {
     Seasons: {
-        SeasonId: number,
-        SeasonDisplay: string,
-        RaidId: number,
+        SeasonId: number;
+        SeasonDisplay: string;
+        RaidId: number;
         // 以秒为单位的时间戳
-        Start: number,
-        End: number
-    }[]
+        Start: number;
+        End: number;
+    }[];
 }
 
 
@@ -92,6 +92,8 @@ function _JPResultProcessor(eventData: EventData, localizationData: Localization
     const result: EventType[] = [];
 
     for (const i of eventData.Events) {
+        if (!i.Original) continue;
+
         if (i.Original.EventOpenJp) result.push({
             id: 'o' + i.Id,
             name: localizationData.EventName[i.Id],
@@ -113,6 +115,8 @@ function _GLResultProcessor(eventData: EventData, localizationData: Localization
     const result: EventType[] = [];
 
     for (const i of eventData.Events) {
+        if (!i.Original) continue;
+
         if (i.Original.EventOpenGlobal) result.push({
             id: 'o' + i.Id,
             name: localizationData.EventName[i.Id],
@@ -134,6 +138,8 @@ function _CNResultProcessor(eventData: EventData, localizationData: Localization
     const result: EventType[] = [];
 
     for (const i of eventData.Events) {
+        if (!i.Original) continue;
+
         if (i.Original.EventOpenCn) result.push({
             id: 'o' + i.Id,
             name: localizationData.EventName[i.Id],

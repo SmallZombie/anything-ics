@@ -25,6 +25,8 @@ async function getAllCharacters(): Promise<CharacterType[]> {
     for (const i of Object.values(charactersData.query.results)) {
         const releaseStr = i.printouts['实装日期'][0]!.replace(/(\d+)年(\d+)月(\d+)日/g, '$1/$2/$3');
         const releaseDate = new Date(releaseStr + ' UTC+0800');
+
+        if (!i.printouts['生日'].length) continue;
         const birthdayStr = i.printouts['生日'][0]!.replace(/(\d+)月(\d+)日/g, '$1/$2');
         const birthdayDate = new Date(`${releaseDate.getFullYear()}/${birthdayStr} UTC+0800`);
 
