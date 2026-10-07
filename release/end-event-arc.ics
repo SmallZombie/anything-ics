@@ -958,7 +958,7 @@ DESCRIPTION:前进吧！相信吧！为了英雄们！传说中的战术在向�
 END:VEVENT
 BEGIN:VEVENT
 UID:end-event-arc-activity_timelimited_typhoea_archery-start
-DTSTAMP:20261007T051129Z
+DTSTAMP:20261008T051305Z
 DTSTART;VALUE=DATE:20260909
 SUMMARY:[开始] 挽弓试炼
 DESCRIPTION:该常驻玩法包含限时试炼任务，任务过期后将无法参与，玩法仍可继续体验。
@@ -967,7 +967,7 @@ DESCRIPTION:该常驻玩法包含限时试炼任务，任务过期后将无法�
 END:VEVENT
 BEGIN:VEVENT
 UID:end-event-arc-activity_timelimited_typhoea_archery-end
-DTSTAMP:20261007T051129Z
+DTSTAMP:20261008T051305Z
 DTSTART;VALUE=DATE:20261015
 SUMMARY:[结束] 挽弓试炼
 DESCRIPTION:该常驻玩法包含限时试炼任务，任务过期后将无法参与，玩法仍可继续体验。
