@@ -4228,17 +4228,17 @@ DESCRIPTION:熠熠星辰闪耀天际旅程中的每一次相逢都将被细细�
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-a07e5e9b-start
-DTSTAMP:20260930T163657Z
+DTSTAMP:20261011T040020Z
 DTSTART;VALUE=DATE:20260810
 SUMMARY:[开始] 「砺行修远」
-DESCRIPTION:通向巅峰的道路，往往由汗水与坚持铺就。若能历经日复一日的磨砺，想必能够收获丰厚的奖励吧。\n\n'"`UNIQ--tabber-00000000-QINU`"'\n\n特殊活动,日常
+DESCRIPTION:通向巅峰的道路，往往由汗水与坚持铺就。若能历经日复一日的磨砺，想必能够收获丰厚的奖励吧。\n\n'"`UNIQ--tabber-00000009-QINU`"'\n\n特殊活动,日常
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-a07e5e9b-end
-DTSTAMP:20260930T163657Z
+DTSTAMP:20261011T040020Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:[结束] 「砺行修远」
-DESCRIPTION:通向巅峰的道路，往往由汗水与坚持铺就。若能历经日复一日的磨砺，想必能够收获丰厚的奖励吧。\n\n'"`UNIQ--tabber-00000000-QINU`"'\n\n特殊活动,日常
+DESCRIPTION:通向巅峰的道路，往往由汗水与坚持铺就。若能历经日复一日的磨砺，想必能够收获丰厚的奖励吧。\n\n'"`UNIQ--tabber-00000009-QINU`"'\n\n特殊活动,日常
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-a0b8447f-start
