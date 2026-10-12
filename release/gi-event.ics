@@ -1349,14 +1349,6 @@ SUMMARY:「海底寻宝」
 DESCRIPTION:「海底寻宝」 网页活动限时开启，一起去海底寻宝吧！完成登录原神任务获得寻宝机会，有概率获得充值优惠券、40原石等奖励！\n\nhttps://www.bilibili.com/opus/936804522762698755\n\n网页活动
 END:VEVENT
 BEGIN:VEVENT
-UID:gi-event-7474927c
-DTSTAMP:20250905T201015Z
-DTSTART;TZID=Asia/Shanghai:20210625T180000
-DTEND;TZID=Asia/Shanghai:20210708T115900
-SUMMARY:「风来人剑斗绮谭」
-DESCRIPTION:通往未知秘境的门扉已开启，踞身其中的是前所未见的强敌。以无畏的风来之人的气势，演绎属于你的剑斗绮谭吧。\n\nhttps://ys.mihoyo.com/main/news/detail/16054\n\n常规活动,高难挑战
-END:VEVENT
-BEGIN:VEVENT
 UID:gi-event-76218a65
 DTSTAMP:20250905T201015Z
 DTSTART;TZID=Asia/Shanghai:20240928T180000
@@ -3867,5 +3859,13 @@ DTSTART;TZID=Asia/Shanghai:20261001T200000
 DTEND;TZID=Asia/Shanghai:20261103T120000
 SUMMARY:「绮星盛会·奇域佳选」
 DESCRIPTION:https://www.bilibili.com/opus/1254422510362951701\n\n网页活动
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-bace2da4
+DTSTAMP:20261013T064905Z
+DTSTART;TZID=Asia/Shanghai:20261012T180000
+DTEND;TZID=Asia/Shanghai:20261023T175900
+SUMMARY:「判测胜券本征」
+DESCRIPTION:在纳塔「回声之子」的领地，「互动织卷」专家维热、精锐战士莉琉与愚人众的维斯菈娃正通过一种「预测沙盘」模拟战局，试图总结出一种推算胜率的模型…\n\nhttps://www.bilibili.com/opus/1257422373227855878\n\n常规活动
 END:VEVENT
 END:VCALENDAR

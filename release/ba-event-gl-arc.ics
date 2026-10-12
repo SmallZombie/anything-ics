@@ -2220,4 +2220,16 @@ DTSTAMP:20261006T062904Z
 DTSTART;VALUE=DATE:20260929
 SUMMARY:[结束] Total Assault Season 86: Drumbarka
 END:VEVENT
+BEGIN:VEVENT
+UID:ba-event-gl-arc-r847-start
+DTSTAMP:20261013T065543Z
+DTSTART;VALUE=DATE:20260929
+SUMMARY:[开始] A Flower Blooms Among the Hundred: Fair and Square Aquatic Showdown
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-event-gl-arc-r847-end
+DTSTAMP:20261013T065543Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:[结束] A Flower Blooms Among the Hundred: Fair and Square Aquatic Showdown
+END:VEVENT
 END:VCALENDAR

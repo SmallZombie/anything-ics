@@ -2939,20 +2939,6 @@ SUMMARY:[结束] 「海底寻宝」
 DESCRIPTION:「海底寻宝」 网页活动限时开启，一起去海底寻宝吧！完成登录原神任务获得寻宝机会，有概率获得充值优惠券、40原石等奖励！\n\nhttps://www.bilibili.com/opus/936804522762698755\n\n网页活动
 END:VEVENT
 BEGIN:VEVENT
-UID:gi-event-arc-7474927c-start
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20210625
-SUMMARY:[开始] 「风来人剑斗绮谭」
-DESCRIPTION:通往未知秘境的门扉已开启，踞身其中的是前所未见的强敌。以无畏的风来之人的气势，演绎属于你的剑斗绮谭吧。\n\nhttps://ys.mihoyo.com/main/news/detail/16054\n\n常规活动,高难挑战
-END:VEVENT
-BEGIN:VEVENT
-UID:gi-event-arc-7474927c-end
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20210708
-SUMMARY:[结束] 「风来人剑斗绮谭」
-DESCRIPTION:通往未知秘境的门扉已开启，踞身其中的是前所未见的强敌。以无畏的风来之人的气势，演绎属于你的剑斗绮谭吧。\n\nhttps://ys.mihoyo.com/main/news/detail/16054\n\n常规活动,高难挑战
-END:VEVENT
-BEGIN:VEVENT
 UID:gi-event-arc-7499b44b-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20250912
@@ -6759,5 +6745,19 @@ DTSTAMP:20261004T174148Z
 DTSTART;VALUE=DATE:20261019
 SUMMARY:[结束] 「周年拾光册」
 DESCRIPTION:https://www.bilibili.com/opus/1252958229365784581\n\n网页活动
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-bace2da4-start
+DTSTAMP:20261013T065542Z
+DTSTART;VALUE=DATE:20261012
+SUMMARY:[开始] 「判测胜券本征」
+DESCRIPTION:在纳塔「回声之子」的领地，「互动织卷」专家维热、精锐战士莉琉与愚人众的维斯菈娃正通过一种「预测沙盘」模拟战局，试图总结出一种推算胜率的模型…\n\nhttps://www.bilibili.com/opus/1257422373227855878\n\n常规活动
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-bace2da4-end
+DTSTAMP:20261013T065542Z
+DTSTART;VALUE=DATE:20261023
+SUMMARY:[结束] 「判测胜券本征」
+DESCRIPTION:在纳塔「回声之子」的领地，「互动织卷」专家维热、精锐战士莉琉与愚人众的维斯菈娃正通过一种「预测沙盘」模拟战局，试图总结出一种推算胜率的模型…\n\nhttps://www.bilibili.com/opus/1257422373227855878\n\n常规活动
 END:VEVENT
 END:VCALENDAR
