@@ -232,6 +232,14 @@
         }
     },
     {
+        "id": "chr_0036_jsspsi",
+        "name": "祀",
+        "birthday": {
+            "month": 9,
+            "day": 15
+        }
+    },
+    {
         "id": "chr_0038_purrche",
         "name": "噗切娜",
         "birthday": {

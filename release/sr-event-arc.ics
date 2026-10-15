@@ -448,17 +448,17 @@ DESCRIPTION:活动期间，成功挑战「拟造花萼（金）」「拟造花�
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-arc-1fcedae8-start
-DTSTAMP:20260930T163657Z
+DTSTAMP:20261016T035231Z
 DTSTART;VALUE=DATE:20260213
 SUMMARY:[开始] 「上骰了！战力党！」
-DESCRIPTION:「银河战力党」是二相乐园最受欢迎的对战游戏，城市中也有很多玩家社团。然而最近，一个来自域外的神秘社团「魔古拉帮」突然出现，将可怜的本地小尘灵像笨蛋一样玩耍。你决定与名侦探不死途以及某位不愿透露姓名的仙舟大佬联手，战胜魔古拉帮，拯救二相乐园的玩家们！\n\nhttps://wiki.biligame.com/sr/%E3%80%8C%E4%B8%8A%E9%AA%B0%E4%BA%86%EF%BC%81%E6%88%98%E5%8A%9B%E5%85%9A%EF%BC%81%E3%80%8D\n\n版本活动,常驻活动,剧情,休闲,角色获取
+DESCRIPTION:「银河战力党」是二相乐园最受欢迎的对战游戏，城市中也有很多玩家社团。然而最近，一个来自域外的神秘社团「魔古拉帮」突然出现，将可怜的本地小尘灵像笨蛋一样玩耍。你决定与名侦探不死途以及某位不愿透露姓名的仙舟大佬联手，战胜魔古拉帮，拯救二相乐园的玩家们！\n\nhttps://wiki.biligame.com/sr/%E3%80%8C%E4%B8%8A%E9%AA%B0%E4%BA%86%EF%BC%81%E6%88%98%E5%8A%9B%E5%85%9A%EF%BC%81%E3%80%8D\n\n版本活动,常驻活动,剧情,休闲,角色获取,联机
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-arc-1fcedae8-end
-DTSTAMP:20260930T163657Z
+DTSTAMP:20261016T035231Z
 DTSTART;VALUE=DATE:20260323
 SUMMARY:[结束] 「上骰了！战力党！」
-DESCRIPTION:「银河战力党」是二相乐园最受欢迎的对战游戏，城市中也有很多玩家社团。然而最近，一个来自域外的神秘社团「魔古拉帮」突然出现，将可怜的本地小尘灵像笨蛋一样玩耍。你决定与名侦探不死途以及某位不愿透露姓名的仙舟大佬联手，战胜魔古拉帮，拯救二相乐园的玩家们！\n\nhttps://wiki.biligame.com/sr/%E3%80%8C%E4%B8%8A%E9%AA%B0%E4%BA%86%EF%BC%81%E6%88%98%E5%8A%9B%E5%85%9A%EF%BC%81%E3%80%8D\n\n版本活动,常驻活动,剧情,休闲,角色获取
+DESCRIPTION:「银河战力党」是二相乐园最受欢迎的对战游戏，城市中也有很多玩家社团。然而最近，一个来自域外的神秘社团「魔古拉帮」突然出现，将可怜的本地小尘灵像笨蛋一样玩耍。你决定与名侦探不死途以及某位不愿透露姓名的仙舟大佬联手，战胜魔古拉帮，拯救二相乐园的玩家们！\n\nhttps://wiki.biligame.com/sr/%E3%80%8C%E4%B8%8A%E9%AA%B0%E4%BA%86%EF%BC%81%E6%88%98%E5%8A%9B%E5%85%9A%EF%BC%81%E3%80%8D\n\n版本活动,常驻活动,剧情,休闲,角色获取,联机
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-arc-20b08f89-start
@@ -1834,17 +1834,17 @@ DESCRIPTION:长生梦短，仙骸有终。远道而来的开拓者，醒来之�
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-arc-9411ff24-start
-DTSTAMP:20260930T163657Z
+DTSTAMP:20261016T035231Z
 DTSTART;VALUE=DATE:20260429
 SUMMARY:[开始] 「又上骰了！战力党！」
-DESCRIPTION:一年一度的海原市「商业街争霸赛」拉开序幕，你将以《狸狸周刊》社长身份，携手代言人银狼，与海原市的本地品牌进行「银河战力党」对战。\n\nhttps://www.bilibili.com/opus/待替换\n\n版本活动,常驻活动,剧情,休闲
+DESCRIPTION:一年一度的海原市「商业街争霸赛」拉开序幕，你将以《狸狸周刊》社长身份，携手代言人银狼，与海原市的本地品牌进行「银河战力党」对战。\n\nhttps://www.bilibili.com/opus/待替换\n\n版本活动,常驻活动,剧情,休闲,联机
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-arc-9411ff24-end
-DTSTAMP:20260930T163657Z
+DTSTAMP:20261016T035231Z
 DTSTART;VALUE=DATE:20260601
 SUMMARY:[结束] 「又上骰了！战力党！」
-DESCRIPTION:一年一度的海原市「商业街争霸赛」拉开序幕，你将以《狸狸周刊》社长身份，携手代言人银狼，与海原市的本地品牌进行「银河战力党」对战。\n\nhttps://www.bilibili.com/opus/待替换\n\n版本活动,常驻活动,剧情,休闲
+DESCRIPTION:一年一度的海原市「商业街争霸赛」拉开序幕，你将以《狸狸周刊》社长身份，携手代言人银狼，与海原市的本地品牌进行「银河战力党」对战。\n\nhttps://www.bilibili.com/opus/待替换\n\n版本活动,常驻活动,剧情,休闲,联机
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-arc-94889a99-start
@@ -2562,17 +2562,17 @@ DESCRIPTION:活动期间，成功挑战「拟造花萼（金）」「拟造花�
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-arc-cd960492-start
-DTSTAMP:20260930T163657Z
+DTSTAMP:20261016T035231Z
 DTSTART;VALUE=DATE:20260928
 SUMMARY:[开始] 「星际幻宠」乐园
-DESCRIPTION:亲爱的开拓者：公司推出最新潮玩产品「星际幻宠」，并倾力打造了小家伙们的温馨乐园。它们不仅能在小窝里静静陪伴，更能作为银河漫游的好伙伴！活动期间，开拓者可使用「潮玩礼券」在「星际潮玩」中抽取多款类幻宠。\n\nhttps://www.miyoushe.com/sr/article/78286288\n\n版本活动,休闲
+DESCRIPTION:亲爱的开拓者：公司推出最新潮玩产品「星际幻宠」，并倾力打造了小家伙们的温馨乐园。它们不仅能在小窝里静静陪伴，更能作为银河漫游的好伙伴！活动期间，开拓者可使用「潮玩礼券」在「星际潮玩」中抽取多款类幻宠。\n\nhttps://www.miyoushe.com/sr/article/78286288\n\n版本活动,休闲,随宠获取
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-arc-cd960492-end
-DTSTAMP:20260930T163657Z
+DTSTAMP:20261016T035231Z
 DTSTART;VALUE=DATE:20261110
 SUMMARY:[结束] 「星际幻宠」乐园
-DESCRIPTION:亲爱的开拓者：公司推出最新潮玩产品「星际幻宠」，并倾力打造了小家伙们的温馨乐园。它们不仅能在小窝里静静陪伴，更能作为银河漫游的好伙伴！活动期间，开拓者可使用「潮玩礼券」在「星际潮玩」中抽取多款类幻宠。\n\nhttps://www.miyoushe.com/sr/article/78286288\n\n版本活动,休闲
+DESCRIPTION:亲爱的开拓者：公司推出最新潮玩产品「星际幻宠」，并倾力打造了小家伙们的温馨乐园。它们不仅能在小窝里静静陪伴，更能作为银河漫游的好伙伴！活动期间，开拓者可使用「潮玩礼券」在「星际潮玩」中抽取多款类幻宠。\n\nhttps://www.miyoushe.com/sr/article/78286288\n\n版本活动,休闲,随宠获取
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-arc-ceb3b95e-start
@@ -2800,17 +2800,17 @@ DESCRIPTION:https://wiki.biligame.com/sr/%E3%80%8C%E9%87%8D%E8%BF%94%E7%BE%A4%E6
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-arc-e16515b2-start
-DTSTAMP:20260930T163657Z
+DTSTAMP:20261016T035231Z
 DTSTART;VALUE=DATE:20260715
 SUMMARY:[开始] 「反贪『砖』家」
-DESCRIPTION:世界上没有不落灰的角落。在砂金的委托下，你发起了一场针对公司的反贪调查——通过骇入数据库的方式。\n\nhttps://www.bilibili.com/opus/1224758889256321043\n\n版本活动,常驻活动,休闲
+DESCRIPTION:世界上没有不落灰的角落。在砂金的委托下，你发起了一场针对公司的反贪调查——通过骇入数据库的方式。\n\nhttps://www.bilibili.com/opus/1224758889256321043\n\n版本活动,常驻活动,休闲,联机
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-arc-e16515b2-end
-DTSTAMP:20260930T163657Z
+DTSTAMP:20261016T035231Z
 DTSTART;VALUE=DATE:20260826
 SUMMARY:[结束] 「反贪『砖』家」
-DESCRIPTION:世界上没有不落灰的角落。在砂金的委托下，你发起了一场针对公司的反贪调查——通过骇入数据库的方式。\n\nhttps://www.bilibili.com/opus/1224758889256321043\n\n版本活动,常驻活动,休闲
+DESCRIPTION:世界上没有不落灰的角落。在砂金的委托下，你发起了一场针对公司的反贪调查——通过骇入数据库的方式。\n\nhttps://www.bilibili.com/opus/1224758889256321043\n\n版本活动,常驻活动,休闲,联机
 END:VEVENT
 BEGIN:VEVENT
 UID:sr-event-arc-e1932101-start
