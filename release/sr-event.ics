@@ -1804,4 +1804,12 @@ DTEND;TZID=Asia/Shanghai:20261111T035900
 SUMMARY:「巡星之礼」第二十七期
 DESCRIPTION:https://wiki.biligame.com/sr/%E3%80%8C%E5%B7%A1%E6%98%9F%E4%B9%8B%E7%A4%BC%E3%80%8D%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%83%E6%9C%9F\n\n额外活动,签到
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-6f5de40b
+DTSTAMP:20261021T041140Z
+DTSTART;TZID=Asia/Shanghai:20261021T120000
+DTEND;TZID=Asia/Shanghai:20261111T035900
+SUMMARY:「星际和平盛典：一镜到底」
+DESCRIPTION:星际和平娱乐倾力打造的大型影视真人秀《星际和平盛典：一镜到底》正式开机。即刻试镜，秀出你的战斗技巧，下一个动作巨星就是你！\n\nhttps://www.miyoushe.com/sr/article/79021232\n\n常规活动,战斗
+END:VEVENT
 END:VCALENDAR

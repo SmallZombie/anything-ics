@@ -4689,20 +4689,6 @@ SUMMARY:[结束] 「原素烘炉」
 DESCRIPTION:「原素烘炉」多人游戏挑战活动即将开启！\n\nhttps://www.bilibili.com/read/cv7913046\n\n常规活动,联机挑战
 END:VEVENT
 BEGIN:VEVENT
-UID:gi-event-arc-b8d1391a-start
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20210927
-SUMMARY:[开始] 「韶光抚月」
-DESCRIPTION:金秋月明之时，璃月港正如火如荼地筹备着传统庆典「逐月节」，响应节日主题的各项活动也徐徐拉开了帷幕…\n\nhttps://bbs.mihoyo.com/ys/article/9929843\n\n版本活动,剧情,探索,料理,怪物挑战,武器获取
-END:VEVENT
-BEGIN:VEVENT
-UID:gi-event-arc-b8d1391a-end
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20211011
-SUMMARY:[结束] 「韶光抚月」
-DESCRIPTION:金秋月明之时，璃月港正如火如荼地筹备着传统庆典「逐月节」，响应节日主题的各项活动也徐徐拉开了帷幕…\n\nhttps://bbs.mihoyo.com/ys/article/9929843\n\n版本活动,剧情,探索,料理,怪物挑战,武器获取
-END:VEVENT
-BEGIN:VEVENT
 UID:gi-event-arc-b983620f-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20220217
@@ -6759,5 +6745,19 @@ DTSTAMP:20261013T065542Z
 DTSTART;VALUE=DATE:20261023
 SUMMARY:[结束] 「判测胜券本征」
 DESCRIPTION:在纳塔「回声之子」的领地，「互动织卷」专家维热、精锐战士莉琉与愚人众的维斯菈娃正通过一种「预测沙盘」模拟战局，试图总结出一种推算胜率的模型…\n\nhttps://www.bilibili.com/opus/1257422373227855878\n\n常规活动
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-8cea18f0-start
+DTSTAMP:20261021T041947Z
+DTSTART;VALUE=DATE:20261021
+SUMMARY:[开始] 「无忧无虑大雪仗」
+DESCRIPTION:途径海屑镇西南的雪地时，你们发现，一群孩子正在某位霜役人的带领下开开心心打雪仗，便加入了他们…\n\nhttps://www.bilibili.com/opus/1260761882099187720\n\n常规活动
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-8cea18f0-end
+DTSTAMP:20261021T041947Z
+DTSTART;VALUE=DATE:20261102
+SUMMARY:[结束] 「无忧无虑大雪仗」
+DESCRIPTION:途径海屑镇西南的雪地时，你们发现，一群孩子正在某位霜役人的带领下开开心心打雪仗，便加入了他们…\n\nhttps://www.bilibili.com/opus/1260761882099187720\n\n常规活动
 END:VEVENT
 END:VCALENDAR
