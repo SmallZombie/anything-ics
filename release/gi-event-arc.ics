@@ -4214,17 +4214,17 @@ DESCRIPTION:熠熠星辰闪耀天际旅程中的每一次相逢都将被细细�
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-a07e5e9b-start
-DTSTAMP:20261011T040020Z
+DTSTAMP:20261022T040514Z
 DTSTART;VALUE=DATE:20260810
 SUMMARY:[开始] 「砺行修远」
-DESCRIPTION:通向巅峰的道路，往往由汗水与坚持铺就。若能历经日复一日的磨砺，想必能够收获丰厚的奖励吧。\n\n'"`UNIQ--tabber-00000009-QINU`"'\n\n特殊活动,日常
+DESCRIPTION:通向巅峰的道路，往往由汗水与坚持铺就。若能历经日复一日的磨砺，想必能够收获丰厚的奖励吧。\n\n'"`UNIQ--tabber-00000000-QINU`"'\n\n特殊活动,日常
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-a07e5e9b-end
-DTSTAMP:20261011T040020Z
+DTSTAMP:20261022T040514Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:[结束] 「砺行修远」
-DESCRIPTION:通向巅峰的道路，往往由汗水与坚持铺就。若能历经日复一日的磨砺，想必能够收获丰厚的奖励吧。\n\n'"`UNIQ--tabber-00000009-QINU`"'\n\n特殊活动,日常
+DESCRIPTION:通向巅峰的道路，往往由汗水与坚持铺就。若能历经日复一日的磨砺，想必能够收获丰厚的奖励吧。\n\n'"`UNIQ--tabber-00000000-QINU`"'\n\n特殊活动,日常
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-a0b8447f-start
@@ -6706,17 +6706,17 @@ DESCRIPTION:璃月港口，万民堂内。——整条街都飘散着菜肴的�
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-83218644-start
-DTSTAMP:20261004T174148Z
-DTSTART;VALUE=DATE:20261001
+DTSTAMP:20261022T040514Z
+DTSTART;VALUE=DATE:20260923
 SUMMARY:[开始] 「绮星盛会·奇域佳选」
-DESCRIPTION:https://www.bilibili.com/opus/1254422510362951701\n\n网页活动
+DESCRIPTION:自从你与派蒙解开「奇域枢景球」的封印，唤醒两位「奇偶」之后，时光流转，奇匠们的智慧源源不断汇聚至此，使「千星奇域」发展得绚烂多彩。在繁星般闪耀的万千奇域中，不乏诸多巧夺天工的力作，不妨趁着盛会之时，选出你们心目中最具代表性的佳品…\n\nhttps://t.bilibili.com/1250835353726615554\n\n特殊活动,千星奇域
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-83218644-end
-DTSTAMP:20261004T174148Z
+DTSTAMP:20261022T040514Z
 DTSTART;VALUE=DATE:20261103
 SUMMARY:[结束] 「绮星盛会·奇域佳选」
-DESCRIPTION:https://www.bilibili.com/opus/1254422510362951701\n\n网页活动
+DESCRIPTION:自从你与派蒙解开「奇域枢景球」的封印，唤醒两位「奇偶」之后，时光流转，奇匠们的智慧源源不断汇聚至此，使「千星奇域」发展得绚烂多彩。在繁星般闪耀的万千奇域中，不乏诸多巧夺天工的力作，不妨趁着盛会之时，选出你们心目中最具代表性的佳品…\n\nhttps://t.bilibili.com/1250835353726615554\n\n特殊活动,千星奇域
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-d2139879-start
