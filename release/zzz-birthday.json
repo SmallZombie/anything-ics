@@ -315,6 +315,15 @@
         "release": "2024-09-03T16:00:00.000Z"
     },
     {
+        "id": "997ad2dd",
+        "name": "菲欧妮",
+        "birthday": {
+            "month": 10,
+            "day": 31
+        },
+        "release": "2026-10-20T16:00:00.000Z"
+    },
+    {
         "id": "9aae0c8a",
         "name": "仪玄",
         "birthday": {
