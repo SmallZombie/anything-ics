@@ -3513,20 +3513,6 @@ SUMMARY:[结束] 「捕风的归客」
 DESCRIPTION:某天，你与派蒙突然收到了一封来自西风骑士团的邀请函，因而重返蒙德，参加一场无比熟悉却又略显不同的欢迎仪式…\n\nhttps://www.bilibili.com/opus/1173185780937392128\n\n版本活动,剧情,摄影,趣味挑战,射击,料理,怪物挑战,武器外观
 END:VEVENT
 BEGIN:VEVENT
-UID:gi-event-arc-8a3512d7-start
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20250910
-SUMMARY:[开始] 「雪浪与苍林之舞」
-DESCRIPTION:https://wiki.biligame.com/ys/%E3%80%8C%E9%9B%AA%E6%B5%AA%E4%B8%8E%E8%8B%8D%E6%9E%97%E4%B9%8B%E8%88%9E%E3%80%8D\n\n剧情活动
-END:VEVENT
-BEGIN:VEVENT
-UID:gi-event-arc-8a3512d7-end
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20251021
-SUMMARY:[结束] 「雪浪与苍林之舞」
-DESCRIPTION:https://wiki.biligame.com/ys/%E3%80%8C%E9%9B%AA%E6%B5%AA%E4%B8%8E%E8%8B%8D%E6%9E%97%E4%B9%8B%E8%88%9E%E3%80%8D\n\n剧情活动
-END:VEVENT
-BEGIN:VEVENT
 UID:gi-event-arc-8a4fc5b3-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20230809
@@ -3931,20 +3917,6 @@ DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20250617
 SUMMARY:[结束] 「圣山所在是安饶之陆」
 DESCRIPTION:频繁喷发的山火之下，生长于沃土之上的勇士们用力量回应酷烈的考验。而在常年硫烟环绕的圣山之中，一度舍弃众人者仍在等待一切往事的终局。\n\nhttps://www.bilibili.com/opus/1047760538187071497\n\n探索活动
-END:VEVENT
-BEGIN:VEVENT
-UID:gi-event-arc-95754eb6-start
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20210924
-SUMMARY:[开始] 「雷影循声」
-DESCRIPTION:晶蝶翩跹，幽光闪烁…追随堇色的翅影，倾听鸣神之土的声音吧。\n\nhttps://t.bilibili.com/573883239357398339\n\n网页活动,OST
-END:VEVENT
-BEGIN:VEVENT
-UID:gi-event-arc-95754eb6-end
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20211008
-SUMMARY:[结束] 「雷影循声」
-DESCRIPTION:晶蝶翩跹，幽光闪烁…追随堇色的翅影，倾听鸣神之土的声音吧。\n\nhttps://t.bilibili.com/573883239357398339\n\n网页活动,OST
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-95ae3625-start
@@ -6759,5 +6731,33 @@ DTSTAMP:20261021T041947Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:[结束] 「无忧无虑大雪仗」
 DESCRIPTION:途径海屑镇西南的雪地时，你们发现，一群孩子正在某位霜役人的带领下开开心心打雪仗，便加入了他们…\n\nhttps://www.bilibili.com/opus/1260761882099187720\n\n常规活动
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-8164966a-start
+DTSTAMP:20261031T043801Z
+DTSTART;VALUE=DATE:20261019
+SUMMARY:[开始] 「游赏耀星·畅怀」
+DESCRIPTION:参与获得缤纷惊喜礼盒代币「奇丽凝晶」\n\nhttps://www.bilibili.com/opus/1260390796920619016\n\n特殊活动,千星奇域
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-8164966a-end
+DTSTAMP:20261031T043801Z
+DTSTART;VALUE=DATE:20261102
+SUMMARY:[结束] 「游赏耀星·畅怀」
+DESCRIPTION:参与获得缤纷惊喜礼盒代币「奇丽凝晶」\n\nhttps://www.bilibili.com/opus/1260390796920619016\n\n特殊活动,千星奇域
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-c2dbedd3-start
+DTSTAMP:20261031T043801Z
+DTSTART;VALUE=DATE:20261026
+SUMMARY:[开始] 「祝圣移涌」第三期
+DESCRIPTION:https://www.bilibili.com/opus/1262617307975254036\n\n特殊活动,圣遗物
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-c2dbedd3-end
+DTSTAMP:20261031T043801Z
+DTSTART;VALUE=DATE:20261102
+SUMMARY:[结束] 「祝圣移涌」第三期
+DESCRIPTION:https://www.bilibili.com/opus/1262617307975254036\n\n特殊活动,圣遗物
 END:VEVENT
 END:VCALENDAR

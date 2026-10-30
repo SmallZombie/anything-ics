@@ -3162,4 +3162,32 @@ DTSTART;VALUE=DATE:20261111
 SUMMARY:[结束] 「星际和平盛典：一镜到底」
 DESCRIPTION:星际和平娱乐倾力打造的大型影视真人秀《星际和平盛典：一镜到底》正式开机。即刻试镜，秀出你的战斗技巧，下一个动作巨星就是你！\n\nhttps://www.miyoushe.com/sr/article/79021232\n\n常规活动,战斗
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-arc-518bf46a-start
+DTSTAMP:20261031T043801Z
+DTSTART;VALUE=DATE:20261111
+SUMMARY:[开始] 「寰宇美学•幻乐秀场」
+DESCRIPTION:亲爱的开拓者：星月流光为饰，点缀大乐透女神的定制套装。「星神★阿哈」全新时装「群星乐透」将在4.7版本推出！\n\nhttps://www.miyoushe.com/sr/article/79217286\n\n额外活动,抽奖
+END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-arc-518bf46a-end
+DTSTAMP:20261031T043801Z
+DTSTART;VALUE=DATE:20261223
+SUMMARY:[结束] 「寰宇美学•幻乐秀场」
+DESCRIPTION:亲爱的开拓者：星月流光为饰，点缀大乐透女神的定制套装。「星神★阿哈」全新时装「群星乐透」将在4.7版本推出！\n\nhttps://www.miyoushe.com/sr/article/79217286\n\n额外活动,抽奖
+END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-arc-eb1f72f7-start
+DTSTAMP:20261031T043801Z
+DTSTART;VALUE=DATE:20261111
+SUMMARY:[开始] 「开场好礼先抱走」
+DESCRIPTION:好戏开场！阿哈带来了一大批好礼，真有面子！\n\nhttps://www.miyoushe.com/sr/article/79216272\n\n额外活动,登录
+END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-arc-eb1f72f7-end
+DTSTAMP:20261031T043801Z
+DTSTART;VALUE=DATE:20261223
+SUMMARY:[结束] 「开场好礼先抱走」
+DESCRIPTION:好戏开场！阿哈带来了一大批好礼，真有面子！\n\nhttps://www.miyoushe.com/sr/article/79216272\n\n额外活动,登录
+END:VEVENT
 END:VCALENDAR
