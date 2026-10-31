@@ -1,28 +1,34 @@
 {
-    "tasks": {
-        "init": "deno run --allow-read --allow-write main.ts",
-        "gi-birthday": "deno run --allow-read --allow-write --allow-net ./src/gi-birthday/main.ts",
-        "gi-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/gi-event/main.ts",
-        "sr-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/sr-event/main.ts",
-        "zzz-birthday": "deno run --allow-read --allow-write --allow-net --allow-env ./src/zzz-birthday/main.ts",
-        "zzz-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/zzz-event/main.ts",
-        "ark-birthday": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ark-birthday/main.ts",
-        "ark-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ark-event/main.ts",
-        "ba-birthday": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ba-birthday/main.ts",
-        "ba-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ba-event/main.ts",
-        "ww-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ww-event/main.ts",
-        "end-birthday": "deno run --allow-read --allow-write --allow-net --allow-env ./src/end-birthday/main.ts",
-        "end-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/end-event/main.ts",
-        "generate-arc": "deno run --allow-read --allow-write ./src/arc/main.ts"
-    },
-    "imports": {
-        "@std/fs": "jsr:@std/fs@^1.0.9",
-        "@std/path": "jsr:@std/path@^1.0.8",
-        "cheerio": "npm:cheerio@^1.0.0",
-        "@deno-library/crc32": "jsr:@deno-library/crc32@^1.0.2",
-        "lossless-json": "npm:lossless-json@^4.3.1"
-    },
-    "fmt": {
-        "singleQuote": true
-    }
+  "tasks": {
+    "init": "deno run --allow-read --allow-write main.ts",
+    "gi-birthday": "deno run --allow-read --allow-write --allow-net ./src/gi-birthday/main.ts",
+    "gi-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/gi-event/main.ts",
+    "sr-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/sr-event/main.ts",
+    "zzz-birthday": "deno run --allow-read --allow-write --allow-net --allow-env ./src/zzz-birthday/main.ts",
+    "zzz-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/zzz-event/main.ts",
+    "ark-birthday": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ark-birthday/main.ts",
+    "ark-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ark-event/main.ts",
+    "ba-birthday": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ba-birthday/main.ts",
+    "ba-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ba-event/main.ts",
+    "ww-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/ww-event/main.ts",
+    "end-birthday": "deno run --allow-read --allow-write --allow-net --allow-env ./src/end-birthday/main.ts",
+    "end-event": "deno run --allow-read --allow-write --allow-net --allow-env ./src/end-event/main.ts",
+    "generate-arc": "deno run --allow-read --allow-write ./src/arc/main.ts"
+  },
+  "imports": {
+    "@std/fs": "jsr:@std/fs@^1.0.9",
+    "@std/path": "jsr:@std/path@^1.0.8",
+    "cheerio": "npm:cheerio@^1.0.0",
+    "@deno-library/crc32": "jsr:@deno-library/crc32@^1.0.2",
+    "lossless-json": "npm:lossless-json@^4.3.1"
+  },
+  "fmt": {
+    "singleQuote": true,
+    "lineWidth": 120,
+    "exclude": [
+      "*.md",
+      "release/",
+      ".*/"
+    ]
+  }
 }

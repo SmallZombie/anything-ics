@@ -1,8 +1,8 @@
 export type ReleaseJsonType = {
-    id: string;
-    name: string;
-    birthday: {
-        month: number;
-        day: number;
-    };
+  id: string;
+  name: string;
+  birthday: {
+    month: number;
+    day: number;
+  };
 }[];

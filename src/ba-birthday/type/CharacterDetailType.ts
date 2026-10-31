@@ -1,4 +1,4 @@
 export type CharacterDetailType = {
-    birthday?: Date;
-    release?: Date;
-}
+  birthday?: Date;
+  release?: Date;
+};

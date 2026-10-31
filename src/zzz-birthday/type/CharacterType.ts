@@ -1,6 +1,6 @@
 export type CharacterType = {
-    id: string;
-    name: string;
-    birthday: Date;
-    release: Date;
-}
+  id: string;
+  name: string;
+  birthday: Date;
+  release: Date;
+};
