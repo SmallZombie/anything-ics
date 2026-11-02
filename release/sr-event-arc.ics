@@ -3190,4 +3190,18 @@ DTSTART;VALUE=DATE:20261223
 SUMMARY:[结束] 「开场好礼先抱走」
 DESCRIPTION:好戏开场！阿哈带来了一大批好礼，真有面子！\n\nhttps://www.miyoushe.com/sr/article/79216272\n\n额外活动,登录
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-arc-98b59b37-start
+DTSTAMP:20261103T072601Z
+DTSTART;VALUE=DATE:20261030
+SUMMARY:[开始] 「花藏繁生」第十五期
+DESCRIPTION:活动期间，成功挑战「拟造花萼（金）」「拟造花萼（赤）」可获得双倍奖励。\n\nhttps://wiki.biligame.com/sr/%E3%80%8C%E8%8A%B1%E8%97%8F%E7%B9%81%E7%94%9F%E3%80%8D%E7%AC%AC%E5%8D%81%E4%BA%94%E6%9C%9F\n\n特殊活动,拟造花萼,材料
+END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-arc-98b59b37-end
+DTSTAMP:20261103T072601Z
+DTSTART;VALUE=DATE:20261111
+SUMMARY:[结束] 「花藏繁生」第十五期
+DESCRIPTION:活动期间，成功挑战「拟造花萼（金）」「拟造花萼（赤）」可获得双倍奖励。\n\nhttps://wiki.biligame.com/sr/%E3%80%8C%E8%8A%B1%E8%97%8F%E7%B9%81%E7%94%9F%E3%80%8D%E7%AC%AC%E5%8D%81%E4%BA%94%E6%9C%9F\n\n特殊活动,拟造花萼,材料
+END:VEVENT
 END:VCALENDAR
