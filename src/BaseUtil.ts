@@ -79,6 +79,9 @@ class Vcalendar {
       if (i.description) {
         lines.push(`DESCRIPTION:${i.description}`);
       }
+      if (i.categories) {
+        lines.push(`CATEGORIES:${i.categories}`);
+      }
 
       lines.push('END:VEVENT');
     }
@@ -245,6 +248,7 @@ class Vevent {
   #rrule?: string;
   #summary?: string;
   #description?: string;
+  #categories?: string;
   hasChanged: boolean = false;
 
   constructor(uid: string) {
@@ -309,6 +313,23 @@ class Vevent {
       this.#description = description;
       this.hasChanged = true;
     }
+  }
+
+  get categories(): string | undefined {
+    return this.#categories;
+  }
+
+  set categories(categories: string | undefined) {
+    if (categories === '') categories = void 0;
+
+    if (this.#categories !== categories) {
+      this.#categories = categories;
+      this.hasChanged = true;
+    }
+  }
+
+  setCategoryList(categoryList: string[]) {
+    this.categories = (categoryList ?? []).join(',');
   }
 }
 

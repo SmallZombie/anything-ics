@@ -52,6 +52,8 @@ async function main() {
     icsItem.dtstart = ics.dateToDateTime(item.start);
     icsItem.dtend = ics.dateToDateTime(item.end);
     icsItem.summary = item.name;
+    icsItem.description = `官网链接：https://ak.hypergryph.com/news/${item.siteId}.html`;
+    icsItem.setCategoryList(item.categories);
 
     if (icsItem.hasChanged) {
       console.log(`${i + 1}/${events.length} Update "${item.name}"(${item.id}) in ICS`);
@@ -62,6 +64,8 @@ async function main() {
       name: item.name,
       start: item.start.toISOString(),
       end: item.end.toISOString(),
+      siteId: item.siteId,
+      categories: item.categories,
     });
   }
 

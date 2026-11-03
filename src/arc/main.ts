@@ -17,6 +17,7 @@ interface EventJson {
   start: string;
   end: string;
   description?: string;
+  categories?: string[];
 }
 
 interface ArcItem {
@@ -24,6 +25,7 @@ interface ArcItem {
   date: string;
   summary: string;
   description?: string;
+  categories?: string;
 }
 
 function dateToDateString(iso: string): string {
@@ -38,33 +40,52 @@ function getArcItems(events: EventJson[], moduleName: string): ArcItem[] {
   const items: ArcItem[] = [];
 
   for (const event of events) {
-    const startDate = dateToDateString(event.start);
-    const endDate = dateToDateString(event.end);
-
-    if (startDate === endDate) {
-      items.push({
-        uid: `${moduleName}-arc-${event.id}`,
-        date: startDate,
-        summary: event.name,
-        description: event.description,
-      });
+    if (event.start === event.end) {
+      items.push(newArcItem(moduleName, event));
     } else {
-      items.push({
-        uid: `${moduleName}-arc-${event.id}-start`,
-        date: startDate,
-        summary: `[开始] ${event.name}`,
-        description: event.description,
-      });
-      items.push({
-        uid: `${moduleName}-arc-${event.id}-end`,
-        date: endDate,
-        summary: `[结束] ${event.name}`,
-        description: event.description,
-      });
+      items.push(newStartArcItem(moduleName, event));
+      items.push(newEndArcItem(moduleName, event));
     }
   }
 
   return items;
+}
+
+function newArcItem(moduleName: string, event: EventJson): ArcItem {
+  const item: ArcItem = {
+    uid: `${moduleName}-arc-${event.id}`,
+    date: dateToDateString(event.start),
+    summary: event.name,
+    description: event.description,
+  };
+  if (event.categories && event.categories.length) {
+    item.categories = event.categories.join(',');
+  }
+  return item;
+}
+function newStartArcItem(moduleName: string, event: EventJson): ArcItem {
+  const item: ArcItem = {
+    uid: `${moduleName}-arc-${event.id}-start`,
+    date: dateToDateString(event.start),
+    summary: `[开始] ${event.name}`,
+    description: event.description,
+  };
+  if (event.categories && event.categories.length) {
+    item.categories = event.categories.join(',');
+  }
+  return item;
+}
+function newEndArcItem(moduleName: string, event: EventJson): ArcItem {
+  const item: ArcItem = {
+    uid: `${moduleName}-arc-${event.id}-end`,
+    date: dateToDateString(event.end),
+    summary: `[结束] ${event.name}`,
+    description: event.description,
+  };
+  if (event.categories && event.categories.length) {
+    item.categories = event.categories.join(',');
+  }
+  return item;
 }
 
 const CALENDAR_META: Record<string, string> = {
@@ -131,8 +152,10 @@ function generateArc(moduleName: string) {
     icsItem.rrule = undefined;
     icsItem.summary = item.summary;
     icsItem.description = item.description;
+    icsItem.categories = item.categories;
 
     if (icsItem.hasChanged) {
+      console.log(`categories: ${item.categories}(${typeof item.categories})`);
       console.log(`[!] Update "${item.summary}"(${item.uid}) in "${moduleName}-arc.ics"`);
     }
   }
