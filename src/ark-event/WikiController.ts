@@ -1,7 +1,12 @@
 import { EventType } from './type/EventType.ts';
 import { crc32 } from '@deno-library/crc32';
+import { retryWithBackoff } from '../BaseUtil.ts';
 
-async function getAllEvents(): Promise<EventType[]> {
+function getAllEvents(): Promise<EventType[]> {
+  return retryWithBackoff(fetchAllEvents);
+}
+
+async function fetchAllEvents(): Promise<EventType[]> {
   // ~~prts 的数据太乱了，最终还是b站拯救了世界~~
   // 最后发现是我不会用，错怪prts了，我才是那个笨比 T T
   const eventsData = await fetch(

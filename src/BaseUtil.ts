@@ -390,6 +390,31 @@ function retry<T>(
   });
 }
 
+/** 指数回避重试
+ * maxAttemp: 总共的执行次数，包括首次执行和所有重试，即最大重试数+1
+ */
+function retryWithBackoff<T>(
+  fn: () => Promise<T>,
+  maxAttemp: number = 4,
+  retryCallback?: (error: unknown, retryIndex: number) => void,
+  delayMs: number = 1000,
+  maxDelayMs: number = 60000,
+  index: number = 1,
+): Promise<T> {
+  const logStr = () => `${new Date().toISOString()} [${index}/${maxAttemp + index - 1}]`;
+  console.log(`${logStr()} attemp to action`);
+  return fn().catch((err) => {
+    if (maxAttemp <= 1) {
+      console.error(`${logStr()} request failed and retry maxAttemp runs out, stop with error: `, err);
+      throw err;
+    }
+    console.error(`${logStr()} request failed, backoff for ${delayMs}ms and retry: `, err);
+    return timeout(delayMs).then(() => {
+      return retryWithBackoff(fn, maxAttemp - 1, retryCallback, Math.min(delayMs * 2, maxDelayMs), index + 1);
+    });
+  });
+}
+
 /** 清理换行符 */
 function cleanString(str: string) {
   return str.replaceAll('<br>', '').replaceAll('\n', '');
@@ -402,6 +427,7 @@ export {
   getMonthByTimezone,
   PathHelper,
   retry,
+  retryWithBackoff,
   timeout,
   Vcalendar,
   VcalendarBuilder,

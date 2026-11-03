@@ -1,5 +1,6 @@
 import { EventType } from './type/EventType.ts';
 import { ServerEnum } from './enum/ServerEnum.ts';
+import { retryWithBackoff } from '../BaseUtil.ts';
 
 type EventData = {
   Events: {
@@ -69,12 +70,12 @@ async function getAllEvents(server: ServerEnum): Promise<EventType[]> {
   const _server = server === ServerEnum.GL ? 'en' : server;
 
   // 感谢伟大的 SchaleDB!
-  const eventData = await fetch(`https://schaledb.com/data/${_server}/events.min.json`).then((res) =>
-    res.json()
-  ) as EventData;
-  const localizationData = await fetch(`https://schaledb.com/data/${_server}/localization.min.json`).then((res) =>
-    res.json()
-  ) as LocalizationData;
+  const eventData = await retryWithBackoff(() => {
+    return fetch(`https://schaledb.com/data/${_server}/events.min.json`);
+  }).then((res) => res.json() as Promise<EventData>);
+  const localizationData = await retryWithBackoff(() => {
+    return fetch(`https://schaledb.com/data/${_server}/localization.min.json`);
+  }).then((res) => res.json()) as LocalizationData;
 
   const processor = _getProcessor(server);
   return processor(eventData, localizationData);
