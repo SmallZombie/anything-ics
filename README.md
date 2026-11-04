@@ -63,3 +63,10 @@ If the content you want is not in the supported list, you can:
 5. Test your task
 6. Write automation task for it in `.github/workflows/daily-update.yml`
 7. Create Pull request
+
+## Contributors
+Thanks to everyone who has contributed to this project!
+
+<a href="https://github.com/SmallZombie/anything-ics/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=SmallZombie/anything-ics" alt="Contributors" />
+</a>

@@ -62,3 +62,10 @@
 5. 测试你的任务
 6. 在 `.github/workflows/daily-update.yml` 中为其编写自动化任务
 7. 创建 Pull request
+
+## 贡献者
+感谢所有为本项目作出贡献的人！
+
+<a href="https://github.com/SmallZombie/anything-ics/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=SmallZombie/anything-ics" alt="贡献者" />
+</a>
