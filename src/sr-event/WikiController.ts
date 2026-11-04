@@ -1,8 +1,13 @@
 import { cleanString } from '../BaseUtil.ts';
 import { EventType } from './type/EventType.ts';
 import { crc32 } from '@deno-library/crc32';
+import { retryWithBackoff } from '../BaseUtil.ts';
 
-async function getAllEvents(): Promise<EventType[]> {
+function getAllEvents(): Promise<EventType[]> {
+  return retryWithBackoff(fetchAllEvents);
+}
+
+async function fetchAllEvents(): Promise<EventType[]> {
   // 米游社wiki的活动一览页更新居然比b站还慢
   const eventsData = await fetch(
     'https://wiki.biligame.com/sr/api.php?action=ask&query=[[分类:活动]][[!活动需要内容]][[类型::!永久活动]][[开始时间::%2B]]|?开始时间|?结束时间|?类型|?TAG|?活动描述|?官方公告链接|limit=1000&format=json',

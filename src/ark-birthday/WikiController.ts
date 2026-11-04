@@ -2,8 +2,13 @@ import { load } from 'cheerio';
 import { crc32 } from '@deno-library/crc32';
 import { CharacterType } from './type/CharacterType.ts';
 import { CharacterDetailType } from './type/CharacterDetailType.ts';
+import { retryWithBackoff } from '../BaseUtil.ts';
 
-async function getAllCharacters(): Promise<CharacterType[]> {
+function getAllCharacters(): Promise<CharacterType[]> {
+  return retryWithBackoff(fetchAllCharacters);
+}
+
+async function fetchAllCharacters(): Promise<CharacterType[]> {
   const res = await fetch('https://prts.wiki/w/干员一览').then((res) => res.text());
   const $ = load(res);
 

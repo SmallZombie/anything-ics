@@ -1,7 +1,12 @@
 import { CharacterType } from './type/CharacterType.ts';
 import { parse } from 'lossless-json';
+import { retryWithBackoff } from '../BaseUtil.ts';
 
-async function getAllCharacters(): Promise<CharacterType[]> {
+function getAllCharacters(): Promise<CharacterType[]> {
+  return retryWithBackoff(fetchAllCharacters);
+}
+
+async function fetchAllCharacters(): Promise<CharacterType[]> {
   // 获取最新版本
   const versionResult = await fetch(`https://data.akedata.wiki/manifest.json?t=${new Date().getTime()}`).then((res) =>
     res.json()

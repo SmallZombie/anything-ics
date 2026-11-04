@@ -1,7 +1,12 @@
 import { EventType } from './type/EventType.ts';
 import { parse } from 'lossless-json';
+import { retryWithBackoff } from '../BaseUtil.ts';
 
-async function getAllEvents(): Promise<EventType[]> {
+function getAllEvents(): Promise<EventType[]> {
+  return retryWithBackoff(fetchAllEvents);
+}
+
+async function fetchAllEvents(): Promise<EventType[]> {
   // 获取最新版本
   const versionResult = await fetch(`https://data.akedata.wiki/manifest.json?t=${new Date().getTime()}`).then((res) =>
     res.json()

@@ -1,7 +1,12 @@
 import { CharacterType } from './type/CharacterType.ts';
 import { CharacterDetailType } from './type/CharacterDetailType.ts';
+import { retryWithBackoff } from '../BaseUtil.ts';
 
-async function getAllCharacters(): Promise<CharacterType[]> {
+function getAllCharacters(): Promise<CharacterType[]> {
+  return retryWithBackoff(fetchAllCharacters);
+}
+
+async function fetchAllCharacters(): Promise<CharacterType[]> {
   // 2026.5.13: gamekee 加 edgeone 了，换个 wiki，让我们感谢鸡窝托斯古书馆
   const res = await fetch(
     'https://api.kivo.wiki/api/v1/data/students/?page=1&page_size=500&is_npc=false&is_install=true',

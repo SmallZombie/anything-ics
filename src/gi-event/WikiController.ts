@@ -1,8 +1,13 @@
 import { crc32 } from '@deno-library/crc32';
 import { EventType } from './type/EventType.ts';
 import { cleanString } from '../BaseUtil.ts';
+import { retryWithBackoff } from '../BaseUtil.ts';
 
-async function getAllEvents(): Promise<EventType[]> {
+function getAllEvents(): Promise<EventType[]> {
+  return retryWithBackoff(fetchAllEvents);
+}
+
+async function fetchAllEvents(): Promise<EventType[]> {
   const eventsData = await fetch(
     'https://wiki.biligame.com/ys/api.php?action=ask&query=[[分类:活动]]|?开始时间|?结束时间|?类型|?活动描述|?官方公告链接|limit=500&format=json',
   ).then((res) => res.json()) as {

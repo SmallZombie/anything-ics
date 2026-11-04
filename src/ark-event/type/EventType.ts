@@ -3,4 +3,6 @@ export type EventType = {
   name: string;
   start: Date;
   end: Date;
+  categories: string[];
+  description?: string; // the id in the official site URL
 };

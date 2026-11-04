@@ -3,8 +3,13 @@ import { CharacterType } from './type/CharacterType.ts';
 
 const PAIMON_ID = 20200601;
 const PAIMON_NAME = '派蒙';
+import { retryWithBackoff } from '../BaseUtil.ts';
 
-async function getAllCharacters(): Promise<CharacterType[]> {
+function getAllCharacters(): Promise<CharacterType[]> {
+  return retryWithBackoff(fetchAllCharacters);
+}
+
+async function fetchAllCharacters(): Promise<CharacterType[]> {
   const result = await fetch(
     'https://api-takumi-static.mihoyo.com/common/blackboard/ys_obc/v1/home/content/list?app_sn=ys_obc&channel_id=189',
   ).then((res) => res.json()) as {

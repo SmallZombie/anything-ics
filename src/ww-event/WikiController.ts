@@ -1,7 +1,12 @@
 import { crc32 } from '@deno-library/crc32';
 import { EventType } from './type/EventType.ts';
+import { retryWithBackoff } from '../BaseUtil.ts';
 
-export async function getAllEvents(): Promise<EventType[]> {
+export function getAllEvents(): Promise<EventType[]> {
+  return retryWithBackoff(fetchAllEvents);
+}
+
+async function fetchAllEvents(): Promise<EventType[]> {
   // 鸣潮官网的公告不更新了
   // 鸣潮官方wiki的活动持续时间全是 "x.x版本更新后~xxxx年xx月xx日"，用不了
   // gamekee 虽然数据很漂亮，但他东西不全
