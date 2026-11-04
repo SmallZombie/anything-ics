@@ -279,20 +279,6 @@ SUMMARY:[结束] 「富贵登门·春来早知」
 DESCRIPTION:又到了每年的这个时候呢，今年的海灯节一定也会很热闹吧！真期待啊！咳咳！那就还是由我说出那句话吧：旅行者，我们要不要一起回璃月港走走？说不定会遇上什么好事哦~\n\nhttps://www.bilibili.com/opus/1024381914531758080\n\n额外活动,签到,邮件
 END:VEVENT
 BEGIN:VEVENT
-UID:gi-event-arc-0e8ae659-start
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20250519
-SUMMARY:[开始] 「雨阵奔流之述演」
-DESCRIPTION:在枫丹廷的一角，特巡队员蒂蕾娜和昂吉安妮摆开了新的桌上推演兵棋，正等待着见识你的指挥才华…\n\nhttps://wiki.biligame.com/ys/%E3%80%8C%E9%9B%A8%E9%98%B5%E5%A5%94%E6%B5%81%E4%B9%8B%E8%BF%B0%E6%BC%94%E3%80%8D\n\n常规活动,策略
-END:VEVENT
-BEGIN:VEVENT
-UID:gi-event-arc-0e8ae659-end
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20250603
-SUMMARY:[结束] 「雨阵奔流之述演」
-DESCRIPTION:在枫丹廷的一角，特巡队员蒂蕾娜和昂吉安妮摆开了新的桌上推演兵棋，正等待着见识你的指挥才华…\n\nhttps://wiki.biligame.com/ys/%E3%80%8C%E9%9B%A8%E9%98%B5%E5%A5%94%E6%B5%81%E4%B9%8B%E8%BF%B0%E6%BC%94%E3%80%8D\n\n常规活动,策略
-END:VEVENT
-BEGIN:VEVENT
 UID:gi-event-arc-0e94a2eb-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20260914
@@ -1551,20 +1537,6 @@ DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20210830
 SUMMARY:[结束] 「地脉移涌」第二期
 DESCRIPTION:「藏金之花」「启示之花」双倍掉落！\n\nhttps://ys.mihoyo.com/main/news/detail/16984\n\n特殊活动,材料
-END:VEVENT
-BEGIN:VEVENT
-UID:gi-event-arc-3b325989-start
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20260828
-SUMMARY:[开始] 「险境征者竞锋大赛」
-DESCRIPTION:作为资深冒险家，你与派蒙决定前往至冬的冒险家协会总部，好好参观一番，却没想到，早有两名顶级的同行在此等候。在他们的邀请下，你们参与了一场独特的赛事…\n\nhttps://www.bilibili.com/opus/1240723282723864593\n\n版本活动,角色获取
-END:VEVENT
-BEGIN:VEVENT
-UID:gi-event-arc-3b325989-end
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20260914
-SUMMARY:[结束] 「险境征者竞锋大赛」
-DESCRIPTION:作为资深冒险家，你与派蒙决定前往至冬的冒险家协会总部，好好参观一番，却没想到，早有两名顶级的同行在此等候。在他们的邀请下，你们参与了一场独特的赛事…\n\nhttps://www.bilibili.com/opus/1240723282723864593\n\n版本活动,角色获取
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-3b326788-start
@@ -3203,20 +3175,6 @@ DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20241216
 SUMMARY:[结束] 「暝视寻灵织卷」
 DESCRIPTION:烟谜主是纳塔各部族中最奇异的群体，他们掌握着种种神秘的手段与世界沟通，这段关于暝视的冒险，或许能够揭开谜烟面纱的一角…\n\nhttps://www.bilibili.com/opus/1003973518434500614\n\n版本活动,剧情,联机挑战,怪物挑战,武器获取,解谜
-END:VEVENT
-BEGIN:VEVENT
-UID:gi-event-arc-80969c40-start
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20220824
-SUMMARY:[开始] 「雕琢童心」
-DESCRIPTION:须弥的奥摩斯港，一家名为阿折罗造像的商店展台附近，传来工匠们的声声哀叹…\n\nhttps://www.bilibili.com/read/cv18225861\n\n版本活动,剧情,探索,怪物挑战,竞速,创意,角色获取
-END:VEVENT
-BEGIN:VEVENT
-UID:gi-event-arc-80969c40-end
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20220928
-SUMMARY:[结束] 「雕琢童心」
-DESCRIPTION:须弥的奥摩斯港，一家名为阿折罗造像的商店展台附近，传来工匠们的声声哀叹…\n\nhttps://www.bilibili.com/read/cv18225861\n\n版本活动,剧情,探索,怪物挑战,竞速,创意,角色获取
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-80f9ab64-start
@@ -4913,20 +4871,6 @@ SUMMARY:[结束] 「斑斓色彩追逐战」
 DESCRIPTION:重返悠悠度假村时，你们遇见了一位老朋友，还有一群特别的「阿夏」…\n\nhttps://www.bilibili.com/opus/1214377599004835844\n\n常规活动,联机挑战
 END:VEVENT
 BEGIN:VEVENT
-UID:gi-event-arc-c27e4c12-start
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20230727
-SUMMARY:[开始] 「险途勘探」
-DESCRIPTION:一位璃月的冒险家，似乎在协助当地冒险家协会进行须弥山形水文的调查时遇到了一些麻烦。帮助他进入险境，完成舆图的勘探吧！\n\nhttps://www.bilibili.com/opus/822140492342886421\n\n常规活动,怪物挑战
-END:VEVENT
-BEGIN:VEVENT
-UID:gi-event-arc-c27e4c12-end
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20230807
-SUMMARY:[结束] 「险途勘探」
-DESCRIPTION:一位璃月的冒险家，似乎在协助当地冒险家协会进行须弥山形水文的调查时遇到了一些麻烦。帮助他进入险境，完成舆图的勘探吧！\n\nhttps://www.bilibili.com/opus/822140492342886421\n\n常规活动,怪物挑战
-END:VEVENT
-BEGIN:VEVENT
 UID:gi-event-arc-c364a69c-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20250328
@@ -4967,20 +4911,6 @@ DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20210226
 SUMMARY:[结束] 「富贵登门」
 DESCRIPTION:活动期间，累计登录七天即可获得纠缠之缘*10等奖励！\n\nhttps://www.bilibili.com/read/cv9572889\n\n额外活动,签到
-END:VEVENT
-BEGIN:VEVENT
-UID:gi-event-arc-c58b95ad-start
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20230928
-SUMMARY:[开始] 「集光撷彩」
-DESCRIPTION:本应只存在于实验室内的奇妙生物，突然出现在枫丹的各个水域中。而在海露港附近，你遇到了一位神色焦急的商人…\n\nhttps://www.bilibili.com/opus/845520146812370976\n\n常规活动,探索
-END:VEVENT
-BEGIN:VEVENT
-UID:gi-event-arc-c58b95ad-end
-DTSTAMP:20260930T163657Z
-DTSTART;VALUE=DATE:20231009
-SUMMARY:[结束] 「集光撷彩」
-DESCRIPTION:本应只存在于实验室内的奇妙生物，突然出现在枫丹的各个水域中。而在海露港附近，你遇到了一位神色焦急的商人…\n\nhttps://www.bilibili.com/opus/845520146812370976\n\n常规活动,探索
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-c5e6b646-start
@@ -6748,16 +6678,72 @@ DESCRIPTION:https://www.bilibili.com/opus/1262617307975254036\n\n特殊活动,�
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-1f126d56-start
-DTSTAMP:20261103T072601Z
+DTSTAMP:20261105T055214Z
 DTSTART;VALUE=DATE:20261104
 SUMMARY:[开始] 「全域镇卫·逆捍谬罚」
-DESCRIPTION:https://wiki.biligame.com/ys/%E3%80%8C%E5%85%A8%E5%9F%9F%E9%95%87%E5%8D%AB%C2%B7%E9%80%86%E6%8D%8D%E8%B0%AC%E7%BD%9A%E3%80%8D\n\n角色获取
+DESCRIPTION:https://www.bilibili.com/opus/1265958105361940489\n\n角色获取,版本活动
 END:VEVENT
 BEGIN:VEVENT
 UID:gi-event-arc-1f126d56-end
-DTSTAMP:20261102T045726Z
+DTSTAMP:20261105T055214Z
 DTSTART;VALUE=DATE:20261216
 SUMMARY:[结束] 「全域镇卫·逆捍谬罚」
-DESCRIPTION:https://wiki.biligame.com/ys/%E3%80%8C%E5%85%A8%E5%9F%9F%E9%95%87%E5%8D%AB%C2%B7%E9%80%86%E6%8D%8D%E8%B0%AC%E7%BD%9A%E3%80%8D\n\n角色获取
+DESCRIPTION:https://www.bilibili.com/opus/1265958105361940489\n\n角色获取,版本活动
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-6ff3f236-start
+DTSTAMP:20261105T055214Z
+DTSTART;VALUE=DATE:20261104
+SUMMARY:[开始] 「巡历雪境，凝铸锋锐」新手
+DESCRIPTION:https://www.bilibili.com/opus/1265957589964816455\n\n额外活动,角色获取
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-6ff3f236-end
+DTSTAMP:20261105T055214Z
+DTSTART;VALUE=DATE:20270825
+SUMMARY:[结束] 「巡历雪境，凝铸锋锐」新手
+DESCRIPTION:https://www.bilibili.com/opus/1265957589964816455\n\n额外活动,角色获取
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-7e0945ed-start
+DTSTAMP:20261105T055214Z
+DTSTART;VALUE=DATE:20261104
+SUMMARY:[开始] 「晶石如林生长之地」
+DESCRIPTION:https://www.bilibili.com/opus/1265959136158285840\n\n探索活动
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-7e0945ed-end
+DTSTAMP:20261105T055214Z
+DTSTART;VALUE=DATE:20270126
+SUMMARY:[结束] 「晶石如林生长之地」
+DESCRIPTION:https://www.bilibili.com/opus/1265959136158285840\n\n探索活动
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-a804cbed-start
+DTSTAMP:20261105T055214Z
+DTSTART;VALUE=DATE:20261104
+SUMMARY:[开始] 「绮衣珍赏·赫炽」
+DESCRIPTION:https://t.bilibili.com/1266390007249109042\n\n特殊活动,千星奇域
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-a804cbed-end
+DTSTAMP:20261105T055214Z
+DTSTART;VALUE=DATE:20261216
+SUMMARY:[结束] 「绮衣珍赏·赫炽」
+DESCRIPTION:https://t.bilibili.com/1266390007249109042\n\n特殊活动,千星奇域
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-f65595d6-start
+DTSTAMP:20261105T055214Z
+DTSTART;VALUE=DATE:20261104
+SUMMARY:[开始] 「坏灭肇始之时」
+DESCRIPTION:https://www.bilibili.com/opus/1265958620759064594\n\n剧情活动
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-event-arc-f65595d6-end
+DTSTAMP:20261105T055214Z
+DTSTART;VALUE=DATE:20261215
+SUMMARY:[结束] 「坏灭肇始之时」
+DESCRIPTION:https://www.bilibili.com/opus/1265958620759064594\n\n剧情活动
 END:VEVENT
 END:VCALENDAR

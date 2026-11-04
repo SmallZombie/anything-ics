@@ -3,1818 +3,3121 @@
         "id": "0013857b",
         "name": "银心湖列车",
         "start": "2023-12-05T08:00:00.000Z",
-        "end": "2023-12-18T19:59:00.000Z"
+        "end": "2023-12-18T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023115129.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "03dae2c8",
         "name": "矢量突破/01",
         "start": "2025-05-15T08:00:00.000Z",
-        "end": "2025-06-04T19:59:00.000Z"
+        "end": "2025-06-04T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3062.html",
+        "categories": [
+            "矢量突破"
+        ]
     },
     {
         "id": "03ee7e00",
         "name": "喧闹法则2020",
         "start": "2020-12-01T08:00:00.000Z",
-        "end": "2020-12-10T19:59:00.000Z"
+        "end": "2020-12-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020117056.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "04872b53",
         "name": "孤岛风云",
         "start": "2020-12-17T08:00:00.000Z",
-        "end": "2020-12-30T19:59:00.000Z"
+        "end": "2020-12-30T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020127693.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "04f459dd",
         "name": "叙拉古人",
         "start": "2022-11-01T08:00:00.000Z",
-        "end": "2022-11-21T19:59:00.000Z"
+        "end": "2022-11-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022103870.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "05a07865",
         "name": "危机合约/起源行动",
         "start": "2023-03-21T08:00:00.000Z",
-        "end": "2023-04-03T19:59:00.000Z"
+        "end": "2023-04-03T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023033345.html",
+        "categories": [
+            "危机合约",
+            "危机合约经典赛季"
+        ]
     },
     {
         "id": "05dd58d1",
         "name": "恶兆湍流",
         "start": "2023-10-08T08:00:00.000Z",
-        "end": "2023-10-21T19:59:00.000Z"
+        "end": "2023-10-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023095609.html",
+        "categories": [
+            "主线"
+        ]
     },
     {
         "id": "0925515c",
         "name": "熔炉“还魂”记",
         "start": "2024-07-09T08:00:00.000Z",
-        "end": "2024-07-15T19:59:00.000Z"
+        "end": "2024-07-15T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0868.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "0ab1e4c8",
         "name": "感谢庆典2024补给签到",
         "start": "2024-11-13T20:00:00.000Z",
-        "end": "2024-11-23T19:59:00.000Z"
+        "end": "2024-11-23T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/7306.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "0ae632c1",
         "name": "端午2022",
         "start": "2022-06-02T20:00:00.000Z",
-        "end": "2022-06-12T19:59:00.000Z"
+        "end": "2022-06-12T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022056264.html",
+        "categories": [
+            "活动公告",
+            "登录活动"
+        ]
     },
     {
         "id": "0d2907e1",
         "name": "一周年庆典",
         "start": "2020-05-01T08:00:00.000Z",
-        "end": "2020-05-28T19:59:00.000Z"
+        "end": "2020-05-28T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020042016.html",
+        "categories": [
+            "纪念活动",
+            "主线"
+        ]
     },
     {
         "id": "0d2f86ec",
         "name": "追迹日落以西",
         "start": "2024-10-09T08:00:00.000Z",
-        "end": "2024-10-22T19:59:00.000Z"
+        "end": "2024-10-22T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0731.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "0d3061ad",
         "name": "感谢庆典2024限时签到",
         "start": "2024-11-01T08:00:00.000Z",
-        "end": "2024-11-14T19:59:00.000Z"
+        "end": "2024-11-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/7306.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "0d8bf6d8",
         "name": "端午2026",
         "start": "2026-06-16T20:00:00.000Z",
-        "end": "2026-06-26T19:59:00.000Z"
+        "end": "2026-06-26T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/9699.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "0e5d7a50",
         "name": "音律联觉纪念2024",
         "start": "2024-04-24T20:00:00.000Z",
-        "end": "2024-05-22T19:59:00.000Z"
+        "end": "2024-05-22T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2024041031.html",
+        "categories": [
+            "纪念活动"
+        ]
     },
     {
         "id": "0fbf0fe1",
         "name": "争锋频道：蜜果城",
         "start": "2025-08-28T08:00:00.000Z",
-        "end": "2025-09-10T19:59:00.000Z"
+        "end": "2025-09-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/4954.html",
+        "categories": [
+            "争锋频道"
+        ]
     },
     {
         "id": "1029e98f",
         "name": "秋意盎然",
         "start": "2021-09-30T20:00:00.000Z",
-        "end": "2021-10-10T19:59:00.000Z"
+        "end": "2021-10-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021090846.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "118cb606",
         "name": "挽歌燃烧殆尽",
         "start": "2025-03-07T08:00:00.000Z",
-        "end": "2025-03-20T19:59:00.000Z"
+        "end": "2025-03-20T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3064.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "1353a825",
         "name": "假日大酬宾",
         "start": "2021-08-03T08:00:00.000Z",
-        "end": "2021-08-16T19:59:00.000Z"
+        "end": "2021-08-16T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021079658.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "1384ed30",
         "name": "沙洲遗闻",
         "start": "2024-02-03T03:00:00.000Z",
-        "end": "2024-09-30T19:59:00.000Z"
+        "end": "2024-09-30T19:59:00.000Z",
+        "categories": [
+            "生息演算"
+        ]
     },
     {
         "id": "139c33b6",
         "name": "罗德岛促融共竞",
         "start": "2024-05-15T08:00:00.000Z",
-        "end": "2024-05-28T19:59:00.000Z"
+        "end": "2024-05-28T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2024041632.html",
+        "categories": [
+            "促融共竞"
+        ]
     },
     {
         "id": "14f27eea",
         "name": "黎明前奏开播纪念",
         "start": "2022-10-27T20:00:00.000Z",
-        "end": "2022-11-16T19:59:00.000Z"
+        "end": "2022-11-16T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022103887.html",
+        "categories": [
+            "其他活动"
+        ]
     },
     {
         "id": "15d84446",
         "name": "骑兵与猎人",
         "start": "2019-05-30T02:00:00.000Z",
-        "end": "2019-06-12T19:59:00.000Z"
+        "end": "2019-06-12T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2019054881.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "17658511",
         "name": "绿野幻梦2023",
         "start": "2023-07-18T08:00:00.000Z",
-        "end": "2023-07-27T19:59:00.000Z"
+        "end": "2023-07-27T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023075237.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "17bcdf52",
         "name": "红松林",
         "start": "2021-10-15T08:00:00.000Z",
-        "end": "2021-10-21T19:59:00.000Z"
+        "end": "2021-10-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021100899.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "198c30ff",
         "name": "主题曲第十三章预热",
         "start": "2023-09-23T20:00:00.000Z",
-        "end": "2023-10-21T19:59:00.000Z"
+        "end": "2023-10-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023095008.html",
+        "categories": [
+            "主线"
+        ]
     },
     {
         "id": "1a16e06c",
         "name": "登临意",
         "start": "2023-01-17T08:00:00.000Z",
-        "end": "2023-01-30T19:59:00.000Z"
+        "end": "2023-01-30T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023013981.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "1a98058c",
         "name": "引航者试炼/01",
         "start": "2022-08-18T08:00:00.000Z",
-        "end": "2022-08-24T19:59:00.000Z"
+        "end": "2022-08-24T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022086059.html",
+        "categories": [
+            "引航者试炼"
+        ]
     },
     {
         "id": "1bd50d68",
         "name": "玛莉娅临光",
         "start": "2020-10-15T08:00:00.000Z",
-        "end": "2020-10-28T19:59:00.000Z"
+        "end": "2020-10-28T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020107762.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "1c2ef017",
         "name": "多索雷斯假日2022",
         "start": "2022-07-26T08:00:00.000Z",
-        "end": "2022-08-04T19:59:00.000Z"
+        "end": "2022-08-04T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022076042.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "1c6ec001",
         "name": "火蓝之心",
         "start": "2019-08-27T08:00:00.000Z",
-        "end": "2019-09-09T19:59:00.000Z"
+        "end": "2019-09-09T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2019084752.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "1cd911eb",
         "name": "危机合约/尘环行动",
         "start": "2022-08-25T08:00:00.000Z",
-        "end": "2022-09-07T19:59:00.000Z"
+        "end": "2022-09-07T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022086059.html",
+        "categories": [
+            "危机合约",
+            "危机合约经典赛季"
+        ]
     },
     {
         "id": "1d7f8c17",
         "name": "感谢庆典2024前瞻签到",
         "start": "2024-10-26T14:00:00.000Z",
-        "end": "2024-11-04T19:59:00.000Z"
+        "end": "2024-11-04T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/7306.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "1daac0b1",
         "name": "镜中集",
         "start": "2025-07-08T08:00:00.000Z",
-        "end": "2025-07-14T19:59:00.000Z"
+        "end": "2025-07-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0723.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "1df5c195",
         "name": "引航者试炼/05",
         "start": "2025-06-24T08:00:00.000Z",
-        "end": "2025-07-07T19:59:00.000Z"
+        "end": "2025-07-07T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/1483.html",
+        "categories": [
+            "引航者试炼"
+        ]
     },
     {
         "id": "1fbca826",
         "name": "喧闹法则",
         "start": "2019-11-19T08:00:00.000Z",
-        "end": "2019-12-02T19:59:00.000Z"
+        "end": "2019-12-02T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2019114364.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "20d70bef",
         "name": "危机合约/涤墨作战",
         "start": "2026-06-26T08:00:00.000Z",
-        "end": "2026-07-09T19:59:00.000Z"
+        "end": "2026-07-09T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2816.html",
+        "categories": [
+            "危机合约",
+            "危机合约作战赛季"
+        ]
     },
     {
         "id": "20dd754e",
         "name": "沃伦姆德的薄暮",
         "start": "2020-07-09T08:00:00.000Z",
-        "end": "2020-07-22T19:59:00.000Z"
+        "end": "2020-07-22T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020072123.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "212b87be",
         "name": "品鉴泰拉魔物",
         "start": "2024-09-02T08:00:00.000Z",
-        "end": "2024-09-15T19:59:00.000Z"
+        "end": "2024-09-15T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0732.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "21ec994b",
         "name": "跨年纪念2022",
         "start": "2021-12-23T20:00:00.000Z",
-        "end": "2022-01-06T19:59:00.000Z"
+        "end": "2022-01-06T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021120792.html",
+        "categories": [
+            "纪念活动"
+        ]
     },
     {
         "id": "222405c8",
         "name": "狩猎时光",
         "start": "2026-06-01T04:00:00.000Z",
-        "end": "2026-06-14T19:59:00.000Z"
+        "end": "2026-06-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0701.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "239a9cb0",
         "name": "卫戍协议/2024",
         "start": "2024-11-15T08:00:00.000Z",
-        "end": "2024-11-28T19:59:00.000Z"
+        "end": "2024-11-28T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/7306.html",
+        "categories": [
+            "卫戍协议"
+        ]
     },
     {
         "id": "23dec7e8",
         "name": "相见欢",
         "start": "2025-01-22T08:00:00.000Z",
-        "end": "2025-02-11T19:59:00.000Z"
+        "end": "2025-02-11T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3078.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "24ce2993",
         "name": "卫戍协议：盟约",
         "start": "2025-11-14T08:00:00.000Z",
-        "end": "2025-12-11T19:59:00.000Z"
+        "end": "2025-12-11T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2830.html",
+        "categories": [
+            "卫戍协议"
+        ]
     },
     {
         "id": "2633cd70",
         "name": "哗啦啦祈愿牌",
         "start": "2023-03-07T08:00:00.000Z",
-        "end": "2023-03-20T19:59:00.000Z"
+        "end": "2023-03-20T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023033669.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "26815d52",
         "name": "跨年纪念2026",
         "start": "2025-12-27T20:00:00.000Z",
-        "end": "2026-01-06T19:59:00.000Z"
+        "end": "2026-01-06T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2837.html",
+        "categories": [
+            "纪念活动"
+        ]
     },
     {
         "id": "2928b7da",
         "name": "生于黑夜",
         "start": "2020-04-21T08:00:00.000Z",
-        "end": "2020-05-14T19:59:00.000Z"
+        "end": "2020-05-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020042933.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "2c34d558",
         "name": "御鼓吉音",
         "start": "2025-07-22T08:00:00.000Z",
-        "end": "2025-08-04T19:59:00.000Z"
+        "end": "2025-08-04T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3067.html",
+        "categories": [
+            "合作活动"
+        ]
     },
     {
         "id": "2c8343df",
         "name": "巴别塔",
         "start": "2024-04-11T08:00:00.000Z",
-        "end": "2024-05-02T19:59:00.000Z"
+        "end": "2024-05-02T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2024041026.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "2d1af483",
         "name": "次生预案",
         "start": "2025-09-25T08:00:00.000Z",
-        "end": "2025-10-15T19:59:00.000Z"
+        "end": "2025-10-15T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0716.html",
+        "categories": [
+            "其他活动"
+        ]
     },
     {
         "id": "2d205bee",
         "name": "纷争演绎",
         "start": "2023-09-27T08:00:00.000Z",
-        "end": "2023-10-10T19:59:00.000Z"
+        "end": "2023-10-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023095012.html",
+        "categories": [
+            "其他活动"
+        ]
     },
     {
         "id": "2de8fe76",
         "name": "源石尘行动2024",
         "start": "2024-03-21T08:00:00.000Z",
-        "end": "2024-03-30T19:59:00.000Z"
+        "end": "2024-03-30T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2024031925.html",
+        "categories": [
+            "支线故事",
+            "复刻活动",
+            "联动活动"
+        ]
     },
     {
         "id": "2eea115b",
         "name": "刻俄柏的灰蕈迷境",
         "start": "2020-08-25T08:00:00.000Z",
-        "end": "2020-09-14T19:59:00.000Z"
+        "end": "2020-09-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020087452.html",
+        "categories": [
+            "集成战略"
+        ]
     },
     {
         "id": "2f808857",
         "name": "时间啊，向前！",
         "start": "2026-11-01T04:00:00.000Z",
-        "end": "2026-11-21T19:59:00.000Z"
+        "end": "2026-11-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0787.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "313afda5",
         "name": "生路",
         "start": "2024-06-05T08:00:00.000Z",
-        "end": "2024-06-18T19:59:00.000Z"
+        "end": "2024-06-18T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/1525.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "349c43ac",
         "name": "春季限时日常",
         "start": "2020-04-05T20:00:00.000Z",
-        "end": "2020-04-19T19:59:00.000Z"
+        "end": "2020-04-19T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020032986.html",
+        "categories": [
+            "活动公告",
+            "其他活动"
+        ]
     },
     {
         "id": "35242900",
         "name": "怀黍离",
         "start": "2024-02-01T08:00:00.000Z",
-        "end": "2024-02-21T19:59:00.000Z"
+        "end": "2024-02-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2024011458.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "36114612",
         "name": "出苍白海2025",
         "start": "2025-12-18T20:00:00.000Z",
-        "end": "2025-12-28T19:59:00.000Z"
+        "end": "2025-12-28T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/9604.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "361f1e3c",
         "name": "傀影与猩红孤钻",
         "start": "2022-01-05T08:00:00.000Z",
-        "end": "2022-08-31T19:59:59.000Z"
+        "end": "2022-08-31T19:59:59.000Z",
+        "categories": [
+            "集成战略"
+        ]
     },
     {
         "id": "36c4fbbb",
         "name": "福至岁来",
         "start": "2022-02-01T08:00:00.000Z",
-        "end": "2022-02-21T19:59:00.000Z"
+        "end": "2022-02-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022010080.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "38305819",
         "name": "荷谟伊智境",
         "start": "2021-07-02T08:00:00.000Z",
-        "end": "2021-07-08T19:59:00.000Z"
+        "end": "2021-07-08T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021069036.html",
+        "categories": [
+            "联锁竞赛"
+        ]
     },
     {
         "id": "38b4f2e9",
         "name": "感谢庆典签到2021",
         "start": "2021-11-01T08:00:00.000Z",
-        "end": "2021-11-14T19:59:00.000Z"
+        "end": "2021-11-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021100428.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "390f1513",
         "name": "回望泰拉",
         "start": "2026-04-25T13:00:00.000Z",
-        "end": "2026-05-31T19:59:00.000Z"
+        "end": "2026-05-31T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3046.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "3a0ce31c",
         "name": "尘影余音",
         "start": "2022-06-09T08:00:00.000Z",
-        "end": "2022-06-22T19:59:00.000Z"
+        "end": "2022-06-22T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022056789.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "3aa461fe",
         "name": "界园志异拓展二限时日常",
         "start": "2026-01-24T08:00:00.000Z",
-        "end": "2026-02-06T19:59:00.000Z"
+        "end": "2026-02-06T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/1478.html",
+        "categories": [
+            "其他活动"
+        ]
     },
     {
         "id": "3ba750ca",
         "name": "火山旅梦",
         "start": "2023-08-01T08:00:00.000Z",
-        "end": "2023-08-21T19:59:00.000Z"
+        "end": "2023-08-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023075795.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "3c3145a7",
         "name": "新春签到2024",
         "start": "2024-02-09T08:00:00.000Z",
-        "end": "2024-02-22T19:59:00.000Z"
+        "end": "2024-02-22T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2024011458.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "3e1ad99d",
         "name": "探索者的银凇止境",
         "start": "2023-07-13T08:00:00.000Z",
-        "end": "2024-02-29T19:59:59.000Z"
+        "end": "2024-02-29T19:59:59.000Z",
+        "categories": [
+            "集成战略"
+        ]
     },
     {
         "id": "3e8d6ec4",
         "name": "风物留痕",
         "start": "2025-08-02T08:00:00.000Z",
-        "end": "2025-08-15T19:59:00.000Z"
+        "end": "2025-08-15T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/6277.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "43e11588",
         "name": "主线“靶向药物”开启纪念限时活动（Part.2）",
         "start": "2019-07-21T20:00:00.000Z",
-        "end": "2019-08-04T19:59:00.000Z"
+        "end": "2019-08-04T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2019074244.html",
+        "categories": [
+            "活动公告",
+            "主线"
+        ]
     },
     {
         "id": "44b470aa",
         "name": "去咧嘴谷",
         "start": "2024-01-09T08:00:00.000Z",
-        "end": "2024-01-15T19:59:00.000Z"
+        "end": "2024-01-15T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023121865.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "44e6c258",
         "name": "阵地足球锦标",
         "start": "2026-06-08T08:00:00.000Z",
-        "end": "2026-06-21T19:59:00.000Z"
+        "end": "2026-06-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0701.html",
+        "categories": [
+            "其他活动"
+        ]
     },
     {
         "id": "4730bbbf",
         "name": "相见欢2026",
         "start": "2026-01-26T20:00:00.000Z",
-        "end": "2026-02-05T19:59:00.000Z"
+        "end": "2026-02-05T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/1478.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "4acd7b9c",
         "name": "虹彩茶会",
         "start": "2024-06-20T08:00:00.000Z",
-        "end": "2024-07-03T19:59:00.000Z"
+        "end": "2024-07-03T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/5292.html",
+        "categories": [
+            "合作活动"
+        ]
     },
     {
         "id": "4ad5100d",
         "name": "好久不见",
         "start": "2022-09-15T08:00:00.000Z",
-        "end": "2022-09-21T19:59:00.000Z"
+        "end": "2022-09-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022096584.html",
+        "categories": [
+            "故事集",
+            "联动活动"
+        ]
     },
     {
         "id": "4aeaee6c",
         "name": "视相博物馆",
         "start": "2024-12-29T08:00:00.000Z",
-        "end": "2025-01-11T19:59:00.000Z"
+        "end": "2025-01-11T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2857.html",
+        "categories": [
+            "视相博物馆"
+        ]
     },
     {
         "id": "4b367531",
         "name": "新春签到2025",
         "start": "2025-01-28T08:00:00.000Z",
-        "end": "2025-02-10T19:59:00.000Z"
+        "end": "2025-02-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3078.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "4bd99dd6",
         "name": "无终奇语拓展二限时日常",
         "start": "2025-01-09T08:00:00.000Z",
-        "end": "2025-01-22T19:59:00.000Z"
+        "end": "2025-01-22T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2857.html",
+        "categories": [
+            "其他活动"
+        ]
     },
     {
         "id": "4d4e0fc5",
         "name": "六周年签到",
         "start": "2025-05-01T08:00:00.000Z",
-        "end": "2025-05-14T19:59:00.000Z"
+        "end": "2025-05-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3062.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "4d51c563",
         "name": "长夜临光",
         "start": "2021-11-01T08:00:00.000Z",
-        "end": "2021-11-21T19:59:00.000Z"
+        "end": "2021-11-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021100428.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "4f6449ab",
         "name": "公测开服活动",
         "start": "2019-04-30T02:00:00.000Z",
-        "end": "2019-05-15T19:59:00.000Z"
+        "end": "2019-05-15T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/201904329.html",
+        "categories": [
+            "活动公告",
+            "纪念活动"
+        ]
     },
     {
         "id": "5154ba66",
         "name": "主线“靶向药物”开启纪念限时活动（Part.1）",
         "start": "2019-07-09T08:00:00.000Z",
-        "end": "2019-07-21T19:59:00.000Z"
+        "end": "2019-07-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2019074439.html",
+        "categories": [
+            "活动公告",
+            "主线"
+        ]
     },
     {
         "id": "51b70ddd",
         "name": "危机合约/2019",
         "start": "2019-11-19T08:00:00.000Z",
-        "end": "2019-12-02T19:59:00.000Z"
+        "end": "2019-12-02T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2019114303.html",
+        "categories": [
+            "危机合约",
+            "危机合约经典赛季"
+        ]
     },
     {
         "id": "51fe3d3a",
         "name": "水晶箭行动",
         "start": "2024-03-07T08:00:00.000Z",
-        "end": "2024-03-20T19:59:00.000Z"
+        "end": "2024-03-20T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2024021796.html",
+        "categories": [
+            "支线故事",
+            "联动活动"
+        ]
     },
     {
         "id": "52c88538",
         "name": "火蓝之心2020",
         "start": "2020-08-11T08:00:00.000Z",
-        "end": "2020-08-20T19:59:00.000Z"
+        "end": "2020-08-20T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020087812.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "530490ea",
         "name": "出苍白海",
         "start": "2024-12-05T08:00:00.000Z",
-        "end": "2024-12-18T19:59:00.000Z"
+        "end": "2024-12-18T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/7304.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "5462f495",
         "name": "感谢庆典",
         "start": "2019-10-30T06:00:00.000Z",
-        "end": "2019-11-17T19:59:00.000Z"
+        "end": "2019-11-17T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2019104663.html",
+        "categories": [
+            "活动公告",
+            "纪念活动"
+        ]
     },
     {
         "id": "553d9f4f",
         "name": "理想城长夏狂欢季2023",
         "start": "2023-08-31T08:00:00.000Z",
-        "end": "2023-09-09T19:59:00.000Z"
+        "end": "2023-09-09T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023085939.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "557c19cb",
         "name": "正逢雨季",
         "start": "2022-11-01T08:00:00.000Z",
-        "end": "2022-11-14T19:59:00.000Z"
+        "end": "2022-11-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022103870.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "56eba9dd",
         "name": "跨年纪念2023",
         "start": "2022-12-23T20:00:00.000Z",
-        "end": "2023-01-06T19:59:00.000Z"
+        "end": "2023-01-06T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022123236.html",
+        "categories": [
+            "纪念活动"
+        ]
     },
     {
         "id": "57104d03",
         "name": "生路2025",
         "start": "2025-06-19T08:00:00.000Z",
-        "end": "2025-06-28T19:59:00.000Z"
+        "end": "2025-06-28T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/1483.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "576ac2df",
         "name": "危机合约/松烟行动",
         "start": "2021-11-22T08:00:00.000Z",
-        "end": "2021-12-05T19:59:00.000Z"
+        "end": "2021-12-05T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021100428.html",
+        "categories": [
+            "危机合约",
+            "危机合约经典赛季"
+        ]
     },
     {
         "id": "579fcca3",
         "name": "将进酒",
         "start": "2022-01-25T08:00:00.000Z",
-        "end": "2022-02-07T19:59:00.000Z"
+        "end": "2022-02-07T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022010080.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "5b78f2d5",
         "name": "冬隐归路开播庆祝",
         "start": "2023-10-05T20:00:00.000Z",
-        "end": "2023-11-04T19:59:00.000Z"
+        "end": "2023-11-04T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023095012.html",
+        "categories": [
+            "其他活动"
+        ]
     },
     {
         "id": "5ba4df9c",
         "name": "明日方舟×中国国家地理合作活动",
         "start": "2023-09-05T08:00:00.000Z",
-        "end": "2023-09-25T19:59:00.000Z"
+        "end": "2023-09-25T19:59:00.000Z",
+        "categories": [
+            "活动公告",
+            "合作活动"
+        ]
     },
     {
         "id": "5bacc000",
         "name": "吾导先路",
         "start": "2022-03-15T08:00:00.000Z",
-        "end": "2022-03-28T19:59:00.000Z"
+        "end": "2022-03-28T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022030544.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "5e63a928",
         "name": "密林悍将归来",
         "start": "2020-08-25T08:00:00.000Z",
-        "end": "2020-09-07T19:59:00.000Z"
+        "end": "2020-09-07T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020087452.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "60506c96",
         "name": "众生行记2026",
         "start": "2026-05-22T08:00:00.000Z",
-        "end": "2026-05-31T19:59:00.000Z"
+        "end": "2026-05-31T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3044.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "61bef690",
         "name": "重返古堡",
         "start": "2025-06-05T08:00:00.000Z",
-        "end": "2025-06-18T19:59:00.000Z"
+        "end": "2025-06-18T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/8506.html",
+        "categories": [
+            "其他活动"
+        ]
     },
     {
         "id": "6209d218",
         "name": "吾导先路2023",
         "start": "2023-02-21T08:00:00.000Z",
-        "end": "2023-03-02T19:59:00.000Z"
+        "end": "2023-03-02T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023023011.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "639d1695",
         "name": "共贺庆典",
         "start": "2026-05-01T04:00:00.000Z",
-        "end": "2026-06-04T22:00:00.000Z"
+        "end": "2026-06-04T22:00:00.000Z",
+        "categories": [
+            "网页活动",
+            "合作活动"
+        ]
     },
     {
         "id": "63c3eae4",
         "name": "玛莉娅临光2021",
         "start": "2021-10-01T08:00:00.000Z",
-        "end": "2021-10-10T19:59:00.000Z"
+        "end": "2021-10-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021090846.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "64c2f65e",
         "name": "十字路口",
         "start": "2026-03-10T04:00:00.000Z",
-        "end": "2026-03-16T19:59:00.000Z"
+        "end": "2026-03-16T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/6252.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "64f9e185",
         "name": "挽歌燃烧殆尽2026",
         "start": "2026-03-27T08:00:00.000Z",
-        "end": "2026-04-05T19:59:00.000Z"
+        "end": "2026-04-05T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0707.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "650b0a8c",
         "name": "亘古长明",
         "start": "2023-09-19T08:00:00.000Z",
-        "end": "2023-10-02T19:59:00.000Z"
+        "end": "2023-10-02T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023095008.html",
+        "categories": [
+            "复刻活动",
+            "登录活动",
+            "联动活动"
+        ]
     },
     {
         "id": "6523c4ec",
         "name": "留影烁今",
         "start": "2024-12-12T08:00:00.000Z",
-        "end": "2024-12-21T19:59:00.000Z"
+        "end": "2024-12-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0737.html",
+        "categories": [
+            "合作活动"
+        ]
     },
     {
         "id": "65c17405",
         "name": "揭幕者们2025",
         "start": "2025-11-25T08:00:00.000Z",
-        "end": "2025-12-04T19:59:00.000Z"
+        "end": "2025-12-04T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/5127.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "65f3265b",
         "name": "全息作战矩阵",
         "start": "2026-07-10T04:00:00.000Z",
-        "end": "2026-07-17T19:59:00.000Z"
+        "end": "2026-07-17T19:59:00.000Z",
+        "categories": []
     },
     {
         "id": "664b557f",
         "name": "危机合约/燃灰行动",
         "start": "2020-11-15T08:00:00.000Z",
-        "end": "2020-11-28T19:59:00.000Z"
+        "end": "2020-11-28T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020107970.html",
+        "categories": [
+            "危机合约",
+            "危机合约经典赛季"
+        ]
     },
     {
         "id": "66b99fc8",
         "name": "风雪过境",
         "start": "2021-12-21T08:00:00.000Z",
-        "end": "2022-01-03T19:59:00.000Z"
+        "end": "2022-01-03T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021120792.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "671fb61f",
         "name": "二周年签到",
         "start": "2021-05-01T08:00:00.000Z",
-        "end": "2021-05-14T19:59:00.000Z"
+        "end": "2021-05-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021049228.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "68e90403",
         "name": "星语共愿",
         "start": "2025-12-23T12:30:00.000Z",
-        "end": "2026-01-01T19:59:00.000Z"
+        "end": "2026-01-01T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3058.html",
+        "categories": [
+            "其他活动"
+        ]
     },
     {
         "id": "6902c76d",
         "name": "新生支点",
         "start": "2025-09-27T20:00:00.000Z",
-        "end": "2025-10-07T19:59:00.000Z"
+        "end": "2025-10-07T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0716.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "695e92c4",
         "name": "烛照弦鸣",
         "start": "2023-11-01T08:00:00.000Z",
-        "end": "2023-11-14T19:59:00.000Z"
+        "end": "2023-11-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023105399.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "6a1ae3af",
         "name": "覆潮之下2022",
         "start": "2022-05-30T08:00:00.000Z",
-        "end": "2022-06-08T19:59:00.000Z"
+        "end": "2022-06-08T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022056264.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "6aa519d6",
         "name": "反常光谱",
         "start": "2025-10-09T04:00:00.000Z",
-        "end": "2025-10-22T19:59:00.000Z"
+        "end": "2025-10-22T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/9609.html",
+        "categories": [
+            "主线"
+        ]
     },
     {
         "id": "6aed5183",
         "name": "感谢庆典2026补给签到",
         "start": "2026-11-11T20:00:00.000Z",
-        "end": "2026-11-21T19:59:00.000Z"
+        "end": "2026-11-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0787.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "6af2f103",
         "name": "引航者试炼/04",
         "start": "2024-02-22T08:00:00.000Z",
-        "end": "2024-03-06T19:59:00.000Z"
+        "end": "2024-03-06T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2024021210.html",
+        "categories": [
+            "引航者试炼"
+        ]
     },
     {
         "id": "6ba431c6",
         "name": "多索雷斯假日",
         "start": "2021-08-03T08:00:00.000Z",
-        "end": "2021-08-23T19:59:00.000Z"
+        "end": "2021-08-23T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021079658.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "6bf1cd4f",
         "name": "矢量突破/2024",
         "start": "2024-09-27T08:00:00.000Z",
-        "end": "2024-10-10T19:59:00.000Z"
+        "end": "2024-10-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3074.html",
+        "categories": [
+            "矢量突破"
+        ]
     },
     {
         "id": "6c6400b8",
         "name": "金樨迎月",
         "start": "2025-10-03T20:00:00.000Z",
-        "end": "2025-10-10T19:59:00.000Z"
+        "end": "2025-10-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0716.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "6cd20f5f",
         "name": "空想花庭",
         "start": "2023-06-08T08:00:00.000Z",
-        "end": "2023-06-21T19:59:00.000Z"
+        "end": "2023-06-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023055835.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "6cfad67c",
         "name": "我们明日见",
         "start": "2025-02-14T08:00:00.000Z",
-        "end": "2025-02-20T19:59:00.000Z"
+        "end": "2025-02-20T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/7300.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "6d6cd4e6",
         "name": "感谢庆典2026限时签到",
         "start": "2026-11-01T04:00:00.000Z",
-        "end": "2026-11-14T19:59:00.000Z"
+        "end": "2026-11-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0787.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "6db0b85e",
         "name": "留影烁今2025",
         "start": "2025-11-25T08:00:00.000Z",
-        "end": "2025-12-04T19:59:00.000Z"
+        "end": "2025-12-04T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/5127.html",
+        "categories": [
+            "复刻活动",
+            "合作活动"
+        ]
     },
     {
         "id": "6e740566",
         "name": "卫戍协议：盟约 下半",
         "start": "2026-03-14T08:00:00.000Z",
-        "end": "2026-04-24T19:59:00.000Z"
+        "end": "2026-04-24T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/9697.html",
+        "categories": [
+            "卫戍协议"
+        ]
     },
     {
         "id": "6f7f2920",
         "name": "丛林症结",
         "start": "2026-07-10T04:00:00.000Z",
-        "end": "2026-07-16T19:59:00.000Z"
+        "end": "2026-07-16T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/9686.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "6f905229",
         "name": "长夜临光2022",
         "start": "2022-09-22T08:00:00.000Z",
-        "end": "2022-10-01T19:59:00.000Z"
+        "end": "2022-10-01T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022096577.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "723cda9f",
         "name": "不义之财2024",
         "start": "2024-09-19T08:00:00.000Z",
-        "end": "2024-09-28T19:59:00.000Z"
+        "end": "2024-09-28T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/7309.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "7409c21e",
         "name": "怀黍离2025",
         "start": "2025-02-24T08:00:00.000Z",
-        "end": "2025-03-05T19:59:00.000Z"
+        "end": "2025-03-05T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0733.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "74fd7a70",
         "name": "无忧梦呓",
         "start": "2025-09-04T08:00:00.000Z",
-        "end": "2025-09-17T19:59:00.000Z"
+        "end": "2025-09-17T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/1488.html",
+        "categories": [
+            "支线故事",
+            "联动活动"
+        ]
     },
     {
         "id": "75b4d943",
         "name": "生于黑夜2021",
         "start": "2021-03-30T08:00:00.000Z",
-        "end": "2021-04-08T19:59:00.000Z"
+        "end": "2021-04-08T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021039852.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "788990a2",
         "name": "红丝绒",
         "start": "2025-06-05T08:00:00.000Z",
-        "end": "2025-06-18T19:59:00.000Z"
+        "end": "2025-06-18T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/8506.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "7933e032",
         "name": "孤星2024",
         "start": "2024-05-24T08:00:00.000Z",
-        "end": "2024-06-02T19:59:00.000Z"
+        "end": "2024-06-02T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2970.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "7974e77a",
         "name": "骑兵与猎人2020",
         "start": "2020-10-01T08:00:00.000Z",
-        "end": "2020-10-10T19:59:00.000Z"
+        "end": "2020-10-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020097786.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "7af7c78f",
         "name": "锐不可当",
         "start": "2024-03-07T08:00:00.000Z",
-        "end": "2024-03-20T19:59:00.000Z"
+        "end": "2024-03-20T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2024021796.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "7c55d6da",
         "name": "促融共竞/02",
         "start": "2025-10-21T08:00:00.000Z",
-        "end": "2025-11-10T19:59:00.000Z"
+        "end": "2025-11-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0715.html",
+        "categories": [
+            "促融共竞"
+        ]
     },
     {
         "id": "7c6abc9a",
         "name": "照我以火2023",
         "start": "2023-12-22T08:00:00.000Z",
-        "end": "2023-12-31T19:59:00.000Z"
+        "end": "2023-12-31T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023125155.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "7d23395c",
         "name": "感谢庆典2026前瞻签到",
         "start": "2026-10-24T13:30:00.000Z",
-        "end": "2026-11-02T19:59:00.000Z"
+        "end": "2026-11-02T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0787.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "7d6c442c",
         "name": "危机合约/赝波行动",
         "start": "2022-11-15T08:00:00.000Z",
-        "end": "2022-11-28T19:59:00.000Z"
+        "end": "2022-11-28T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022103870.html",
+        "categories": [
+            "危机合约",
+            "危机合约经典赛季"
+        ]
     },
     {
         "id": "7d733c54",
         "name": "五周年专享活动",
         "start": "2024-04-27T13:30:00.000Z",
-        "end": "2023-05-31T19:59:00.000Z"
+        "end": "2023-05-31T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2024041632.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "7dac9d35",
         "name": "孤岛风云2021",
         "start": "2021-12-07T08:00:00.000Z",
-        "end": "2021-12-16T19:59:00.000Z"
+        "end": "2021-12-16T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021110234.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "7db54ea1",
         "name": "相变临界",
         "start": "2026-05-01T04:00:00.000Z",
-        "end": "2026-05-14T19:59:00.000Z"
+        "end": "2026-05-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3046.html",
+        "categories": [
+            "主线"
+        ]
     },
     {
         "id": "7dbc0741",
         "name": "魔法与友谊",
         "start": "2026-07-03T08:00:00.000Z",
-        "end": "2026-07-12T19:59:00.000Z"
+        "end": "2026-07-12T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/7363.html",
+        "categories": [
+            "合作活动"
+        ]
     },
     {
         "id": "7de10257",
         "name": "端午2023",
         "start": "2023-06-20T20:00:00.000Z",
-        "end": "2023-06-30T19:59:00.000Z"
+        "end": "2023-06-30T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023065493.html",
+        "categories": [
+            "活动公告",
+            "登录活动"
+        ]
     },
     {
         "id": "7e243389",
         "name": "危机合约/寻昼行动",
         "start": "2022-02-24T08:00:00.000Z",
-        "end": "2022-03-09T19:59:00.000Z"
+        "end": "2022-03-09T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022020382.html",
+        "categories": [
+            "危机合约",
+            "危机合约经典赛季"
+        ]
     },
     {
         "id": "7e37b00d",
         "name": "画中人2022",
         "start": "2022-01-10T08:00:00.000Z",
-        "end": "2022-01-19T19:59:00.000Z"
+        "end": "2022-01-19T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021120972.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "7ee4c9bd",
         "name": "慵懒心意",
         "start": "2026-01-16T08:00:00.000Z",
-        "end": "2026-02-05T19:59:00.000Z"
+        "end": "2026-02-05T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3057.html",
+        "categories": [
+            "合作活动"
+        ]
     },
     {
         "id": "7f2abf5c",
         "name": "卫戍协议·规程",
         "start": "2026-11-08T08:00:00.000Z",
-        "end": "2027-11-06T19:59:00.000Z"
+        "end": "2027-11-06T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0787.html",
+        "categories": [
+            "卫戍协议"
+        ]
     },
     {
         "id": "817975be",
         "name": "六周年活动推荐月卡",
         "start": "2025-04-26T13:30:00.000Z",
-        "end": "2025-05-31T19:59:00.000Z"
+        "end": "2025-05-31T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3062.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "83915436",
         "name": "引航者试炼/02",
         "start": "2023-01-10T08:00:00.000Z",
-        "end": "2023-01-16T19:59:00.000Z"
+        "end": "2023-01-16T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022123705.html",
+        "categories": [
+            "引航者试炼"
+        ]
     },
     {
         "id": "84fc902f",
         "name": "引航者试炼/06",
         "start": "2025-12-25T20:00:00.000Z",
-        "end": "2026-01-08T19:59:00.000Z"
+        "end": "2026-01-08T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2837.html",
+        "categories": [
+            "引航者试炼"
+        ]
     },
     {
         "id": "86132dbf",
         "name": "覆潮之下",
         "start": "2021-05-01T08:00:00.000Z",
-        "end": "2021-05-14T19:59:00.000Z"
+        "end": "2021-05-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021049228.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "861f7ab6",
         "name": "雅赛努斯复仇记",
         "start": "2026-01-09T04:00:00.000Z",
-        "end": "2026-01-22T19:59:00.000Z"
+        "end": "2026-01-22T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/9603.html",
+        "categories": [
+            "支线故事",
+            "包含蚀刻章"
+        ]
     },
     {
         "id": "87019721",
         "name": "明日方舟×肯德基合作活动",
         "start": "2019-11-03T16:00:00.000Z",
-        "end": "2019-12-15T15:59:00.000Z"
+        "end": "2019-12-15T15:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2019104634.html",
+        "categories": [
+            "活动公告",
+            "合作活动"
+        ]
     },
     {
         "id": "87e6ff54",
         "name": "揭幕者们",
         "start": "2024-11-01T08:00:00.000Z",
-        "end": "2024-11-21T19:59:00.000Z"
+        "end": "2024-11-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/7306.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "891bc3a8",
         "name": "五周年签到",
         "start": "2024-05-01T08:00:00.000Z",
-        "end": "2024-05-14T19:59:00.000Z"
+        "end": "2024-05-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2024041632.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "8f5f287c",
         "name": "未许之地",
         "start": "2025-12-05T04:00:00.000Z",
-        "end": "2025-12-18T19:59:00.000Z"
+        "end": "2025-12-18T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/9605.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "8fd20332",
         "name": "火蓝之心/黑曜石节",
         "start": "2019-08-14T20:00:00.000Z",
-        "end": "2019-08-25T19:59:00.000Z"
+        "end": "2019-08-25T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2019084784.html",
+        "categories": [
+            "活动公告",
+            "登录活动"
+        ]
     },
     {
         "id": "90ced516",
         "name": "跨年纪念",
         "start": "2019-12-31T16:00:00.000Z",
-        "end": "2020-01-14T19:59:00.000Z"
+        "end": "2020-01-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2019122882.html",
+        "categories": [
+            "活动公告",
+            "纪念活动"
+        ]
     },
     {
         "id": "919a4e12",
         "name": "萨卡兹的无终奇语",
         "start": "2024-07-16T08:00:00.000Z",
-        "end": "2025-03-07T08:00:00.000Z"
+        "end": "2025-03-07T08:00:00.000Z",
+        "categories": [
+            "集成战略"
+        ]
     },
     {
         "id": "9257cc94",
         "name": "金秋登录活动",
         "start": "2020-10-01T08:00:00.000Z",
-        "end": "2020-10-10T19:59:00.000Z"
+        "end": "2020-10-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020097786.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "928ffb44",
         "name": "密林悍将归来2021",
         "start": "2021-07-20T08:00:00.000Z",
-        "end": "2021-07-29T19:59:00.000Z"
+        "end": "2021-07-29T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021079605.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "93ef637b",
         "name": "端午2021",
         "start": "2021-06-09T20:00:00.000Z",
-        "end": "2021-06-19T19:59:00.000Z"
+        "end": "2021-06-19T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021069935.html",
+        "categories": [
+            "活动公告",
+            "登录活动"
+        ]
     },
     {
         "id": "9482a762",
         "name": "端午2025",
         "start": "2025-05-28T20:00:00.000Z",
-        "end": "2025-06-07T19:59:00.000Z"
+        "end": "2025-06-07T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/6272.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "965551d9",
         "name": "奇象巡展",
         "start": "2026-08-08T08:00:00.000Z",
-        "end": "2026-09-03T19:59:00.000Z"
+        "end": "2026-09-03T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/8571.html",
+        "categories": [
+            "其他活动"
+        ]
     },
     {
         "id": "967d9b4e",
         "name": "水月与深蓝之树",
         "start": "2022-09-27T08:00:00.000Z",
-        "end": "2023-05-31T19:59:59.000Z"
+        "end": "2023-05-31T19:59:59.000Z",
+        "categories": [
+            "集成战略"
+        ]
     },
     {
         "id": "96e43d09",
         "name": "辞岁行",
         "start": "2026-02-10T04:00:00.000Z",
-        "end": "2026-03-02T19:59:00.000Z"
+        "end": "2026-03-02T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/4942.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "973a3829",
         "name": "感谢庆典2020",
         "start": "2020-11-01T08:00:00.000Z",
-        "end": "2020-11-14T19:59:00.000Z"
+        "end": "2020-11-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020107970.html",
+        "categories": [
+            "纪念活动",
+            "主线"
+        ]
     },
     {
         "id": "9789c928",
         "name": "崔林特尔梅之金",
         "start": "2023-11-01T08:00:00.000Z",
-        "end": "2023-11-21T19:59:00.000Z"
+        "end": "2023-11-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023105399.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "979f87ad",
         "name": "尖灭测试作战",
         "start": "2023-05-22T08:00:00.000Z",
-        "end": "2023-06-04T19:59:00.000Z"
+        "end": "2023-06-04T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023043128.html",
+        "categories": [
+            "危机合约",
+            "危机合约作战赛季"
+        ]
     },
     {
         "id": "97a95794",
         "name": "2024音律联觉纪念II",
         "start": "2024-07-25T08:00:00.000Z",
-        "end": "2024-08-07T19:59:00.000Z"
+        "end": "2024-08-07T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0867.html",
+        "categories": [
+            "纪念活动"
+        ]
     },
     {
         "id": "97f542b8",
         "name": "墟2026",
         "start": "2026-08-21T20:00:00.000Z",
-        "end": "2026-08-31T19:59:00.000Z"
+        "end": "2026-08-31T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/7369.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "991bc091",
         "name": "直到大地变成一颗酸橙",
         "start": "2026-08-01T04:00:00.000Z",
-        "end": "2026-08-21T19:59:00.000Z"
+        "end": "2026-08-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/8571.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "9a38d931",
         "name": "危机合约/蛮鳞行动",
         "start": "2021-08-26T08:00:00.000Z",
-        "end": "2021-09-08T19:59:00.000Z"
+        "end": "2021-09-08T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021079658.html",
+        "categories": [
+            "危机合约",
+            "危机合约经典赛季"
+        ]
     },
     {
         "id": "9ad3b372",
         "name": "矢量突破/02",
         "start": "2026-02-24T08:00:00.000Z",
-        "end": "2026-03-16T19:59:00.000Z"
+        "end": "2026-03-16T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/7375.html",
+        "categories": [
+            "矢量突破",
+            "包含蚀刻章"
+        ]
     },
     {
         "id": "9af46edc",
         "name": "危机合约/渊默行动",
         "start": "2022-05-19T08:00:00.000Z",
-        "end": "2022-06-01T19:59:00.000Z"
+        "end": "2022-06-01T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022046448.html",
+        "categories": [
+            "危机合约",
+            "危机合约经典赛季"
+        ]
     },
     {
         "id": "9b5ec1a1",
         "name": "三周年签到",
         "start": "2022-05-01T08:00:00.000Z",
-        "end": "2022-05-14T19:59:00.000Z"
+        "end": "2022-05-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022046448.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "9bec48c0",
         "name": "新章节“局部坏死”预热活动",
         "start": "2019-12-10T08:00:00.000Z",
-        "end": "2019-12-23T19:59:00.000Z"
+        "end": "2019-12-23T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2019124536.html",
+        "categories": [
+            "活动公告",
+            "主线"
+        ]
     },
     {
         "id": "9c778e50",
         "name": "泰拉饭",
         "start": "2024-09-02T08:00:00.000Z",
-        "end": "2024-09-15T19:59:00.000Z"
+        "end": "2024-09-15T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0732.html",
+        "categories": [
+            "支线故事",
+            "联动活动"
+        ]
     },
     {
         "id": "9d2c84e1",
         "name": "如我所见",
         "start": "2021-07-13T08:00:00.000Z",
-        "end": "2021-07-19T19:59:00.000Z"
+        "end": "2021-07-19T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021079641.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "9e35669a",
         "name": "离解复合",
         "start": "2025-04-07T08:00:00.000Z",
-        "end": "2025-04-20T19:59:00.000Z"
+        "end": "2025-04-20T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/6274.html",
+        "categories": [
+            "主线"
+        ]
     },
     {
         "id": "9eea6a1b",
         "name": "战地秘闻",
         "start": "2019-10-15T08:00:00.000Z",
-        "end": "2019-10-21T19:59:00.000Z"
+        "end": "2019-10-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2019104054.html",
+        "categories": [
+            "微型故事"
+        ]
     },
     {
         "id": "9eff6873",
         "name": "灯火序曲",
         "start": "2021-06-01T08:00:00.000Z",
-        "end": "2021-06-07T19:59:00.000Z"
+        "end": "2021-06-07T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021059716.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "9f4d11d2",
         "name": "月行水上",
         "start": "2026-09-04T04:00:00.000Z",
-        "end": "2026-09-17T19:59:00.000Z"
+        "end": "2026-09-17T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/9681.html",
+        "categories": [
+            "支线故事",
+            "联动活动"
+        ]
     },
     {
         "id": "9f52e4ea",
         "name": "昨日海",
         "start": "2026-10-09T04:00:00.000Z",
-        "end": "2026-10-22T19:59:00.000Z"
+        "end": "2026-10-22T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/5101.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "a101a787",
         "name": "七周年签到",
         "start": "2026-05-01T04:00:00.000Z",
-        "end": "2026-05-14T19:59:00.000Z"
+        "end": "2026-05-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3046.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "a255d004",
         "name": "新春签到2023",
         "start": "2023-01-22T08:00:00.000Z",
-        "end": "2023-02-11T19:59:00.000Z"
+        "end": "2023-02-11T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023013981.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "a354a946",
         "name": "乌萨斯的孩子们",
         "start": "2020-06-18T08:00:00.000Z",
-        "end": "2020-06-24T19:59:00.000Z"
+        "end": "2020-06-24T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020062522.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "a68db1cd",
         "name": "潮起潮又起",
         "start": "2025-02-20T08:00:00.000Z",
-        "end": "2025-03-05T19:59:00.000Z"
+        "end": "2025-03-05T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/7300.html",
+        "categories": [
+            "其他活动"
+        ]
     },
     {
         "id": "a6edce7e",
         "name": "逐影集趣",
         "start": "2026-09-20T08:00:00.000Z",
-        "end": "2026-09-29T19:59:00.000Z"
+        "end": "2026-09-29T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2819.html",
+        "categories": [
+            "其他活动"
+        ]
     },
     {
         "id": "a7c9427a",
         "name": "主题曲第十二章预热",
         "start": "2023-03-22T20:00:00.000Z",
-        "end": "2023-04-19T19:59:00.000Z"
+        "end": "2023-04-19T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023033398.html",
+        "categories": [
+            "主线"
+        ]
     },
     {
         "id": "a9e61506",
         "name": "银心湖列车2024",
         "start": "2024-12-19T08:00:00.000Z",
-        "end": "2024-12-28T19:59:00.000Z"
+        "end": "2024-12-28T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/4969.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "aa13313d",
         "name": "锦枫映月",
         "start": "2026-09-22T20:00:00.000Z",
-        "end": "2026-09-29T19:59:00.000Z"
+        "end": "2026-09-29T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2819.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "aa217ed4",
         "name": "登临意2024",
         "start": "2024-01-18T08:00:00.000Z",
-        "end": "2024-01-27T19:59:00.000Z"
+        "end": "2024-01-27T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2024011441.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "ab384f95",
         "name": "人们，我们",
         "start": "2026-04-07T04:00:00.000Z",
-        "end": "2026-04-20T19:59:00.000Z"
+        "end": "2026-04-20T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/1461.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "ace99be7",
         "name": "墟",
         "start": "2025-08-02T08:00:00.000Z",
-        "end": "2025-08-22T19:59:00.000Z"
+        "end": "2025-08-22T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/6277.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "aecae7ef",
         "name": "风雪过境2022",
         "start": "2022-12-01T08:00:00.000Z",
-        "end": "2022-12-10T19:59:00.000Z"
+        "end": "2022-12-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022113464.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "b132b709",
         "name": "金秋",
         "start": "2019-10-01T08:00:00.000Z",
-        "end": "2019-10-10T19:59:00.000Z"
+        "end": "2019-10-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2019094079.html",
+        "categories": [
+            "活动公告",
+            "登录活动"
+        ]
     },
     {
         "id": "b2b4fac7",
         "name": "春分",
         "start": "2023-02-14T08:00:00.000Z",
-        "end": "2023-02-20T19:59:00.000Z"
+        "end": "2023-02-20T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023023007.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "b33b3271",
         "name": "吉兆呈祥",
         "start": "2022-01-10T08:00:00.000Z",
-        "end": "2022-01-19T19:59:00.000Z"
+        "end": "2022-01-19T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021120972.html",
+        "categories": [
+            "登录活动",
+            "联动活动"
+        ]
     },
     {
         "id": "b3c87faf",
         "name": "落叶逐火2026",
         "start": "2026-06-15T08:00:00.000Z",
-        "end": "2026-06-24T19:59:00.000Z"
+        "end": "2026-06-24T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/9699.html",
+        "categories": [
+            "支线故事",
+            "复刻活动",
+            "联动活动"
+        ]
     },
     {
         "id": "b4d2f833",
         "name": "危机合约/荒芜行动",
         "start": "2020-03-17T08:00:00.000Z",
-        "end": "2020-03-30T19:59:00.000Z"
+        "end": "2020-03-30T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020032785.html",
+        "categories": [
+            "危机合约",
+            "危机合约经典赛季"
+        ]
     },
     {
         "id": "b6bb29eb",
         "name": "太阳甩在身后",
         "start": "2024-08-01T08:00:00.000Z",
-        "end": "2024-08-21T19:59:00.000Z"
+        "end": "2024-08-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/8634.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "b6c849ba",
         "name": "火山旅梦2024",
         "start": "2024-08-22T08:00:00.000Z",
-        "end": "2024-08-31T19:59:00.000Z"
+        "end": "2024-08-31T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2976.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "b749f1bd",
         "name": "日暮寻路",
         "start": "2022-09-08T08:00:00.000Z",
-        "end": "2022-09-14T19:59:00.000Z"
+        "end": "2022-09-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022086397.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "b79e07e1",
         "name": "危机合约/黄铁行动",
         "start": "2020-06-02T08:00:00.000Z",
-        "end": "2020-06-15T19:59:00.000Z"
+        "end": "2020-06-15T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020062365.html",
+        "categories": [
+            "危机合约",
+            "危机合约经典赛季"
+        ]
     },
     {
         "id": "b8a84825",
         "name": "此地之外",
         "start": "2021-01-05T08:00:00.000Z",
-        "end": "2021-01-11T19:59:00.000Z"
+        "end": "2021-01-11T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020127322.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "b8e4ca9e",
         "name": "宿于繁星",
         "start": "2023-06-29T08:00:00.000Z",
-        "end": "2023-07-12T19:59:00.000Z"
+        "end": "2023-07-12T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023065436.html",
+        "categories": [
+            "合作活动"
+        ]
     },
     {
         "id": "b8e5c8f1",
         "name": "跨年纪念2021",
         "start": "2020-12-23T20:00:00.000Z",
-        "end": "2021-01-06T19:59:00.000Z"
+        "end": "2021-01-06T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020127618.html",
+        "categories": [
+            "纪念活动"
+        ]
     },
     {
         "id": "b8f0e698",
         "name": "画中人",
         "start": "2021-02-05T08:00:00.000Z",
-        "end": "2021-02-18T19:59:00.000Z"
+        "end": "2021-02-18T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021017538.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "ba7b775f",
         "name": "危机合约/浊燃作战",
         "start": "2023-11-21T08:00:00.000Z",
-        "end": "2023-12-04T19:59:00.000Z"
+        "end": "2023-12-04T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023105399.html",
+        "categories": [
+            "危机合约",
+            "危机合约作战赛季"
+        ]
     },
     {
         "id": "bbd0246a",
         "name": "泡影苍霆",
         "start": "2026-06-01T04:00:00.000Z",
-        "end": "2026-06-14T19:59:00.000Z"
+        "end": "2026-06-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0701.html",
+        "categories": [
+            "支线故事",
+            "联动活动"
+        ]
     },
     {
         "id": "bc0a480b",
         "name": "促融共竞2共竞目标",
         "start": "2025-10-21T08:00:00.000Z",
-        "end": "2025-11-13T19:59:00.000Z"
+        "end": "2025-11-13T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0715.html",
+        "categories": [
+            "其他活动"
+        ]
     },
     {
         "id": "bcdd8076",
         "name": "雪山降临1101",
         "start": "2025-11-01T04:00:00.000Z",
-        "end": "2025-11-21T19:59:00.000Z"
+        "end": "2025-11-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2830.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "bd59e7f5",
         "name": "慈悲灯塔",
         "start": "2024-05-01T08:00:00.000Z",
-        "end": "2024-05-14T19:59:00.000Z"
+        "end": "2024-05-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2024041632.html",
+        "categories": [
+            "主线"
+        ]
     },
     {
         "id": "be30f96c",
         "name": "锋芒将现",
         "start": "2021-03-09T08:00:00.000Z",
-        "end": "2021-03-22T19:59:00.000Z"
+        "end": "2021-03-22T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021039884.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "bf880ce8",
         "name": "跨年纪念2025",
         "start": "2024-12-29T08:00:00.000Z",
-        "end": "2025-01-07T19:59:00.000Z"
+        "end": "2025-01-07T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2857.html",
+        "categories": [
+            "纪念活动"
+        ]
     },
     {
         "id": "c0c27b6e",
         "name": "不义之财",
         "start": "2023-09-05T08:00:00.000Z",
-        "end": "2023-09-18T19:59:00.000Z"
+        "end": "2023-09-18T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023085044.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "c0dee78f",
         "name": "洪炉示岁",
         "start": "2020-01-08T20:00:00.000Z",
-        "end": "2020-01-15T19:59:00.000Z"
+        "end": "2020-01-15T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020012807.html",
+        "categories": [
+            "微型故事"
+        ]
     },
     {
         "id": "c0e95592",
         "name": "感谢庆典2025前瞻签到",
         "start": "2025-10-25T13:30:00.000Z",
-        "end": "2025-11-03T19:59:00.000Z"
+        "end": "2025-11-03T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2830.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "c0fe8382",
         "name": "从罗德岛到班戟号",
         "start": "2025-12-04T03:00:00.000Z",
-        "end": "2026-03-04T03:00:00.000Z"
+        "end": "2026-03-04T03:00:00.000Z",
+        "categories": [
+            "网页活动",
+            "合作活动"
+        ]
     },
     {
         "id": "c21cceef",
         "name": "氤氲奇境",
         "start": "2023-07-31T20:00:00.000Z",
-        "end": "2023-08-14T19:59:00.000Z"
+        "end": "2023-08-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023075795.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "c2d0969f",
         "name": "遗尘漫步2022",
         "start": "2022-03-29T08:00:00.000Z",
-        "end": "2022-04-07T19:59:00.000Z"
+        "end": "2022-04-07T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022030184.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "c45536af",
         "name": "温情时光",
         "start": "2025-10-21T08:00:00.000Z",
-        "end": "2025-11-10T19:59:00.000Z"
+        "end": "2025-11-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/8597.html",
+        "categories": [
+            "合作活动"
+        ]
     },
     {
         "id": "c4a863ff",
         "name": "危机合约/弧光作战",
         "start": "2025-08-14T08:00:00.000Z",
-        "end": "2025-08-27T19:59:00.000Z"
+        "end": "2025-08-27T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/6277.html",
+        "categories": [
+            "危机合约",
+            "危机合约作战赛季"
+        ]
     },
     {
         "id": "c4b5809a",
         "name": "破碎日冕",
         "start": "2022-04-14T08:00:00.000Z",
-        "end": "2022-04-27T19:59:00.000Z"
+        "end": "2022-04-27T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022040113.html",
+        "categories": [
+            "主线"
+        ]
     },
     {
         "id": "c5aa40c2",
         "name": "沃伦姆德的薄暮2021",
         "start": "2021-06-17T08:00:00.000Z",
-        "end": "2021-06-26T19:59:00.000Z"
+        "end": "2021-06-26T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021069089.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "c62ade42",
         "name": "新春登录限时活动",
         "start": "2020-01-25T08:00:00.000Z",
-        "end": "2020-02-07T19:59:00.000Z"
+        "end": "2020-02-07T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020012807.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "c7fabcd9",
         "name": "沙中之火",
         "start": "2023-01-29T08:00:00.000Z",
-        "end": "2023-03-04T19:59:00.000Z"
+        "end": "2023-03-04T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023013043.html",
+        "categories": [
+            "生息演算"
+        ]
     },
     {
         "id": "c88f3c7e",
         "name": "跨年纪念2024",
         "start": "2023-12-23T20:00:00.000Z",
-        "end": "2024-01-06T19:59:00.000Z"
+        "end": "2024-01-06T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023125155.html",
+        "categories": [
+            "纪念活动"
+        ]
     },
     {
         "id": "c910b48c",
         "name": "将进酒2023",
         "start": "2023-01-01T08:00:00.000Z",
-        "end": "2023-01-10T19:59:00.000Z"
+        "end": "2023-01-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022123741.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "c917b780",
         "name": "惊霆无声",
         "start": "2023-04-05T20:00:00.000Z",
-        "end": "2023-04-19T19:59:00.000Z"
+        "end": "2023-04-19T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023033313.html",
+        "categories": [
+            "主线"
+        ]
     },
     {
         "id": "c9b2dc32",
         "name": "孤星",
         "start": "2023-05-01T08:00:00.000Z",
-        "end": "2023-05-21T19:59:00.000Z"
+        "end": "2023-05-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023043128.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "c9f27ec9",
         "name": "无终奇语签到活动",
         "start": "2024-07-08T20:00:00.000Z",
-        "end": "2024-07-18T19:59:00.000Z"
+        "end": "2024-07-18T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0868.html",
+        "categories": [
+            "活动公告",
+            "登录活动"
+        ]
     },
     {
         "id": "ca53a7c9",
         "name": "巴别塔2025",
         "start": "2025-04-21T08:00:00.000Z",
-        "end": "2025-04-30T19:59:00.000Z"
+        "end": "2025-04-30T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/7397.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "cb21a04a",
         "name": "清光邀月",
         "start": "2023-09-27T08:00:00.000Z",
-        "end": "2023-10-10T19:59:00.000Z"
+        "end": "2023-10-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023095012.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "cb73e770",
         "name": "七周年专享月卡",
         "start": "2026-04-25T13:30:00.000Z",
-        "end": "2026-05-31T19:59:00.000Z"
+        "end": "2026-05-31T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3046.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "cc0b72cc",
         "name": "绿野幻梦",
         "start": "2022-07-05T08:00:00.000Z",
-        "end": "2022-07-18T19:59:00.000Z"
+        "end": "2022-07-18T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022066973.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "cc5889ec",
         "name": "透明信笺",
         "start": "2026-08-01T04:00:00.000Z",
-        "end": "2026-08-14T19:59:00.000Z"
+        "end": "2026-08-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/8571.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "cd43ab1a",
         "name": "叙拉古人2023",
         "start": "2023-10-22T08:00:00.000Z",
-        "end": "2023-10-31T19:59:00.000Z"
+        "end": "2023-10-31T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023105613.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "cd74ad5a",
         "name": "愚人号2023",
         "start": "2023-04-20T08:00:00.000Z",
-        "end": "2023-04-29T19:59:00.000Z"
+        "end": "2023-04-29T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023043553.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "d0a6b828",
         "name": "感谢庆典2025限时签到",
         "start": "2025-11-01T04:00:00.000Z",
-        "end": "2025-11-14T19:59:00.000Z"
+        "end": "2025-11-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2830.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "d0b619a2",
         "name": "愚人号",
         "start": "2022-05-01T08:00:00.000Z",
-        "end": "2022-05-21T19:59:00.000Z"
+        "end": "2022-05-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022046448.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "d0dc715d",
         "name": "风暴瞭望",
         "start": "2021-09-17T08:00:00.000Z",
-        "end": "2021-09-30T19:59:00.000Z"
+        "end": "2021-09-30T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021099183.html",
+        "categories": [
+            "主线"
+        ]
     },
     {
         "id": "d23f248b",
         "name": "新春签到2026",
         "start": "2026-02-15T20:00:00.000Z",
-        "end": "2026-03-01T19:59:00.000Z"
+        "end": "2026-03-01T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/4942.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "d329783c",
         "name": "红丝绒2026",
         "start": "2026-07-19T20:00:00.000Z",
-        "end": "2026-07-29T19:59:00.000Z"
+        "end": "2026-07-29T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/5107.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "d46a0794",
         "name": "秋风送爽",
         "start": "2022-09-30T20:00:00.000Z",
-        "end": "2022-10-10T19:59:00.000Z"
+        "end": "2022-10-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022096560.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "d585aa80",
         "name": "桂时逢月",
         "start": "2022-09-08T08:00:00.000Z",
-        "end": "2022-09-17T19:59:00.000Z"
+        "end": "2022-09-17T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022086397.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "d5e12312",
         "name": "照我以火",
         "start": "2022-12-15T08:00:00.000Z",
-        "end": "2022-12-28T19:59:00.000Z"
+        "end": "2022-12-28T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022123221.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "d5f7d064",
         "name": "罗德岛防御协议",
         "start": "2021-03-09T08:00:00.000Z",
-        "end": "2021-03-22T19:59:00.000Z"
+        "end": "2021-03-22T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021037111.html",
+        "categories": [
+            "多维合作"
+        ]
     },
     {
         "id": "d67f2fa1",
         "name": "尘影余音2023",
         "start": "2023-06-20T08:00:00.000Z",
-        "end": "2023-06-29T19:59:00.000Z"
+        "end": "2023-06-29T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023065493.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "d7273d4d",
         "name": "感谢庆典2025补给签到",
         "start": "2025-11-12T20:00:00.000Z",
-        "end": "2025-11-22T19:59:00.000Z"
+        "end": "2025-11-22T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2830.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "d8a50942",
         "name": "梦城堡模拟训练",
         "start": "2025-09-04T08:00:00.000Z",
-        "end": "2025-09-24T19:59:00.000Z"
+        "end": "2025-09-24T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/1488.html",
+        "categories": [
+            "其他活动"
+        ]
     },
     {
         "id": "d8ab0ac0",
         "name": "源石尘行动",
         "start": "2021-03-09T08:00:00.000Z",
-        "end": "2021-03-22T19:59:00.000Z"
+        "end": "2021-03-22T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021039884.html",
+        "categories": [
+            "支线故事",
+            "联动活动"
+        ]
     },
     {
         "id": "d8c67f5e",
         "name": "构想试炼",
         "start": "2024-09-27T20:00:00.000Z",
-        "end": "2024-10-07T19:59:00.000Z"
+        "end": "2024-10-07T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3074.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "d96ff2e7",
         "name": "眠于树影之中",
         "start": "2023-07-06T08:00:00.000Z",
-        "end": "2023-07-12T19:59:00.000Z"
+        "end": "2023-07-12T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023065294.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "dc9065df",
         "name": "落叶逐火",
         "start": "2023-03-07T08:00:00.000Z",
-        "end": "2023-03-20T19:59:00.000Z"
+        "end": "2023-03-20T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023033669.html",
+        "categories": [
+            "支线故事",
+            "联动活动"
+        ]
     },
     {
         "id": "dcd6f91a",
         "name": "局部坏死",
         "start": "2019-12-24T08:00:00.000Z",
-        "end": "2020-01-06T19:59:00.000Z"
+        "end": "2020-01-06T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2019124194.html",
+        "categories": [
+            "活动公告",
+            "主线"
+        ]
     },
     {
         "id": "dd15307b",
         "name": "午间逸话",
         "start": "2020-02-25T08:00:00.000Z",
-        "end": "2020-03-02T19:59:00.000Z"
+        "end": "2020-03-02T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020022226.html",
+        "categories": [
+            "微型故事"
+        ]
     },
     {
         "id": "dd9f73f7",
         "name": "重启锚点",
         "start": "2026-05-15T08:00:00.000Z",
-        "end": "2027-05-14T19:59:00.000Z"
+        "end": "2027-05-14T19:59:00.000Z",
+        "categories": [
+            "生息演算"
+        ]
     },
     {
         "id": "deba62dc",
         "name": "理想城长夏狂欢季",
         "start": "2022-08-11T08:00:00.000Z",
-        "end": "2022-08-31T19:59:00.000Z"
+        "end": "2022-08-31T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022086059.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "debb16de",
         "name": "遗尘漫步",
         "start": "2021-04-15T08:00:00.000Z",
-        "end": "2021-04-28T19:59:00.000Z"
+        "end": "2021-04-28T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021049400.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "df655b31",
         "name": "争锋频道：绿藤城",
         "start": "2026-04-25T13:30:00.000Z",
-        "end": "2026-05-08T19:59:00.000Z"
+        "end": "2026-05-08T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3046.html",
+        "categories": [
+            "争锋频道"
+        ]
     },
     {
         "id": "e38597f4",
         "name": "端午2024",
         "start": "2024-06-06T20:00:00.000Z",
-        "end": "2024-06-16T19:59:00.000Z"
+        "end": "2024-06-16T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/1525.html",
+        "categories": [
+            "活动公告",
+            "登录活动"
+        ]
     },
     {
         "id": "e3fad20d",
         "name": "大地与繁星交汇之际",
         "start": "2024-01-27T13:00:00.000Z",
-        "end": "2024-03-12T15:59:00.000Z"
+        "end": "2024-03-12T15:59:00.000Z",
+        "categories": [
+            "网页活动",
+            "合作活动"
+        ]
     },
     {
         "id": "e425fd9b",
         "name": "阴云火花",
         "start": "2022-02-15T08:00:00.000Z",
-        "end": "2022-02-21T19:59:00.000Z"
+        "end": "2022-02-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022010681.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "e467f416",
         "name": "淬火尘霾",
         "start": "2022-10-11T08:00:00.000Z",
-        "end": "2022-10-24T19:59:00.000Z"
+        "end": "2022-10-24T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022096127.html",
+        "categories": [
+            "主线"
+        ]
     },
     {
         "id": "e4e853ed",
         "name": "端午2020",
         "start": "2020-06-24T20:00:00.000Z",
-        "end": "2020-07-04T19:59:00.000Z"
+        "end": "2020-07-04T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020062566.html",
+        "categories": [
+            "活动公告",
+            "登录活动"
+        ]
     },
     {
         "id": "e4e9f441",
         "name": "危机合约/净罪作战",
         "start": "2025-02-05T08:00:00.000Z",
-        "end": "2025-02-18T19:59:00.000Z"
+        "end": "2025-02-18T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/4966.html",
+        "categories": [
+            "危机合约",
+            "危机合约作战赛季"
+        ]
     },
     {
         "id": "e55c8760",
         "name": "促融共竞/01",
         "start": "2025-03-20T08:00:00.000Z",
-        "end": "2025-04-09T19:59:00.000Z"
+        "end": "2025-04-09T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/9616.html",
+        "categories": [
+            "促融共竞"
+        ]
     },
     {
         "id": "e5991b35",
         "name": "主题曲第十一章预热",
         "start": "2022-09-27T08:00:00.000Z",
-        "end": "2022-10-10T19:59:00.000Z"
+        "end": "2022-10-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022096560.html",
+        "categories": [
+            "主线"
+        ]
     },
     {
         "id": "e5fe0e13",
         "name": "时光的赠礼",
         "start": "2024-12-23T12:30:00.000Z",
-        "end": "2025-01-01T19:59:00.000Z"
+        "end": "2025-01-01T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0736.html",
+        "categories": [
+            "其他活动"
+        ]
     },
     {
         "id": "e6765469",
         "name": "众生行记",
         "start": "2025-05-01T08:00:00.000Z",
-        "end": "2025-05-21T19:59:00.000Z"
+        "end": "2025-05-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3062.html",
+        "categories": [
+            "支线故事"
+        ]
     },
     {
         "id": "e7a3d451",
         "name": "岁暮点雪",
         "start": "2021-02-12T08:00:00.000Z",
-        "end": "2021-03-04T19:59:00.000Z"
+        "end": "2021-03-04T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021017538.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "e7e413ac",
         "name": "危机合约/潮曦作战",
         "start": "2024-03-28T08:00:00.000Z",
-        "end": "2024-04-10T19:59:00.000Z"
+        "end": "2024-04-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2024031969.html",
+        "categories": [
+            "危机合约",
+            "危机合约作战赛季"
+        ]
     },
     {
         "id": "e8ae1ddb",
         "name": "鸣羽颂新",
         "start": "2026-02-06T13:00:00.000Z",
-        "end": "2026-03-09T19:59:00.000Z"
+        "end": "2026-03-09T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/4942.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "e8cf089f",
         "name": "未尽篇章",
         "start": "2022-07-19T08:00:00.000Z",
-        "end": "2022-07-25T19:59:00.000Z"
+        "end": "2022-07-25T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2022076937.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "e9c5205d",
         "name": "危机合约/利刃行动",
         "start": "2020-07-28T08:00:00.000Z",
-        "end": "2020-08-10T19:59:00.000Z"
+        "end": "2020-08-10T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020072110.html",
+        "categories": [
+            "危机合约",
+            "危机合约经典赛季"
+        ]
     },
     {
         "id": "ea02bdba",
         "name": "视相博物馆：演化",
         "start": "2026-10-24T08:00:00.000Z",
-        "end": "2026-11-06T19:59:00.000Z"
+        "end": "2026-11-06T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0787.html",
+        "categories": [
+            "视相博物馆"
+        ]
     },
     {
         "id": "ea412dee",
         "name": "未来序曲",
         "start": "2023-05-01T08:00:00.000Z",
-        "end": "2023-05-14T19:59:00.000Z"
+        "end": "2023-05-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023043128.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "ebacf89d",
         "name": "沉沙赫日",
         "start": "2024-08-01T08:00:00.000Z",
-        "end": "2024-08-14T19:59:00.000Z"
+        "end": "2024-08-14T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/8634.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "ec1ba599",
         "name": "崔林特尔梅之金2024",
         "start": "2024-11-25T08:00:00.000Z",
-        "end": "2024-12-04T19:59:00.000Z"
+        "end": "2024-12-04T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/5147.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "edd483e4",
         "name": "矢量突破/03",
         "start": "2026-09-29T08:00:00.000Z",
-        "end": "2026-10-19T19:59:00.000Z"
+        "end": "2026-10-19T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/1455.html",
+        "categories": [
+            "矢量突破",
+            "包含蚀刻章"
+        ]
     },
     {
         "id": "edfae83e",
         "name": "提线人偶的迎宾礼",
         "start": "2025-09-04T08:00:00.000Z",
-        "end": "2025-09-17T19:59:00.000Z"
+        "end": "2025-09-17T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/1488.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "f0c46c75",
         "name": "稳态测定",
         "start": "2026-09-27T20:00:00.000Z",
-        "end": "2026-10-07T19:59:00.000Z"
+        "end": "2026-10-07T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2819.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "f1724796",
         "name": "追迹日落以西2025",
         "start": "2025-09-19T08:00:00.000Z",
-        "end": "2025-09-28T19:59:00.000Z"
+        "end": "2025-09-28T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3053.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "f32ead29",
         "name": "岁的界园志异",
         "start": "2025-07-15T08:00:00.000Z",
-        "end": "2026-03-10T08:00:00.000Z"
+        "end": "2026-03-10T08:00:00.000Z",
+        "categories": [
+            "集成战略"
+        ]
     },
     {
         "id": "f40a6b00",
         "name": "此夜同行",
         "start": "2026-09-04T04:00:00.000Z",
-        "end": "2026-09-17T19:59:00.000Z"
+        "end": "2026-09-17T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/9681.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "f49664a0",
         "name": "引航者试炼/03",
         "start": "2023-08-18T08:00:00.000Z",
-        "end": "2023-08-31T19:59:00.000Z"
+        "end": "2023-08-31T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2023075795.html",
+        "categories": [
+            "引航者试炼"
+        ]
     },
     {
         "id": "f4dfc9c5",
         "name": "万类共生",
         "start": "2020-03-02T20:00:00.000Z",
-        "end": "2020-03-16T19:59:00.000Z"
+        "end": "2020-03-16T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020022260.html",
+        "categories": [
+            "活动公告",
+            "登录活动",
+            "合作活动"
+        ]
     },
     {
         "id": "f597756e",
         "name": "危机合约/光谱行动",
         "start": "2021-05-15T08:00:00.000Z",
-        "end": "2021-05-28T19:59:00.000Z"
+        "end": "2021-05-28T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021049228.html",
+        "categories": [
+            "危机合约",
+            "危机合约经典赛季"
+        ]
     },
     {
         "id": "f5aae4cd",
         "name": "良辰迎月",
         "start": "2024-09-15T08:00:00.000Z",
-        "end": "2024-09-21T19:59:00.000Z"
+        "end": "2024-09-21T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/0732.html",
+        "categories": [
+            "登录活动"
+        ]
     },
     {
         "id": "f5ce94ec",
         "name": "危机合约/铅封行动",
         "start": "2021-01-19T08:00:00.000Z",
-        "end": "2021-02-01T19:59:00.000Z"
+        "end": "2021-02-01T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2021017542.html",
+        "categories": [
+            "危机合约",
+            "危机合约经典赛季"
+        ]
     },
     {
         "id": "f71f4068",
         "name": "太阳甩在身后2025",
         "start": "2025-08-24T20:00:00.000Z",
-        "end": "2025-09-03T19:59:00.000Z"
+        "end": "2025-09-03T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/4954.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "f749cd96",
         "name": "沉沦者的黑流树海",
         "start": "2026-07-17T08:00:00.000Z",
-        "end": "2027-03-10T08:00:00.000Z"
+        "end": "2027-03-10T08:00:00.000Z",
+        "categories": [
+            "集成战略"
+        ]
     },
     {
         "id": "f9631ed9",
         "name": "焰烬曙明完结庆祝",
         "start": "2025-09-05T20:00:00.000Z",
-        "end": "2025-10-08T19:59:00.000Z"
+        "end": "2025-10-08T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/1488.html",
+        "categories": [
+            "其他活动"
+        ]
     },
     {
         "id": "fcf17845",
         "name": "空想花庭2024",
         "start": "2024-06-25T08:00:00.000Z",
-        "end": "2024-07-04T19:59:00.000Z"
+        "end": "2024-07-04T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/8636.html",
+        "categories": [
+            "支线故事",
+            "复刻活动"
+        ]
     },
     {
         "id": "fd1257ef",
         "name": "恒远津梁",
         "start": "2026-10-16T08:00:00.000Z",
-        "end": "2026-10-29T19:59:00.000Z"
+        "end": "2026-10-29T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/1454.html",
+        "categories": [
+            "合作活动"
+        ]
     },
     {
         "id": "fedc4bee",
         "name": "争锋频道：青草城",
         "start": "2025-04-26T13:30:00.000Z",
-        "end": "2025-05-11T19:59:00.000Z"
+        "end": "2025-05-11T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/3062.html",
+        "categories": [
+            "争锋频道"
+        ]
     },
     {
         "id": "ff833d9f",
         "name": "下载人数突破500万纪念活动",
         "start": "2019-05-22T20:00:00.000Z",
-        "end": "2019-06-12T19:59:00.000Z"
+        "end": "2019-06-12T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/201905193.html",
+        "categories": [
+            "活动公告",
+            "纪念活动"
+        ]
     },
     {
         "id": "ffb730b4",
         "name": "踏寻往昔之风",
         "start": "2020-09-24T08:00:00.000Z",
-        "end": "2020-09-30T19:59:00.000Z"
+        "end": "2020-09-30T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2020097786.html",
+        "categories": [
+            "故事集"
+        ]
     },
     {
         "id": "fffe6fbb",
         "name": "沙洲遗闻限时日常",
         "start": "2024-08-22T08:00:00.000Z",
-        "end": "2024-08-31T19:59:00.000Z"
+        "end": "2024-08-31T19:59:00.000Z",
+        "description": "官网链接：https://ak.hypergryph.com/news/2976.html",
+        "categories": [
+            "其他活动"
+        ]
     }
 ]
