@@ -76,7 +76,7 @@ async function fetchAllEvents(): Promise<EventType[]> {
     };
     const rawSiteId = i.printouts['官网链接'];
     if (rawSiteId && [...rawSiteId].length > 0) {
-      ev.siteId = rawSiteId[0];
+      ev.description = `官网链接：https://ak.hypergryph.com/news/${rawSiteId[0]}.html`;
     }
     result.push(ev);
   }
