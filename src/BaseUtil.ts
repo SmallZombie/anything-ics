@@ -129,6 +129,8 @@ class Vcalendar {
           item.summary = i.slice('SUMMARY:'.length);
         } else if (i.startsWith('DESCRIPTION:')) {
           item.description = i.slice('DESCRIPTION:'.length);
+        } else if (i.startsWith('CATEGORIES:')) {
+          item.categories = i.slice('CATEGORIES:'.length);
         } else if (i === 'END:VEVENT') {
           inEvent = false;
 
@@ -417,7 +419,7 @@ function retry<T>(
 function retryWithBackoff<T>(
   fn: () => Promise<T>,
   maxAttemp: number = 4,
-  retryCallback?: (error: unknown, retryIndex: number) => void,
+  retryCallback?: (error: unknown, attempIndex: number) => void, // attempIndex: 从1开始计数，即index参数
   delayMs: number = 1000,
   maxDelayMs: number = 60000,
   index: number = 1,
@@ -430,6 +432,7 @@ function retryWithBackoff<T>(
       throw err;
     }
     console.error(`${logStr()} request failed, backoff for ${delayMs}ms and retry: `, err);
+    retryCallback?.(err, index);
     return timeout(delayMs).then(() => {
       return retryWithBackoff(fn, maxAttemp - 1, retryCallback, Math.min(delayMs * 2, maxDelayMs), index + 1);
     });
