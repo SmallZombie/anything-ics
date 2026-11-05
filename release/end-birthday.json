@@ -240,6 +240,14 @@
         }
     },
     {
+        "id": "chr_0037_minghe",
+        "name": "明河",
+        "birthday": {
+            "month": 10,
+            "day": 23
+        }
+    },
+    {
         "id": "chr_0038_purrche",
         "name": "噗切娜",
         "birthday": {
