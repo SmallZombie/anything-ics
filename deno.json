@@ -29,6 +29,7 @@
       "*.md",
       "release/",
       ".*/"
-    ]
+    ],
+    "newLineKind": "crlf"
   }
 }
