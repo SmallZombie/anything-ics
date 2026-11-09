@@ -63,7 +63,7 @@ async function fetchAllEvents(): Promise<EventType[]> {
 
     let desc = i18nResult[value.desc.id.toString()];
     if (desc) {
-      desc = desc.replace(/<[^>]*>/g, '');
+      desc = desc.replace(/<[^>]*>/g, '').replace(/\r?\n/g, '\\n');
     }
 
     const timeRange = timeTableResult[value.timeId];

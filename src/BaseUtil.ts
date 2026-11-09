@@ -1,6 +1,8 @@
 import { join } from '@std/path/join';
 
 class Vcalendar {
+  #maxLineLength = 75;
+
   version: string;
   prodId: string;
   name: string;
@@ -87,6 +89,17 @@ class Vcalendar {
     }
 
     lines.push('END:VCALENDAR');
+
+    // 对过长的行进行折叠
+    const encoder = new TextEncoder();
+    for (let i = lines.length - 1; i >= 0; i--) {
+      const line = lines[i];
+
+      if (encoder.encode(line).length > this.#maxLineLength) {
+        lines.splice(i, 1, ...this.#foldLine(line));
+      }
+    }
+
     return lines.join('\r\n');
   }
 
@@ -110,8 +123,9 @@ class Vcalendar {
     const builder = new VcalendarBuilder();
     const items: Vevent[] = [];
 
+    const lines = data.replace(/\r?\n[ \t]/g, '').split(/\r?\n/);
+
     let inEvent = false;
-    const lines = data.split(/\r?\n/);
     for (const i of lines) {
       if (inEvent) {
         const item = items.at(-1)!;
@@ -174,6 +188,31 @@ class Vcalendar {
 
     builder.setItems(items);
     return builder.build();
+  }
+
+  #foldLine(line: string): string[] {
+    const encoder = new TextEncoder();
+    const lines: string[] = [];
+
+    let buffer = '';
+    let bufferLength = 0;
+
+    for (const char of line) {
+      const len = encoder.encode(char).length;
+
+      if (bufferLength + len > this.#maxLineLength) {
+        lines.push(buffer);
+
+        buffer = ` ${char}`;
+        bufferLength = 1 + len;
+      } else {
+        buffer += char;
+        bufferLength += len;
+      }
+    }
+
+    lines.push(buffer);
+    return lines;
   }
 }
 
