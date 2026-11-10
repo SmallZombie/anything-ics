@@ -3451,30 +3451,6 @@ DESCRIPTION:活动期间，成功挑战「拟造花萼（金）」「拟造
  E6%9C%9F\n\n特殊活动,拟造花萼,材料
 END:VEVENT
 BEGIN:VEVENT
-UID:sr-event-arc-cd960492-start
-DTSTAMP:20261016T035231Z
-DTSTART;VALUE=DATE:20260928
-SUMMARY:[开始] 「星际幻宠」乐园
-DESCRIPTION:亲爱的开拓者：公司推出最新潮玩产品「星际幻
- 宠」，并倾力打造了小家伙们的温馨乐园。它们不仅能
- 在小窝里静静陪伴，更能作为银河漫游的好伙伴！活动
- 期间，开拓者可使用「潮玩礼券」在「星际潮玩」中抽
- 取多款类幻宠。\n\nhttps://www.miyoushe.com/sr/article/78286288\n\n
- 版本活动,休闲,随宠获取
-END:VEVENT
-BEGIN:VEVENT
-UID:sr-event-arc-cd960492-end
-DTSTAMP:20261016T035231Z
-DTSTART;VALUE=DATE:20261110
-SUMMARY:[结束] 「星际幻宠」乐园
-DESCRIPTION:亲爱的开拓者：公司推出最新潮玩产品「星际幻
- 宠」，并倾力打造了小家伙们的温馨乐园。它们不仅能
- 在小窝里静静陪伴，更能作为银河漫游的好伙伴！活动
- 期间，开拓者可使用「潮玩礼券」在「星际潮玩」中抽
- 取多款类幻宠。\n\nhttps://www.miyoushe.com/sr/article/78286288\n\n
- 版本活动,休闲,随宠获取
-END:VEVENT
-BEGIN:VEVENT
 UID:sr-event-arc-ceb3b95e-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20260715
@@ -4277,26 +4253,6 @@ DESCRIPTION:星际和平娱乐倾力打造的大型影视真人秀《星际
  om/sr/article/79021232\n\n常规活动,战斗
 END:VEVENT
 BEGIN:VEVENT
-UID:sr-event-arc-518bf46a-start
-DTSTAMP:20261105T055214Z
-DTSTART;VALUE=DATE:20261111
-SUMMARY:[开始] 「寰宇美学•幻乐秀场」
-DESCRIPTION:亲爱的开拓者：星月流光为饰，点缀大乐透女神
- 的定制套装。「星神★阿哈」全新时装「群星乐透」将
- 在4.7版本推出！\n\nhttps://www.miyoushe.com/sr/article/79217286\n\n
- 额外活动,抽奖,时装获取,装饰获取
-END:VEVENT
-BEGIN:VEVENT
-UID:sr-event-arc-518bf46a-end
-DTSTAMP:20261105T055214Z
-DTSTART;VALUE=DATE:20261223
-SUMMARY:[结束] 「寰宇美学•幻乐秀场」
-DESCRIPTION:亲爱的开拓者：星月流光为饰，点缀大乐透女神
- 的定制套装。「星神★阿哈」全新时装「群星乐透」将
- 在4.7版本推出！\n\nhttps://www.miyoushe.com/sr/article/79217286\n\n
- 额外活动,抽奖,时装获取,装饰获取
-END:VEVENT
-BEGIN:VEVENT
 UID:sr-event-arc-eb1f72f7-start
 DTSTAMP:20261105T055214Z
 DTSTART;VALUE=DATE:20261111
@@ -4353,5 +4309,71 @@ DESCRIPTION:黑塔空间站的一间神秘收藏库向你敞开了大门，
  里面有无数装满奇妙物件的宝箱，只要搞到专用的权限
  卡，就可以……\n\nhttps://www.miyoushe.com/sr/article/79450189\n\n
  特殊活动,遗器
+END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-arc-41ca7d08-start
+DTSTAMP:20261111T060734Z
+DTSTART;VALUE=DATE:20260928
+SUMMARY:[开始] 「『星际幻宠』乐园」
+DESCRIPTION:亲爱的开拓者：公司推出最新潮玩产品「星际幻
+ 宠」，并倾力打造了小家伙们的温馨乐园。它们不仅能
+ 在小窝里静静陪伴，更能作为银河漫游的好伙伴！活动
+ 期间，开拓者可使用「潮玩礼券」在「星际潮玩」中抽
+ 取多款类幻宠。\n\nhttps://www.miyoushe.com/sr/article/78286288\n\n
+ 常规活动,常驻活动,休闲,随宠获取
+END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-arc-41ca7d08-end
+DTSTAMP:20261111T060734Z
+DTSTART;VALUE=DATE:20261112
+SUMMARY:[结束] 「『星际幻宠』乐园」
+DESCRIPTION:亲爱的开拓者：公司推出最新潮玩产品「星际幻
+ 宠」，并倾力打造了小家伙们的温馨乐园。它们不仅能
+ 在小窝里静静陪伴，更能作为银河漫游的好伙伴！活动
+ 期间，开拓者可使用「潮玩礼券」在「星际潮玩」中抽
+ 取多款类幻宠。\n\nhttps://www.miyoushe.com/sr/article/78286288\n\n
+ 常规活动,常驻活动,休闲,随宠获取
+END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-arc-4bdbc543-start
+DTSTAMP:20261111T060734Z
+DTSTART;VALUE=DATE:20261111
+SUMMARY:[开始] 「星际和平盛典：成名之路」
+DESCRIPTION:想成为万众瞩目的秀场新星吗？登上舞台，击败
+ 强敌，用你的出色表现赢得欢呼与掌声吧！\n\nhttps://www.m
+ iyoushe.com/sr/article/79469420\n\n常规活动,战斗
+END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-arc-4bdbc543-end
+DTSTAMP:20261111T060734Z
+DTSTART;VALUE=DATE:20261114
+SUMMARY:[结束] 「星际和平盛典：成名之路」
+DESCRIPTION:想成为万众瞩目的秀场新星吗？登上舞台，击败
+ 强敌，用你的出色表现赢得欢呼与掌声吧！\n\nhttps://www.m
+ iyoushe.com/sr/article/79469420\n\n常规活动,战斗
+END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-arc-f89ab330-start
+DTSTAMP:20261111T060734Z
+DTSTART;VALUE=DATE:20261111
+SUMMARY:[开始] 「剧场版绒绒号：欢闹厨房」
+DESCRIPTION:让《苍天航路绒绒号》烂尾？抱歉，最富责任心
+ 的伟大漫画家「模糊二维马」非但做不到，还要画出个
+ 美食剧场版！她给你留下了一笔亟待继承的遗产，想要
+ 得到它，就得先完成这篇旷世奇作，不过，「画」漫画
+ 可没有你想象中那么简单……\n\nhttps://www.miyoushe.com/sr/art
+ icle/79468686\n\n版本活动,常驻活动
+END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-arc-f89ab330-end
+DTSTAMP:20261111T060734Z
+DTSTART;VALUE=DATE:20261114
+SUMMARY:[结束] 「剧场版绒绒号：欢闹厨房」
+DESCRIPTION:让《苍天航路绒绒号》烂尾？抱歉，最富责任心
+ 的伟大漫画家「模糊二维马」非但做不到，还要画出个
+ 美食剧场版！她给你留下了一笔亟待继承的遗产，想要
+ 得到它，就得先完成这篇旷世奇作，不过，「画」漫画
+ 可没有你想象中那么简单……\n\nhttps://www.miyoushe.com/sr/art
+ icle/79468686\n\n版本活动,常驻活动
 END:VEVENT
 END:VCALENDAR
