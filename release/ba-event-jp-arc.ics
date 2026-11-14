@@ -136,13 +136,15 @@ BEGIN:VEVENT
 UID:ba-event-jp-arc-o810-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20220126
-SUMMARY:[开始] シャーレのハッピー♡バレンタインパトロール
+SUMMARY:[开始] シャーレのハッピー♡バレンタインパトロ
+ ール
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o810-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20220209
-SUMMARY:[结束] シャーレのハッピー♡バレンタインパトロール
+SUMMARY:[结束] シャーレのハッピー♡バレンタインパトロ
+ ール
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o811-start
@@ -208,13 +210,15 @@ BEGIN:VEVENT
 UID:ba-event-jp-arc-o816-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20220824
-SUMMARY:[开始] 放課後スイーツ物語　～甘い秘密と銃撃戦～
+SUMMARY:[开始] 放課後スイーツ物語　～甘い秘密と銃撃戦
+ ～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o816-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20220907
-SUMMARY:[结束] 放課後スイーツ物語　～甘い秘密と銃撃戦～
+SUMMARY:[结束] 放課後スイーツ物語　～甘い秘密と銃撃戦
+ ～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o817-start
@@ -244,13 +248,15 @@ BEGIN:VEVENT
 UID:ba-event-jp-arc-o819-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20221214
-SUMMARY:[开始] 聖堂のメリークリスマス〜救護騎士団の贈り物〜
+SUMMARY:[开始] 聖堂のメリークリスマス〜救護騎士団の贈
+ り物〜
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o819-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20221228
-SUMMARY:[结束] 聖堂のメリークリスマス〜救護騎士団の贈り物〜
+SUMMARY:[结束] 聖堂のメリークリスマス〜救護騎士団の贈
+ り物〜
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o820-start
@@ -352,13 +358,15 @@ BEGIN:VEVENT
 UID:ba-event-jp-arc-o828-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20230724
-SUMMARY:[开始] 隠されし遺産を求めて～トリニティの課外活動～
+SUMMARY:[开始] 隠されし遺産を求めて～トリニティの課外
+ 活動～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o828-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20230809
-SUMMARY:[结束] 隠されし遺産を求めて～トリニティの課外活動～
+SUMMARY:[结束] 隠されし遺産を求めて～トリニティの課外
+ 活動～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o829-start
@@ -520,25 +528,29 @@ BEGIN:VEVENT
 UID:ba-event-jp-arc-o842-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20241224
-SUMMARY:[开始] 秘密のミッドナイトパーティー～オニの手は鐘と共に～
+SUMMARY:[开始] 秘密のミッドナイトパーティー～オニの手
+ は鐘と共に～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o842-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20250108
-SUMMARY:[结束] 秘密のミッドナイトパーティー～オニの手は鐘と共に～
+SUMMARY:[结束] 秘密のミッドナイトパーティー～オニの手
+ は鐘と共に～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o843-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20250120
-SUMMARY:[开始] Code:BOX ミレニアムに迫る影～一つの問いと二つの答え～
+SUMMARY:[开始] Code:BOX ミレニアムに迫る影～一つの問いと
+ 二つの答え～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o843-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20250203
-SUMMARY:[结束] Code:BOX ミレニアムに迫る影～一つの問いと二つの答え～
+SUMMARY:[结束] Code:BOX ミレニアムに迫る影～一つの問いと
+ 二つの答え～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o844-start
@@ -556,37 +568,43 @@ BEGIN:VEVENT
 UID:ba-event-jp-arc-o845-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20250326
-SUMMARY:[开始] プレイボール！ ～目指せ！満塁ホームラン～
+SUMMARY:[开始] プレイボール！ ～目指せ！満塁ホームラン
+ ～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o845-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20250409
-SUMMARY:[结束] プレイボール！ ～目指せ！満塁ホームラン～
+SUMMARY:[结束] プレイボール！ ～目指せ！満塁ホームラン
+ ～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o846-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20250422
-SUMMARY:[开始] ハイランダー鉄道爆走事件 〜そして列車はなくなった〜
+SUMMARY:[开始] ハイランダー鉄道爆走事件 〜そして列車は
+ なくなった〜
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o846-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20250507
-SUMMARY:[结束] ハイランダー鉄道爆走事件 〜そして列車はなくなった〜
+SUMMARY:[结束] ハイランダー鉄道爆走事件 〜そして列車は
+ なくなった〜
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o847-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20250625
-SUMMARY:[开始] 百ヨリ出ズル一輪ノ～いざ尋常に、水上勝負～
+SUMMARY:[开始] 百ヨリ出ズル一輪ノ～いざ尋常に、水上勝
+ 負～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o847-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20250709
-SUMMARY:[结束] 百ヨリ出ズル一輪ノ～いざ尋常に、水上勝負～
+SUMMARY:[结束] 百ヨリ出ズル一輪ノ～いざ尋常に、水上勝
+ 負～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o848-start
@@ -604,13 +622,15 @@ BEGIN:VEVENT
 UID:ba-event-jp-arc-o849-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20250820
-SUMMARY:[开始] 我らオカルト研究会！～学院の不思議と古の呪文～
+SUMMARY:[开始] 我らオカルト研究会！～学院の不思議と古
+ の呪文～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o849-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20250903
-SUMMARY:[结束] 我らオカルト研究会！～学院の不思議と古の呪文～
+SUMMARY:[结束] 我らオカルト研究会！～学院の不思議と古
+ の呪文～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o850-start
@@ -628,37 +648,43 @@ BEGIN:VEVENT
 UID:ba-event-jp-arc-o851-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20251022
-SUMMARY:[开始] 魔法少女ヘヴィキャリバー～エラの野望と正義の資格～
+SUMMARY:[开始] 魔法少女ヘヴィキャリバー～エラの野望と
+ 正義の資格～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o851-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20251105
-SUMMARY:[结束] 魔法少女ヘヴィキャリバー～エラの野望と正義の資格～
+SUMMARY:[结束] 魔法少女ヘヴィキャリバー～エラの野望と
+ 正義の資格～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o852-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20251119
-SUMMARY:[开始] 冬空の文芸復興～健全なる文化の交流について～
+SUMMARY:[开始] 冬空の文芸復興～健全なる文化の交流につ
+ いて～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o852-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20251203
-SUMMARY:[结束] 冬空の文芸復興～健全なる文化の交流について～
+SUMMARY:[结束] 冬空の文芸復興～健全なる文化の交流につ
+ いて～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o853-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20251224
-SUMMARY:[开始] 不忍ノ道 ～ファッションショー警護任務！の巻～
+SUMMARY:[开始] 不忍ノ道 ～ファッションショー警護任務！
+ の巻～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o853-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20260107
-SUMMARY:[结束] 不忍ノ道 ～ファッションショー警護任務！の巻～
+SUMMARY:[结束] 不忍ノ道 ～ファッションショー警護任務！
+ の巻～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o854-start
@@ -688,13 +714,15 @@ BEGIN:VEVENT
 UID:ba-event-jp-arc-o856-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20260318
-SUMMARY:[开始] キヴォトス・未確認ミステリー～邪を払うツチノコ大調査～
+SUMMARY:[开始] キヴォトス・未確認ミステリー～邪を払う
+ ツチノコ大調査～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o856-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20260401
-SUMMARY:[结束] キヴォトス・未確認ミステリー～邪を払うツチノコ大調査～
+SUMMARY:[结束] キヴォトス・未確認ミステリー～邪を払う
+ ツチノコ大調査～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-o857-start
@@ -856,13 +884,15 @@ BEGIN:VEVENT
 UID:ba-event-jp-arc-r810-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20230111
-SUMMARY:[开始] シャーレのハッピー♡バレンタインパトロール
+SUMMARY:[开始] シャーレのハッピー♡バレンタインパトロ
+ ール
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r810-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20230124
-SUMMARY:[结束] シャーレのハッピー♡バレンタインパトロール
+SUMMARY:[结束] シャーレのハッピー♡バレンタインパトロ
+ ール
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r811-start
@@ -928,13 +958,15 @@ BEGIN:VEVENT
 UID:ba-event-jp-arc-r816-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20230510
-SUMMARY:[开始] 放課後スイーツ物語　～甘い秘密と銃撃戦～
+SUMMARY:[开始] 放課後スイーツ物語　～甘い秘密と銃撃戦
+ ～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r816-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20230517
-SUMMARY:[结束] 放課後スイーツ物語　～甘い秘密と銃撃戦～
+SUMMARY:[结束] 放課後スイーツ物語　～甘い秘密と銃撃戦
+ ～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r817-start
@@ -964,13 +996,15 @@ BEGIN:VEVENT
 UID:ba-event-jp-arc-r819-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20240207
-SUMMARY:[开始] 聖堂のメリークリスマス〜救護騎士団の贈り物〜
+SUMMARY:[开始] 聖堂のメリークリスマス〜救護騎士団の贈
+ り物〜
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r819-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20240214
-SUMMARY:[结束] 聖堂のメリークリスマス〜救護騎士団の贈り物〜
+SUMMARY:[结束] 聖堂のメリークリスマス〜救護騎士団の贈
+ り物〜
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r820-start
@@ -1024,13 +1058,15 @@ BEGIN:VEVENT
 UID:ba-event-jp-arc-r828-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20240904
-SUMMARY:[开始] 隠されし遺産を求めて～トリニティの課外活動～
+SUMMARY:[开始] 隠されし遺産を求めて～トリニティの課外
+ 活動～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r828-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20240918
-SUMMARY:[结束] 隠されし遺産を求めて～トリニティの課外活動～
+SUMMARY:[结束] 隠されし遺産を求めて～トリニティの課外
+ 活動～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r829-start
@@ -1180,25 +1216,29 @@ BEGIN:VEVENT
 UID:ba-event-jp-arc-r842-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20260304
-SUMMARY:[开始] 秘密のミッドナイトパーティー～オニの手は鐘と共に～
+SUMMARY:[开始] 秘密のミッドナイトパーティー～オニの手
+ は鐘と共に～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r842-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20260318
-SUMMARY:[结束] 秘密のミッドナイトパーティー～オニの手は鐘と共に～
+SUMMARY:[结束] 秘密のミッドナイトパーティー～オニの手
+ は鐘と共に～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r843-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20260401
-SUMMARY:[开始] Code:BOX ミレニアムに迫る影～一つの問いと二つの答え～
+SUMMARY:[开始] Code:BOX ミレニアムに迫る影～一つの問いと
+ 二つの答え～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r843-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20260415
-SUMMARY:[结束] Code:BOX ミレニアムに迫る影～一つの問いと二つの答え～
+SUMMARY:[结束] Code:BOX ミレニアムに迫る影～一つの問いと
+ 二つの答え～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r844-start
@@ -1216,37 +1256,43 @@ BEGIN:VEVENT
 UID:ba-event-jp-arc-r845-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20260506
-SUMMARY:[开始] プレイボール！ ～目指せ！満塁ホームラン～
+SUMMARY:[开始] プレイボール！ ～目指せ！満塁ホームラン
+ ～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r845-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20260520
-SUMMARY:[结束] プレイボール！ ～目指せ！満塁ホームラン～
+SUMMARY:[结束] プレイボール！ ～目指せ！満塁ホームラン
+ ～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r846-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20260708
-SUMMARY:[开始] ハイランダー鉄道爆走事件 〜そして列車はなくなった〜
+SUMMARY:[开始] ハイランダー鉄道爆走事件 〜そして列車は
+ なくなった〜
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r846-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20260722
-SUMMARY:[结束] ハイランダー鉄道爆走事件 〜そして列車はなくなった〜
+SUMMARY:[结束] ハイランダー鉄道爆走事件 〜そして列車は
+ なくなった〜
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r847-start
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20260610
-SUMMARY:[开始] 百ヨリ出ズル一輪ノ～いざ尋常に、水上勝負～
+SUMMARY:[开始] 百ヨリ出ズル一輪ノ～いざ尋常に、水上勝
+ 負～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r847-end
 DTSTAMP:20260930T163657Z
 DTSTART;VALUE=DATE:20260624
-SUMMARY:[结束] 百ヨリ出ズル一輪ノ～いざ尋常に、水上勝負～
+SUMMARY:[结束] 百ヨリ出ズル一輪ノ～いざ尋常に、水上勝
+ 負～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r848-start
@@ -2404,13 +2450,15 @@ BEGIN:VEVENT
 UID:ba-event-jp-arc-r849-start
 DTSTAMP:20261013T065543Z
 DTSTART;VALUE=DATE:20261007
-SUMMARY:[开始] 我らオカルト研究会！～学院の不思議と古の呪文～
+SUMMARY:[开始] 我らオカルト研究会！～学院の不思議と古
+ の呪文～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-r849-end
 DTSTAMP:20261013T065543Z
 DTSTART;VALUE=DATE:20261021
-SUMMARY:[结束] 我らオカルト研究会！～学院の不思議と古の呪文～
+SUMMARY:[结束] 我らオカルト研究会！～学院の不思議と古
+ の呪文～
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-jp-arc-s97-start
@@ -2459,5 +2507,17 @@ UID:ba-event-jp-arc-s98-end
 DTSTAMP:20261106T063207Z
 DTSTART;VALUE=DATE:20261111
 SUMMARY:[结束] 総力戦シーズン 94: 悪夢急行
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-event-jp-arc-r850-start
+DTSTAMP:20261115T045557Z
+DTSTART;VALUE=DATE:20261111
+SUMMARY:[开始] 誰が為の芸術～偽飾の絵画と美学の行方～
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-event-jp-arc-r850-end
+DTSTAMP:20261115T045557Z
+DTSTART;VALUE=DATE:20261125
+SUMMARY:[结束] 誰が為の芸術～偽飾の絵画と美学の行方～
 END:VEVENT
 END:VCALENDAR

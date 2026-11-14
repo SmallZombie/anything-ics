@@ -192,7 +192,8 @@ UID:ba-event-gl-o825
 DTSTAMP:20250905T000812Z
 DTSTART;TZID=Asia/Shanghai:20231031T100000
 DTEND;TZID=Asia/Shanghai:20231114T100000
-SUMMARY:Alabaster Calling Card: Mansion Masquerade and the Essence of Beauty
+SUMMARY:Alabaster Calling Card: Mansion Masquerade and the Essence of Beaut
+ y
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-gl-o826
@@ -206,7 +207,8 @@ UID:ba-event-gl-o827
 DTSTAMP:20250905T000812Z
 DTSTART;TZID=Asia/Shanghai:20231226T100000
 DTEND;TZID=Asia/Shanghai:20240109T100000
-SUMMARY:Special Summer Mission! RABBIT SQUAD and the Mystery of the Missing Shrimp
+SUMMARY:Special Summer Mission! RABBIT SQUAD and the Mystery of the Missing
+  Shrimp
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-gl-o828
@@ -318,7 +320,8 @@ UID:ba-event-gl-o843
 DTSTAMP:20250905T000812Z
 DTSTART;TZID=Asia/Shanghai:20250708T100000
 DTEND;TZID=Asia/Shanghai:20250722T100000
-SUMMARY:Code: BOX - The Shadow Approaching MillenniumOne Question, Two Answers
+SUMMARY:Code: BOX - The Shadow Approaching MillenniumOne Question, Two Answ
+ ers
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-gl-o844
@@ -472,7 +475,8 @@ UID:ba-event-gl-r825
 DTSTAMP:20250905T000812Z
 DTSTART;TZID=Asia/Shanghai:20241119T100000
 DTEND;TZID=Asia/Shanghai:20241203T100000
-SUMMARY:Alabaster Calling Card: Mansion Masquerade and the Essence of Beauty
+SUMMARY:Alabaster Calling Card: Mansion Masquerade and the Essence of Beaut
+ y
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-gl-r826
@@ -486,7 +490,8 @@ UID:ba-event-gl-r827
 DTSTAMP:20250905T000812Z
 DTSTART;TZID=Asia/Shanghai:20250107T100000
 DTEND;TZID=Asia/Shanghai:20250114T100000
-SUMMARY:Special Summer Mission! RABBIT SQUAD and the Mystery of the Missing Shrimp
+SUMMARY:Special Summer Mission! RABBIT SQUAD and the Mystery of the Missing
+  Shrimp
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-gl-r828
@@ -1123,7 +1128,8 @@ UID:ba-event-gl-o849
 DTSTAMP:20260116T004302Z
 DTSTART;TZID=Asia/Shanghai:20260113T100000
 DTEND;TZID=Asia/Shanghai:20260127T100000
-SUMMARY:We Are the Occult Investigation Society! Ancient Spells and Mysteries
+SUMMARY:We Are the Occult Investigation Society! Ancient Spells and Mysteri
+ es
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-gl-s80
@@ -1158,7 +1164,8 @@ UID:ba-event-gl-o851
 DTSTAMP:20260319T010937Z
 DTSTART;TZID=Asia/Shanghai:20260310T100000
 DTEND;TZID=Asia/Shanghai:20260324T100000
-SUMMARY:Magical Girl Heavy Caliber: Era's Ambitions and the Qualifications of Justice
+SUMMARY:Magical Girl Heavy Caliber: Era's Ambitions and the Qualifications 
+ of Justice
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-gl-s82
@@ -1242,7 +1249,8 @@ UID:ba-event-gl-o856
 DTSTAMP:20260805T015814Z
 DTSTART;TZID=Asia/Shanghai:20260721T100000
 DTEND;TZID=Asia/Shanghai:20260804T100000
-SUMMARY:Kivotos' Unsolved Mystery: In Search of Tsuchinoko, the Unknown Creature
+SUMMARY:Kivotos' Unsolved Mystery: In Search of Tsuchinoko, the Unknown Cre
+ ature
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-gl-r842
@@ -1263,7 +1271,8 @@ UID:ba-event-gl-r843
 DTSTAMP:20260809T004318Z
 DTSTART;TZID=Asia/Shanghai:20260804T100000
 DTEND;TZID=Asia/Shanghai:20260818T100000
-SUMMARY:Code: BOX - The Shadow Approaching MillenniumOne Question, Two Answers
+SUMMARY:Code: BOX - The Shadow Approaching MillenniumOne Question, Two Answ
+ ers
 END:VEVENT
 BEGIN:VEVENT
 UID:ba-event-gl-o857
@@ -1327,5 +1336,19 @@ DTSTAMP:20261102T045717Z
 DTSTART;TZID=Asia/Shanghai:20261020T100000
 DTEND;TZID=Asia/Shanghai:20261027T030000
 SUMMARY:Total Assault Season 87: Gregorius
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-event-gl-o860
+DTSTAMP:20261115T045547Z
+DTSTART;TZID=Asia/Shanghai:20261110T100000
+DTEND;TZID=Asia/Shanghai:20261124T100000
+SUMMARY:Set Sail! Pandemonium Ship: Chair Makoto's Lux Summer Getaway!
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-event-gl-s90
+DTSTAMP:20261115T045547Z
+DTSTART;TZID=Asia/Shanghai:20261117T100000
+DTEND;TZID=Asia/Shanghai:20261124T030000
+SUMMARY:Total Assault Season 88: Hieronymus
 END:VEVENT
 END:VCALENDAR
