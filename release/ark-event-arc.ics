@@ -1098,7 +1098,8 @@ BEGIN:VEVENT
 UID:ark-event-arc-43e11588-start
 DTSTAMP:20261105T055215Z
 DTSTART;VALUE=DATE:20190722
-SUMMARY:[开始] 主线“靶向药物”开启纪念限时活动（Part.2）
+SUMMARY:[开始] 主线“靶向药物”开启纪念限时活动（Part.2
+ ）
 DESCRIPTION:官网链接：https://ak.hypergryph.com/news/2019074244.html
 CATEGORIES:活动公告,主线
 END:VEVENT
@@ -1106,7 +1107,8 @@ BEGIN:VEVENT
 UID:ark-event-arc-43e11588-end
 DTSTAMP:20261105T055215Z
 DTSTART;VALUE=DATE:20190805
-SUMMARY:[结束] 主线“靶向药物”开启纪念限时活动（Part.2）
+SUMMARY:[结束] 主线“靶向药物”开启纪念限时活动（Part.2
+ ）
 DESCRIPTION:官网链接：https://ak.hypergryph.com/news/2019074244.html
 CATEGORIES:活动公告,主线
 END:VEVENT
@@ -1290,7 +1292,8 @@ BEGIN:VEVENT
 UID:ark-event-arc-5154ba66-start
 DTSTAMP:20261105T055215Z
 DTSTART;VALUE=DATE:20190709
-SUMMARY:[开始] 主线“靶向药物”开启纪念限时活动（Part.1）
+SUMMARY:[开始] 主线“靶向药物”开启纪念限时活动（Part.1
+ ）
 DESCRIPTION:官网链接：https://ak.hypergryph.com/news/2019074439.html
 CATEGORIES:活动公告,主线
 END:VEVENT
@@ -1298,7 +1301,8 @@ BEGIN:VEVENT
 UID:ark-event-arc-5154ba66-end
 DTSTAMP:20261105T055215Z
 DTSTART;VALUE=DATE:20190722
-SUMMARY:[结束] 主线“靶向药物”开启纪念限时活动（Part.1）
+SUMMARY:[结束] 主线“靶向药物”开启纪念限时活动（Part.1
+ ）
 DESCRIPTION:官网链接：https://ak.hypergryph.com/news/2019074439.html
 CATEGORIES:活动公告,主线
 END:VEVENT
@@ -4831,5 +4835,21 @@ DTSTART;VALUE=DATE:20261107
 SUMMARY:[结束] 视相博物馆：演化
 DESCRIPTION:官网链接：https://ak.hypergryph.com/news/0787.html
 CATEGORIES:视相博物馆
+END:VEVENT
+BEGIN:VEVENT
+UID:ark-event-arc-0d8a28c8-start
+DTSTAMP:20261118T074741Z
+DTSTART;VALUE=DATE:20261122
+SUMMARY:[开始] 雪山降临1101 2026
+DESCRIPTION:官网链接：https://ak.hypergryph.com/news/2808.html
+CATEGORIES:支线故事,复刻活动
+END:VEVENT
+BEGIN:VEVENT
+UID:ark-event-arc-0d8a28c8-end
+DTSTAMP:20261118T074741Z
+DTSTART;VALUE=DATE:20261202
+SUMMARY:[结束] 雪山降临1101 2026
+DESCRIPTION:官网链接：https://ak.hypergryph.com/news/2808.html
+CATEGORIES:支线故事,复刻活动
 END:VEVENT
 END:VCALENDAR

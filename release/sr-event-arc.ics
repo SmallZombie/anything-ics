@@ -4376,4 +4376,22 @@ DESCRIPTION:让《苍天航路绒绒号》烂尾？抱歉，最富责任心
  可没有你想象中那么简单……\n\nhttps://www.miyoushe.com/sr/art
  icle/79468686\n\n版本活动,常驻活动
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-arc-75df9dcc-start
+DTSTAMP:20261118T074741Z
+DTSTART;VALUE=DATE:20261111
+SUMMARY:[开始] 「重返群星之旅」第十三期
+DESCRIPTION:「重返群星之旅」回归网页活动上线，参与最高
+ 可得480星琼等好礼！\n\nhttps://www.miyoushe.com/sr/article/7948921
+ 9\n\n网页活动,回归
+END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-arc-75df9dcc-end
+DTSTAMP:20261118T074741Z
+DTSTART;VALUE=DATE:20261222
+SUMMARY:[结束] 「重返群星之旅」第十三期
+DESCRIPTION:「重返群星之旅」回归网页活动上线，参与最高
+ 可得480星琼等好礼！\n\nhttps://www.miyoushe.com/sr/article/7948921
+ 9\n\n网页活动,回归
+END:VEVENT
 END:VCALENDAR
