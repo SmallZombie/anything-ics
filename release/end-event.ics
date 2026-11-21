@@ -883,4 +883,13 @@ SUMMARY:危机合约 浸蓝测试作战
 DESCRIPTION:世界正在变化，回应遥遥无期。污浊潮水涌入了
  协议空间……请您粉碎这份亵渎。
 END:VEVENT
+BEGIN:VEVENT
+UID:end-event-activity_checkin_v1d6_end
+DTSTAMP:20261122T053921Z
+DTSTART;TZID=Asia/Shanghai:20261119T120000
+DTEND;TZID=Asia/Shanghai:20261125T060000
+SUMMARY:蕈属集群签到
+DESCRIPTION:「穿越甚大蘑境与你相逢」版本即将开放，参与
+ 签到累计可领取基础寻访凭证×2和嵌晶玉×500等奖励。
+END:VEVENT
 END:VCALENDAR
