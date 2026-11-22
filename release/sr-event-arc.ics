@@ -4394,4 +4394,24 @@ DESCRIPTION:「重返群星之旅」回归网页活动上线，参与最高
  可得480星琼等好礼！\n\nhttps://www.miyoushe.com/sr/article/7948921
  9\n\n网页活动,回归
 END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-arc-b0f288a1-start
+DTSTAMP:20261123T054327Z
+DTSTART;VALUE=DATE:20261123
+SUMMARY:[开始] 「位面分裂」第二十七期
+DESCRIPTION:活动期间，成功挑战「模拟宇宙」或「差分宇宙
+ 」，可获得位面饰品双倍奖励。\n\nhttps://wiki.biligame.com/sr
+ /%E3%80%8C%E4%BD%8D%E9%9D%A2%E5%88%86%E8%A3%82%E3%80%8D%E7%AC%AC%E4%BA%8C%
+ E5%8D%81%E4%B8%83%E6%9C%9F\n\n特殊活动,模拟宇宙,遗器
+END:VEVENT
+BEGIN:VEVENT
+UID:sr-event-arc-b0f288a1-end
+DTSTAMP:20261123T054327Z
+DTSTART;VALUE=DATE:20261207
+SUMMARY:[结束] 「位面分裂」第二十七期
+DESCRIPTION:活动期间，成功挑战「模拟宇宙」或「差分宇宙
+ 」，可获得位面饰品双倍奖励。\n\nhttps://wiki.biligame.com/sr
+ /%E3%80%8C%E4%BD%8D%E9%9D%A2%E5%88%86%E8%A3%82%E3%80%8D%E7%AC%AC%E4%BA%8C%
+ E5%8D%81%E4%B8%83%E6%9C%9F\n\n特殊活动,模拟宇宙,遗器
+END:VEVENT
 END:VCALENDAR
