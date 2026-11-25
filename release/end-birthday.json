@@ -254,5 +254,13 @@
             "month": 11,
             "day": 26
         }
+    },
+    {
+        "id": "chr_0040_sweetpie",
+        "name": "小刻",
+        "birthday": {
+            "month": 2,
+            "day": 25
+        }
     }
 ]

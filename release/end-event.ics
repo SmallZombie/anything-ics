@@ -892,4 +892,87 @@ SUMMARY:蕈属集群签到
 DESCRIPTION:「穿越甚大蘑境与你相逢」版本即将开放，参与
  签到累计可领取基础寻访凭证×2和嵌晶玉×500等奖励。
 END:VEVENT
+BEGIN:VEVENT
+UID:end-event-activity_char_trial_v1d7_1
+DTSTAMP:20261125T083332Z
+DTSTART;TZID=Asia/Shanghai:20261125T070000
+DTEND;TZID=Asia/Shanghai:20261223T120000
+SUMMARY:作战演练
+END:VEVENT
+BEGIN:VEVENT
+UID:end-event-activity_checkin_sweetpie
+DTSTAMP:20261125T083332Z
+DTSTART;TZID=Asia/Shanghai:20261125T070000
+DTEND;TZID=Asia/Shanghai:20261223T120000
+SUMMARY:漫野探奇签到
+DESCRIPTION:参与签到累计可领取漫野探奇寻访凭证×5等丰富
+ 奖励。
+END:VEVENT
+BEGIN:VEVENT
+UID:end-event-activity_high_difficulty_v1d7
+DTSTAMP:20261125T083332Z
+DTSTART;TZID=Asia/Shanghai:20261202T120000
+DTEND;TZID=Asia/Shanghai:20261223T040000
+SUMMARY:丰碑揭示·暴虐
+END:VEVENT
+BEGIN:VEVENT
+UID:end-event-activity_map02_guide_011
+DTSTAMP:20261125T083332Z
+DTSTART;TZID=Asia/Shanghai:20261125T070000
+DTEND;TZID=Asia/Shanghai:20261223T120000
+SUMMARY:蘑菇！蕈类！真菌！
+DESCRIPTION:走进尘封已久的水坝，一个奇妙国度，我们的，
+ 甜蜜的……甜蜜的！甜蜜的！世界！
+END:VEVENT
+BEGIN:VEVENT
+UID:end-event-activity_stamina_refund_1d7d1
+DTSTAMP:20261125T083332Z
+DTSTART;TZID=Asia/Shanghai:20261209T040000
+DTEND;TZID=Asia/Shanghai:20261216T040000
+SUMMARY:理智补给
+END:VEVENT
+BEGIN:VEVENT
+UID:end-event-activity_stamina_refund_1d7d2
+DTSTAMP:20261125T083332Z
+DTSTART;TZID=Asia/Shanghai:20261231T040000
+DTEND;TZID=Asia/Shanghai:20270107T040000
+SUMMARY:理智补给
+END:VEVENT
+BEGIN:VEVENT
+UID:end-event-activity_takestwo_2
+DTSTAMP:20261125T083332Z
+DTSTART;TZID=Asia/Shanghai:20261216T120000
+DTEND;TZID=Asia/Shanghai:20270107T060000
+SUMMARY:方兴！竞技大会！
+DESCRIPTION:在那遥远、炽热、华丽至极的武陵边缘，真正足
+ 以烧穿塔卫二的热情赛事，再度开启了！
+END:VEVENT
+BEGIN:VEVENT
+UID:end-event-activity_timelimited_wonder_construct
+DTSTAMP:20261125T083332Z
+DTSTART;TZID=Asia/Shanghai:20261125T070000
+DTEND;TZID=Asia/Shanghai:20270107T060000
+SUMMARY:阵列建设：旧伤弥合
+DESCRIPTION:该常驻玩法包含限时建设任务，任务过期后将无
+ 法参与，玩法仍可继续体验。\n\n北部禁区尚有大量分支
+ 裂隙带，解决这些隐患，让我们得以重归旧家园。
+END:VEVENT
+BEGIN:VEVENT
+UID:end-event-CharacterGuide_sweetpie
+DTSTAMP:20261125T083332Z
+DTSTART;TZID=Asia/Shanghai:20261125T070000
+DTEND;TZID=Asia/Shanghai:20270107T060000
+SUMMARY:蜜饼是我的祈愿
+DESCRIPTION:武陵市民近来被古怪的幻觉困扰。决定亲自调查
+ 的你，会收获什么奇妙的际遇呢……
+END:VEVENT
+BEGIN:VEVENT
+UID:end-event-web_activity_v1d7_belt
+DTSTAMP:20261125T083332Z
+DTSTART;TZID=Asia/Shanghai:20261223T120000
+DTEND;TZID=Asia/Shanghai:20270107T060000
+SUMMARY:分拣吧！管礼员
+DESCRIPTION:伙伴们的礼盒将通过传送带运输。请对这些礼盒
+ 分门别类，将它们送到对应的干员手中吧！
+END:VEVENT
 END:VCALENDAR
