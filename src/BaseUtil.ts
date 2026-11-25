@@ -369,8 +369,8 @@ class Vevent {
     }
   }
 
-  setCategoryList(categoryList: string[]) {
-    this.categories = (categoryList ?? []).join(',');
+  setCategoryList(categoryList: string[] | undefined) {
+    this.categories = categoryList?.join(',');
   }
 }
 
