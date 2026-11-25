@@ -29,6 +29,20 @@ async function fetchAllEvents(): Promise<EventType[]> {
         id: bigint;
       };
       timeId: string;
+      tagIds?: string[];
+    };
+  };
+
+  // 获取标签（分类）表
+  console.log('[!] Query activity tag table');
+  const eventTagTableResult = await fetch(
+    `https://data.akedata.wiki/public/${latestGameVersion}/${latestHotfixVersion}/TableCfg/ActivityTagTable.json`,
+  ).then(async (res) => await res.text());
+  const eventTagTable = parse(eventTagTableResult) as {
+    [id: string]: {
+      name: {
+        id: bigint; // i18n key
+      };
     };
   };
 
@@ -76,12 +90,22 @@ async function fetchAllEvents(): Promise<EventType[]> {
     const startTime = new Date(`${openTime} UTC+0800`);
     const endTime = new Date(`${closeTime} UTC+0800`);
 
+    const categories = value.tagIds?.flatMap((tagId) => {
+      const tagEntry = eventTagTable[tagId];
+      if (!tagEntry) {
+        return [];
+      }
+      const res = i18nResult[tagEntry.name.id.toString()];
+      return res ? [res] : [];
+    });
+
     events.push({
       id: key,
       name: name,
       description: desc,
       start: startTime,
       end: endTime,
+      categories,
     });
   }
 

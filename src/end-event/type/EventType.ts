@@ -4,4 +4,5 @@ export type EventType = {
   description?: string;
   start: Date;
   end: Date;
+  categories?: string[];
 };
