@@ -1,6 +1,6 @@
 import { EventType } from './type/EventType.ts';
 import { crc32 } from '@deno-library/crc32';
-import { retryWithBackoff } from '../BaseUtil.ts';
+import { retryFetch } from '../BaseUtil.ts';
 
 const EXPLICIT_DROP = new Set([
   '分类:有活动信息的页面',
@@ -27,15 +27,12 @@ const categoryNameMapper = (raw: string) => {
   }
 };
 
-function getAllEvents(): Promise<EventType[]> {
-  return retryWithBackoff(fetchAllEvents);
-}
-
-async function fetchAllEvents(): Promise<EventType[]> {
+async function getAllEvents(): Promise<EventType[]> {
   // ~~prts 的数据太乱了，最终还是b站拯救了世界~~
   // 最后发现是我不会用，错怪prts了，我才是那个笨比 T T
-  const eventsData = await fetch(
+  const eventsData = await retryFetch(
     'https://prts.wiki/api.php?action=ask&query=[[分类:有活动信息的页面]][[!分类:愚人节活动]]|?活动开始时间|?活动结束时间|?分类|?官网链接|limit=1000&format=json',
+    { signal: AbortSignal.timeout(30_000) },
   ).then((res) => res.json()) as {
     query: {
       results: {

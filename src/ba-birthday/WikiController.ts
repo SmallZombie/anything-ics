@@ -1,15 +1,12 @@
 import { CharacterType } from './type/CharacterType.ts';
 import { CharacterDetailType } from './type/CharacterDetailType.ts';
-import { retryWithBackoff } from '../BaseUtil.ts';
+import { retryFetch } from '../BaseUtil.ts';
 
-function getAllCharacters(): Promise<CharacterType[]> {
-  return retryWithBackoff(fetchAllCharacters);
-}
-
-async function fetchAllCharacters(): Promise<CharacterType[]> {
+async function getAllCharacters(): Promise<CharacterType[]> {
   // 2026.5.13: gamekee 加 edgeone 了，换个 wiki，让我们感谢鸡窝托斯古书馆
-  const res = await fetch(
+  const res = await retryFetch(
     'https://api.kivo.wiki/api/v1/data/students/?page=1&page_size=500&is_npc=false&is_install=true',
+    { signal: AbortSignal.timeout(30_000) },
   ).then((res) => res.json()) as {
     data: {
       max_page: number;
@@ -44,7 +41,10 @@ async function fetchAllCharacters(): Promise<CharacterType[]> {
 }
 
 async function getCharacterDetail(id: number): Promise<CharacterDetailType> {
-  const res = await fetch(`https://api.kivo.wiki/api/v1/data/students/${id}`).then((res) => res.json()) as {
+  const res = await retryFetch(
+    `https://api.kivo.wiki/api/v1/data/students/${id}`,
+    { signal: AbortSignal.timeout(30_000) },
+  ).then((res) => res.json()) as {
     data: {
       // family_name: string,
       // given_name: string,

@@ -3,15 +3,12 @@ import { CharacterType } from './type/CharacterType.ts';
 
 const PAIMON_ID = 20200601;
 const PAIMON_NAME = '派蒙';
-import { retryWithBackoff } from '../BaseUtil.ts';
+import { retryFetch } from '../BaseUtil.ts';
 
-function getAllCharacters(): Promise<CharacterType[]> {
-  return retryWithBackoff(fetchAllCharacters);
-}
-
-async function fetchAllCharacters(): Promise<CharacterType[]> {
-  const result = await fetch(
+async function getAllCharacters(): Promise<CharacterType[]> {
+  const result = await retryFetch(
     'https://api-takumi-static.mihoyo.com/common/blackboard/ys_obc/v1/home/content/list?app_sn=ys_obc&channel_id=189',
+    { signal: AbortSignal.timeout(30_000) },
   ).then((res) => res.json()) as {
     data: {
       list: {
@@ -52,8 +49,9 @@ async function getCharacterDetail(charactersID: number): Promise<CharacterDetail
     };
   }
 
-  const res = await fetch(
+  const res = await retryFetch(
     'https://api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page?entry_page_id=' + charactersID,
+    { signal: AbortSignal.timeout(30_000) },
   ).then((res) => res.json()) as {
     data: {
       page: {

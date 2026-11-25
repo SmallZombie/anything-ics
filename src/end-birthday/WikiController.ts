@@ -1,24 +1,22 @@
 import { CharacterType } from './type/CharacterType.ts';
 import { parse } from 'lossless-json';
-import { retryWithBackoff } from '../BaseUtil.ts';
+import { retryFetch } from '../BaseUtil.ts';
 
-function getAllCharacters(): Promise<CharacterType[]> {
-  return retryWithBackoff(fetchAllCharacters);
-}
-
-async function fetchAllCharacters(): Promise<CharacterType[]> {
+async function getAllCharacters(): Promise<CharacterType[]> {
   // 获取最新版本
-  const versionResult = await fetch(`https://data.akedata.wiki/manifest.json?t=${new Date().getTime()}`).then((res) =>
-    res.json()
-  ) as {
+  const versionResult = await retryFetch(
+    `https://data.akedata.wiki/manifest.json?t=${new Date().getTime()}`,
+    { signal: AbortSignal.timeout(30_000) },
+  ).then((res) => res.json()) as {
     latest: string;
   };
   const latestGameVersion = versionResult.latest.split('@')[0];
   const latestHotfixVersion = versionResult.latest.split('@')[1];
 
   // 获取角色表
-  const characterTableResult = await fetch(
+  const characterTableResult = await retryFetch(
     `https://data.akedata.wiki/public/${latestGameVersion}/${latestHotfixVersion}/TableCfg/CharacterTable.json`,
+    { signal: AbortSignal.timeout(30_000) },
   ).then((res) => res.text());
   const characterTableData = parse(characterTableResult) as {
     [key: string]: {
@@ -34,8 +32,9 @@ async function fetchAllCharacters(): Promise<CharacterType[]> {
   };
 
   // 获取本地化文件
-  const i18nResult = await fetch(
+  const i18nResult = await retryFetch(
     `https://data.akedata.wiki/public/${latestGameVersion}/${latestHotfixVersion}/TableCfg/I18nTextTable_CN.json`,
+    { signal: AbortSignal.timeout(30_000) },
   ).then((res) => res.json()) as {
     [key: string]: string;
   };

@@ -1,24 +1,22 @@
 import { EventType } from './type/EventType.ts';
 import { parse } from 'lossless-json';
-import { retryWithBackoff } from '../BaseUtil.ts';
+import { retryFetch } from '../BaseUtil.ts';
 
-function getAllEvents(): Promise<EventType[]> {
-  return retryWithBackoff(fetchAllEvents);
-}
-
-async function fetchAllEvents(): Promise<EventType[]> {
+async function getAllEvents(): Promise<EventType[]> {
   // 获取最新版本
-  const versionResult = await fetch(`https://data.akedata.wiki/manifest.json?t=${new Date().getTime()}`).then((res) =>
-    res.json()
-  ) as {
+  const versionResult = await retryFetch(
+    `https://data.akedata.wiki/manifest.json?t=${new Date().getTime()}`,
+    { signal: AbortSignal.timeout(30_000) },
+  ).then((res) => res.json()) as {
     latest: string;
   };
   const latestGameVersion = versionResult.latest.split('@')[0];
   const latestHotfixVersion = versionResult.latest.split('@')[1];
 
   // 获取活动表
-  const eventTableResult = await fetch(
+  const eventTableResult = await retryFetch(
     `https://data.akedata.wiki/public/${latestGameVersion}/${latestHotfixVersion}/TableCfg/ActivityTable.json`,
+    { signal: AbortSignal.timeout(30_000) },
   ).then((res) => res.text());
   const eventTableData = parse(eventTableResult) as {
     [id: string]: {
@@ -34,9 +32,9 @@ async function fetchAllEvents(): Promise<EventType[]> {
   };
 
   // 获取标签（分类）表
-  console.log('[!] Query activity tag table');
-  const eventTagTableResult = await fetch(
+  const eventTagTableResult = await retryFetch(
     `https://data.akedata.wiki/public/${latestGameVersion}/${latestHotfixVersion}/TableCfg/ActivityTagTable.json`,
+    { signal: AbortSignal.timeout(30_000) },
   ).then(async (res) => await res.text());
   const eventTagTable = parse(eventTagTableResult) as {
     [id: string]: {
@@ -47,8 +45,9 @@ async function fetchAllEvents(): Promise<EventType[]> {
   };
 
   // 获取时间表
-  const timeTableResult = await fetch(
+  const timeTableResult = await retryFetch(
     `https://data.akedata.wiki/public/${latestGameVersion}/${latestHotfixVersion}/TableCfg/TimeRangeTable.json`,
+    { signal: AbortSignal.timeout(30_000) },
   ).then((res) => res.json()) as {
     [id: string]: {
       timeRangeList: [
@@ -62,8 +61,9 @@ async function fetchAllEvents(): Promise<EventType[]> {
   };
 
   // 获取本地化文件
-  const i18nResult = await fetch(
+  const i18nResult = await retryFetch(
     `https://data.akedata.wiki/public/${latestGameVersion}/${latestHotfixVersion}/TableCfg/I18nTextTable_CN.json`,
+    { signal: AbortSignal.timeout(30_000) },
   ).then((res) => res.json()) as {
     [key: string]: string;
   };
