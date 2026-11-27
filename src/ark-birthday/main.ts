@@ -7,7 +7,7 @@ import {
   VcalendarBuilder,
   Vevent,
 } from '../BaseUtil.ts';
-import { getAllCharacters, getCharacterDetail } from './WikiController.ts';
+import { getAllCharacters } from './WikiController.ts';
 import { ReleaseJsonType } from './type/ReleaseJsonType.ts';
 import { existsSync } from '@std/fs/exists';
 
@@ -49,10 +49,9 @@ async function main() {
 
   console.log('[!] Total Characters: ', characters.length);
   for (let i = 0; i < characters.length; i++) {
-    const item = characters[i];
-    const { birthday, release } = await getCharacterDetail(item.name);
+    const { id, name, birthday, release } = characters[i];
 
-    const itemID = `${ModuleName}-${item.id}`;
+    const itemID = `${ModuleName}-${id}`;
     let icsItem = ics.items.find((v) => v.uid === itemID);
     if (birthday) {
       const rrule = birthday
@@ -71,16 +70,16 @@ async function main() {
 
       icsItem.dtstart = dtstart;
       icsItem.rrule = rrule;
-      icsItem.summary = item.name + ' 生日';
+      icsItem.summary = name + ' 生日';
 
       if (icsItem.hasChanged) {
-        console.log(`${i + 1}/${characters.length} Update "${item.name}"(${item.id}) in ICS`);
+        console.log(`${i + 1}/${characters.length} Update "${name}"(${id}) in ICS`);
       }
     }
 
     json.push({
-      id: item.id,
-      name: item.name,
+      id,
+      name,
       birthday: birthday
         ? {
           month: getMonthByTimezone(birthday, ics.tzid),

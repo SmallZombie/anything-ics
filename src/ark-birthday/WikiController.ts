@@ -1,7 +1,5 @@
-import { load } from 'cheerio';
 import { crc32 } from '@deno-library/crc32';
 import { CharacterType } from './type/CharacterType.ts';
-import { CharacterDetailType } from './type/CharacterDetailType.ts';
 import { retryWithBackoff } from '../BaseUtil.ts';
 
 function getAllCharacters(): Promise<CharacterType[]> {
@@ -9,43 +7,75 @@ function getAllCharacters(): Promise<CharacterType[]> {
 }
 
 async function fetchAllCharacters(): Promise<CharacterType[]> {
-  const res = await fetch('https://prts.wiki/w/干员一览').then((res) => res.text());
-  const $ = load(res);
+  // Invistigation shows that chara_extra_info is a subset of char_obtain
+  // and the characters exists only in the former are not operators in Arknights
+  const characterExtraInfo = await fetchWithOffset(fetchCharacterExtraInfo, 500);
+  const characterObtailInfo = await fetchWithOffset(fetchCharacterObtainInfo, 500);
+
+  const characterMap = characterExtraInfo.flatMap((x) => {
+    const birthdayString = x.title.dateOfBirth.match(/(\d+月\d+日)/);
+    const birthday = birthdayString
+      ? new Date(birthdayString[1].replace('月', '/').replace('日', '/') + ' UTC+0800')
+      : undefined;
+    return [{
+      id: crc32(x.title.cn),
+      name: x.title.cn,
+      birthday,
+    }];
+  }).reduce((cur, val) => cur.set(val.name, val), new Map<string, Omit<CharacterType, 'release'>>());
 
   const result: CharacterType[] = [];
-  $('#filter-data > div').each((_i, v) => {
-    if ($(v).attr('data-tag')!.includes('支援机械')) {
-      return;
+  for (const obtainInfo of characterObtailInfo) {
+    const charcter = characterMap.get(obtainInfo.title.cn);
+    if (!charcter) {
+      // character has not extra info is not seen as an operator
+      continue;
     }
-
-    const name = $(v).attr('data-zh')!;
-    result.push({
-      id: crc32(name),
-      name,
-    });
-  });
-
+    result.push({ ...charcter, release: new Date(obtainInfo.title.cnOnlineTime + ' UTC+0800') });
+  }
   return result;
 }
 
-async function getCharacterDetail(name: string): Promise<CharacterDetailType> {
-  const res = await fetch('https://prts.wiki/w/' + name).then((res) => res.text());
-  const $ = load(res);
-
-  const releaseStr = $('tbody tr').filter((_i, v) => $(v).find('th').text().trim() === '上线时间').find('td').text()
-    .trim();
-  const releaseStr2 = releaseStr.replace('年', '/').replace('月', '/').replace('日', '');
-  const release = new Date(releaseStr2 + ' UTC+0800');
-
-  const birthdayStr = $('tbody tr td div').filter((_i, v) => $(v).text().includes('【生日】')).text().trim();
-  // "【生日】12月23日"，用正则匹配出来
-  const birthdayMatch = birthdayStr.match(/【生日】(\d+月\d+日)/);
-  // 有些干员没生日，比如 "W"
-  if (!birthdayMatch) return { release };
-  const birthdayStr3 = birthdayMatch[1].replace('月', '/').replace('日', '');
-  const birthday = new Date(birthdayStr3 + ' UTC+0800');
-
-  return { birthday, release };
+async function fetchCharacterObtainInfo(limit: number, offset: number) {
+  const query = await fetch(
+    `https://prts.wiki/api.php?action=cargoquery&format=json&limit=${limit}&offset=${offset}&tables=char_obtain,chara&fields=chara.cn,char_obtain.cnOnlineTime&where=chara.tag NOT LIKE '支援机械%' AND chara._pageName NOT LIKE '%(%)'&join_on=char_obtain._pageName=chara._pageName`,
+  ).then((res) => res.json()) as {
+    cargoquery: {
+      title: {
+        cn: string; // Chinese name
+        cnOnlineTime: string; // mainly `12月23日`, sometimes `未录入`
+      };
+    }[];
+  };
+  return query.cargoquery;
 }
 
-export { getAllCharacters, getCharacterDetail };
+async function fetchCharacterExtraInfo(limit: number, offset: number) {
+  const query = await fetch(
+    `https://prts.wiki/api.php?action=cargoquery&limit=${limit}&offset=${offset}&format=json&tables=chara_extra_info,chara&fields=chara.cn,chara_extra_info.dateOfBirth&where=chara.tag NOT LIKE '支援机械%' AND chara._pageName NOT LIKE '%(%)'&join_on=chara_extra_info._pageName=chara._pageName`,
+  ).then((res) => res.json()) as {
+    cargoquery: {
+      title: {
+        cn: string; // Chinese name
+        dateOfBirth: string; // 2019-04-30 10:00:00 (UTC+8 time)
+      };
+    }[];
+  };
+  return query.cargoquery;
+}
+
+async function fetchWithOffset<T>(fn: (limit: number, offset: number) => Promise<T[]>, limit: number) {
+  limit = Math.max(500, Math.min(1, limit)); // limit restriction from cargo
+  let result: T[] = [];
+  let fetched: T[] = [];
+  let offset = 0;
+  do {
+    fetched = await fn(limit, offset);
+    result = [...result, ...fetched];
+    console.log(`[offset:${offset}/limit:${limit}] fetched ${fetched.length}`);
+    offset += fetched.length;
+  } while (fetched.length >= limit);
+  return result;
+}
+
+export { getAllCharacters };
