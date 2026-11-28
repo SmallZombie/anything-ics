@@ -452,30 +452,146 @@ function retry<T>(
   });
 }
 
-/** 指数回避重试
- * maxAttemp: 总共的执行次数，包括首次执行和所有重试，即最大重试数+1
+interface RetryWithBackoffOptions {
+  // Retry
+  maxRetryAttempt: number;
+  logInitAttempt?: boolean;
+
+  // Backoff
+  baseDelayMs: number;
+  maxDelayMs: number;
+
+  // Callbacks
+  onBackoff?: (err?: TypeError | RetryableHttpError) => void;
+  onRetry?: (err?: TypeError | RetryableHttpError) => void;
+}
+
+const defaultHttpRetryWithBackoffOption: RetryWithBackoffOptions = {
+  maxRetryAttempt: 3,
+  baseDelayMs: 500,
+  maxDelayMs: 5_000,
+};
+
+/**
+ * Fetch with automatic retry-and-backoff on transient failures.
+ *
+ * Wraps {@link retryCall} around the standard `fetch` with default retry options.
+ * Use this instead of `fetch` for any network call where a transient failure
+ * is acceptable to retry.
+ *
+ * @param input - URL string, URL object, or Request (same as `fetch`)
+ * @param init  - Request options (same as `fetch`)
+ * @returns Resolves with a Response. Rejects only after all retries are exhausted
+ *          or on a non-retryable condition.
+ * @see retryCall for the retry policy
+ * @see {@link defaultHttpRetryWithBackoffOption} for the default retry options
  */
-function retryWithBackoff<T>(
-  fn: () => Promise<T>,
-  maxAttemp: number = 4,
-  retryCallback?: (error: unknown, attempIndex: number) => void, // attempIndex: 从1开始计数，即index参数
-  delayMs: number = 1000,
-  maxDelayMs: number = 60000,
-  index: number = 1,
-): Promise<T> {
-  const logStr = () => `${new Date().toISOString()} [${index}/${maxAttemp + index - 1}]`;
-  console.log(`${logStr()} attemp to action`);
-  return fn().catch((err) => {
-    if (maxAttemp <= 1) {
-      console.error(`${logStr()} request failed and retry maxAttemp runs out, stop with error: `, err);
-      throw err;
+function retryFetch(input: string | URL | Request, init?: RequestInit): Promise<Response> {
+  return retryCall(() => fetch(input, init));
+}
+
+/**
+ * Executes an HTTP request with retry-and-backoff logic.
+ *
+ * Retries on:
+ * - Retryable HTTP status codes (5xx, 429) parsed via {@link RetryableHttpError}
+ * - Retryable network errors (ECONNRESET, ETIMEDOUT, etc.) and AbortError
+ *   classified by {@link isRetryableNetworkError}
+ *
+ * Does NOT retry on successful responses (2xx) or non-retryable errors.
+ */
+async function retryCall(
+  fn: () => Promise<Response>,
+  opt: RetryWithBackoffOptions = defaultHttpRetryWithBackoffOption,
+): Promise<Response> {
+  let lastErr: TypeError | RetryableHttpError | Error | null = null;
+  // Up to 1 (initial) + opt.maxRetryAttempt (retries) attempts
+  for (let i = 0; i <= opt.maxRetryAttempt; i++) {
+    // i = 0 is the first try; i > 0 are retries
+    const logStr = () => `${new Date().toISOString()} [${i}/${opt.maxRetryAttempt}]`;
+
+    // Attempt
+    try {
+      if (i > 0 || opt.logInitAttempt) {
+        console.log(`${logStr()} Attempt to action`);
+      }
+      const resp = await fn();
+      const httpError = RetryableHttpError.parseHttpError(resp);
+      if (!httpError) {
+        return resp;
+      }
+      lastErr = httpError;
+    } catch (err) {
+      if (!isRetryableNetworkError(err)) {
+        throw err;
+      }
+      lastErr = err;
     }
-    console.error(`${logStr()} request failed, backoff for ${delayMs}ms and retry: `, err);
-    retryCallback?.(err, index);
-    return timeout(delayMs).then(() => {
-      return retryWithBackoff(fn, maxAttemp - 1, retryCallback, Math.min(delayMs * 2, maxDelayMs), index + 1);
-    });
-  });
+
+    // Backoff
+    if (lastErr) {
+      if (i >= opt.maxRetryAttempt) {
+        // avoid delaying after last retry;
+        break;
+      }
+      const delayMs = Math.min(opt.maxDelayMs, (2 ** i) * opt.baseDelayMs);
+      console.error(`${logStr()} Request failed, backoff for ${delayMs}ms and retry: `, lastErr);
+      opt.onBackoff?.(lastErr);
+      await timeout(delayMs);
+      opt.onRetry?.(lastErr);
+    }
+  }
+  console.error(`All ${opt.maxRetryAttempt} retries exhausted, giving up:`, lastErr);
+  throw lastErr;
+}
+
+export class RetryableHttpError extends Error {
+  constructor(
+    public readonly status: number,
+    public readonly statusText: string,
+    public readonly url: string,
+  ) {
+    super(`HTTP ${status} ${statusText} for ${url}`);
+    this.name = 'HttpError';
+  }
+
+  static getRetryableStatusCode() {
+    return [500, 502, 503, 504, 429];
+  }
+
+  static parseHttpError(resp: Response): RetryableHttpError | null {
+    const retryable = new Set(RetryableHttpError.getRetryableStatusCode());
+    return retryable.has(resp.status) ? new RetryableHttpError(resp.status, resp.statusText, resp.url) : null;
+  }
+}
+
+function isRetryableNetworkError(err: unknown): err is TypeError {
+  if (err instanceof DOMException && err.name === 'AbortError' || 'TimeoutError') {
+    return true; // retryable — timeout is transient
+  }
+
+  if (!(err instanceof TypeError)) return false;
+
+  const code = (err as any).cause?.code as string | undefined;
+  if (!code) return false;
+
+  const retryable = new Set([
+    // TCP / connect
+    'ECONNREFUSED', // service down / starting up
+    'ETIMEDOUT', // handshake timeout
+    'ECONNRESET', // peer reset mid-connection
+    'ECONNABORTED', // local abort / timeout
+    'EHOSTUNREACH', // no route to host
+    'EAI_AGAIN', // DNS timeout
+
+    // Undici (Node fetch)
+    'UND_ERR_CONNECT_TIMEOUT', // TCP connect timeout
+    'UND_ERR_HEADERS_TIMEOUT', // headers never arrived
+    'UND_ERR_BODY_TIMEOUT', // body stream stalled
+    'UND_ERR_SOCKET', // generic socket failure
+  ]);
+
+  return retryable.has(code);
 }
 
 /** 清理换行符 */
@@ -485,12 +601,15 @@ function cleanString(str: string) {
 
 export {
   cleanString,
+  defaultHttpRetryWithBackoffOption,
   getDateByTimezone,
   getFullYearByTimezone,
   getMonthByTimezone,
   PathHelper,
   retry,
-  retryWithBackoff,
+  retryCall,
+  retryFetch,
+  type RetryWithBackoffOptions,
   timeout,
   Vcalendar,
   VcalendarBuilder,

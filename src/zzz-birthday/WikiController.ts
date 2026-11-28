@@ -1,15 +1,12 @@
 import { crc32 } from '@deno-library/crc32';
 import { CharacterType } from './type/CharacterType.ts';
-import { retryWithBackoff } from '../BaseUtil.ts';
+import { retryFetch } from '../BaseUtil.ts';
 
-function getAllCharacters(): Promise<CharacterType[]> {
-  return retryWithBackoff(fetchAllCharacters);
-}
-
-async function fetchAllCharacters(): Promise<CharacterType[]> {
+async function getAllCharacters(): Promise<CharacterType[]> {
   // 米游社wiki没有角色上线日期，还得是b站wiki
-  const charactersData = await fetch(
+  const charactersData = await retryFetch(
     'https://wiki.biligame.com/zzz/api.php?action=ask&query=[[分类:角色]][[实装日期::!未实装]]|?实装日期|?生日|limit=1000&format=json',
+    { signal: AbortSignal.timeout(30_000) },
   ).then((res) => res.json()) as {
     query: {
       results: {

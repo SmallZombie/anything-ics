@@ -1,12 +1,8 @@
 import { crc32 } from '@deno-library/crc32';
 import { CharacterType } from './type/CharacterType.ts';
-import { retryWithBackoff } from '../BaseUtil.ts';
+import { retryFetch } from '../BaseUtil.ts';
 
-function getAllCharacters(): Promise<CharacterType[]> {
-  return retryWithBackoff(fetchAllCharacters);
-}
-
-async function fetchAllCharacters(): Promise<CharacterType[]> {
+async function getAllCharacters(): Promise<CharacterType[]> {
   // Invistigation shows that chara_extra_info is a subset of char_obtain
   // and the characters exists only in the former are not operators in Arknights
   const characterExtraInfo = await fetchWithOffset(fetchCharacterExtraInfo, 500);
@@ -37,8 +33,9 @@ async function fetchAllCharacters(): Promise<CharacterType[]> {
 }
 
 async function fetchCharacterObtainInfo(limit: number, offset: number) {
-  const query = await fetch(
+  const query = await retryFetch(
     `https://prts.wiki/api.php?action=cargoquery&format=json&limit=${limit}&offset=${offset}&tables=char_obtain,chara&fields=chara.cn,char_obtain.cnOnlineTime&where=chara.tag NOT LIKE '支援机械%' AND chara._pageName NOT LIKE '%(%)'&join_on=char_obtain._pageName=chara._pageName`,
+    { signal: AbortSignal.timeout(30_000) },
   ).then((res) => res.json()) as {
     cargoquery: {
       title: {
@@ -51,8 +48,9 @@ async function fetchCharacterObtainInfo(limit: number, offset: number) {
 }
 
 async function fetchCharacterExtraInfo(limit: number, offset: number) {
-  const query = await fetch(
+  const query = await retryFetch(
     `https://prts.wiki/api.php?action=cargoquery&limit=${limit}&offset=${offset}&format=json&tables=chara_extra_info,chara&fields=chara.cn,chara_extra_info.dateOfBirth&where=chara.tag NOT LIKE '支援机械%' AND chara._pageName NOT LIKE '%(%)'&join_on=chara_extra_info._pageName=chara._pageName`,
+    { signal: AbortSignal.timeout(30_000) },
   ).then((res) => res.json()) as {
     cargoquery: {
       title: {

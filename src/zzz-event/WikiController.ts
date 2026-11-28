@@ -1,15 +1,11 @@
-import { cleanString } from '../BaseUtil.ts';
+import { cleanString, retryFetch } from '../BaseUtil.ts';
 import { EventType } from './type/EventType.ts';
 import { crc32 } from '@deno-library/crc32';
-import { retryWithBackoff } from '../BaseUtil.ts';
 
-function getAllEvents(): Promise<EventType[]> {
-  return retryWithBackoff(fetchAllEvents);
-}
-
-async function fetchAllEvents(): Promise<EventType[]> {
-  const eventsData = await fetch(
+async function getAllEvents(): Promise<EventType[]> {
+  const eventsData = await retryFetch(
     'https://wiki.biligame.com/zzz/api.php?action=ask&query=[[分类:活动]][[类型::!永久活动]]|?开始时间|?结束时间|?活动描述|?官方公告链接|?类型|?TAG|limit=1000&format=json',
+    { signal: AbortSignal.timeout(30_000) },
   ).then((res) => res.json()) as {
     query: {
       results: {
