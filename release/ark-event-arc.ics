@@ -4852,4 +4852,20 @@ SUMMARY:[结束] 雪山降临1101 2026
 DESCRIPTION:官网链接：https://ak.hypergryph.com/news/2808.html
 CATEGORIES:支线故事,复刻活动
 END:VEVENT
+BEGIN:VEVENT
+UID:ark-event-arc-ed159aa8-start
+DTSTAMP:20261128T082301Z
+DTSTART;VALUE=DATE:20261202
+SUMMARY:[开始] 星星不愿入睡
+DESCRIPTION:官网链接：https://ak.hypergryph.com/news/4913.html
+CATEGORIES:支线故事
+END:VEVENT
+BEGIN:VEVENT
+UID:ark-event-arc-ed159aa8-end
+DTSTAMP:20261128T082301Z
+DTSTART;VALUE=DATE:20261223
+SUMMARY:[结束] 星星不愿入睡
+DESCRIPTION:官网链接：https://ak.hypergryph.com/news/4913.html
+CATEGORIES:支线故事
+END:VEVENT
 END:VCALENDAR
